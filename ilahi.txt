@@ -1824,7 +1824,7 @@ Of this poisoned cup?
 
 Y:
 
-C: basic,
+C: basic,Mevlid,
 
 https://youtu.be/kJHWbwpphn8?si=zx2mtoqdxDD0d7Ga
 
@@ -1900,6 +1900,8 @@ We have the Prophet of the last epoch
 We have the cure for the sickness of the heart Allah Allah
 
 Y:
+
+C: basic,
 
 https://drive.google.com/file/d/1sFQ--OPWswYsV5D6tQBX0Nnmn9ulbk2r/view?usp=sharing
 
@@ -2191,7 +2193,7 @@ I did my sacrifice and came
 
 Y:
 
-C: basic,
+C: basic,Mevlid,
 
 https://youtu.be/LCrj_MXwMeo?si=aMPbYPP9sH7Vjdff
 
