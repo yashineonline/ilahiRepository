@@ -67,7 +67,7 @@ Muhammad and upon his family.
 
 Y: 
 
-C: basic,
+C: basic, Full Zikr,Geylani,Qadiri,
 
 https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
@@ -364,7 +364,7 @@ is kept in the Lion (Ali)
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/Dq-miQImzo8?si=vy2FCz9jEUej1N5g
 
@@ -403,7 +403,7 @@ Death dies, we do not die
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
@@ -462,7 +462,7 @@ Don’t stop, it is an invitation for you
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/aBay8dAoVKw
 
@@ -747,6 +747,8 @@ Only the blind (by heart) can’t see…
 
 Y:
 
+C:Rifai,
+
 https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
 ENVARUL HUSEYNİ
@@ -874,7 +876,7 @@ Sultan of righteous dervishes, master Abdülkadir
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
@@ -953,7 +955,7 @@ I cannot explain you, o heart.
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
@@ -1181,7 +1183,7 @@ finally got cooked, glory be to God
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/v85HlRRlhu4
 
@@ -1294,7 +1296,7 @@ Let me burn in the fire of Love Illallah Hu
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
 
@@ -1457,7 +1459,7 @@ Muhammad is my Murshid, Ali is my Rehber
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
 
@@ -1553,6 +1555,8 @@ Gel sen de ol halka-bend, kim ola sırr-ı bülend
 Hazret-i Şâh-ı Nakşbend Abdülkâdir Geylânî
 
 Y:
+
+C:Geylani,Qadiri,
 
 https://youtu.be/dXXWkoubQ_I?si=x3fFieTGxfQ5-y84
 
@@ -1674,6 +1678,8 @@ What would I do with fame and honor?
 
 Y:
 
+C:Rifai
+
 https://drive.google.com/file/d/1JSOLJ4O_OJGlQgEJobthH45YZBr35y0V/view?usp=sharing
 
 NESLUL MUSTAFA RİFAİ
@@ -1718,7 +1724,7 @@ Senin işte dest-i gir’in Rifâî Seyyid Ahmed’dir
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
@@ -1842,7 +1848,7 @@ Of this poisoned cup?
 
 Y:
 
-C: basic,Mevlid,
+C: basic, Full Zikr,Mevlid,
 
 https://youtu.be/kJHWbwpphn8?si=zx2mtoqdxDD0d7Ga
 
@@ -1919,7 +1925,7 @@ We have the cure for the sickness of the heart Allah Allah
 
 Y:
 
-C: basic,
+C: basic, Full Zikr,
 
 https://drive.google.com/file/d/1sFQ--OPWswYsV5D6tQBX0Nnmn9ulbk2r/view?usp=sharing
 
@@ -2031,7 +2037,7 @@ Who should I present my poor condition to?
 
 Y:
 
-C:
+C:Rifai
 
 https://drive.google.com/file/d/1-JbVdVyW5X-TSwsOX6t4nDUImMXYf3LF/view?usp=sharing
 
@@ -2211,7 +2217,7 @@ I did my sacrifice and came
 
 Y:
 
-C: basic,Mevlid,
+C: basic, Full Zikr,Mevlid,
 
 https://youtu.be/LCrj_MXwMeo?si=aMPbYPP9sH7Vjdff
 
