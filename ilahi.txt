@@ -36,7 +36,7 @@ https://youtu.be/JoEiN4qZDVE?si=XnwonpHcKyKGXRS8
 
 SIRNA ALA (FULL)
 
-Turkish spelling:
+Turkish:
 
 Sirna ala şetatin-neva bi-cimalikum
 Ve lena kulubun tahta zilli niyalikum
@@ -50,7 +50,7 @@ Entum ulul-ihsani vel hulukil hasan
 Haşakumu an tağfelu an hali man
 Huve ğafilun fi hubbikum an halihi
 
-Arabic transliteration:
+Arabic:
 
 Sirna 'ala shatati al-nawa bi-jimalikum 
 Wa-lana qulubun tahta zilli ni'alikum 
@@ -62,6 +62,8 @@ Wa-al-qalbu minhu ya uhayla al-hayyi han
 Antum 'ulu al-ihsani wa-al-khuluqi al-hasan 
 Hashakum an taghfalu 'an hali man 
 Huwa ghafilun fi hubbikum 'an halihi
+
+(The Arabic text will be available here in the future. You may request for it.)
 
 T:
 We walk on the path of tasawwuf with your jamal
