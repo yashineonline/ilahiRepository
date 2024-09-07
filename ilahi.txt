@@ -125,21 +125,21 @@ ALLAH ALLAH HÜVE RABBÜNA RAHMANI
 
 Allâh Allâh hüve Rabbünâ Rahmâni
 İrham bi fazlı şeyhina Geylani
-Ya Hayy, Ya Hayy, Ya Hayy
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 
 A Sultanım Sen var iken
 Ya ben kime yalvarayım Ya Hu
 
 Allâh Allâh hüve Rabbünâ Rahmâni
 İrham bi fazlı şeyhina Rifai
-Ya Hayy, Ya Hayy, Ya Hayy
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 
 İsmin Gani-Settar iken
 Ya ben kime yalvarayım Ya Hu
 
 Allâh Allâh hüve Rabbünâ Rahmâni
 İrham bi fazlı şeyhina Ansari
-Ya Hayy, Ya Hayy, Ya Hayy
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 
 Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
@@ -1190,7 +1190,7 @@ HAKKA AŞÎK OLANLAR
 Hakka aşîk olanlar          
 Zikrullahtan kaçar mî?  
 Arif olan cevherin           
-Boş yere saçar mî?   
+Boş yerlere saçar mî?   
 
 Gelsin marifet alan           
 Yoktur sözümde yalan    
@@ -1198,12 +1198,12 @@ Emmareye kul olan
 Hayrî şerri seçer mî?       
 
 Gerçek bu söz yarenler   
-Gördüm dimez görenler 
+Gördüm demez görenler 
 Keramete erenler            
 Gizli sîrrî açar mî?            
 
 Sen bir kovuk selvisin      
-Her an şöyle durursun     
+Her gün şöyle durursun     
 Sen bir palaz yavrusun   
 Kuş kanatsîz uçar mî?    
 
@@ -2052,8 +2052,8 @@ Enbiyalar Evliyalar Sultanî Allah Allah
 Nur kundak içinde yatar Muhammed 
 Canîmîn cananîsîn ya Muhammed 
 
-Kevser dudaklarîn bilmem ne söyler Allah 
-Kevser dudaklarîn bilmem ne söyler Allah 
+Kevser dudaklarîn bilmem ne söyler Allah Allah
+Kevser dudaklarîn bilmem ne söyler Allah Allah
 Hulusi kalb ile hakkî zikreyler 
 Hulusi kalb ile hakkî zikreyler 
 Daha küçük iken ümmeti diler Allah Allah 
@@ -2091,7 +2091,7 @@ He is the intercessor of both worlds Allah Allah
 His beauty surpasses Joseph of Canaan 
 He is the king of messengers and saints Allah Allah 
 
-Your Kevser lips, I don’t know what they say Allah Allah 
+Your Kevser lips, I do not know what they say Allah Allah 
 They do zikr of Allah with sincere heart 
 He asked for his followers from Allah even when he was young Allah Allah 
 
