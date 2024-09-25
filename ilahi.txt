@@ -142,54 +142,6 @@ To whom shall I plead, O Hu?
 The One Who makes Yunus ecstatic
 To whom shall I plead, O Hu?
 
-Y: 
-
-C: salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
-
-https://youtu.be/aypDRt-pvp0?t=71&end=259
-
-SELATI KEMALIYE
-
-Allahumma salli wa sallim wa barik ala 
-Sayyidina Muhammadin wa ala aalihi edede 
-ilha milla hil karim wa ifdalihi 
- 
-Allahumma salli wa sallim wa barik ala 
-Murshidina Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi
- 
-Allahumma salli wa sallim wa barik ala 
-Shemsidduha Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
- 
-Allahumma salli wa sallim wa barik ala 
-Bedrudduja Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
- 
-Allahumma salli wa sallim wa barik ala 
-Nurul Huda Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
-
-T:
-Our God, send Your most perfect honor, peace,
-and blessings on our Leader Muhammad 
-and upon his family.
-
-Our God, send Your most perfect honor, peace,
-and blessings on our Enlightener 
-Muhammad and upon his family.
-
-Our God, send Your most perfect honor, peace
-and blessings on the rising sun on dawn
-Muhammad and upon his family.
-
-Our God, send Your most perfect honor
-peace, and blessings on the full moon
-Muhammad and upon his family.
-
-Our God, send Your most perfect honor, 
-peace, and blessings on the light of Allah
-Muhammad and upon his family.
 
 Y: 
 
@@ -414,7 +366,7 @@ The one who dies is an animal, Dervishes don’t die
 
 Y:
 
-C: Ali,
+C: Ali,inter,
 
 https://drive.google.com/file/d/1aBg-uQS3oEg9I_PQR46_CBJICDE0mwTe/view?usp=sharing
 
@@ -648,7 +600,7 @@ You ruined my chance of getting to my lover, O my fate
 
 Y:
 
-C:Ruhi,
+C:Ruhi,inter,
 
 https://youtu.be/I12stA1sQQQ?si=WHTLQswQgL80Jpxz
 
@@ -699,7 +651,7 @@ Connect your understanding to Allah and read the book right away
 
 Y:
 
-C: Asik Yunus,prophets, anbiya,enbiya
+C: inter, Aşîk Yunus, anbiya | enbiya,prophets
 
 https://drive.google.com/file/d/1xlYiplWUQIm2T-zOTHAYelTYTahwFBdj/view?usp=sharing
 
@@ -758,7 +710,7 @@ I call on You, exalted Master
 
 Y:
 
-C:Semseddin,Şemseddin Sivasi
+C:inter, Şemseddin Sivasi
 
 https://drive.google.com/file/d/1lA0cmy-p-D3nHDE6vP0E9QWulgMPRPkc/view?usp=sharing
 
@@ -807,7 +759,7 @@ Why have you become a flood
 
 Y:
 
-C: niyaz
+C: inter, niyaz
 
 https://www.youtube.com/watch?v=ZB0bobH92Hs
 
@@ -896,7 +848,7 @@ Only the blind (by heart) can’t see…
 
 Y:
 
-C:evliya,awliya,Rifai,
+C:inter,awliya,Rifai, |evliya,
 
 https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
@@ -980,7 +932,7 @@ His eyes weeping blood Sir, on the path to Allah
 
 Y:
 
-C:Ensari,evliya,awliya,Geylani,Qadiri,sbm,
+C:inter,Ensari,awliya,Geylani,Qadiri,sbm,|evliya,
 
 GEYLANDAN YÜRÜDÜ
 
@@ -1198,7 +1150,7 @@ In the presence of Propphet Muhammed (saw) life Haci Bektaş
 
 Y:
 
-C:Uftade,
+C:inter, Uftade,
 
 https://drive.google.com/file/d/1eyn-eTRIFYvMrIBjOdgryNE9auVfGK42/view?usp=sharing
 
@@ -1261,7 +1213,7 @@ would they die with belief?
 
 Y:
 
-C: yunus emre,
+C:inter, yunus emre,
 
 https://drive.google.com/file/d/1eXM6ct1WB7FDMZhnJb3SxchZy8d9pMy3/view?usp=sharing
 
@@ -1321,7 +1273,7 @@ In the sands of Yemen, Veysel Karani
 
 Y:
 
-C: yunus emre
+C:inter, yunus emre
 
 https://drive.google.com/file/d/1SH-ZCrqsG4cEKoM7Q5E9JfpOoSPZCt3w/view?usp=sharing
 
@@ -1589,7 +1541,7 @@ Help me My Pir, O Shaykh of Allah
 
 Y:
 
-C: Ali,Bektashi,
+C:inter, Ali,Bektashi,
 
 https://drive.google.com/file/d/1TkFv4qirIJQ4FCBtv-AIrI3qDqImh0O9/view?usp=sharing
   
@@ -1768,7 +1720,7 @@ He is incomplete
 
 Y:
 
-C: Qadiri, evliya,awliya,Geylani
+C: Qadiri, awliya,Geylani|evliya
 
 MİLKİ CİHAN SULTÂNI ABDÜL KADİR GEYLÂNİ 
 
@@ -1801,7 +1753,7 @@ Hazret-i Şâh-ı Nakşbend Abdülkâdir Geylânî
 
 Y:
 
-C:evliya,awliya,Geylani,Qadiri,
+C:inter,awliya,Geylani,Qadiri,|evliya,
 
 https://youtu.be/dXXWkoubQ_I?si=x3fFieTGxfQ5-y84
 
@@ -1849,7 +1801,7 @@ Alel yalel ya seyyide ruhi
 
 Y:
 
-C: yunus emre, prophets,enbiya,anbiya,
+C:inter, yunus emre,anbiya, |prophets,enbiya,
 
 https://drive.google.com/file/d/16t_paokxEWWGjU739ZVy899ZKTzFxMXk/view?usp=sharing
 
@@ -1929,7 +1881,7 @@ What would I do with fame and honor?
 
 Y:
 
-C:evliya,awliya,Rifai
+C:inter, awliya,Rifai |evliya,
 
 https://drive.google.com/file/d/1JSOLJ4O_OJGlQgEJobthH45YZBr35y0V/view?usp=sharing
 
@@ -1966,7 +1918,7 @@ The universally recognized Shaykh of the community (qawm)
 
 Y:
 
-C: evliya,awliya,Rifai,
+C: awliya,Rifai,|evliya
 
 https://youtu.be/5-R-VbK8a6o?si=iutdJe4TkcfCjEVH
 
@@ -1983,6 +1935,56 @@ Eden ad şânını ez ka Rifâî Seyyid Ahmed’dir
 Rızâ bâbın gözet Pîrin hakîkat kıl hemen seyrin 
 Senin işte dest-i gir’in Rifâî Seyyid Ahmed’dir 
 Âlim Allah, Azim Allah Ebül Alemeyn şey en lillah 
+
+Y: 
+
+C: salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
+
+https://youtu.be/aypDRt-pvp0?t=71&end=259
+
+SELATI KEMALIYE
+
+Allahumma salli wa sallim wa barik ala 
+Sayyidina Muhammadin wa ala aalihi edede 
+ilha milla hil karim wa ifdalihi 
+ 
+Allahumma salli wa sallim wa barik ala 
+Murshidina Muhammadin wa ala aalihi edede 
+kema lilla hi wa kemayeli kubi kemalihi
+ 
+Allahumma salli wa sallim wa barik ala 
+Shemsidduha Muhammadin wa ala aalihi edede 
+kema lilla hi wa kemayeli kubi kemalihi 
+ 
+Allahumma salli wa sallim wa barik ala 
+Bedrudduja Muhammadin wa ala aalihi edede 
+kema lilla hi wa kemayeli kubi kemalihi 
+ 
+Allahumma salli wa sallim wa barik ala 
+Nurul Huda Muhammadin wa ala aalihi edede 
+kema lilla hi wa kemayeli kubi kemalihi 
+
+T:
+Our God, send Your most perfect honor, peace,
+and blessings on our Leader Muhammad 
+and upon his family.
+
+Our God, send Your most perfect honor, peace,
+and blessings on our Enlightener 
+Muhammad and upon his family.
+
+Our God, send Your most perfect honor, peace
+and blessings on the rising sun on dawn
+Muhammad and upon his family.
+
+Our God, send Your most perfect honor
+peace, and blessings on the full moon
+Muhammad and upon his family.
+
+Our God, send Your most perfect honor, 
+peace, and blessings on the light of Allah
+Muhammad and upon his family.
+
 
 Y:
 
@@ -2041,7 +2043,7 @@ Muhammad and upon his family.
 
 Y:
 
-C: basic, Full Zikr,yunus emre,
+C: basic, yunus emre,
 
 https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
@@ -2259,7 +2261,7 @@ You are the heart of my heart, Oh Muhammad
 
 Y:
 
-C: revas, rawas, mevlid, zikr
+C: Mawlid, Rifai, Qadiri | revas, rawas, mevlid
 
 https://youtu.be/JoEiN4qZDVE?si=XnwonpHcKyKGXRS8
 
@@ -2307,7 +2309,7 @@ of the one who got out of the way, annihilated in your love
 
 Y:
 
-C: basic, Full Zikr,Muhammad, Mevlid,
+C: basic, Muhammad, Mawlid |Mevlid,
 
 https://drive.google.com/file/d/1sFQ--OPWswYsV5D6tQBX0Nnmn9ulbk2r/view?usp=sharing
 
@@ -2330,7 +2332,7 @@ Allah, Allah, Allah, Allah Allah
 
 Y:
 
-C:Kul Yusuf,
+C:inter, Kul Yusuf,
 
 https://drive.google.com/file/d/1Nc355h3TrLr2NR5-5xPUxDqi8Xem62e8/view?usp=sharing
 
@@ -2419,7 +2421,7 @@ Who should I present my poor condition to?
 
 Y:
 
-C:evliya,awliya,Rifai
+C:inter, awliya,Rifai | evliya,
 
 https://drive.google.com/file/d/1-JbVdVyW5X-TSwsOX6t4nDUImMXYf3LF/view?usp=sharing
 
@@ -2476,7 +2478,7 @@ Ornament of the heavens, Ahmed er-Rifai
 
 Y:
 
-C:Muhammad, Mevlid,
+C:inter, Mawlid, Muhammad, | Mevlid,
 
 https://youtu.be/8Lchfvfy_mo?si=hZi9frFlONSKdyy0
 
@@ -2509,7 +2511,7 @@ O my beloved, O Messenger
 
 Y:
 
-C:Muhammad, Mevlid,
+C:Muhammad, Mawlid, |Mevlid,
 
 https://youtu.be/z5HiXM9JGJQ?si=2q0Rv8hjKCLIRYaT
 
@@ -2574,7 +2576,7 @@ O Imam of the two directions
 
 Y:
 
-C: Bektashi,Hatayi,
+C: inter, Bektashi,Hatayi,
 
 https://youtu.be/uaLfORA7Zz8?si=GvqHCKpgwds4HXEK
 
