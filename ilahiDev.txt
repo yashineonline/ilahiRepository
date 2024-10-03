@@ -1,3 +1,16 @@
+NOTES
+All notes that are not meant to be processed should be written before SUBCATEGORIES.
+
+This is the data file for the Ilahi Book App maintained by the Ansari Qadiri Rifai Tariqa. 
+
+Y means beginning of a song.
+C means categories and tags, the two are separated by a vertical bar.
+L means main tune for the song. There can be more than one. 
+A means alternative tune for the song. There can be more than one. 
+
+
+----------------------------------------------------------------------------------
+
 SUBCATEGORIES:
 Pen Name: Aşık Yunus, Yunus Emre, Niyaz, Fakirullah, Nesimi, Üftade, Şemseddin Sivası, Ruhi, Muhyi, Hatayi, Hudayi, Aşık Hüdai, Kul Yusuf
 Pirs: Geylani, Rifai, Ansari, Ensari, Hashimi, Muhammed, Muhyiddin
