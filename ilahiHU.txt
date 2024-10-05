@@ -1955,14 +1955,14 @@ Erler demine destur alalım
 Erler demine destur alalım
 Pervâneye bak ibret alalım
 Pervâneye bak ibret alalım
-Aşkın ateşine gel bir yanalım
-Aşkın ateşine gel bir yanalım
+Aşk ateşine gel bir yanalım
+Aşk ateşine gel bir yanalım
 Dost dost diyerek arşa varalım
 Dost dost diyerek arşa varalım
 Dost dost dost dost
 Dost dost dost dost
 Devrana uyup seyran edelim
-Devrana girip seyran edelim
+Devrana uyup seyran edelim
 Eyvâh demeden Allah diyelim
 Lâ ilâhe illallâh lâ ilâhe illallâh
 Lâ ilâhe illallâh hû
@@ -1972,13 +1972,13 @@ Günler geceler durmaz geçiyor
 Sermayen olan ömrün bitiyor
 Sermayen olan ömrün bitiyor
 Bülbüllere bak feryad ediyor
-Bülbüllere bak efkan ediyor
+Bülbüllere bak feryad ediyor
 Ey gonca açıl mevsim bitiyor
-Ey gonca açıl mevsim geçiyor
+Ey gonca açıl mevsim bitiyor
 Dost dost dost dost
 Dost dost dost dost
-Devrana girip seyran edelim
-Devrana girip seyran edelim
+Devrâna uyup seyrân edelim
+Devrâna uyup seyrân edelim
 Eyvâh demeden Allah diyelim
 Lâ ilâhe illallâh lâ ilâhe illallâh
 Lâ ilâhe illallâh hû
@@ -2001,33 +2001,28 @@ Lâ ilâhe illallâh hû
 
 
 Ey yolcu biraz gel dinle beni
-Ey yolcu biraz sen dinle beni
+Ey yolcu biraz gel dinle beni
 Kervan yürüyor sen kalma geri
 Kervan geçiyor sen kalma geri
-Nusret denilen dünya güzeli
-Yusuf denilen deryâ gezeri
+Nusret denilen deryâ gezeri
+Nusret denilen deryâ gezeri
 Hatmetti bugün seyr ü seferi
-Fethetti bugün kalbi seferi
+Hatmetti bugün seyr seferi
 Dost dost dost dost
 Dost dost dost dost
-Devrana girip seyran edelim
-Devrana girip seyran edelim
+Devrâna uyup seyrân edelim
+Devrâna uyup seyrân edelim
 Eyvâh demeden Allah diyelim
 Lâ ilâhe illallâh lâ ilâhe illallâh
 Lâ ilâhe illallâh hû
 
-When the repeated lines are slightly different, 
-each comes from a different version. Choose one.
-e.g.
-Devrana uyup seyran edelim
-Devrana girip seyran edelim
-
 History:
-Shaykh Nusret Tura, of the Ushaki Tariqa, was khalifa of Shaykh Hazmi Tura 
+This ilahi was written by Shaykh Nusret Tura, of the Ushaki Tariqa. 
+He was a khalifa of Shaykh Hazmi Tura, 
 who was a khalifa and son-in-law of Shaykh Mustafa Hilmi Safi. 
 Shaykh Mustafa Hilmi Safi was also the father-in-law of Shaykh Muhyiddin Ansari.
-Shaykh Osman Hadi was a khalifa of Shaykh Muhammed Ensari and was sent by him 
-to study under Shaykh Mustafa Hilmi Safi from whom he later got khilafat too.
+Shaykh Osman Hadi was a khalifa of Shaykh Muhammed Ansari and was sent by him 
+to study under Shaykh Mustafa Hilmi Safi from whom Hadi later got khilafat too.
 Hence, the bond between the Qadiri Rifai Tariqa and the Ushaki Tariqa
 was strengthened through the wedding of Shaykh Muhyiddin Ansari.
 In the Qadiri Rifai Dergahs, ilahis and kasides 
@@ -4700,8 +4695,8 @@ Ki derdli gönlümün dermânı sensin yâ Resûlallah
 
  
 History:
-Shaykh Hazmi Tura, of the Ushaki Tariqa, 
-was a khalifa and son-in-law of Shaykh Mustafa Hilmi Safi. 
+This ilahi was written by Shaykh Hazmi Tura, of the Ushaki Tariqa. 
+He was a khalifa and son-in-law of Shaykh Mustafa Hilmi Safi. 
 Shaykh Mustafa Hilmi Safi was also the father-in-law of Shaykh Muhyiddin Ansari.
 Shaykh Osman Hadi was a khalifa of Shaykh Muhammed Ensari and was sent by him 
 to study under Shaykh Mustafa Hilmi Safi from whom he later got khilafat too.
