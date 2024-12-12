@@ -1,5 +1,5 @@
 NOTES
-All notes that are not meant to be processed should be written before SUBCATEGORIES.
+All notes that are not meant to be processed should be written before ENDOFNOTES.
 
 This is the data file for the Ilahi Book App maintained by the Ansari Qadiri Rifai Tariqa. 
 
@@ -10,6 +10,9 @@ A means alternative tune for the song. There can be more than one.
 
 
 ----------------------------------------------------------------------------------
+ENDOFNOTES
+
+
 
 ZIKRPRACTICE:
 
