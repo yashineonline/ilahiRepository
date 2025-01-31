@@ -4056,7 +4056,7 @@ To whom shall I plead, O Hu?
 
 Y: 
 
-C: basic, Full Zikr,evliya,awliya,Geylani,Qadiri,sbt
+C: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri,sbt
 
 L: https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
@@ -5201,7 +5201,7 @@ Sultan of righteous dervishes, master Abdülkadir
 
 Y:
 
-C: basic, Full Zikr,
+C: basic, Order:5, Full Zikr,
 
 L: https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
@@ -6783,7 +6783,7 @@ Of this poisoned cup?
 
 Y:
 
-C: basic, Full Zikr,Muhammad, Mevlid,
+C: basic, Order:2, Full Zikr,Muhammad, Mevlid,
 
 L: https://youtu.be/kJHWbwpphn8?si=zx2mtoqdxDD0d7Ga
 
@@ -6943,7 +6943,7 @@ of the one who got out of the way, annihilated in your love
 
 Y:
 
-C: basic, Muhammad, Mawlid |Mevlid,
+C: basic, Order:4, Muhammad, Mawlid |Mevlid,
 
 L: https://drive.google.com/file/d/1sFQ--OPWswYsV5D6tQBX0Nnmn9ulbk2r/view?usp=sharing
 
@@ -7550,7 +7550,7 @@ I did my sacrifice and came
 
 Y:
 
-C: basic, Full Zikr,Muhammad, Mevlid,Abu Bakr,Umar,Usman,Sahaba,nesimi
+C: basic, Order:1, Full Zikr,Muhammad, Mevlid,Abu Bakr,Umar,Usman,Sahaba,nesimi
 
 L: https://drive.google.com/file/d/104VnEGMUHAj3KNQ8c4X-3qVc0aejvlnj/view?usp=sharing
 
