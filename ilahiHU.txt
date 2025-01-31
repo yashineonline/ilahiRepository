@@ -7596,7 +7596,30 @@ Singing Note:
 You can say Ömer or Omar.
 
 Pronunciation:
-testing place for pronunciation
+first phase testing for pronunciation
+(soon you will have the turkish sounds replaced 
+in the langauge that you can relate to:
+English, French, German, Spanish)
+
+yü-zün nu-ru hü-da-dır ya mu-ham-med
+sa-na jan-lar fe-da-dır ya mu-ham-med
+sa-na jan-lar fe-da-dır ya mu-ham-med
+
+a-bu bek-ri gö-ren-ler o-lur a-şık
+ö-mer da-hi u-la-dır ya mu-ham-med
+ö-mer da-hi u-la-dır ya mu-ham-med
+
+bu res-mi-le o-kur ku-ra-nı os-man
+hi-lim ka-nı ha-ya-dır ya mu-ham-med
+hi-lim ka-nı ha-ya-dır ya mu-ham-med
+
+bu dün-ya-da e-den küf-fa-ra ga-za
+a-li-yel mür-te-za-dır ya mu-ham-med
+a-li-yel mür-te-za-dır ya mu-ham-med
+
+ne-si-mi üm-me-ti ey-le şe-fa-at
+ka-pın-da bir ge-da-dır ya mu-ham-med
+ka-pın-da bir ge-da-dır ya mu-ham-med
 
 T:
 Your face is the light of Allah, O Muhammad
