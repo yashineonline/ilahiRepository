@@ -2363,8 +2363,8 @@ Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
 Illallah
 
-iki kere Gavs oldu
-iki kere Gavs oldu
+iki kerre Gavs oldu
+iki kerre Gavs oldu
 Cihan nuride doldu
 Cihan nuride doldu
 Aradı Hakkı buldu
@@ -4552,13 +4552,13 @@ is kept in the Lion (Ali)
 
 Y:
 
-C: basic, Full Zikr, asik hudai,
+C: basic, Order:10, Full Zikr, asik hudai,
 
 L: https://youtu.be/Dq-miQImzo8?si=vy2FCz9jEUej1N5g
 
-BÜTÜN EVREN SEMA DÖNER
+BÜTÜN EVREN SEMAH DÖNER
 
-Bütün evren sema döner 
+Bütün evren semah döner 
 Aşkına güneşler yanar       
 Aslına varmaktır hüner    
 Beş vakitle avunmayız      
@@ -4599,7 +4599,7 @@ Death dies, we do not die
 
 Y:
 
-C: basic, Full Zikr,niyaz,
+C: basic, Order:8, Full Zikr,niyaz,
 
 L: https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
@@ -4658,13 +4658,13 @@ Don’t stop, it is an invitation for you
 
 Y:
 
-C: basic, Full Zikr,Fakirullah,
+C: basic, Order:9, Full Zikr,Fakirullah,
 
 L: https://youtu.be/aBay8dAoVKw
 
 CANI DİLDEN FANİ KILDIN AKİBET       
 
-Canı dılden fani kıldın akıbet         
+Canı dilden fani kıldın akıbet         
 İkisin virane kıldın akıbet                   
 
 Şol canın zincirin tahrik eyleyip      
@@ -5324,7 +5324,7 @@ I cannot explain you, o heart.
 
 Y:
 
-C: basic, Full Zikr,Bektashi,haci bektas,
+C: basic, Order:11, Full Zikr,Bektashi,haci bektas,
 
 L: https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
@@ -5723,7 +5723,7 @@ Me fâ‘ î lün / Me fâ‘ î lün / Me fâ‘ î lün / Me fâ‘ î lün
 
 Y:
 
-C: basic, Full Zikr, Mevlid, muhammed,muhyiddin,ensari,ansari,mevlana,nakshbandi,mevlevi,haci bektas,hashimi,Muhyi,
+C: basic, Order:13, Full Zikr, Mevlid, muhammed,muhyiddin,ensari,ansari,mevlana,nakshbandi,mevlevi,haci bektas,hashimi,Muhyi,
 
 L: https://youtu.be/v85HlRRlhu4
 
@@ -5866,13 +5866,13 @@ Sahibel Maydan Şeyen lillah illallah Hu
 
 Y:
 
-C: basic, Full Zikr,evliya,awliya,Rifai, Muhyi, Geylani, Qadiri,
+C: basic, Order:6, Full Zikr,evliya,awliya,Rifai, Muhyi, Geylani, Qadiri,
 
 L: https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
 
 İKİ KERE GAVS OLDU               
 
-İki kere Gavs oldu                   
+İki kerre Gavs oldu                   
 Cihan üniyle doldu                     
 Ali’den nasip aldı                        
 Ya Rüfai Şeyen lillah                 
@@ -6109,7 +6109,7 @@ Kuddûsî her dem Hû dimek ister
 
 Y:
 
-C: basic, Full Zikr,Muhammad, Mevlid,Bektashi,
+C: basic, Order:7, Full Zikr,Muhammad, Mevlid,Bektashi,
 
 L: https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
 
@@ -6661,7 +6661,7 @@ Muhammad and upon his family.
 
 Y:
 
-C: basic, yunus emre,
+C: basic, Order:12, yunus emre,
 
 L: https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
