@@ -6556,7 +6556,7 @@ Ya Wadud Ya Salaam Ya Jami Ya Nafi
 
 Y: 
 
-C: salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
+C: basic, Order:0, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
 
 L: https://youtu.be/aypDRt-pvp0?t=71&end=259
 
