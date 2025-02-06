@@ -2438,12 +2438,12 @@ Hakka gider kervanı
 Allah Allah Ya Allah
 Allah Allah Hu Allah
 Allah Allah Hayy Allah
-La Illaha Illallah
+La ilaha illallah
 
 Allah Allah Ya Allah
 Allah Allah Hu Allah
 Allah Allah Haqq Allah
-La Illaha Illallah
+La ilaha illallah
 
 Safi olan emekler
 Razı eder Mevla’yı
@@ -2490,7 +2490,7 @@ Y:
 L: https://www.youtube.com/watch?v=JKqzWz0VsIs
 
 
-HASBI RABBI CELLALLAH v1
+HASBİ RABBİ CELLALLAH v1
 
 Hasbi Rabbi Cellallah ma fi kalbi gayrullah
 Nur Muhammed Sallallah La İlahe İllallah
@@ -2521,7 +2521,7 @@ Dünya fani baki Hu La İlahe İlla Hu
 
 Y:
 
-KASIDA BURDA (Version 3)
+KASİDA BURDA (Version 3)
 
 Mawlaya salli wa sallim da’iman abada
 'Ala habibika khayril khalqi kullihimi 
@@ -2695,7 +2695,7 @@ Ebül Alemeyn Rifai
 Allah Allah Allah
 Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
-Illallah
+illallah
 
 iki kerre Gavs oldu
 iki kerre Gavs oldu
@@ -2709,7 +2709,7 @@ Ebül Alemeyn Rifai
 Allah Allah Allah
 Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
-Illallah
+illallah
 
 Ateş kılıç şiş elde
 Ateş kılıç şiş elde
@@ -2723,7 +2723,7 @@ Ebül Alemeyn Rifai
 Allah Allah Allah
 Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
-Illallah
+illallah
 
 Hüsnü yerku mededi
 Hüsnü yerku mededi
@@ -2737,7 +2737,7 @@ Ebül Alemeyn Rifai
 Allah Allah Allah
 Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
-Illallah
+illallah
 
 Y:
 
@@ -2857,7 +2857,7 @@ Sensin Ya Rasulallah
 Bedr-i Eflaki Yakin
 Sensin Ya Rasulallah                      
 
-Hu Allah Ya Allah La Ilahe Illallah 
+Hu Allah Ya Allah La ilahe illallah 
 Hu Allah Ya Allah Muhammed Rasulallah
 
 Nurun Sirracul Vehhaç
@@ -4821,6 +4821,8 @@ C: Ali,inter,
 
 L: https://drive.google.com/file/d/1aBg-uQS3oEg9I_PQR46_CBJICDE0mwTe/view?usp=sharing
 
+L: https://youtu.be/y5ZyLGEAhu0?si=eSYX1E-RtgGmpDqw
+
 BUGÜN BİZE PİR GELDİ
 
 Bugün bize Pir geldi             
@@ -4829,17 +4831,17 @@ Gülleri teze geldi
 Aliyel Murteza geldi             
 
 Eyvallah Şahım Eyvallah   
-Hak La Ilaha Illallah           
+Hak La ilaha illallah           
 Eyvallah Pirim Eyvallah     
 Adı güzeldir güzel Şah         
 
 Ali bizim Şahımız                  
-Kabe kible gahımız               
-Miractaki Muhammad        
+Kabe kıble gahımız               
+Miraçtaki Muhammad        
 O bizim padişahımız            
 
 Eyvallah Şahım Eyvallah   
-Hak La Ilaha Illallah           
+Hak La ilaha illallah           
 Eyvallah Pirim Eyvallah     
 Adı güzeldir güzel Şah         
 
@@ -4849,7 +4851,7 @@ Ben pirimden ayrılmam
 Bin yıl geçse aradan              
 
 Eyvallah Şahım Eyvallah   
-Hak La Ilaha Illallah           
+Hak La ilaha illallah           
 Eyvallah Pirim Eyvallah     
 Adı güzeldir güzel Şah         
 
@@ -4859,7 +4861,7 @@ Fazlıdan bir kul geldi
 Bedestende sattılar                
 
 Eyvallah Şahım Eyvallah   
-Hak La Ilaha Illallah           
+Hak La ilaha illallah           
 Eyvallah Pirim Eyvallah     
 Adı güzeldir güzel Şah         
 
@@ -5379,28 +5381,28 @@ C:inter,awliya,Rifai, |evliya,
 
 L: https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
-ENVARUL HUSEYNİ
+ENVARÜL HÜSEYNİ
 
-Envarul Huseyni Gavsus Sakaleyni
+Envarül Hüseyni Gavsüs Sakaleyni
 Mevlana Rifai ebul alemeyni
 
 Arifun celilun mahbubun halilun
-Kulluna dahilun ceddel Hasaneyni
+Küllüna dahilun ebul Hasaneyni
 
-Envarul Huseyni Gavsus Sakaleyni
+Envarül Hüseyni Gavsüs Sakaleyni
 Piruna Rifai ebul alemeyni
 
-Kubbetuhul hadra, cedduhul Mustafa
-Ruhut tayyibine beynel Hazreteyni
+Kubbetühül hadra, cedduhul Mustafa
+Ruhut tayyibeyni beynel Hazreteyni
 
-Envarul Huseyni Gavsus Sakaleyni
+Envarül Hüseyni Gavsüs Sakaleyni
 Şeyhuna Rifai ebul alemeyni
 
-Ummuhul betulun cedduhul Resulun
-Seyfuna meslulu beynel evliya-i
+Ümmühül betülün cedduhul Resulün
+Seyfüna meslulü beynel evliya-i
 
-Envarul Huseyni Gavsus Sakaleyni
-Meded ya Rifai Sahib kibleteyni
+Envarül Hüseyni Gavsüs Sakaleyni
+Meded ya Rifai Sahib kıbleteyni
 
 T:
 The lights of Hz Huseyn, The Helper of both humans and jinn
@@ -6116,9 +6118,9 @@ Yandır Şeyhim kül olayım illallah Hu
 Aşk oduna ben yanayım illallah Hu     
 
 Selatullah selamullah aleyke ya Rasulullah  
-Ya Mevlana Şeyhen lillah Illallah Hu      
+Ya Mevlana Şeyhen lillah illallah Hu      
 Selatullah selamullah aleyke ya Habib Allah
-Ya Hacı Bektaş Şeyhen lillah Illallah Hu         
+Ya Hacı Bektaş Şeyhen lillah illallah Hu         
 
 Bana himmet daim eyle                           
 Kare kalbim cila eyle                                 
@@ -6158,41 +6160,41 @@ T:
 I could not do your service
 I could not get your blessing
 I could not burn in the fire of love
-Oh my Shaykh, let me be ashes, Illallah Hu
-Let me burn in the fire of Love Illallah Hu
+Oh my Shaykh, let me be ashes, illallah Hu
+Let me burn in the fire of Love illallah Hu
 
 May peace and blessing be on you, O Rasulullah
-Abdul Qadir is a Shaykh of Allah Illallah Hu
+Abdul Qadir is a Shaykh of Allah illallah Hu
 May peace and blessing be on you Beloved of Allah
-Rifai is a Shaykh of Allah Illallah Hu
+Rifai is a Shaykh of Allah illallah Hu
 
 My face is black, my heart is black
 This is how I served you
 Please intercede for me                        
-Oh my Shaykh, let me be ashes, Illallah Hu
-Let me burn in the fire of Love Illallah Hu
+Oh my Shaykh, let me be ashes, illallah Hu
+Let me burn in the fire of Love illallah Hu
 
 May peace and blessing be on you, O Rasulullah  
-Mevlana Rumi is a Shaykh of Allah Illallah Hu
+Mevlana Rumi is a Shaykh of Allah illallah Hu
 May peace and blessing be on you Beloved of Allah
 Haji Bektash is a Shaykh of Allah
 
 Continue sending your blessings on me
 Open up my black heart
 Keep me constant in your service
-Oh my Shaykh, let me be ashes, Illallah Hu
-Let me burn in the fire of Love Illallah Hu
+Oh my Shaykh, let me be ashes, illallah Hu
+Let me burn in the fire of Love illallah Hu
 
 May peace and blessing be on you, O Rasulullah 
 Naqshbandi is a Shaykh of Allah illallah Hu
-ah May peace and blessing be on you Beloved of Allah
+May peace and blessing be on you Beloved of Allah
 Hashimi is a Shaykh of Allah illallah Hu
 
 With your dervishes we are before you
 With your mercy we are at the bridge of the path
 give your blessing to us
-Oh my Shaykh, let me be ashes, Illallah Hu
-Let me burn in the fire of Love Illallah Hu
+Oh my Shaykh, let me be ashes, illallah Hu
+Let me burn in the fire of Love illallah Hu
 
 May peace and blessing be on you, O Rasulullah 
 (Muhammad and Muhyiddin) Ansari is a Shaykh of Allah illallah Hu
@@ -6203,11 +6205,11 @@ Shaykha Muzeyyen is a Shaykha of Allah illallah Hu
 May peace and blessing be on you Beloved of Allah 
 Nishaat Siddiqi is a Shaykh of Allah illallah Hu
 
-Forgive the sins of Muhiyiddin
+Forgive the sins of Muhyiddin
 Keep him as a servant at your door
 Keep him strong in your service
-Oh my Shaykh, let me be ashes, Illallah Hu
-Let me burn in the fire of Love Illallah Hu
+Oh my Shaykh, let me be ashes, illallah Hu
+Let me burn in the fire of Love illallah Hu
 
 History:
 This ilahi is written by Shaykh Muhyiddin Ansari.
