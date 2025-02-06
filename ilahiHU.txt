@@ -2824,7 +2824,7 @@ Y:
 
 MEVLÂYE SALLI VE SELLIM (Version 2)
 
-Mevlâye salli ve sellim däimen ebeden
+Mevlâye salli ve sellim daimen ebeden
 Alâ Habibike Hayr'il-Halkı külli himi
 
 Emin tezekkürü Cirânin bizi selemi
@@ -6790,10 +6790,10 @@ Feyyazul eyyahu Ahmed
 Femda yesligu yezheb
 Bijda sirri hil fena-i
 
-Ekremi bisselåtil üzmä
-Ya Mevlå ya tahel esma
+Ekremi bisselatil üzma
+Ya Mevla ya tahel esma
 Vellazi ileyhi yesma
-Lin åli vemin etbai
+Lin ali vemin etbai
 
 T:
 
@@ -6887,7 +6887,7 @@ T:
 
 This Nat is in Arabic. 
 Below is its translation in Turkish (from internet). 
-Insha Allah, it will be translated to English.
+İnsha Allah, it will be translated to English.
 
 Yâ Rabbi! Huseyn'in dedesi Muhammed aleyhisselâma salât et. Ey Haremeyn'in İmâmı! Bana şefâ'at et.
 
@@ -6936,7 +6936,16 @@ C: basic, Order: 1, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salat
 
 L: https://youtu.be/aypDRt-pvp0?t=71&end=259
 
-SELATI KEMALIYE
+L: https://youtu.be/3qpwn8j238I?si=Eey_7wUk0SX7Mhq2
+
+A: https://youtu.be/ESvAilcQjGM?si=IKFjUFAiqL2OVe26
+
+A: https://youtu.be/0zz4OcSA0FQ?si=xQLb_3xoOx5PsFw5
+
+A: https://youtu.be/LP3neKdyZ7g?si=FxPbOCaFsA85dyXS
+
+
+SELATI KEMALİYE
 
 Allahumma salli wa sallim wa barik ala 
 Sayyidina Muhammadin wa ala aalihi edede 
@@ -6944,19 +6953,57 @@ ilha milla hil karim wa ifdalihi
  
 Allahumma salli wa sallim wa barik ala 
 Murshidina Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi
- 
+kema lilla hi wa kema yeli ku bi kemalihi
+
 Allahumma salli wa sallim wa barik ala 
 Shemsidduha Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
+kema lilla hi wa kema yeli ku bi kemalihi
  
 Allahumma salli wa sallim wa barik ala 
 Bedrudduja Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
+kema lilla hi wa kema yeli ku bi kemalihi
  
 Allahumma salli wa sallim wa barik ala 
 Nurul Huda Muhammadin wa ala aalihi edede 
-kema lilla hi wa kemayeli kubi kemalihi 
+kema lilla hi wa kema yeli ku bi kemalihi
+
+Slightly different version
+
+SALÂT-I KEMÂLİYE
+
+Allâhümme salli ve sellim ve bârik 'alâ Seyyidinâ Muhammedin 
+ve 'alâ âlihî 'adede in‘âmillâhi’l-kerîm ve ifdâlihî
+
+Allâhümme salli ve sellim ve bârik 'alâ Mürşidinâ Muhammedin 
+ve 'alâ âlihî 'adede in‘âmillâhi’l-kerîm ve ifdâlihî
+
+Allâhümme salli ve sellim ve bârik 'alâ Şemsi’d-duhâ Muhammedin 
+ve 'alâ âlihî 'adede kemâlillâhi ve kemâ yelîku bi kemâlihî
+
+Allâhümme salli ve sellim ve bârik 'alâ Bedri’d-dücâ Muhammedin 
+ve 'alâ âlihî 'adede kemâlillâhi ve kemâ yelîku bi kemâlihî
+
+Allâhümme salli ve sellim ve bârik 'alâ Nûri’l-hüdâ Muhammedin 
+ve 'alâ âlihî 'adede kemâlillâhi ve kemâ yelîku bi kemâlihî
+
+History:
+In the Dergah,
+Zikr begins with SELATI KEMALİYE. 
+This is like the Azan
+announcing the beginning of Zikr. 
+While in some dergahs, 
+this is recited sitting,
+in AQRT dergahs, 
+we stand up in a circle
+facing the center.
+
+The recitation of salawat,
+peace and blessings
+upon Prophet Muhammad,
+is recommended in the Qur'an
+in verse 56 of Suratul Ahzab.
+
+
 
 T:
 Our God, send Your most perfect honor, peace,
@@ -6984,7 +7031,7 @@ Y:
 
 C: salawat | selati, salati, salatu
 
-SELATI KEMALIYE - longer version
+SELATI KEMALİYE - longer version
 
 Allahumma salli wa sallim wa barik ala Sayyidina Muhammadin wa ala aalihi adede ilha milla hil karim wa ifdalihi    
 
