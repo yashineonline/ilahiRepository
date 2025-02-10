@@ -807,7 +807,7 @@ Al Nafi Al Nur Al Hadi Al Badi
 Al Baqi Al Warith Ya Allah 
 Al Rashid Al Sabur Ya Allah 
 
-Ya Allah Ya Allah Ya Allah
+Ya Allah Ya Allah Ya Allah Ya Allah
 
 Turkish:
 
@@ -871,11 +871,13 @@ Er Rauf Mâlikül Mülk Ya Allah
 Zül celâli Vel İkram Ya Allah
 El Muksit El Cami' Ya Allah
 
-El Ğaniyy El Muğniyy El Mani Ed-Dârr
+El Ğaniyy El Muğniyy El Mani Ed Dârr
 En Nafi En Nur El Hadi El Bedi
 
 El Baki El Varis Ya Allah
 Er Raşid Es Sabur Ya Allah
+
+Ya Allah Ya Allah Ya Allah Ya Allah
 
 T:
 
