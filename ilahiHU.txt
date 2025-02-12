@@ -85,7 +85,7 @@ Y:
 
 L: https://youtube.com/playlist?list=PLGbOdksmscwlcK1hr7XHm_-_NdXRZPMsr&si=rSenD8grSCLdqVog
 
-A . SHAYKH MUHYİDDİN ANSARİ
+A0. SHAYKH MUHYİDDİN ANSARİ
 
 This is not an ilahi. 
 Tap on "Show Music".
@@ -99,7 +99,7 @@ Y:
 
 L: https://youtu.be/4vywyJSOSY4?si=hhk5E_bKL_LiK6kv
 
-RİFAİ VİRD
+A2. RİFAİ WİRD / VİRD
 
 Rifai Wird
 
@@ -474,7 +474,7 @@ L: https://drive.google.com/file/d/1KSsl22qldIaVceDr2KlNqy9_74erVP-v/view?usp=sh
 
 L: https://youtu.be/YDfJdHNQ3z8?si=DbQY9iziBlh5apv9
 
-QADİRİ WİRD / KADİRİ VİRD
+A1. QADİRİ WİRD / KADİRİ VİRD
 
 Qadiri Wird
  
