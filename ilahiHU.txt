@@ -8355,10 +8355,6 @@ Singing Note:
 You can say Ömer or Omar.
 
 Pronunciation:
-first phase testing for pronunciation
-(soon you will have the turkish sounds replaced 
-in the langauge that you can relate to:
-English, French, German, Spanish)
 
 yü-zün nu-ru hü-da-dır ya mu-ham-med
 sa-na jan-lar fe-da-dır ya mu-ham-med
