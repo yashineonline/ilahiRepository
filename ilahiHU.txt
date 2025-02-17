@@ -12,8 +12,13 @@ A means alternative tune for the song. There can be more than one.
 ----------------------------------------------------------------------------------
 ENDOFNOTES
 
-
-
+SUBCATEGORIES:
+Pen Name: Aşık Yunus, Yunus Emre, Niyaz, Fakirullah, Nesimi, Üftade, Şemseddin Sivası, Ruhi, Muhyi, Hatayi, Hudayi, Aşık Hüdai, Kul Yusuf
+Pirs: Geylani, Rifai, Ansari, Ensari, Hashimi, Muhammed, Muhyiddin
+Awliya: Mevlana, Haci Bektas, Evliya, Awliya
+Sahaba: Abu Bakr, Umar, Usman, Ali, Sahaba
+Anbiya: Nuh, Hud, Salih, İbrahim, Musa, İsa, Muhammad, Anbiya, Enbiya, Prophets
+Dervish Orders: Rifai, Ansari, Qadiri, Bektashi, Nakshbandi, Mevlevi
 
 Y:
 
@@ -8188,13 +8193,6 @@ ENDOFZIKRPRACTICE
 
 
 
-SUBCATEGORIES:
-Pen Name: Aşık Yunus, Yunus Emre, Niyaz, Fakirullah, Nesimi, Üftade, Şemseddin Sivası, Ruhi, Muhyi, Hatayi, Hudayi, Aşık Hüdai, Kul Yusuf
-Pirs: Geylani, Rifai, Ansari, Ensari, Hashimi, Muhammed, Muhyiddin
-Awliya: Mevlana, Haci Bektas, Evliya, Awliya
-Sahaba: Abu Bakr, Umar, Usman, Ali, Sahaba
-Anbiya: Nuh, Hud, Salih, İbrahim, Musa, İsa, Muhammad, Anbiya, Enbiya, Prophets
-Dervish Orders: Rifai, Ansari, Qadiri, Bektashi, Nakshbandi, Mevlevi
 
 Y:
 
