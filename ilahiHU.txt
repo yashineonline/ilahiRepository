@@ -291,6 +291,10 @@ Ali göründü gözüme
 History:
 Mehmed Ali Hilmi Dede Baba
 
+testing hyperlink phase 1
+$seni-ben-severi-m
+
+
 Y:
 
 AĞLAYAN GÖZLER MEVLAYI ÖZLER - İmam Hüseyin
