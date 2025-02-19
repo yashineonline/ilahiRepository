@@ -291,6 +291,8 @@ Ali göründü gözüme
 History:
 Mehmed Ali Hilmi Dede Baba
 
+$test-example-slug
+
 testing hyperlink phase 1
 $seni-ben-severi-m
 
