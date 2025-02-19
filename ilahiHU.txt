@@ -291,9 +291,7 @@ Ali göründü gözüme
 History:
 Mehmed Ali Hilmi Dede Baba
 
-$test-example-slug
-
-testing hyperlink phase 1
+testing hyperlink phase 1 works!
 $seni-ben-severi-m
 
 
@@ -969,14 +967,14 @@ in the Bor district of Niğde, Türkiye.
 He was the son of Hacı İbrahim Efendi, 
 a Naqshbandi shaykh who came from Maraş.
 Many of his ilahis are regularly sung in the zikr. 
-e.g. Durmaz lisanım der Allah Allah. 
+e.g. $durmaz-li-sanim-der-allah-allah
 In one of the videos of zikr (link on this page) 
 with Raik Baba (a Rifai Shaykh), 
-"Durmaz lisanım" is sung right after "Asiki yezdan". 
+"Durmaz lisanım" is sung right after "Aşıkı Yezdan". 
 In the Aynı Ali Baba Tekke, 
 sometimes lines from both of these ilahis are mixed together:
 Söyle Kuddusi, bu ismi nası
-Hakk aşinası dır Allah Allah
+Hak aşinası dır Allah Allah
 (sung in tune of Durmaz lisanım)
 
 Love has no boundaries. 
@@ -3187,7 +3185,7 @@ was strengthened through the wedding of Shaykh Muhyiddin Ansari.
 In the Qadiri Rifai Dergahs, ilahis and kasides 
 of these Ushaki shaykhs (Nusret and Hazmi) are sung,
 demonstrating this eternal bond of love between the tariqas.
-
+e.g. $seraser-kai-natin
 
 Y:
 
@@ -6960,7 +6958,7 @@ announcing the beginning of Zikr.
 While in some dergahs, 
 this is recited sitting,
 in AQRT dergahs, 
-we stand up in a circle
+we usually stand up in a circle
 facing the center.
 
 The recitation of salawat,
@@ -7133,6 +7131,7 @@ was strengthened through the wedding of Shaykh Muhyiddin Ansari.
 In the Qadiri Rifai Dergahs, ilahis and kasides 
 of Ushaki shaykhs (Nusret and Hazmi and others) are sung,
 thus demonstrating this eternal bond of love between the tariqas.
+e.g. $erler-demi-ne-destur-alalim
 
 Y:
 
