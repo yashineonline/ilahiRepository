@@ -22,9 +22,6 @@ Sahaba: Abu Bakr, Umar, Usman, Ali, Sahaba
 Anbiya: Nuh, Hud, Salih, İbrahim, Musa, İsa, Muhammad, Anbiya, Enbiya, Prophets
 Dervish Orders: Rifai, Ansari, Qadiri, Bektashi, Nakshbandi, Mevlevi
 
-Y:
-
-A0 A TEST AUTORELOAD
 
 Y:
 
