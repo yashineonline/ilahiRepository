@@ -7735,7 +7735,7 @@ from Shaykha Muzeyyen
 (Uitenhage, Dec 31, 2024)
 
 Shaykh Taner sings 
-#derdi-n-ne-be-hey-asik
+$derdi-n-ne-be-hey-asik
 right after this ilahi 
 (Şu benim divane gönlüm). 
 
@@ -7765,7 +7765,7 @@ to stabilize.
 For the continuation, 
 go the history part of the other ilahi:
 
-#derdi-n-ne-be-hey-asik
+$derdi-n-ne-be-hey-asik
 
 
 
