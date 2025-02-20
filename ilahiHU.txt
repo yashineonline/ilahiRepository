@@ -3886,6 +3886,10 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
+basic zikr follow up ilahi:
+
+$sirni-ala-for-zikr
+
 Alternative and Extra words:
 
 Abdul Kadir el-Geylani züt'tasrifi fi'l-ekvani
@@ -4485,6 +4489,10 @@ Muhammeden gıdamız var
 
 (Shaykh Taner: Muhammeden gıdamız var)
 
+basic zikr follow up ilahi:
+
+$haci-bektas
+
 T:
 The whole universe makes Sema
 To Your Love, suns burn.
@@ -4570,7 +4578,7 @@ Geç ak ile karadan
 Halkı çikar aradan               
 Niyazi dön buradan             
 Durma sana gel oldu
-  
+
 T:
 My heart became a nightingale again
 Fire blossomed and became a rose
@@ -4653,6 +4661,10 @@ Haki pür kaşane kıldın akıbet
 
 Ey Fakirullah bu hakki bende mi?
 Vasılı canana kıldın akıbet  
+
+basic zikr follow up ilahi:
+
+$seni-ben-severi-m
 
 Pronunciation:
 
@@ -6741,6 +6753,25 @@ Rıza babın gözet Pirin hakikat kıl hemen seyrin
 Senin işte dest-i gir’in Rifai Seyyid Ahmed’dir 
 Âlim Allah, Azim Allah Ebül Alemeyn şey en lillah 
 
+Y:
+
+SALAT ü SELAM
+
+Esselatu Vesselamu Aleyke YA RESULALLAH
+Esselatu Vesselamu Aleyke YA HABİBALLAH
+Esselatu Vesselamu Aleyke YA seyyidel evveline vel AHİRİN
+Ve selamün alel murselin 
+velhamdülillahi rabbil alemin
+
+Pronunciation:
+As-salaatu was-salaamu 'alayka yaa Rasoolallaah
+As-salaatu was-salaamu 'alayka yaa Habeeballaah
+As-salaatu was-salaamu 'alayka yaa Sayyid al-awwaleena wal-aakhireen
+Was-salaamun 'alal-mursaleen
+Wal-hamdu lillaahi Rabbil-'aalameen
+
+
+
 Y: 
 
 L: https://youtu.be/2isGHz_imbM?t=194
@@ -7015,6 +7046,10 @@ Best of creation
 Our God, send Your most perfect honor, 
 peace, and blessings on the light of Allah
 Muhammad and upon his family.
+
+Y:
+
+
 
 Y:
 
@@ -8199,6 +8234,10 @@ Kapında bir gedadır ya Muhammed
 Singing Note:
 You can say Ömer or Omar.
 
+basic zikr follow up ilahi:
+
+$seyreyleyi-p-yandim
+
 Pronunciation:
 
 yü-zün nu-ru hü-da-dır ya mu-ham-med
@@ -9325,6 +9364,7 @@ $
 $seni-ben-severi-m
 $hi-zmeti-ni-edemedi-m
 
+Salat ü Selam:
 As-salaatu was-salaamu 'alayka yaa Rasoolallaah
 As-salaatu was-salaamu 'alayka yaa Habeeballaah
 As-salaatu was-salaamu 'alayka yaa Sayyid al-awwaleena wal-aakhireen
