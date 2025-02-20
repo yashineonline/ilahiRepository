@@ -3886,10 +3886,6 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
-basic zikr follow up ilahi:
-
-$sirni-ala-for-zikr
-
 Alternative and Extra words:
 
 Abdul Kadir el-Geylani züt'tasrifi fi'l-ekvani
@@ -5899,6 +5895,10 @@ Hizmetinde mukiym eyle
 Yandır Şeyhim kül olayım illallah Hu 
 Aşk oduna ben yanayım illallah Hu  
 
+basic zikr follow up ilahi:
+
+$salat-u-selam
+
 Pronunciation:
 
 Hiz-me-ti-ni e-de-me-dim  
@@ -7084,6 +7084,10 @@ Bu ne mezhep imiş dinden içeru
 Yunusun gözleri hundur açılmaz    
 Kapunda kul var Sultandan içeru 
 
+basic zikr follow up ilahi:
+
+$hi-zmeti-ni-edemedi-m
+
 Pronunciation:
 
 Se-ni ben se-ve-rim can-dan i-çe-ru  
@@ -7300,6 +7304,10 @@ Peygamberi ahir zamanımız var Allah Allah
 Nur kundak içinde yatar Muhammed 
 Canımın cananısın ya Muhammed
 
+basic zikr follow up ilahi:
+
+$abdul-kadi-rul-geylani
+
 Pronunciation:
 
 Sey-rey-le-yip yan-dım mah je-ma-li-ne Al-lah Al-lah  
@@ -7478,6 +7486,10 @@ Allah, Allah, Allah, Allah Allah
 
 Mudun em li - eclikumu aled-dil ayni an
 Allah, Allah, Allah, Allah Allah
+
+basic zikr follow up ilahi:
+
+$guzel-asik-cevri-mi-zi
 
 Pronunciation:
 Sır-nı A-la şe-ta-tin - ne-va bi-ce-ma-li-kum  
