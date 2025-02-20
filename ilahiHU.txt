@@ -6755,6 +6755,8 @@ Senin işte dest-i gir’in Rifai Seyyid Ahmed’dir
 
 Y:
 
+C: basic, Order: 15, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
+
 SALAT ü SELAM
 
 Esselatu Vesselamu Aleyke YA RESULALLAH
