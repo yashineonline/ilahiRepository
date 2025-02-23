@@ -5418,7 +5418,7 @@ Yahyi bulut olup göğe ağarsın
 Yahyi yağmur olup yere yağarsın  
 		
 Ay mısın, gün müsün? Gökte doğarsın?	 		
-lgit ilgit esen, Yel Hacı Bektaş	
+Ilgıt ılgıt esen, Yel Hacı Bektaş	
 
 Daima Kul Himmet eder niyazi	
 Pir Sultan Yolundan ayırma bizi	
@@ -5426,6 +5426,45 @@ Pir Sultan Yolundan ayırma bizi
 Şol Mahşer gününde isteriz size	
 Muhammed önünde can Hacı Bektaş
 Muhammed önünde can Hacı Bektaş
+
+Alternative version:
+
+Gece gündüz hayaline yanarım 
+Bir gece rüyama gir Hacı Bektaş 
+Günahkârım günahımdan bizarım 
+Özüm dara çektim sor Hacı Bektaş. 
+  
+Yandı bu garip kul nedir çaresi 
+Yine tazelendi yürek yaresi 
+Onulmaz dertlere derman olası 
+Bu senin bendindir sar Hacı Bektaş. 
+  
+Derdimin dermanı yaramın ucu 
+Dört güruh mevcuttur güruh-i naci 
+Belinde kemeri başında tacı 
+Yüzünde balkıyor nur Hacı Bektaş. 
+  
+Sadıkların sıdkı aşığın renci 
+Pirlerin hem piri hemide genci 
+Hem derya hem sedef hem dürr hem inci 
+Hem umman hem ırmağ göl Hacı Bektaş. 
+ 
+Gâhi bulut olup göğe ağarsın 
+Gâhi yağmur olup yere yağarsın 
+Ay mısın gün müsün kandan doğarsın 
+Ilgıt ılgıt eser yel Hacı Bektaş. 
+  
+Arının yaptığı bala benzersin 
+Şu gurbet illerde gönlün eğlersin 
+Bend edip de ikrarına bağlarsın 
+Sailin sattığı kul Hacı Bektaş. 
+  
+Derdimend Hatâyi eyler niyazı 
+Ulu pir katardan ayırmaz bizi 
+Bu mahşer günüdür isteriz sizi 
+Muhammed önünde car Hacı Bektaş.
+
+Şah İsmail Hatâyi (1487 - 1524)
 
 T:
 Night and day whom I turn to
@@ -5472,7 +5511,7 @@ Yah-yi bu-lut o-lup gö-e a-ar-sın
 Yah-yi ya-mur o-lup ye-re ya-ar-sın  
 
 Ay mı-sın, gün mü-sün? Gök-te do-ar-sın?  
-İl-git il-git e-sen, Yel Ha-cı Bek-taş  
+Il-gıt ıl-gıt e-sen, Yel Ha-cı Bek-taş  
 
 Da-i-ma Kul Him-met e-der ni-ya-zı  
 Pir Sul-tan Yo-lun-dan ayır-ma bi-zi  
