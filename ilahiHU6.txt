@@ -788,7 +788,7 @@ Sana Meyil Verendedir
 
 Y:
 
-C:
+Category:
 
 L: https://www.youtube.com/watch?v=lfQNqovw9ZI
 
@@ -874,7 +874,7 @@ On the night Muhammed was born.
 
 Y:
 
-C: Kuddusi, Qadiri | 
+Category: Kuddusi, Qadiri | 
 
 L: https://youtu.be/SezLeLGIEhw
 
@@ -1235,7 +1235,7 @@ HU
 
 Y: 
 
-C: Geylani, Qadiri | Ghaws, Gavs
+Category: Geylani, Qadiri | Ghaws, Gavs
 
 Bir acız hayranım / Ya Hazreti Geylani (V1)
 
@@ -2007,7 +2007,7 @@ Y:
 
 L: https://youtu.be/aq1TUBjKjjI?si=_siudPop9Hxep5Hu
 
-C: Rifai 
+Category: Rifai 
 
 Kefer Rifai şerefa
 
@@ -3071,7 +3071,7 @@ The best guide to the love of faith
 
 Y:
 
-C: Kuddusi |
+Category: Kuddusi |
 
 L: https://youtu.be/wnodjKW2RjU?si=VSfeK6JYbiIK-keJ
 
@@ -3136,7 +3136,7 @@ This translation is from Internet. To be updated soon!
 
 Y:
 
-C:
+Category:
 
 L: https://youtu.be/krXzwqAM6OA?si=TisfxiXipjqWnVVK
 
@@ -3223,7 +3223,7 @@ e.g. $seraser-kai-natin
 
 Y:
 
-C: Nesimi | 
+Category: Nesimi | 
 
 L: https://youtu.be/EAvbF8E3c_A?si=xpQdJTasiZEUrPZG
 
@@ -3261,7 +3261,7 @@ Ateşi aşka ya hay ateşi aşka
 
 Y:
 
-C: Mawlid | mevlid, 
+Category: Mawlid | mevlid, 
 
 L: https://youtu.be/8sOkLlWwyLw?si=vXGR8W0etmgHsQgJ
 
@@ -3287,7 +3287,7 @@ Gül yüzünü göre göre ölelim ya Resulallah
 
 Y:
 
-C: 
+Category: 
 
 L: https://youtu.be/Po2KuE-EZBs?si=zb-6WqQajEzy2Na8
 
@@ -3368,7 +3368,7 @@ Hu my master, Hu Hu Hu
 
 Y:
 
-C: 
+Category: 
 
 L: https://youtu.be/m_EuR5Y4bc4?si=9FHu4WxTRWqtaMJQ
 
@@ -3435,7 +3435,7 @@ Tevhid becomes his joy.
 
 Y:
 
-C: | jallallah, zikr
+Category: | jallallah, zikr
 
 L: https://youtu.be/057Lbi4ZgaA?t=20
 
@@ -3468,7 +3468,7 @@ la ilaha illallah
 
 Y:
 
-C: Geylani, Qadiri | 
+Category: Geylani, Qadiri | 
 
 L: https://youtu.be/8BJtvUVudbU?si=IBRWc1fS46uThNms
 
@@ -3539,7 +3539,7 @@ Sultan Abdulkadir’in
 
 Y:
 
-C: Mawlud | salawat, mevlid, burda, mawlaya 
+Category: Mawlud | salawat, mevlid, burda, mawlaya 
 
 
 
@@ -3568,7 +3568,7 @@ Mevlaya salli ala Muhammedin ve ala
 
 Y:
 
-C: Mersiye, Kaside | 
+Category: Mersiye, Kaside | 
 
 L: https://drive.google.com/file/d/1S9ivP1YEqjWWBE1z_Gy1J_iu2I11plK5/view?usp=sharing
 
@@ -3599,7 +3599,7 @@ Arza-i mahşerde makbulir - recasın ya Hüseyn.
 
 Y:
 
-C: mersiye, Kaside| huseyni, muharram, muharrem
+Category: mersiye, Kaside| huseyni, muharram, muharrem
 
 L: https://youtu.be/EjpYlBJ6fIw?si=BppWRebf8_kSP77e
 
@@ -3634,7 +3634,7 @@ ve kasideleri ile ünlü üstadımız Sebilci Ağabeyimizin ruhu şad olsun.
 
 Y:
 
-C: Rifai | rufai, billah 
+Category: Rifai | rufai, billah 
 
 L: https://drive.google.com/file/d/1S9ivP1YEqjWWBE1z_Gy1J_iu2I11plK5/view?usp=sharing
 
@@ -3678,7 +3678,7 @@ In the recording, the ilahi is from 1h15min onwards. In the future, it will star
 
 Y:
 
-C: Şemseddin Sivasi |
+Category: Şemseddin Sivasi |
 
 L: https://youtu.be/XNW7JBrm1KY
 
@@ -3696,7 +3696,7 @@ Hakk'a makbûl olmak ister halka menfûr olmadan
 
 Y:
 
-C: Sofra | 
+Category: Sofra | 
 
 L: https://drive.google.com/file/d/1fLrnO8JLS0YiykwZTU9e5xMzuY86MUM9/view?usp=sharing
 
@@ -3786,7 +3786,7 @@ Dergâha sürüp yüzü şükür elhamdülillâh
 
 Y:
 
-C: yunus, zikr
+Category: yunus, zikr
 
 L: https://youtu.be/8Lchfvfy_mo?t=73
 
@@ -3815,7 +3815,7 @@ Ol Muhammed’dir mutlak
 
 Y:
 
-C: yunus, zikr
+Category: yunus, zikr
 
 L: https://youtu.be/3cYZMrxlbw8?si=tgwMZ8y3DUwbfCOj
 
@@ -3854,7 +3854,7 @@ Bir gönüle girmektir
 
 Y:
 
-C: yunus, mevlid, zikr
+Category: yunus, mevlid, zikr
 
 L: https://youtu.be/hWo_nQwQLJA?si=qwhr7-HlDElt9joR
 
@@ -3883,7 +3883,7 @@ Her kim yemez mahrumudur honını Muhammed'in
 
 Y: 
 
-C:yunus emre, inter,
+Category:yunus emre, inter,
 
 L: https://youtu.be/rvsiii5gDMo?si=_Djbdi5sIp1AGU6z
 
@@ -3931,7 +3931,7 @@ To whom shall I plead, O Hu?
 
 Y: 
 
-C: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri,sbt
+Category: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri,sbt
 
 L: https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
@@ -4090,7 +4090,7 @@ Ahmed Muhammed Mustafa
 
 Y: 
 
-C:yunus emre, inter,
+Category:yunus emre, inter,
 
 L: https://youtu.be/aypDRt-pvp0?t=1895&end=2092
 
@@ -4158,7 +4158,7 @@ Oh Allah, let’s say O Thou.
 
 Y:
 
-C:yunus emre, inter,
+Category:yunus emre, inter,
 
 L: https://drive.google.com/file/d/1TvFv12qDG5OOoCH_cBhZARQnG2vn93rr/view?usp=sharing
 
@@ -4236,7 +4236,7 @@ Ya ben öleyim mi söylemeyince
 
 Y:
 
-C: Sebilci | 
+Category: Sebilci | 
 
 L: https://youtu.be/dGhnjA4J6bY?si=ZkLe57FlcUVaM8c1
 
@@ -4273,7 +4273,7 @@ Merhum Hüseyin Sebilci Ağabeyimizin (Sırrıhu)
 
 Y:
 
-C:yunus emre, inter,
+Category:yunus emre, inter,
 
 L: https://drive.google.com/file/d/1yfR8faui1qVpSvIBydEeAtVHbIkM30Yy/view?usp=sharing
 
@@ -4326,7 +4326,7 @@ The one who dies is an animal, Dervishes don’t die
 
 Y:
 
-C: Ali,inter,
+Category: Ali,inter,
 
 L: https://drive.google.com/file/d/1aBg-uQS3oEg9I_PQR46_CBJICDE0mwTe/view?usp=sharing
 
@@ -4537,7 +4537,7 @@ is kept in the Lion (Ali)
 
 Y:
 
-C: basic, Order:10, Full Zikr, asik hudai,
+Category: basic, Order:10, Full Zikr, asik hudai,
 
 L: https://youtu.be/Dq-miQImzo8?si=vy2FCz9jEUej1N5g
 
@@ -4629,7 +4629,7 @@ Mu-ham-me-den gı-da-mız var
 
 Y:
 
-C: basic, Order:8, Full Zikr,niyaz,
+Category: basic, Order:8, Full Zikr,niyaz,
 
 L: https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
@@ -4720,7 +4720,7 @@ Dur-ma sa-na gel ol-du
 
 Y:
 
-C: basic, Order:9, Full Zikr,Fakirullah,
+Category: basic, Order:9, Full Zikr,Fakirullah,
 
 L: https://youtu.be/aBay8dAoVKw
 
@@ -4793,7 +4793,7 @@ You ruined my chance of getting to my lover, O my fate
 
 Y:
 
-C:Ruhi,inter,
+Category:Ruhi,inter,
 
 L: https://youtu.be/I12stA1sQQQ?si=WHTLQswQgL80Jpxz
 
@@ -4844,7 +4844,7 @@ Connect your understanding to Allah and read the book right away
 
 Y:
 
-C: inter, Aşık Yunus, anbiya | enbiya,prophets
+Category: inter, Aşık Yunus, anbiya | enbiya,prophets
 
 L: https://drive.google.com/file/d/1xlYiplWUQIm2T-zOTHAYelTYTahwFBdj/view?usp=sharing
 
@@ -4903,7 +4903,7 @@ I call on You, exalted Master
 
 Y:
 
-C:inter, Şemseddin Sivasi
+Category:inter, Şemseddin Sivasi
 
 L: https://drive.google.com/file/d/1lA0cmy-p-D3nHDE6vP0E9QWulgMPRPkc/view?usp=sharing
 
@@ -4983,7 +4983,7 @@ This is the perfect answer to that.
 
 Y:
 
-C: inter, niyaz
+Category: inter, niyaz
 
 L: https://www.youtube.com/watch?v=ZB0bobH92Hs
 
@@ -5152,7 +5152,7 @@ aleyhi salatullah
 
 Y:
 
-C:inter,awliya,Rifai, |evliya,
+Category:inter,awliya,Rifai, |evliya,
 
 L: https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
@@ -5261,7 +5261,7 @@ El-meded ey şah-ı zî-şanım Muhammed Mustafa
 
 Y:
 
-C:yunus emre,
+Category:yunus emre,
 
 L: https://youtu.be/mYLmn2PzifM?si=d1Z4JIuKDMuI-6TC
 
@@ -5300,7 +5300,7 @@ A: https://youtu.be/Wdbl9upcXcU
 
 A: https://youtu.be/QblfkqOxZTw
 
-C:inter,Ensari,awliya,Geylani,Qadiri,sbm,|evliya,
+Category:inter,Ensari,awliya,Geylani,Qadiri,sbm,|evliya,
 
 GEYLANDAN YÜRÜDÜ
 
@@ -5379,7 +5379,7 @@ Sultan of righteous dervishes, master Abdul Kadir
 
 Y:
 
-C: basic, Order:5, Full Zikr,
+Category: basic, Order:5, Full Zikr,
 
 L: https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
@@ -5498,7 +5498,7 @@ I cannot explain you, o heart.
 
 Y:
 
-C: basic, Order:11, Full Zikr,Bektashi,haci bektas,
+Category: basic, Order:11, Full Zikr,Bektashi,haci bektas,
 
 L: https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
@@ -5631,7 +5631,7 @@ Mu-ham-med ö-nün-de jan Ha-cı Bek-taş
 
 Y:
 
-C:inter, Uftade,
+Category:inter, Uftade,
 
 L: https://drive.google.com/file/d/1eyn-eTRIFYvMrIBjOdgryNE9auVfGK42/view?usp=sharing
 
@@ -5732,7 +5732,7 @@ Insha Allah
 
 Y:
 
-C:inter, yunus emre,
+Category:inter, yunus emre,
 
 L: https://drive.google.com/file/d/1eXM6ct1WB7FDMZhnJb3SxchZy8d9pMy3/view?usp=sharing
 
@@ -5792,7 +5792,7 @@ In the sands of Yemen, Veysel Karani
 
 Y:
 
-C:inter, yunus emre
+Category:inter, yunus emre
 
 L: https://drive.google.com/file/d/1SH-ZCrqsG4cEKoM7Q5E9JfpOoSPZCt3w/view?usp=sharing
 
@@ -6006,7 +6006,7 @@ Me fa‘ î lün / Me fa‘ î lün / Me fa‘ î lün / Me fa‘ î lün
 
 Y:
 
-C: basic, Order:13, Full Zikr, Mevlid, muhammed,muhyiddin,ensari,ansari,mevlana,nakshbandi,mevlevi,haci bektas,hashimi,Muhyi,
+Category: basic, Order:13, Full Zikr, Mevlid, muhammed,muhyiddin,ensari,ansari,mevlana,nakshbandi,mevlevi,haci bektas,hashimi,Muhyi,
 
 L: https://youtu.be/v85HlRRlhu4
 
@@ -6232,7 +6232,7 @@ In this ilahi, yü-züm means my face.
 
 Y:
 
-C: basic, Order:6, Full Zikr,evliya,awliya,Rifai, Muhyi, Geylani, Qadiri,
+Category: basic, Order:6, Full Zikr,evliya,awliya,Rifai, Muhyi, Geylani, Qadiri,
 
 L: https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
 
@@ -6408,7 +6408,7 @@ Help me My Pir, O Shaykh of Allah
 
 Y:
 
-C:inter, Ali,Bektashi,
+Category:inter, Ali,Bektashi,
 
 L: https://drive.google.com/file/d/1TkFv4qirIJQ4FCBtv-AIrI3qDqImh0O9/view?usp=sharing
   
@@ -6553,7 +6553,7 @@ Kuddûsî her dem Hû dimek ister
 
 Y:
 
-C: basic, Order:7, Full Zikr,Muhammad, Mevlid,Bektashi,
+Category: basic, Order:7, Full Zikr,Muhammad, Mevlid,Bektashi,
 
 L: https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
 
@@ -6656,7 +6656,7 @@ He is incomplete
 
 Y:
 
-C: Qadiri, awliya,Geylani|evliya
+Category: Qadiri, awliya,Geylani|evliya
 
 MİLKİ CİHAN SULTANI ABDUL KADİR GEYLANİ 
 
@@ -6689,7 +6689,7 @@ Hazret-i Şah-ı Nakşbend Abdul Kadir Geylani
 
 Y:
 
-C:inter,awliya,Geylani,Qadiri,|evliya,
+Category:inter,awliya,Geylani,Qadiri,|evliya,
 
 L: https://youtu.be/dXXWkoubQ_I?si=x3fFieTGxfQ5-y84
 
@@ -6796,7 +6796,7 @@ https://www.nurayoktay.com/KitapDetay/Ankarali-Asik-Niyazi-Demirorsun-Askindaki-
 
 Y:
 
-C:inter, yunus emre,anbiya, |prophets,enbiya,
+Category:inter, yunus emre,anbiya, |prophets,enbiya,
 
 L: https://drive.google.com/file/d/16t_paokxEWWGjU739ZVy899ZKTzFxMXk/view?usp=sharing
 
@@ -6876,7 +6876,7 @@ What would I do with fame and honor?
 
 Y:
 
-C:inter, awliya,Rifai |evliya,
+Category:inter, awliya,Rifai |evliya,
 
 L: https://drive.google.com/file/d/1JSOLJ4O_OJGlQgEJobthH45YZBr35y0V/view?usp=sharing
 
@@ -6913,7 +6913,7 @@ The universally recognized Shaykh of the community (qawm)
 
 Y:
 
-C: awliya,Rifai,|evliya
+Category: awliya,Rifai,|evliya
 
 L: https://youtu.be/5-R-VbK8a6o?si=iutdJe4TkcfCjEVH
 
@@ -6933,7 +6933,7 @@ Senin işte dest-i gir’in Rifai Seyyid Ahmed’dir
 
 Y:
 
-C: basic, Order: 15, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
+Category: basic, Order: 15, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
 
 SALAT ü SELAM
 
@@ -7060,7 +7060,7 @@ Ya Wadud Ya Salaam Ya Jami Ya Nafi
 
 Y: 
 
-C: basic, Order: 1, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
+Category: basic, Order: 1, salawat, Muhammad, Zikr, Full, Mawlid, inter, | salat, salati, salatu, selati, kamaliya, kamaaliya, Mevlid, Mawlud, Milad, Milaad
 
 L: https://youtu.be/aypDRt-pvp0?t=71&end=259
 
@@ -7233,7 +7233,7 @@ Y:
 
 Y:
 
-C: basic, Order:12, yunus emre,
+Category: basic, Order:12, yunus emre,
 
 L: https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
@@ -7307,7 +7307,7 @@ There is a servant in front of your door but he is deeper in the sultan
 
 Y:
 
-C: hazmi, kaside, Mawlid |
+Category: hazmi, kaside, Mawlid |
 
 L: https://youtu.be/SD43imv9D8w?t=147
 
@@ -7348,7 +7348,7 @@ e.g. $erler-demi-ne-destur-alalim
 
 Y:
 
-C: yunus emre
+Category: yunus emre
 
 L: https://youtu.be/GhF6YSMf99I?si=DbyjGqxvB_JwNWB6
 
@@ -7429,7 +7429,7 @@ Of this poisoned cup?
 
 Y:
 
-C: basic, Order:2, Full Zikr,Muhammad, Mevlid,
+Category: basic, Order:2, Full Zikr,Muhammad, Mevlid,
 
 L: https://youtu.be/kJHWbwpphn8?si=zx2mtoqdxDD0d7Ga
 
@@ -7596,7 +7596,7 @@ You are the heart of my heart, O Muhammad
 
 Y:
 
-C: Mawlid, Rifai, Qadiri | revas, rawas, mevlid
+Category: Mawlid, Rifai, Qadiri | revas, rawas, mevlid
 
 L: https://youtu.be/JoEiN4qZDVE?si=XnwonpHcKyKGXRS8
 
@@ -7644,7 +7644,7 @@ of the one who got out of the way, annihilated in your love
 
 Y:
 
-C: basic, Order:4, Muhammad, Mawlid |Mevlid,
+Category: basic, Order:4, Muhammad, Mawlid |Mevlid,
 
 L: https://drive.google.com/file/d/1sFQ--OPWswYsV5D6tQBX0Nnmn9ulbk2r/view?usp=sharing
 
@@ -7826,7 +7826,7 @@ Hak La ilahe illallah Allah La ilahe illallah.
 
 Y:
 
-C:inter, Kul Yusuf,
+Category:inter, Kul Yusuf,
 
 L: https://drive.google.com/file/d/1Nc355h3TrLr2NR5-5xPUxDqi8Xem62e8/view?usp=sharing
 
@@ -8033,7 +8033,7 @@ $derdi-n-ne-be-hey-asik
 
 Y:
 
-C:inter, awliya,Rifai | evliya,
+Category:inter, awliya,Rifai | evliya,
 
 L: https://drive.google.com/file/d/1-JbVdVyW5X-TSwsOX6t4nDUImMXYf3LF/view?usp=sharing
 
@@ -8112,7 +8112,7 @@ Ornament of the heavens, Ahmed er-Rifai
 
 Y:
 
-C:inter, Mawlid, Muhammad, | Mevlid,
+Category:inter, Mawlid, Muhammad, | Mevlid,
 
 L: https://youtu.be/8Lchfvfy_mo?si=hZi9frFlONSKdyy0
 
@@ -8145,7 +8145,7 @@ O my beloved, O Messenger
 
 Y:
 
-C:Muhammad, Mawlid, |Mevlid,
+Category:Muhammad, Mawlid, |Mevlid,
 
 L: https://youtu.be/z5HiXM9JGJQ?si=2q0Rv8hjKCLIRYaT
 
@@ -8337,7 +8337,7 @@ The daughter of the Messenger, Fatima.
 
 Y:
 
-C: inter, Bektashi,Hatayi,
+Category: inter, Bektashi,Hatayi,
 
 L: https://youtu.be/uaLfORA7Zz8?si=GvqHCKpgwds4HXEK
 
@@ -8395,7 +8395,7 @@ during one of the Saturday Sohbets.
 
 Y:
 
-C: basic, Order:1, Full Zikr,Muhammad, Mevlid,Abu Bakr,Umar,Usman,Sahaba,nesimi
+Category: basic, Order:1, Full Zikr,Muhammad, Mevlid,Abu Bakr,Umar,Usman,Sahaba,nesimi
 
 L: https://drive.google.com/file/d/104VnEGMUHAj3KNQ8c4X-3qVc0aejvlnj/view?usp=sharing
 
@@ -9204,6 +9204,8 @@ L: https://youtu.be/-WR2q3osna8?si=RYl89fdzEW4cs0rC
 L: https://youtu.be/yt9yYsh4rvo?si=T3fKKC5LcfAIsA2P
 
 A1. ASMA UL HUSNA - KADİRİ ESMA
+
+test HU6
 
 Ya Allah Ya Allah Ya Allah
 Ya Allah Ya Allah Ya Allah
