@@ -3882,6 +3882,9 @@ Varır ziyaret eder nurunu Muhammed'in
 Yunus Emre'm aşıkdır eksiklidir miskindir
 Her kim yemez mahrumudur honını Muhammed'in
 
+AQRT version:
+$mevlam-nurdan-yaratmis
+
 Y: 
 
 Category:yunus emre, inter,
@@ -4269,7 +4272,7 @@ Deli divaneye döndüm
 Hay benim baba sultanım.
 
 History:
-Merhum Hüseyin Sebilci Ağabeyimizin (Sırrıhu)
+Hüseyin Sebilci Ağabeyimizin (Sırrıhu)
 
 
 Y:
@@ -4904,7 +4907,7 @@ I call on You, exalted Master
 
 Y:
 
-Category:inter, Şemseddin Sivasi
+Category:inter, Şemseddin Sivasli
 
 L: https://drive.google.com/file/d/1lA0cmy-p-D3nHDE6vP0E9QWulgMPRPkc/view?usp=sharing
 
@@ -4934,6 +4937,18 @@ Efsafın işitdinmi hiç
 Ey gözlerimin yaşı         
 Seyyele neden oldun      
 
+Extra words
+
+Ol mihr-i cihan-ara 
+oldu mu gözünden dur
+Ey gözlerimin yaşı 
+seyyale neden oldun
+
+Pamal-i mehabbetsin 
+yokdur başına çare
+Çek bu kadar ey Şemsi 
+sad-pare neden oldun
+
 T:
 What is your trouble O lover of God
 Why have you become so distraught
@@ -4947,7 +4962,7 @@ Why did you break into hundred pieces?
 
 When the arrow of the beloved’s eye-lash
 Did not hit you
-O breast of the deceased
+O heart of the deceased
 Why are you so full of wounds?
 
 Did you see the Beloved face?
@@ -4956,6 +4971,8 @@ O tears of my eyes,
 Why have you become a flood?
 
 History:
+Author: Şemseddin Sivaslı
+
 
 Refer to the history part of 
 the ilahi 
@@ -6575,7 +6592,7 @@ La ilaha illallah
 
 Dünya malın tutmamış      
 Hiç emanet atmamış           
-Terzi gelip biçmemış           
+Terzi gelip biçmemiş           
 Donunu Muhammedin       
 
 Hak La ilaha illallah
@@ -6596,6 +6613,8 @@ Hanını Muhammedin
 
 Hak La ilaha illallah
 La ilaha illallah       
+
+$calap-nurdan-yaratmis-mevlam-nurdan-extra
 
 Pronunciation:
 
@@ -6632,20 +6651,22 @@ Hak La i-la-ha il-lal-lah
 La i-la-ha il-lal-lah  
 
 T:
-Mawla created from Nur
+Mawla (The Lord) created from Nur, Light
 The name of Muhammad       
-He spread the world as mercy 
+He spread it to the world as mercy 
 The Life of Muhammad      
 
-Hak Lailaha illallah
+Hak La ilaha illallah
 La ilaha illallah   
+Haqq! There is no other higher power than Allah
+There is no other higher power than Allah
 
 He has not kept any material 
 belongings to the world
 Tailor did not come and sew his cloth 
-He never unreturned what is trusted in him 
+He always kept safe what was entrusted to him. 
 
-Ali the Lion of Allah
+Ali, the Lion of Allah
 On the right of Muhammad
 Hasan and Huseyn
 On the left of Muhammad  
@@ -6654,6 +6675,45 @@ Yunus Dedem is with love
 He is incomplete he is meek
 Whoever does not get the nourishment of Muhammad
 He is incomplete
+
+History:
+Yunus Emre
+
+Explanation from Shaykha Muzeyyen
+
+Yunus Dedem aşklıdır       
+That means he carries love within himself. 
+
+In Turkish, we start backwards when we are writing poetry. 
+In English, very straightforward, it would be
+The name of Muhammad was created from Nur by Mevla.
+That is not how we say in turkish. 
+In turkish, 
+God, Most Important Being, Allah, 
+is first most important thing.
+Second most important thing is creation.
+So Allah created...
+Third most important thing is Nur.
+Created what?
+Subject is the name of Muhammad, 
+the name MUHAMMAD really.
+
+The name, Muhammad, was created from Nur by God.   
+
+Our Prophet, Al Amin, The Trustworthy.
+atmamış: he never threw away.
+If you gave him something to keep for you,
+even fifty years later you came and got it from him.
+Whatever was given to him, it was safe.
+That is why he is Al Amin. 
+He always kept safe what was entrusted to him. 
+Basically, he never shirked his duty with what he was entrusted.
+In this case, 
+emanet could be what Allah trusted him to deliver.
+emanet could be what was given to him to keep safe. 
+
+
+
 
 Y:
 
