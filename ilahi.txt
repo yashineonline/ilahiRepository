@@ -4786,7 +4786,7 @@ Mu-ham-me-den gı-da-mız var
 
 Y:
 
-Category: basic, Order:8, Full Zikr,niyaz,
+Category: basic, Order:7, Full Zikr,niyaz,
 
 L: https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
@@ -6724,7 +6724,7 @@ Kuddûsî her dem Hû dimek ister
 
 Y:
 
-Category: basic, Order:7, Full Zikr,Muhammad, Mevlid,Bektashi,
+Category: basic, Order:8, Full Zikr,Muhammad, Mevlid,Bektashi,
 
 L: https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
 
@@ -9888,25 +9888,11 @@ illallah
 https://youtu.be/aypDRt-pvp0?t=1156&end=1070
 la ilaha illallah - Jahri (explanation)
 
-For the slow part:
-While bowing toward your right knee, breathe in and say "la"
-While coming back to the center, breathe in and say "ila"
-While bowing toward your left knee, breathe in and say "ha il"
-While coming back to the center, (breathe in and) say "lal lah"
+Bow down toward the right and say "la"
+Come back to the center and say "ila"
+Bow down toward the left and say "ha il"
+Come back to the center and say "lal lah"
 Start again
-
-Note: 
-When breathing in, take small quick breaths. 
-Breathe out while saying the words with the throat (glottal).
-Advanced: Hold your tongue to the mouth top throughout jahri zikr.
-
-For the fast part:
-While bowing faster toward your right knee, breathe in and say "la"
-While coming back faster to the center, (breathe in and) say "ila"
-While bowing toward your left knee, breathe in and say "ha il"
-While coming back faster to the center, say "lal lah"
-Start again
-
 
 https://youtu.be/aypDRt-pvp0?t=1188&end=1070
 La ila ha il lal lah (jahri - slow)
@@ -9936,10 +9922,53 @@ Break
 After the sitting part, stretch your legs
 to re-enable blood circulation.
 
-https://youtu.be/aypDRt-pvp0?t=1895&end=1895
+https://youtu.be/aypDRt-pvp0?t=1895&end=2092
 Transition ilahi from sitting to standing
 
 $allah-emri-n-tutalim
+
+https://youtu.be/aypDRt-pvp0?t=2093&end=2132
+Ayat before standing up
+
+Allah, The Most High, says in Qur'an-i Karim, 
+
+There are those who look at the universe, stars 
+and say, You did not create all this for nothing, 
+they do zikr of Allah sitting, standing and reclining
+and look at the universe and say, 
+You did not create all this for nothing, 
+protect us from the torment of fire.
+
+So, let us get up and do some zikr standing.
+
+https://youtu.be/aypDRt-pvp0?t=2200&end=2380
+Sirna ala
+
+$sirni-ala-for-zikr
+
+https://youtu.be/aypDRt-pvp0?t=2380&end=2401
+Explanation of "Sirna ala" Zikr
+
+This zikr represents Hazreti Hajra (the wife of Hz Ibrahim) 
+looking for water,
+running between the hills of Safa and Marwa. 
+This is why, we turn to the right and say Allah,
+then we turn to the left and say Allah, 
+and then again to the right and say Allah, 
+and finally raising our hands facing forward, we say Allah, Allah.
+
+https://youtu.be/aypDRt-pvp0?t=2447&end=2632
+Allah Allah Allah Allah (wheat / sugarcane field)
+
+$guzel-asik-cevri-mi-zi
+
+https://youtu.be/aypDRt-pvp0?t=2632&end=2632
+Allah Hayy Ya Qayyum
+
+$i-ki-kere-gavs-oldu
+$can-yi-ne-bulbul-oldu
+
+
 
 
 
