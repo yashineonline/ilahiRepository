@@ -42,4 +42,14 @@ Happy birthday my dear Sheyim! I love you with all of my souls beloved Baba.
 
 Thank you Ya Allah for sharing your Wadud with us.
 
-P: 
+P: write title here
+write poem here
+
+P: title
+poem
+
+P:new title
+poem
+each time a new poem starts, 
+leave a line, put the p double dot and the title. 
+and poem after
