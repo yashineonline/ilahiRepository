@@ -4295,6 +4295,8 @@ Y:
 
 Category:yunus emre, inter,
 
+SuggestedZikr: test1, 2, 3
+
 L: https://youtu.be/aypDRt-pvp0?t=1895&end=2092
 
 ALLAH EMRİN TUTALIM
