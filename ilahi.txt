@@ -4317,8 +4317,6 @@ Y:
 
 Category:yunus emre, inter,
 
-SuggestedZikr: test1, 2, 3
-
 L: https://youtu.be/aypDRt-pvp0?t=1895&end=2092
 
 ALLAH EMRİN TUTALIM
@@ -4772,6 +4770,8 @@ Category: basic, Order:10, Full Zikr, asik hudai,
 
 L: https://youtu.be/Dq-miQImzo8?si=vy2FCz9jEUej1N5g
 
+SuggestedZikr: Ya Wadud Ya Salaam Ya Jami Ya Nafi
+
 BÜTÜN EVREN SEMAH DÖNER
 
 Suggested zikr: 
@@ -4864,6 +4864,9 @@ Category: basic, Order:7, Full Zikr,niyaz,
 
 L: https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
+SuggestedZikr: Allah Hayy Ya Qayyum, Hayy Hayy Hayy Allah, Hayy
+
+
 CAN YİNE BÜLBÜL OLDU  
 
 Suggested zikr: 
@@ -4954,6 +4957,8 @@ Y:
 Category: basic, Order:9, Full Zikr,Fakirullah,
 
 L: https://youtu.be/aBay8dAoVKw
+
+SuggestedZikr: Hayy, Hu, Allah
 
 CANI DİLDEN FANİ KILDIN AKİBET       
 
@@ -5630,6 +5635,8 @@ Category: basic, Order:5, Full Zikr,
 
 L: https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
+SuggestedZikr: Allah Allah Allah Allah
+
 GÜZEL AŞIK CEVRİMİZİ   
 
 Suggested zikr: Allah Allah Allah Allah (wheat/corn/sugarcane field)
@@ -5750,6 +5757,8 @@ Category: basic, Order:11, Full Zikr,Bektashi,haci bektas,
 L: https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
 L: https://www.youtube.com/watch?v=53rEjPAPyMs
+
+SuggestedZikr: Ya Wadud Ya Salaam Ya Jami Ya Nafi
 
 Gece gündüz hayalıne / HACI BEKTAŞ
 
@@ -6259,6 +6268,8 @@ L: https://youtu.be/v85HlRRlhu4
 
 L: https://drive.google.com/file/d/13d9Srury-yt_I_VajTpbvZ2tuoS51TCz/view?usp=sharing
 
+SuggestedZikr: Hu, Hayy
+
 HİZMETİNİ EDEMEDİM                        
 
 Suggested zikr: 
@@ -6482,6 +6493,8 @@ Y:
 Category: basic, Order:6, Full Zikr,evliya,awliya,Rifai, Muhyi, Geylani, Qadiri,
 
 L: https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
+
+SuggestedZikr: Allah Hayy Ya Qayyum, la ila ha illallah, Hayy Hayy Hayy Allah
 
 İKİ KERE GAVS OLDU               
 
@@ -6805,6 +6818,8 @@ Y:
 Category: basic, Order:8, Full Zikr,Muhammad, Mevlid,Bektashi,
 
 L: https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
+
+SuggestedZikr: la ila ha illallah, Allah, Hayy, Hayy Hayy Hayy Allah, Allah Hayy Ya Qayyum
 
 MEVLAM NURDAN YARATMIŞ
 
@@ -7527,6 +7542,8 @@ Y:
 
 Category: basic, Order:12, yunus emre,
 
+SuggestedZikr: Hu, la ila ha illallah, Allah, Hayy, Hayy Hayy Hayy Allah, Allah Hayy Ya Qayyum
+
 L: https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
 SENİ BEN SEVERİM               
@@ -7724,6 +7741,8 @@ Y:
 Category: basic, Order:2, Full Zikr,Muhammad, Mevlid,
 
 L: https://youtu.be/kJHWbwpphn8?si=zx2mtoqdxDD0d7Ga
+
+SuggestedZikr: la ila ha illallah, Allah, Hayy, Hayy Hayy Hayy Allah
 
 SEYREYLEYİP YANDIM     
 
@@ -8125,6 +8144,8 @@ L: https://drive.google.com/file/d/1Nc355h3TrLr2NR5-5xPUxDqi8Xem62e8/view?usp=sh
 L: https://youtu.be/hpF2O_9Dsw8?si=0Ednu8hmoikfZTVb
 
 A: https://youtu.be/q5mPwJ9jvnQ?si=u0KZHf5pH3fEinNx
+
+SuggestedZikr: Allah, Hayy, Hayy Hayy Hayy Allah
 
 ŞU BENİM DİVANE GÖNLÜM
 
@@ -8690,6 +8711,8 @@ Y:
 Category: basic, Order:1, Full Zikr,Muhammad, Mevlid,Abu Bakr,Umar,Usman,Sahaba,nesimi
 
 L: https://drive.google.com/file/d/104VnEGMUHAj3KNQ8c4X-3qVc0aejvlnj/view?usp=sharing
+
+SuggestedZikr: la ila ha illallah
 
 YÜZÜN NURU HÜDADIR
 
