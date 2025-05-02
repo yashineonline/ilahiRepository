@@ -5396,7 +5396,7 @@ aleyhi salatullah
 
 Y:
 
-Category:inter,awliya,Rifai, |evliya,
+Category:inter,awliya,Rifai, Shaykh Taner |evliya,
 
 L: https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
@@ -5544,7 +5544,7 @@ A: https://youtu.be/Wdbl9upcXcU
 
 A: https://youtu.be/QblfkqOxZTw
 
-Category:inter,Ensari,awliya,Geylani,Qadiri,sbm,|evliya,
+Category:inter,Ensari,awliya,Geylani,Qadiri,sbm, Shaykh Muhyiddin |evliya,
 
 GEYLANDAN YÜRÜDÜ
 
@@ -5623,7 +5623,7 @@ Sultan of righteous dervishes, master Abdul Kadir
 
 Y:
 
-Category: basic, Order:5, Full Zikr,
+Category: basic, Order:5, Full Zikr, Shaykh Taner
 
 L: https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
@@ -5744,7 +5744,7 @@ I cannot explain you, o heart.
 
 Y:
 
-Category: basic, Order:11, Full Zikr,Bektashi,haci bektas,
+Category: basic, Order:11, Full Zikr,Bektashi,haci bektas, Shaykh Taner, 
 
 L: https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
@@ -5878,7 +5878,7 @@ Mu-ham-med ö-nün-de jan Ha-cı Bek-taş
 
 Y:
 
-Category:inter, Uftade,
+Category:inter, Uftade, Shaykh Taner, Shaykh Muhyiddin, 
 
 L: https://drive.google.com/file/d/1eyn-eTRIFYvMrIBjOdgryNE9auVfGK42/view?usp=sharing
 
