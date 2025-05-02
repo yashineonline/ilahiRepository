@@ -4158,7 +4158,7 @@ To whom shall I plead, O Hu?
 
 Y: 
 
-Category: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri,sbt
+Category: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri, Shaykh Taner
 
 L: https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
@@ -5544,7 +5544,7 @@ A: https://youtu.be/Wdbl9upcXcU
 
 A: https://youtu.be/QblfkqOxZTw
 
-Category:inter,Ensari,awliya,Geylani,Qadiri,sbm, Shaykh Muhyiddin |evliya,
+Category:inter,Ensari,awliya,Geylani,Qadiri, Shaykh Muhyiddin |evliya,
 
 GEYLANDAN YÜRÜDÜ
 
