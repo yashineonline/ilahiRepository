@@ -1,12 +1,17 @@
 ﻿NOTES
 All notes that are not meant to be processed should be written before ENDOFNOTES.
 
-This is the data file for the Ilahi Book App maintained by the Ansari Qadiri Rifai Tariqa. 
+This is the data file for the ilahi Book App maintained by the Ansari Qadiri Rifai Tariqa,
+under the leadership and order of Murshida Shaykha Muzeyyen Vargonen Ansari.
+aqrtsufi.org
 
-Y means beginning of a song.
+Y means beginning of a song entry in the ilahi list.
 Category means categories and tags, the two are separated by a vertical bar.
 L means main tune for the song. There can be more than one. 
 A means alternative tune for the song. There can be more than one. 
+SuggestedZikr are the zikrs along which the ilahi can be sung.
+
+Notes updated on May 18, 2025
 
 
 ----------------------------------------------------------------------------------
@@ -16,7 +21,7 @@ ENDOFNOTES
 
 SUBCATEGORIES:
 Pen Name: Aşık Yunus, Yunus Emre, Niyazi Misri, Aşık Niyazi, Fakirullah, Nesimi, Üftade, Şemseddin 
-Sivası, Ruhi, Muhyi, Hatayi, Hudayi, Aşık Hüdai, Kul Yusuf, Kamil, Mustafa Rifai
+Sivası, Ruhi, Muhyi, Hatayi, Mahmud Hüdayi, Aşık Hüdai, Kul Yusuf, Kamil, Mustafa Rifai, Bağdadi
 Pirs: Geylani, Rifai, Ansari, Ensari, Hashimi, Muhammed, Muhyiddin
 Awliya: Mevlana, Hacı Bektas, 
 Sahaba: Abu Bakr, Umar, Osman, Ali, Sahaba
@@ -31,7 +36,7 @@ L: https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
 L: https://youtu.be/FigU0-eSuOc?si=uI7hIpjSprf34H1n
 
-SuggestedZikr: la ila ha illallah
+SuggestedZikr: la ila ha illallah, Allah
 
 ABDUL KADİRÜL GEYLANİ
 
@@ -117,9 +122,12 @@ Vel Ab-dü şe-fa vel ha-li
 History:
 This is a very old ilahi from Shaykh Bahauddin Naqshbandi,
 founder of the Naqshbandi Tariqa.
-This ilahi used to be sung with the zikr Allah in old times.
-Nowadays, in the Ansari Qadiri Rifai Tariqa, 
-this is one of the main ilahis sung with 
+This ilahi is sung with the zikr Allah in the traditional Kadiri Rufai tekkes.
+Nowadays, in the Ansari Qadiri Rifai Tariqa (AQRT),
+a modern branch of the Kadiri Rufai Tarika,
+established by Shaykh Taner and Shaykha Muzeyyen,
+this ilahi has become one of the main ilahis 
+sung with the zikr
 la ila ha illallah.
 Refer to Zikr practice section to see how
 the ilahi fits very well with this zikr.
@@ -212,7 +220,7 @@ Shaykh Mustafa came to İstanbul
 from Uskup. 
 This Tariqa still exists
 both in Uskup and in İstanbul. 
-They share a very strong and loving relationship
+They share a very strong bond
 with Shaykh Muhyiddin Ensari, 
 and therefore with all dervishes of his Dergah too. 
 Whenever there is a special event,
@@ -226,7 +234,10 @@ This is reflected in this ilahi, and many others.
 
 Y:
 
+Category: Yunus emre
+
 AH NİCE BİR UYURSUN
+
 Ah nice bir uyursun, uyanmaz mısın? 
 Göçtü kervan kaldık dağlar başında. 
 Çağrışır tellallar inanmaz mısın? 
@@ -246,14 +257,6 @@ Yunus sen bu dünyaya niye geldin?
 Gece gündüz Hakk'ı zikretsin dilin. 
 Enbiyaya uğramaz ise yolun, 
 Göçtü kervan, kaldık dağlar başında. 
-
-
-
-
-
-
-
-
 
 
 
@@ -295,13 +298,16 @@ Wa alihi wa sahbil kirami
 Lahum Uhudun lahum wafa-u 
 
 Extra words:
+
 Allahumma salli wa sallim ala 
 alal Arabi Bashir Muhammad
 
 Alternative chorus:
+
 la ilaha illallah Allah Allah
 Lahbiba Mawla Rasulillahi
 
+History:
 Author:
 Muhammad ibn al-Habib (1876–1972) 
 was a shaykh of the Shazili Tariqa. 
@@ -375,8 +381,10 @@ Ala Gözlü Nazlı Pirim
 Gönül Senin Pervendedir
 Ben Severim Sen Kaçarsın
 İman Senin Nerendedir
+
 Sultanım Ali Lokmanım Ali
 Rehberim Ali Yetiş Ya Ali
+
 Derviş Alim Der Övdüğüm
 Aşkın Hayalin Kurduğum
 Suç Benim Değil Sevdiğim
@@ -384,7 +392,7 @@ Sana Meyil Verendedir
 
 Y:
 
-Category:
+Category: Yunus Emre, Mawlid, 
 
 L: https://www.youtube.com/watch?v=lfQNqovw9ZI
 
@@ -394,12 +402,12 @@ A:https://www.youtube.com/watch?v=SpTpVPU1KZk
 
 A:https://www.youtube.com/watch?v=Ncx0wZBfVvk
 
-ALEMLER NURA GARK OLDU CANIM
+ALEMLER NURA GARK OLDU
 
-Alemler Nura gark oldu Canım
-Muhammed doğduğu gece Hayy Hayy
-Mümin münafık fark oldu İllallah Hu Ya Hu
-Muhammed doğduğu gece İllallah Hu Canım
+Alemler Nura gark oldu (Canım)
+Muhammed doğduğu gece (Hayy Hayy)
+Mümin münafık fark oldu (İllallah Hu Ya Hu)
+Muhammed doğduğu gece (İllallah Hu Canım)
 
 Gökten yere nur atıldı,
 Yediler, kırklar katıldı,
@@ -430,6 +438,13 @@ Yunus der ki ey kardeşler Canım
 Akar gözden kanlı yaşlar Hayy Hayy
 Secde kıldı dağlar taşlar İllallah Hu Ya Hu
 Muhammed doğduğu gece İllallah Hu Canım
+
+Chorus for Alternative tune
+
+Ya Resul selam aleyke
+Ya Habip selam aleyke
+Ya Nebi selam aleyke
+Salavatullah aleyke
 
 T:
 The night Muhammed was born,
@@ -468,13 +483,9 @@ tears of blood streaming from the eyes,
 mountains and boulders fell in praise
 On the night Muhammed was born.
 
-
-
-
-
 Y:
 
-Category: Lutfi, 
+Category: Lutfi, Mawlid, 
 
 L: https://youtu.be/dL_RqWOdEF4
 
@@ -494,9 +505,6 @@ Lûtfi koymuş yere yüzün
 Dergahe dutmuşdur gözün 
 Şam-u seher olsun sözün 
 Ahmed Muhammed Mustafa
-
-
-
 
 Y:
 
@@ -527,13 +535,27 @@ Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
 
+More chorus:
+
 Allah Allah hüve Rabbüna Rahmani
-...
+İrham bi fazlı şeyhina Rifai
+
+İrham bi fazlı şeyhina Ensari
+
+İrham bi fazlı şeyhina Tarsusi
+
+İrham bi fazlı şeyhina Taneri
+
+İrham bi fazlı şeyhina Müzeyyen
 
 T:
 Allah, Allah, He is our Lord, The One Who Acts with Mercy
 Have mercy, by the grace of our Shaykh: 
-Abdul Qadir Geylani, Ahmed er Rifai, Ansari
+from Geylan (Abdul Qadir Geylani), 
+Ahmed er Rifai, 
+Ansari
+from Tarsus (Shaykh Taner and Shaykha Muzeyyen)
+
 O The Living One, O The Living One, O The Living One
 
 O my Sultan, while You exist
@@ -544,9 +566,13 @@ To whom shall I plead, O Hu?
 
 The One Who makes Yunus ecstatic
 To whom shall I plead, O Hu?
+
 Y:
 
+Category: Geylani, Qadiri, 
+
 ALLAH ALLAH RABBUNA
+
 Allah Allah rabbuna
 Ya men ayni sadiri
 Sultan küllül evliya
@@ -554,7 +580,7 @@ Pirim Abdul Kadir
 
 Bağdadi dar üs safa
 Darül mekarin vefa
-Nûr-i çeşmi Mustafa (s.a.v.)
+Nûr-i çeşmi Mustafa
 Pirim Abdul Kadir
 
 Bağdadi küm haviri
@@ -562,18 +588,21 @@ Bağdadi küm haviri
 Ve ala kamber Ali
 Pirim Abdul Kadir
 
-
-
 Y:
 
-Category: Sofra | 
+Category: Sofra, Bağdadi, Shaykh Muhyiddin | 
 
 L: https://drive.google.com/file/d/1fLrnO8JLS0YiykwZTU9e5xMzuY86MUM9/view?usp=sharing
 
 ALLAH BİZE LUTFETTİ ŞÜKÜR ELHAMDÜLİLLAH
 
-Allah bize lutfetti şükür elhamdülillah
-Nimetine gark etti şükür elhamdülillah
+Allah bize lutfetti 
+şükür elhamdülillah
+Nimetine gark etti 
+şükür elhamdülillah
+
+La ilahe illallah 
+la ilahe illallah
 
 Yiyelim nimetini analım Hazretini
 Umalım rahmetini şükür elhamdülillah
@@ -614,6 +643,7 @@ ol canların canıyız
 şükür elhamdülillah
 
 Alternative:
+
 Yok iken var eyledi arzı didar eyledi
 Habibi yar eyledi şükür elhamdülillah
 
@@ -652,6 +682,14 @@ Sevenleriz anları şükür elhamdülillâh
 
 Bağdâdî’nin bu sözü kabûl eyle niyâzı
 Dergâha sürüp yüzü şükür elhamdülillâh
+
+History:
+We are very grateful to Dr Fahrünnisa Ensari Kara,
+daughter of Shaykh Muhyiddin Ansari.
+
+Some parts of this ilahi can be found in
+the Kaside book of Haci Visali, an Ushaki Shaykh.
+
 Y:
 
 Category:yunus emre, inter,
@@ -1075,6 +1113,8 @@ History:
 Mehmed Ali Hilmi Dede Baba
 
 Y:
+
+Category: Mahmud Hüdayi
 
 L: https://youtu.be/oBC4lLfSfAM?si=DulDfJRp6d2SwqrA
 
