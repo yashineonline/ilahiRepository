@@ -5245,7 +5245,7 @@ Aşk oduna ben yanayım illallah Hu
 
 basic zikr follow up ilahi:
 
-$salat-u-selam
+$salatu-selam
 
 Pronunciation:
 
@@ -9819,7 +9819,7 @@ You can say Ömer or Omar.
 
 basic zikr follow up ilahi:
 
-$seyreyleyi-p-yandim
+$seyreyleyi-p-yandim-mah-cemali-ne
 
 Pronunciation:
 
