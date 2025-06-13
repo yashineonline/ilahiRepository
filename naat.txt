@@ -117,25 +117,25 @@ Y:
  
 
 Ya Hannaan, Ya Mannaan, Ya Dayyaan, Ya Subhaan
-Ya Bourhaan, Ya Rehmaan, man alaïna bil Oufraan
+Ya Bourhaan, Ya Rehmaan, man alaina bil Oufraan
 
 Awwal aakhir haq ko jaan, zwahir-o-baatin ousko jaan
-Mari jilawé ouski shaan, man alaïna bil Oufraan
+Mari jilawé ouski shaan, man alaina bil Oufraan
 
 Haksé lagaa-o apna dhiyaan, jisné banaya kaun makaan
-Loo ho kalam Jannat ridwaan, man alaïna bil Oufraan
+Loo ho kalam Jannat ridwaan, man alaina bil Oufraan
 
 Haq ne banaya hamko insaan, aqladiya aur jismo jaan
-Shukr hé ouska hardam hum, man alaïna bil Oufraan
+Shukr hé ouska hardam hum, man alaina bil Oufraan
 
 Teri ibaadat karté hain, oummeed madad ki raklé hain
-Dam yaad ka teri bharté hain, man alaïna bil Oufraan
+Dam yaad ka teri bharté hain, man alaina bil Oufraan
 
 Raasta sidha hamko dekha, raah-o-Nabee par hamko chala
-Niamat our haat sar dila, man alaïna bil Oufraan
+Niamat our haat sar dila, man alaina bil Oufraan
 
 Goumrahi se hamko bacha, Nooré salaamat imaan ka
-Fazl-a se apna Mawla, man alaïna bil Oufraan
+Fazl-a se apna Mawla, man alaina bil Oufraan
 
 
 
@@ -168,10 +168,10 @@ Hakné Nabi ke noor se, paida kiya arzo samah
 Hai Kulhou Allah-o-Ahad, taarif zaaté kibriya
 Tawsif Allah hassammad, khalik hai matlook ki
 
-Tha khuda aur kuch na tha, kudrat se sab païda ki
+Tha khuda aur kuch na tha, kudrat se sab paida ki
 Apni pehchaan ka pata, Noor-e-Muhammad Mustapha
 
-Adam ko hak païda kiya, wo noor phir ousmein rab 
+Adam ko hak paida kiya, wo noor phir ousmein rab 
 Sajda kiya dil-o-jaane se, jinko farishton ne bi
 
 Asrat kalam rakh haat se, dil se duah ab mane
@@ -252,7 +252,7 @@ Rasool Mohammad Swalle Ala
 
 Mohammad zainé koul zainé
 La houle badroule kasam nisfeine
-Ourij ya laï latal isneine
+Ourij ya lai latal isneine
 Ana kashdi Rasool Allah
 
 Mohammad shah kiyal wadi
@@ -267,7 +267,7 @@ Qatal tan naash bi-soukouri
 
 Mohammad ibné Abdallah
 Wa ya hafiz kalaam oullah
-Tamasaka our watïl ouska
+Tamasaka our watil ouska
 Moujahid fi sabilillah
 
 Mohammad ibné Abdallah
@@ -317,8 +317,8 @@ Iklash me la apni khoudi
 Kar dono baham matlab ekja
 kouch toum samjo kouch ham samjé
 
-koï tour pe kha ke gira
-koï chowthé falak par ja ke raha
+koi tour pe kha ke gira
+koi chowthé falak par ja ke raha
 kissé maloum youn khourbé khuda
 kouch toum samjo kouch ham samjé
 
@@ -439,7 +439,7 @@ Farishté aalamé baalaa sé sunn sunn kar ye kehte hein
 
 Chalo Nouré khuda swallé a’laa ki aaj mehfil hai
 
-Houwé hein jiske faïzé noor sé, donon jahan roshan
+Houwé hein jiske faizé noor sé, donon jahan roshan
 
 Oussi shamsun – duha swallé a’laa ki aaj mehfil hai
 
@@ -572,7 +572,7 @@ Wo baksha jaaega jiss né pukara, Ya Rassool Allah
 Taman’na he mera dil ki meri kashti wahin doubé
 Jahan se ho Madiné ka nazaara, Ya Rassool Allah
 
-Madad far maa-i-yé ab taabé gayaaï nahin baaki
+Madad far maa-i-yé ab taabé gayaai nahin baaki
 Chali jabtak zaban mein ne pukara, Ya Rassool Allah
 
 
@@ -673,7 +673,7 @@ To khursheed aaya saveré saveré
 Khuda ki karam hein naseeb mein meri
 Nabee ké oummat mein paida houwa houn
 Karoun naz aee jitna bhi outna hi kam hein
-Para faïze paaya saveré saveré 
+Para faize paaya saveré saveré 
 
 
 
@@ -787,7 +787,7 @@ Zubaan par shikwaaé ranj-o-aalam laaya nahin karté
 Nabee ke naam léwa gham se ghabraaya nahin karté
 
 He darbaaré Muhammad hai yahan apnon ka kia kehna
-Yahaan se haath khaali ghaïr bhi jaayaa nahi karté
+Yahaan se haath khaali ghair bhi jaayaa nahi karté
 
 Yé darbaaré Muhammad hai yahan milta hai bemaangé
 Aré naadaa yahan daaman ko phélaayaa nahin karté
@@ -969,7 +969,7 @@ Ye fakat naseeb ki baat hein
 
 Jissé chahé dar pe boula liya
 Jissé chahé apna bana liya
-Yeh baré karam he hain faïslé
+Yeh baré karam he hain faislé
 Yeh bare naseeb ki baa thein
 
 Woh bhatak ke raah mein rehgayi
@@ -998,7 +998,7 @@ Y:
  
 
 Mawla ya swalli wa sallim, daa-iman abadann
-A’laa Habeebi ka khaïril, khalqi kulli himi
+A’laa Habeebi ka khairil, khalqi kulli himi
 
 Mohammadun sayyedul kawnaini wa-thaqalaine
 Wal fareeqaini minn arabin’w wa minn ajami
@@ -1010,13 +1010,13 @@ Houwal Habeeboul-lasthi turja shafaa’-atouhou
 Li koulli hawlim-minal ahwaali muqtahimi
 
 Da’aa-ilal-laahi fal murtamsi kouna bihi
-Murtamsi kouna bi habli ghaïrinn munfaswimi
+Murtamsi kouna bi habli ghairinn munfaswimi
 
 Faqann-Nabeeyena fil khalqinw-wafi khulukinn
 Wa lam yuda nouhou fil ilminw-walaa karami
 
 Faghfirlina shidiha waghfirli qaari-iha
-Sa’-al tukal khaïra ya-zal judi wal karami 
+Sa’-al tukal khaira ya-zal judi wal karami 
 
 
 
@@ -1211,10 +1211,10 @@ Hein khushi har dar do aalam, Asswalaato wassalaam
 Nooré peshani se chamka, sara ghar roshan houwa
 Jibreel aakar poukara, Asswalaato wassalaam
 
-Païda hoké sajola karké, youn kahan il-hansé
+Paida hoké sajola karké, youn kahan il-hansé
 Baksh de ummat ko khudaya, Asswalaato wassalaam
 
-Jab houwé païda Mohammad, mis khaki khusbou chali
+Jab houwé paida Mohammad, mis khaki khusbou chali
 Houwi ma attar saari duniya, Asswalaato wassalaam
 
 Roshini se ounki dekhi, Amina Basra ka ghar
@@ -1244,24 +1244,24 @@ Ashrafoul Aala wo adna, Asswalaato wassalaam
 Y:
 
 
- Janabé shah ki ye kawsar houwé païda Mubaarak ho
+ Janabé shah ki ye kawsar houwé paida Mubaarak ho
 
  
 
-Janabé shah ki ye kawsar houwé païda Mubaarak ho
-Khuda ke khas pairambar houwé païda Mubaarak ho
+Janabé shah ki ye kawsar houwé paida Mubaarak ho
+Khuda ke khas pairambar houwé paida Mubaarak ho
 
-Haleema da-I ke dilbar houwé païda Mubaarak ho
-Mohammad saafiyé mehshar houwé païda Mubaarak ho
+Haleema da-I ke dilbar houwé paida Mubaarak ho
+Mohammad saafiyé mehshar houwé paida Mubaarak ho
 
-Habibé kaali ke Ackbar houwé païda Mubaarak ho
-Ye Nabiyon mein Nabee beitar houwé païda Mubaarak ho
+Habibé kaali ke Ackbar houwé paida Mubaarak ho
+Ye Nabiyon mein Nabee beitar houwé paida Mubaarak ho
 
-Nabouwat khat’m hein jin par houwé païda Mubaarak ho
-Safee Allah ke sarwar houwé païda Mubaarak ho
+Nabouwat khat’m hein jin par houwé paida Mubaarak ho
+Safee Allah ke sarwar houwé paida Mubaarak ho
 
-Khaliloullah ke dilbar houwé païda Mubaarak ho
-Kalimoullah ke afshar houwé païda Mubaarak ho
+Khaliloullah ke dilbar houwé paida Mubaarak ho
+Kalimoullah ke afshar houwé paida Mubaarak ho
 
 
 
@@ -1309,7 +1309,7 @@ Ke daaman passaaré houwé sab zamaana
 Nawaason ka sadka nigaahé karam ho
 Teré dar pe teré gada aagaya hein
 
-Nakeeraïne jab meri turbat mein aakar
+Nakeeraine jab meri turbat mein aakar
 Kaheingé ziyarat ka muzdah sunna kar
 Utho behre ta’zeem Noor-ul-Hassan ab
 Lahad mé Rasoolé Khuda aagaya hein
@@ -1623,7 +1623,12 @@ Naam ounka jahan bhi liya jaaéga
 Zikr ounka jahan bhi kiya jaaéga
 Noor hi noor seenon mein bhar jaaéga
 Saari mehfil mein jalwé lapak jaaéga
-Hamko taïbah mein boulalo-shahe zamani
+
+Y:
+
+Hamko taibah mein boulalo
+
+Hamko taibah mein boulalo-shahe zamani
 Mawla Makki Madani
 Nagar nagar aur dagar dagar phita houn mara mara
 Mujh dukhiya ko iss duniya mein koyi nahin sahara
@@ -1637,8 +1642,6 @@ Aao-milkar douah karein hum bhi Madiné jaé
 Aur jaakar darbaaré Nabee mein, roro haal sounaé
 Dil ki hasrat ye nikalém shahé zamani
 
-
- 
 Y:
 
  Roté rote dil pakar kar rehgaé
@@ -1736,7 +1739,7 @@ Jaané waalé loog humsé kehgaé
 Karté hein sab bekaram shahé Oumman
 Ané waalé Hajee hum sé kehgaé
 
-Kaïsé hashim ko bala aayé karaat
+Kaisé hashim ko bala aayé karaat
 Kate-la bichra akelé rehgaé
 
 
@@ -1989,7 +1992,9 @@ Islam zinda hota hé har karbala ke baad
 
 Y:
 
-shaheed-e-Karbala ki mominoN jab yaad aati hai
+shaheede Karbala ki mominon jab yaad aati hai
+
+shaheed-e-Karbala ki mominon jab yaad aati hai
 tadap jaati hai duniya, khoon ke aansooN bahaati hai
 Ya Hussain! Ya Hussain!
 
@@ -2102,7 +2107,7 @@ Sir akdass ne nézé par bhi duniya  ko hidayat ki
 Ali Ackbar, Ali Asrar houwé sab deen par qurbaan
 Khuda sé poucho azmate oun shahidaané mohabat ki
 
-Nabee zaadé ki shaané bandage dekhi malaïk né
+Nabee zaadé ki shaané bandage dekhi malaik né
 Ké zayré kranjaré kaatil bhi mawla ki ibaadat ki
 
 Bahakar khoon apna gulshané Islaam ki khatir
@@ -2143,7 +2148,7 @@ Waajib taklid hé dares bawafa Hasnein ka
 Eyzahmé kismal houwé wo rakib doshé Rasool
 Martaba Sarkar né ouncha kiya Hasnein ka
 
-Mil gahi hé dowlaté qaunaïne ey Akram oussé
+Mil gahi hé dowlaté qaunaine ey Akram oussé
 Sadka dil sé bangaya hé jo gada Hasnein ka
 
 
@@ -2177,7 +2182,39 @@ Mujhé har koyi oun kahi ghulaama bawafa
 Mere dil mein ye houb be Ahle Bayt Mustapha hafiz
 Yakin hé baage Jannat to miléga phir khuda jaané
 
+Y:
 
+Mustapha ke laal ne Islam zinda kardiya
+
+Mustapha ke laal ne Islam zinda kardiya
+Deen ne paak mustapha ka bol bala kar diya
+
+Pyare nana se jo wada kar ke ayé the Hussein
+Karbala mein jaan de kar, ous ko poura kardiya
+
+Apni baiyat chahata ta, Mustapha ke laal se
+Ay Yazid Allah ne tujhko, hi rouswa kardiya
+
+Apna Koumba bhika taya khoud hi qurban ho gahé
+Ounka routba haq ta'ala ne do bara kardiya.
+
+Akramé aasi tere, dil mé ishqe Ahlebaite.
+Ye khuda né teré bakshish ka wasila kardiya.
+
+Karbala main aaj bhi hai iktidaare Ahle baite
+Aur yazeediyat ko Hak ne paara paara kardiya
+
+Ahle kufa jaanasheena ne Nabi se ye kaha
+Ghayrate qawme ko tum ne paara paara kardiya
+
+Sij kar Islam ke gulshan ko apne khun se 
+Haq se jo wada kiya tha ous ko ifa kardiya
+
+Har taraf pehlayi deene Mustafa ki roshni
+Sidke payghambar ne aalam ne oujala kardiya
+
+Hogaye mein apni zaleelo khaar aadaye Huseyn
+Aur Jame Shabbir aur ouncha kardiya
 
 
 
@@ -2380,7 +2417,7 @@ Khuda ke fazl se hampar, hé saaya Ghaws e Azam ka
 Hamein donon jahan mein hé, sahara Ghaws e Azam ka
 
 Moureedi laa-takhaf kehtar tassalli di ghulaamon ka
-Qayaamat tak rahé bé khawf shaï da Ghaws Azam ka
+Qayaamat tak rahé bé khawf shai da Ghaws Azam ka
 
 Mohammad ka Rasoolon mein, he jeisé martaba aalaa
 Hé Afzal Awliya mein yun he routba Ghaws e Azam ka
@@ -3159,7 +3196,7 @@ Y:
  
 Ya Habeebé khuda, He hamari duah
 Itni tawhir hum be watan ko milé
-Khaak taïba mile, qabr ke waste
+Khaak taiba mile, qabr ke waste
 Kaali kamli ka toukra kaffan ko milé
 Ya Habeebé khuda
 
@@ -3176,7 +3213,7 @@ Kiouna oun ki khabar Panjatan ko mile
 Ya Habeebé khuda
 
 Samné hak-o-baatil ka tha maajra
-Likh diya dusté kudrat ne ye faïsla
+Likh diya dusté kudrat ne ye faisla
 Taj aur taghtmilé jané be deen ko
 Aur shahaadat Hussein-o-Hossen ko mile
 Ya Habeebé khuda
