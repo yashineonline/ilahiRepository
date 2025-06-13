@@ -1,4 +1,6 @@
-﻿Y: 
+Y:
+
+Hain Khuda ka kalaame Bismillah
 
 
  
@@ -47,6 +49,8 @@ Léta houn téra naam-e-Bismillah
 
  
 Y:
+
+Allahou Allahou Allahou Allah (2)
  
 
 Allahou Allahou Allahou Allah (2)
@@ -107,6 +111,9 @@ Yahou, Yahou, Yahou, Yahou
 
  
 Y:
+
+ Ya Hannaan, Ya Mannaan, Ya Dayyaan, Ya Subhaan
+
  
 
 Ya Hannaan, Ya Mannaan, Ya Dayyaan, Ya Subhaan
@@ -147,6 +154,9 @@ Fazl-a se apna Mawla, man alaïna bil Oufraan
 
  
 Y:
+
+Allah Allah-o-Rabbouna, Allah Allah-o-Hasbouna
+
  
 
 Allah Allah-o-Rabbouna, Allah Allah-o-Hasbouna
@@ -190,6 +200,8 @@ Na az toufail se hazaarin, bar aawé dil ke mudh
 
  
 Y:
+
+Hasbi Rabbi Jallallah maa fi Qalbi khair ullah
  
 
 Hasbi Rabbi Jallallah maa fi Qalbi khair ullah
@@ -230,6 +242,9 @@ Nouré Mohammad Swalleh Allah, La ilaaha Illallah
 
  
 Y:
+
+ La ilaha Illallah (3)
+
  
 
 La ilaha Illallah (3)
@@ -277,6 +292,9 @@ Muhammad ya Rasoul Allah
 
  
 Y:
+
+ Ye raaz Ahad Ahmad ko zara
+
  
 
 Ye raaz Ahad Ahmad ko zara
@@ -314,6 +332,9 @@ kouch toum samjo kouch ham samjé
 
  
 Y:
+
+ Yeh mera aqeeda hai dosto ke mere Huzoour Khuda nahin
+
  
 
 Yeh mera aqeeda hai dosto ke mere Huzoour Khuda nahin
@@ -355,6 +376,8 @@ Koyi mouj sé ziaada boura nahin
 
  
 Y:
+
+ Chup chupa ke le liya dil
  
 
 Chup chupa ke le liya dil
@@ -393,6 +416,8 @@ Goomnam mounawar kaun hai
 
  
 Y:
+
+ Muhammad Mustapha swallé A’laa ki aaj mehfil hai
  
 
 Muhammad Mustapha swallé A’laa ki aaj mehfil hai
@@ -435,6 +460,8 @@ Teré mushkil kousha swallé a’laa ki aaj mehfil hai
 
  
 Y:
+
+ Mehboob ki mehfil ko, mehboob sajaaté hein
  
 
 Mehboob ki mehfil ko, mehboob sajaaté hein
@@ -478,6 +505,9 @@ Ye sach hé ke niazi ham, Sarkar ké khaté hein
 
  
 Y:
+
+ Dil sé Mustapha ko tou poukar
+
  
 
 Dil sé Mustapha ko tou poukar
@@ -520,6 +550,8 @@ Ounkin ké sab hé, ounkin ke hé pé ummati
 
  
 Y:
+
+ Jabeen meri ho sangé dar tumhara, Ya Rassool Allah
  
 
 Jabeen meri ho sangé dar tumhara, Ya Rassool Allah
@@ -563,6 +595,9 @@ Chali jabtak zaban mein ne pukara, Ya Rassool Allah
 
  
 Y:
+
+ Naat sounta rahoun, naat kehta rahoun
+
  
 
 Naat sounta rahoun, naat kehta rahoun
@@ -605,6 +640,9 @@ Deed hoti rahé, dam nikhalta rahé
 
  
 Y:
+
+ Yeh kisné poukara Mohammad Mohammad
+
  
 
 Yeh kisné poukara Mohammad Mohammad
@@ -650,6 +688,9 @@ Para faïze paaya saveré saveré
 
  
 Y:
+
+ Shahé Madina, Shahé Madina
+
  
 
 Shahé Madina, Shahé Madina
@@ -690,6 +731,8 @@ Saaré Nabee teré dar ke sawaali
 
  
 Y:
+
+ Ey Khuda ilteja hai ye meri
  
 
 Ey Khuda ilteja hai ye meri
@@ -733,6 +776,8 @@ Jo darayé Madiné se ayé
 
  
 Y:
+
+ Haqeeqat mein wo loutfé zindagi paaya nahin karté
  
 
 Haqeeqat mein wo loutfé zindagi paaya nahin karté
@@ -776,6 +821,9 @@ Kissi ké saamnéwoh haath phélayaa nahin karté
 
  
 Y:
+
+ Ab pé swallé Alaa ke tarané
+
  
 
 Ab pé swallé Alaa ke tarané
@@ -810,6 +858,8 @@ Mere Sarkar aaé houwé hein
 
  
 Y:
+
+ Chamak tujhsé paaté hein sab paané waalé
  
 
 Chamak tujhsé paaté hein sab paané waalé
@@ -853,6 +903,8 @@ Kahan tumné dekh hein chandraané waalé
 
  
 Y:
+
+ Woh Raouf hein, Woh Raheem hein
  
 
 Woh Raouf hein, Woh Raheem hein
@@ -895,9 +947,12 @@ Wo kaleem thé ya Habeeb hein
 
  
 Y:
+
+ Na kahin se door hein manzilein
+
  
 
-Na kahin se door hein manziein
+Na kahin se door hein manzilein
 Na koyi kareeb ki baat he
 Jissé chaho ousko Nawaz de
 Ye dare Habeeb ki baat he
@@ -938,6 +993,8 @@ Yeh tere Habeen ki baat hein
 
  
 Y:
+
+ Mawla ya swalli wa sallim, daa-iman abadann
  
 
 Mawla ya swalli wa sallim, daa-iman abadann
@@ -970,6 +1027,9 @@ Sa’-al tukal khaïra ya-zal judi wal karami
 
  
 Y:
+
+ Har dar ki dawah hein Swallé Alaa Muhammad
+
  
 
 Har dar ki dawah hein Swallé Alaa Muhammad
@@ -1013,6 +1073,9 @@ kia khoube lé chala hein, Swallé Alaa Muhammad
 
  
 Y:
+
+ Khusrawi achi lagi na sarwari acchi lagi
+
  
 Khusrawi achi lagi na sarwari acchi lagi
 Hum Fakeeron ko Madine ki gali acchi lagi
@@ -1049,6 +1112,9 @@ Ashiqaan-e-Mustapha ko who bari acchi lagi
 
  
 Y:
+
+Sab se awla wo aala hamara nabee
+
  
 
 Sab se awla wo aala hamara nabee
@@ -1091,6 +1157,11 @@ Bekasson ka sahaara hamara nabee
 
  
 Y:
+¶
+
+
+Allah Allah Allah hou laailaaha illahou (2)
+
  
 
 Allah Allah Allah hou laailaaha illahou (2)
@@ -1126,6 +1197,10 @@ Sojaa sojaa rehmat aalam do jagka sultaan Nabijee
 
  
 Y:
+
+
+Ya Nabee Allah Aleikum, Asswalaato wassalaam
+
  
 Ya Nabee Allah Aleikum, Asswalaato wassalaam
 Ya Habeeboullah Aleikum, Asswalaato wassalaam
@@ -1167,6 +1242,10 @@ Ashrafoul Aala wo adna, Asswalaato wassalaam
 
  
 Y:
+
+
+ Janabé shah ki ye kawsar houwé païda Mubaarak ho
+
  
 
 Janabé shah ki ye kawsar houwé païda Mubaarak ho
@@ -1205,6 +1284,9 @@ Kalimoullah ke afshar houwé païda Mubaarak ho
 
  
 Y:
+
+ Yeh kehti thi ghar ghar mein jaakar Halima
+
  
 
 Yeh kehti thi ghar ghar mein jaakar Halima
@@ -1246,6 +1328,9 @@ Lahad mé Rasoolé Khuda aagaya hein
 
  
 Y:
+
+ Noor Paak-e-Mustapha jab aagaya kandil mein
+
  
 Noor Paak-e-Mustapha jab aagaya kandil mein
 Noor ki kandil aathi aur Noor aatha kandil mein
@@ -1287,6 +1372,9 @@ Jab ke fakreh Embeya ka, ghar bana kandil mein
 
  
 Y:
+
+ Swallé alaa Muhammadin, swallé alaa Muhammadin
+
  
 
 Swallé alaa Muhammadin, swallé alaa Muhammadin
@@ -1326,6 +1414,9 @@ Kiss ko mila yeh martaba, swallé alaa Muhammadin
 
  
 Y:
+
+ Swallé alaa Nooré Nabee kia khoube hai
+
  
 
 Swallé alaa Nooré Nabee kia khoube hai
@@ -1367,6 +1458,9 @@ Kia khoube hai, kia khoube hai
 
  
 Y:
+
+ Hum mazaré Mohammad pe Marjaaeingé
+
  
 
 Hum mazaré Mohammad pe Marjaaeingé
@@ -1408,6 +1502,9 @@ Hum mazaré Mohammad pe marjaeingé
 
  
 Y:
+
+ Allah Allah hou Allah hou Allah (2)
+
  
 
 Allah Allah hou Allah hou Allah (2)
@@ -1453,6 +1550,8 @@ Chaliyé chaliyé Rasoolé paiyambar
 
  
 Y:
+
+ Yehi hein tamanna yehi aarzoo hein
  
 Yehi hein tamanna yehi aarzoo hein
 Yehi to sounaané ko ji chahata hein
@@ -1494,10 +1593,13 @@ Wo naatein sounané koji chahata hein
 
  
 Y:
+
+ Wajihad-deeni wal karami
+
  
 Wajihad-deeni wal karami
 Wa haleefal ilmi wal hi qami
-Nabeeyyn, Nabeeyun, Nabeeyun – Nabee
+Nabeeyun, Nabeeyun, Nabeeyun – Nabee
 
 Faaslon ko takalluf hé hamsé agar
 Ham bhi bébass nahin bé-sahaara nahin
@@ -1538,6 +1640,9 @@ Dil ki hasrat ye nikalém shahé zamani
 
  
 Y:
+
+ Roté rote dil pakar kar rehgaé
+
  
 Roté rote dil pakar kar rehgaé
 Wo nazaré yaad jab bhi aagaé
@@ -1580,6 +1685,9 @@ Wo nazaré yaad jab bhi aagaé
 
  
 Y:
+
+ Mehboobé kibriya sé, mera salaam kehna
+
  
 Mehboobé kibriya sé, mera salaam kehna
 Sultané Embeya sé, mera salaam kehna
@@ -1612,6 +1720,9 @@ Seené se bhi lagaana, ankhon se bhi lagaana
 
  
 Y:
+
+ Yaad mein Aaka ki ansou behagaé
+
  
 Yaad mein Aaka ki ansou behagaé
 Sab Madiné ko gaé hum rehgaé
@@ -1644,6 +1755,9 @@ Kate-la bichra akelé rehgaé
 
  
 Y:
+
+ Hum bhi jaheingé Madiné, aaj nahin to kal sahi
+
  
 
 Hum bhi jaheingé Madiné, aaj nahin to kal sahi
@@ -1676,6 +1790,9 @@ Bigri kismet ko banana, aaj nahin to kal sahi
 
  
 Y:
+
+ Jiska chaliswan aaj hai, Ya Mohammad Ya Rasool
+
  
 Jiska chaliswan aaj hai, Ya Mohammad Ya Rasool
 Ouss bechare ki qabr par bejiyo rehmat ke phool
@@ -1701,6 +1818,9 @@ Jahan ka tan
 
  
 Y:
+
+ Paro kalma Mohammad ka, Mohammad naam lélékar
+
  
 Paro kalma Mohammad ka, Mohammad naam lélékar
 Karo Islam ko kaa-im, Mohammad naam lélékar
@@ -1729,6 +1849,8 @@ Karoun wan shukr ke sajdé, Mohammad naam lélékar
 
  
 Y:
+
+ Jab mawt ke paighram tujhé aawé ga baba
  
 
 Jab mawt ke paighram tujhé aawé ga baba
@@ -1769,6 +1891,9 @@ Allah ko kia ous gharee batla-é-ga baba
  
 Y:
 
+ Mujhé mawt aayé Ya Rab
+
+
 Mujhé mawt aayé Ya Rab
 Daré Mustapha pe jaakar
 Kahin sab ke so gaya he
@@ -1804,6 +1929,8 @@ Tujhé saamné boula kar
  
 Y:
 
+ Sayyad né karbala mein
+
 
 Sayyad né karbala mein
 Waadé nibadiyé hein                x 2
@@ -1835,6 +1962,8 @@ Naamé khuda diyé hein
 
  
 Y:
+
+ Hamdé khuda-o-nalé Habeebé khoda ké baad
 
 Hamdé khuda-o-nalé Habeebé khoda ké baad
 Ho zikr Ahlé bayt bhi eh do wafa ke baad
@@ -1868,6 +1997,9 @@ Islam zinda hota hé har karbala ke baad
  
 Y:
 
+ Shaheedé karbala ne laaj rakh li saari oummat ki
+
+
 Shaheedé karbala ne laaj rakh li saari oummat ki
 Dikha dil kadsiyon ko shaan mehrajé shahaadat ki
 
@@ -1898,6 +2030,9 @@ Yé ey Akram ounhin haasil houwi mehraj izzat ki
 
  
 Y:
+
+ Mustapha né bol bala kar diya Hasnein ka
+
 
 
 Mustapha né bol bala kar diya Hasnein ka
@@ -1931,6 +2066,9 @@ Sadka dil sé bangaya hé jo gada Hasnein ka
  
 Y:
 
+ Shahidé karbala-i-ka koyi kya martaba jaané
+
+
 Shahidé karbala-i-ka koyi kya martaba jaané
 Jo jaané who Muhammad aur Ali Sheiré khuda jaané
 
@@ -1962,6 +2100,8 @@ Yakin hé baage Jannat to miléga phir khuda jaané
 
  
 Y:
+
+ Abdool Qadir Jilani
 
 
 Abdool Qadir Jilani
@@ -2030,6 +2170,9 @@ Hashr mein ho na peshmani
  
 Y:
 
+ Shayl’lillah Ya Abdoul Qaadir
+
+
 Shayl’lillah Ya Abdoul Qaadir
 Mouhay-youd deen Ya’qalbé haazir
 Jilani Billahé baadir
@@ -2073,6 +2216,8 @@ Al madad ya Abdool Qadir
 
  
 Y:
+
+ Ya Ghaws ho tum Abdool Qaadir
  
 
 Ya Ghaws ho tum Abdool Qaadir
@@ -2105,6 +2250,8 @@ Bas ek ishaara kafi hein
 
  
 Y:
+
+ Aaya hein tera deewaana Shayl’lillah Shayl’lillah
  
 Aaya hein tera deewaana Shayl’lillah Shayl’lillah
 Kehta hein yehi ye mastana, Shayl’lillah Shayl’lillah
@@ -2138,6 +2285,8 @@ Shayal’lillah Shayal’lillah
 
  
 Y:
+
+ Khuda ke fazl se hampar, hé saaya Ghaws e Azam ka
  
 
 Khuda ke fazl se hampar, hé saaya Ghaws e Azam ka
@@ -2170,6 +2319,8 @@ Gounahon ko hamaaré baksh sadqa Ghaws Azam ka
 
  
 Y:
+
+ Mujhé jaldi aao nazar Ghaws E Azam 
  
 Mujhé jaldi aao nazar Ghaws E Azam 
 Nahin mujhé hota sabar Ghaws E Azam
@@ -2196,6 +2347,9 @@ Bahat din so hein mountazar Ghaws E Azam
 
  
 Y:
+
+ Ya Hazrate Peerane Peer Ya swahebé roshan zameer
+
  
 
 Ya Hazrate Peerane Peer Ya swahebé roshan zameer
@@ -2226,6 +2380,8 @@ Rakh deen-o-duniya mein sharam, Ya Ghaws-ul-Azam-dastageer
 
  
 Y:
+
+ Mera Peer dastageer, tumhi gham ka kwar ho
  
 Mera Peer dastageer, tumhi gham ka kwar ho
 Tumhi bera paar karo to mera bera paar ho
@@ -2258,6 +2414,9 @@ Aap aajaé tassawoor mein to hein roshan zameer
 
  
 Y:
+
+ Peeron ka Peer Hazraté, Peerané Peer hein
+
  
 
 Peeron ka Peer Hazraté, Peerané Peer hein
@@ -2290,6 +2449,9 @@ Yeh Peer ous ké aap hein, aap dastageer hein
 
  
 Y:
+
+ Jo Ghaws mokarram par, duniya mein fida hoga
+
  
 Jo Ghaws mokarram par, duniya mein fida hoga
 Who arsh ke saye mein, mehshar mein khara hoga
@@ -2317,6 +2479,8 @@ Kioun karna fararat ho, gar fazlé tera hoga
 
  
 Y:
+
+ Sarkaaré Ghaws-E-Azam, nazré karam khudara
  
 Sarkaaré Ghaws-E-Azam, nazré karam khudara
 Meri kaal jholi bhardo, mein faker houn tumhara
@@ -2349,6 +2513,8 @@ Kahan roussiyaah Fareedee, kahan aasta tumhara
 
  
 Y:
+
+ Sab kuch milega Ghaws ke dar se tou mangle
  
 
 Sab kuch milega Ghaws ke dar se tou mangle
@@ -2382,6 +2548,9 @@ Jo kuch bhi mang’na he, to jee bhar ke manglé
 
  
 Y:
+
+ Baghdad mujhé panchadé khuda
+
  
 
 Baghdad mujhé panchadé khuda
@@ -2418,6 +2587,8 @@ Chaadar mein chara oun phoolon ki
 
  
 Y:
+
+ Ghaws-ul-wara ke dar ki azmat bari hein
  
 
 Ghaws-ul-wara ke dar ki azmat bari hein
@@ -2450,6 +2621,9 @@ Ounchi jagha pe (2) meri kismet khari hein, rehmat ke khazané
 
  
 Y:
+
+ Aaj karamat apni, sab ko dikhana
+
  
 Aaj karamat apni, sab ko dikhana
 Ghaws piya meri, (Bigri banana) x 2
@@ -2482,6 +2656,9 @@ Hoga kissi din to, Baghdaad jaana
 
  
 Y:
+
+ Mohammad Mustapha ka laadla sultané Jilani
+
  
 
 Mohammad Mustapha ka laadla sultané Jilani
@@ -2514,6 +2691,9 @@ Har ek mushkil mein kaam aana, yé aadat hé téré ghar ki
 
  
 Y:
+
+ Gulshan tumhara kouch hai, Ya Peer Dastageer
+
  
 Gulshan tumhara kouch hai, Ya Peer Dastageer
 Jannat tumhara Rawza hai, Ya Peer Dastageer
@@ -2546,6 +2726,9 @@ Dil ko, toujise pyaar hai
 
  
 Y:
+
+ Il-Refahi koulsheire Nillah
+
  
 Il-Refahi koulsheire Nillah
 Abdool Qadeer Jilani
@@ -2595,6 +2778,9 @@ Mohammad Rasool Allah
 
  
 Y:
+
+ Ya Hassan basaré, Ya Sayyad Shabaan
+
  
 
 Ya Hassan basaré, Ya Sayyad Shabaan
@@ -2627,6 +2813,9 @@ Ashikoul dwamir, mashouk oullah Refahi
 
  
 Y:
+
+ Ya Nabee Salaam-alaika
+
  
 Ya Nabee Salaam-alaika
 Ya Rasool Salaam-alaika
@@ -2675,6 +2864,8 @@ Jo kahoun ousse se siwa ho
 
  
 Y:
+
+ Bigri ham sab ki banado
  
 Bigri ham sab ki banado
 Silké noorani dikhaado
@@ -2720,6 +2911,9 @@ Hum gunehgaaron ki sounlo
 
  
 Y:
+
+ Ya Nabee kidiyé karam ham par
+
  
 Ya Nabee kidiyé karam ham par
 Be saharé salaam kehté hein
@@ -2776,6 +2970,9 @@ Sab gulaamon salaam kehté hein
 
  
 Y:
+
+ Ey sabse gumbad waalé
+
  
 Ey sabse gumbad waalé
 Manzoor dual karna
@@ -2821,6 +3018,9 @@ Deedar ataa karna
 
  
 Y:
+
+ Ibne Ali Ki azmat pe lakhon salaam
+
  
 Ibne Ali Ki azmat pe lakhon salaam
 Shammé bazmé shahadat pe lakhon salaam
@@ -2866,6 +3066,9 @@ Hassan-o-Hussein Ibné Heidar pe lakhon salaam
 
  
 Y:
+
+ Ya Habeebé khuda, He hamari duah
+
  
 Ya Habeebé khuda, He hamari duah
 Itni tawhir hum be watan ko milé
@@ -2898,6 +3101,9 @@ Ya Habeebé khuda
 
  
 Y:
+
+ Ghaws Azam hak ke pyaaré, lo salaam abto hamaré
+
  
 Ghaws Azam hak ke pyaaré, lo salaam abto hamaré
 Khadimon ke ho saharé, lo salaam abto hamaré
@@ -2939,14 +3145,19 @@ Lo salaam abto hamaré
 
  
 Y:
+
+ Ya Muhammad Noor e Mujassam ya Habibi ya Moulai
+
  
-YA Muhammad Noor e Mujassam ya Habibi ya Moulai
+Ya Muhammad Noor e Mujassam ya Habibi ya Moulai
 Taswir e Kamal e Muhabbat Tanwir e Jamal e Khudai
-Tera was bayan ho kis se Teri kon karega bharai
+Tera was bayan ho kis se Teri kon karega bharai
 Nabi ji, Teri kon karega bharai
+
 Is gard e Safar mein gum hai Jibril e Amin ki Rasai
 Teri ik nazar ke Talib Tere ik Sukhan par qurban
 Yeh sab Tere diwane yeh sab tere sudai
+
 Yeh rang e Bahar e Gulshan yeh gul aur gul ka jouban
 Tere Noor e qadam ka dhoban us dhoban ki rounai
 Ma ajmalaka Teri surat, ma ahsanaka teri sirat
@@ -2954,7 +3165,8 @@ Ma akmalaka Teri azmat teri zaat mein gum hai Khudai
 
 Tu rayees e Roz e Shafa’at tu Amir e Luft o Inayat
 Hai Adib ko tujh se nisbat yeh Ghulam hai, Tu Aqa’i
- 
+ 
+
 
 
 
