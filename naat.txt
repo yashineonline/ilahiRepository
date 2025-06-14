@@ -2109,7 +2109,7 @@ Mera salaam lena, mera salaam lena
 
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Abdool Qadir Jilani
 
@@ -2179,7 +2179,7 @@ Hashr mein ho na peshmani
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Shayl’lillah Ya Abdoul Qaadir
 
@@ -2228,7 +2228,7 @@ Al madad ya Abdool Qadir
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Ya Ghaws ho tum Abdool Qaadir
  
@@ -2264,7 +2264,7 @@ Bas ek ishaara kafi hein
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Aaya hein tera deewaana Shayl’lillah Shayl’lillah
  
@@ -2301,7 +2301,7 @@ Shayal’lillah Shayal’lillah
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Khuda ke fazl se hampar hé saaya Ghaws e Azam ka
  
@@ -2337,7 +2337,7 @@ Gounahon ko hamaaré baksh sadqa Ghaws Azam ka
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Mujhé jaldi aao nazar Ghaws E Azam 
  
@@ -2367,7 +2367,7 @@ Bahat din so hein mountazar Ghaws E Azam
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Ya Hazrate Peerane Peer Ya swahebé roshan zameer
 
@@ -2402,7 +2402,7 @@ Rakh deen-o-duniya mein sharam, Ya Ghaws-ul-Azam-dastageer
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Mera Peer dastageer tumhi gham ka kwar ho
  
@@ -2438,7 +2438,7 @@ Aap aajaé tassawoor mein to hein roshan zameer
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Peeron ka Peer Hazraté Peerané Peer hein
 
@@ -2475,7 +2475,7 @@ Yeh Peer ous ké aap hein, aap dastageer hein
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Jo Ghaws mokarram par duniya mein fida hoga
 
@@ -2507,7 +2507,7 @@ Kioun karna fararat ho, gar fazlé tera hoga
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Sarkaaré Ghaws-E-Azam nazré karam khudara
  
@@ -2543,7 +2543,7 @@ Kahan roussiyaah Fareedee, kahan aasta tumhara
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Sab kuch milega Ghaws ke dar se tou mangle
  
@@ -2580,7 +2580,7 @@ Jo kuch bhi mang’na he, to jee bhar ke manglé
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Baghdad mujhé panchadé khuda
 
@@ -2621,7 +2621,7 @@ Chaadar mein chara oun phoolon ki
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Ghaws-ul-wara ke dar ki azmat bari hein
  
@@ -2657,7 +2657,7 @@ Ounchi jagha pe (2) meri kismet khari hein, rehmat ke khazané
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Aaj karamat apni sab ko dikhana
 
@@ -2694,7 +2694,7 @@ Hoga kissi din to, Baghdaad jaana
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Mohammad Mustapha ka laadla sultané Jilani
 
@@ -2731,7 +2731,7 @@ Har ek mushkil mein kaam aana, yé aadat hé téré ghar ki
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Gulshan tumhara kouch hai Ya Peer Dastageer
 
@@ -3359,7 +3359,7 @@ Ya Habeebé khuda
  
 Y:
 
-Category : Ghaws
+Category: Ghaws
 
 Ghaws Azam hak ke pyaaré lo salaam abto hamaré
 
