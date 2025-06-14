@@ -1004,7 +1004,7 @@ Bekasson ka sahaara hamara nabee
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 
 Allah Allah Allah Hu la ilaha illahu
@@ -1045,7 +1045,7 @@ Sojaa sojaa rehmat aalam do jagka sultaan Nabijee
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Ya Nabee Allah Aleikum Asswalaato wassalaam
 
@@ -1091,7 +1091,7 @@ Ashrafoul Aala wo adna, Asswalaato wassalaam
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Janabé shah ki ye kawsar houwé paida Mubaarak ho
 
@@ -1134,7 +1134,7 @@ Kalimoullah ke afshar houwé paida Mubaarak ho
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Yeh kehti thi ghar ghar mein jaakar Halima
 
@@ -1180,7 +1180,7 @@ Lahad mé Rasoolé Khuda aagaya hein
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Noor Paak-e-Mustapha jab aagaya kandil mein
 
@@ -1226,7 +1226,7 @@ Jab ke fakreh Embeya ka, ghar bana kandil mein
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Swallé alaa Muhammadin swallé alaa Muhammadin
 
@@ -1270,7 +1270,7 @@ Kiss ko mila yeh martaba, swallé alaa Muhammadin
  
 Y:
 
-Category: Naate Rasul, Mawlood, 
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Swallé alaa Nooré Nabee kia khoube hai
 
