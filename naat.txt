@@ -314,7 +314,7 @@ Goomnam mounawar kaun hai
 
 Y:
 
-Category: Naate Rasul
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Muhammad Mustapha swalle Ala ki aaj mehfil hai
 
@@ -341,7 +341,9 @@ Teré mushkil kousha swallé a’laa ki aaj mehfil hai
 
 Y:
 
-Category: Naate Rasul
+L: https://youtu.be/DLbdassjJoo?si=eTaABoDn22dDg13e
+
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Mehboob ki mehfil ko Mehboob sajaate hain
 
