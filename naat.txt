@@ -1799,8 +1799,9 @@ Tujhé saamné boula kar
  
 Y:
 
- Sayyad né karbala mein
+Category: Muharram
 
+Sayyad ne karbala mein
 
 Sayyad né karbala mein
 Waadé nibadiyé hein                x 2
@@ -1813,7 +1814,7 @@ Ackbar ne bhi jawaani
 Abbass ne bhi apné                x 2
 Baazoo katha diyé hein
 
-BoléHussein Mawla
+Bolé Hussein Mawla
 Teri raza khi kathirr
 Ek bharr mein né                   x 2
 Heeré loutha diyé hein
@@ -1835,9 +1836,9 @@ Y:
 
 Category: Muharram
 
- Hamdé khuda-o-nalé Habeebé khoda ké baad
+Hamde Khuda o naate Habeebe Khuda ke baad
 
-Hamdé khuda-o-nalé Habeebé khoda ké baad
+Hamde Khuda-o-naate Habeebe Khuda ke baad
 Ho zikr Ahlé bayt bhi eh do wafa ke baad
 
 Dil kampta he ous ke tassawoor sé aaj bhi
@@ -1860,6 +1861,8 @@ Islam zinda hota hé har karbala ke baad
 
 
 Y:
+
+Category: Muharram
 
 shaheede Karbala ki mominon jab yaad aati hai
 
@@ -1958,8 +1961,9 @@ O Hussain! O Hussain!
  
 Y:
 
- Shaheedé karbala ne laaj rakh li saari oummat ki
+Category: Muharram
 
+Shaheede karbala ne laaj rakh li saari ummat ki
 
 Shaheedé karbala ne laaj rakh li saari oummat ki
 Dikha dil kadsiyon ko shaan mehrajé shahaadat ki
@@ -1973,7 +1977,7 @@ Zameen-o-aasman mein dhoom hein oun ki shouja’at ki
 Houwa rahab musalmaan dekh kar anwar ki bearish
 Sir akdass ne nézé par bhi duniya  ko hidayat ki
 
-Ali Ackbar, Ali Asrar houwé sab deen par qurbaan
+Ali Akbar, Ali Asrar houwé sab deen par qurbaan
 Khuda sé poucho azmate oun shahidaané mohabat ki
 
 Nabee zaadé ki shaané bandage dekhi malaik né
@@ -1986,13 +1990,12 @@ Bal ahya oun shahidan ké liyé farma diya hak né
 Yé ey Akram ounhin haasil houwi mehraj izzat ki
 
 
-
-
-
  
 Y:
 
- mustafa né bol bala kar diya Hasnein ka
+Category: Muharram
+
+Mustafa ne bol bala kar diya Husnein ka
 
 
 
@@ -2014,10 +2017,10 @@ Damané Akdass hamein jab mil gaya Hasbein ka
 Ey Musalmaan issi sé hogahé tum kamiyaab
 Waajib taklid hé dares bawafa Hasnein ka
 
-Eyzahmé kismal houwé wo rakib doshé Rasool
+Ey zahmé kismal houwé wo rakib doshé Rasool
 Martaba Sarkar né ouncha kiya Hasnein ka
 
-Mil gahi hé dowlaté qaunaine ey Akram oussé
+Mil gahi hé dowlate qawnayne ey Akram oussé
 Sadka dil sé bangaya hé jo gada Hasnein ka
 
 
@@ -2198,6 +2201,8 @@ translated with chat gpt 3 July 2025
 
 Y:
 
+Category: Muharram
+
 L: https://youtu.be/mvjLA1sow9w?si=XhG0YbKFgYb1szs1
 
 A: https://youtu.be/00EhIs9ym3I?si=Z3eKSQf2oQfgFKbj
@@ -2358,7 +2363,9 @@ Dieu a fait de cet amour la cause de ton pardon
 
 Y:
 
-Ey shahe deen o duniya mera salaam lena
+Category: Muharram, Mawlud, Meelad
+
+Ey Shahe deen o duniya mera salaam lena
 
 Eh shahe deen-o- duniya mera salaam lena
 Tumse banegi auk ba mera salaam lena
@@ -2385,6 +2392,7 @@ Tum ho Habeebe dawar, mein tum khata ka peikar
 Tum meri laaj rakna, mera salaam lena
 
 Sarkar ilteja he har baar ye nazar ki
+Sultan Abdul Qadir Jilani har baar ye nazar ki
 Mera salaam lena, mera salaam lena
 
 Y:
@@ -3102,7 +3110,7 @@ Mohammad Rasool Allah
  
 Y:
 
-Category: Pir Rifai
+Category: Pir Rifai, Muharram
 
 Ya Hasan Basare
 
@@ -3131,6 +3139,8 @@ Sayyad Ahmadoul Kabir, Sayyad Ali yil maki
 Ashikoul dwamir, mashouk oullah Refahi
 
 Y:
+
+Category: Muharram
 
 Aliya
 
@@ -3244,6 +3254,10 @@ Ewa Allah
 
 Y:
 
+Category: Muharram
+
+Insan har ek rang musibat Ko oothaale ey desiyon waale 
+
 Insaan har ek raang Mousibat Ko outhale ey desiyon wale 
 Sar par jo Khire toute falak Kawn sambhale ey desiyon wale.
 - Hazrate Shabbir Ka Sathi thi
@@ -3265,6 +3279,8 @@ kiss ke hawale ey desiyon wale
 
 
 Y:
+
+Category: Ajmer
 
 Parda zara outhade Ajmeer wale khwaja
 
@@ -3296,6 +3312,8 @@ Ahsee azizo mujhrim kamzor he tera khadim
 Ab iss ka mud-dua dé Ajmeer wale khwaja
 
 Y:
+
+Category: Ajmer
 
 Shahe Baba Peer khwaja
 
@@ -3405,7 +3423,7 @@ Hum gunehgaaron ki sounlo
 
 Y:
 
-mustafa jaane rehmat pe lakhon salaam
+Mustafa jaane rehmat pe laakon salaam
 
 mustafa jaane rehmat pe lakhon salaam
 Sham-é- bazme hedayat pé lakhon Salaam
@@ -3449,7 +3467,7 @@ mustafa jaane rehmat pe lakhon Salaam
  
 Y:
 
- Ya Nabee kidiyé karam ham par
+ Ya Nabee kijiye karam ham par
 
  
 Ya Nabee kidiyé karam ham par
@@ -3560,8 +3578,9 @@ Deedar ataa karna
  
 Y:
 
- Ibne Ali Ki azmat pe lakhon salaam
+Category: Muharram
 
+Ibne Ali Ki azmat pe laakon salaam
  
 Ibne Ali Ki azmat pe lakhon salaam
 Shammé bazmé shahadat pe lakhon salaam
@@ -3608,8 +3627,9 @@ Hassan-o-Hussein Ibné Heidar pe lakhon salaam
  
 Y:
 
- Ya Habeebé khuda, He hamari duah
+Category: Muharram
 
+Ya Habeebe Khuda Hai hamari dua
  
 Ya Habeebé khuda, He hamari duah
 Itni tawhir hum be watan ko milé
@@ -3645,7 +3665,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Ghaws Azam hak ke pyaaré lo salaam abto hamaré
+Ghaws Azam Hak ke pyaare lo salaam abto hamare
 
  
 Ghaws Azam hak ke pyaaré, lo salaam abto hamaré
@@ -3917,6 +3937,8 @@ Shaafa - e- roze jazaa khairul wara ke waasthe
 
 Y:
 
+Category: Mawlud, Meelad
+
 Aye Shahenshah-e-madina Assalaato Wassalaam
 
 Aye Shahenshah-e-madina Assalaato Wassalaam
@@ -3988,6 +4010,8 @@ Ya Rab Meri Soi Hui Taqdeer Jaga De
 Ankhein Mujhe Di Hein To Madina Bhi Dikha De
 
 Y:
+
+Category: Mawlud, Meelad
 
 Jab Arab Ke Chaman Mein Woh Noore Khuda
 
