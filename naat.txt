@@ -3937,7 +3937,7 @@ Shaafa - e- roze jazaa khairul wara ke waasthe
 
 Y:
 
-Category: Mawlud, Meelad
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Aye Shahenshah-e-madina Assalaato Wassalaam
 
@@ -4011,7 +4011,7 @@ Ankhein Mujhe Di Hein To Madina Bhi Dikha De
 
 Y:
 
-Category: Mawlud, Meelad
+Category: Naate Rasul, Mawlud, Meelad,  
 
 Jab Arab Ke Chaman Mein Woh Noore Khuda
 
