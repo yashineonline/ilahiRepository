@@ -11039,7 +11039,7 @@ Al Kabir Al Hafiz Ya Allah
 Al Muqit Al Hasib Ya Allah 
 
 Al Jalil Al Karim Al Raqib Al Mujib 
-Al Wasi Al Hakim Al Wadud Al Majid 
+Al Wasi Al Hakim ##Al Wadud## Al Majid 
 
 Al Ba’ith Al Shahid Ya Allah 
 Al Haqq Al Wakil Ya Allah 
@@ -11065,10 +11065,10 @@ Al Waali Al Muta’ali Al Barr Al Tawwab
 Al Muntaqim Al Afu Ya Allah 
 Al Ra’uf Malik ul Mulk Ya Allah 
 Dhul Jalali Wal İkram Ya Allah 
-Al Muqsit Al Jami Ya Allah 
+Al Muqsit ##Al Jami## Ya Allah 
 
 Al Ghani Al Mughni Al Mani Al Darr 
-Al Nafi Al Nur Al Hadi Al Badi 
+##Al Nafi## Al Nur Al Hadi Al Badi 
 
 Al Baqi Al Warith Ya Allah 
 Al Rashid Al Sabur Ya Allah 
@@ -11791,6 +11791,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
