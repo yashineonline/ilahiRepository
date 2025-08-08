@@ -11014,7 +11014,7 @@ Ya Allah Ya Allah Ya Allah
 
 Al Rahman Al Rahim Ya Allah 
 Al Malik Al Quddus Ya Allah 
-#Al Salaam# Al Mu’min Ya Allah 
+##Al Salaam## Al Mu’min Ya Allah 
 Al Muhaymin Al Aziz Ya Allah 
 
 Al Jabbar Al Mutakabbir Al Khaliq Al Bari 
@@ -11791,6 +11791,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
