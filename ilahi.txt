@@ -77,7 +77,7 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
-$shaykh-taner-vargonen-ansari-what-is-you-and-what-is-me
+$what-is-you-and-what-is-me
 
 Alternative and Extra words:
 
@@ -11796,6 +11796,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
