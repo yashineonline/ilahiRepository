@@ -3300,7 +3300,7 @@ Seyfüna meslulü beynel evliya-i
 Envarül Hüseyni Gavsüs Sakaleyni
 Meded ya Rifai Sahib kıbleteyni
 
-$peeron-ka-peer-hazrate-peerane-peer-hein|testing next
+$peeron-ka-peer-hazrate-peerane-peer-hein|file=naat.txt|testing next
 
 
 T:
@@ -11794,6 +11794,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
