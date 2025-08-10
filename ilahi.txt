@@ -3300,7 +3300,7 @@ Seyfüna meslulü beynel evliya-i
 Envarül Hüseyni Gavsüs Sakaleyni
 Meded ya Rifai Sahib kıbleteyni
 
-https://aqrtsufi.github.io/ilahi/player/peeron-ka-peer-hazrat-peeran-peer-hein|next
+£https://aqrtsufi.github.io/ilahi/player/peeron-ka-peer-hazrat-peeran-peer-hein|next
 
 T:
 The lights of Hz Huseyn, The Helper of both humans and jinn
@@ -11793,6 +11793,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
