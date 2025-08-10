@@ -77,6 +77,8 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
+$shaykh-taner-vargonen-ansari-what-is-you-and-what-is-me
+
 Alternative and Extra words:
 
 Abdul Kadir el-Geylani züt'tasrifi fi'l-ekvani
@@ -11794,6 +11796,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
