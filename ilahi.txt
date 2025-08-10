@@ -77,8 +77,6 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
-$what-is-you-and-what-is-me
-
 Alternative and Extra words:
 
 Abdul Kadir el-Geylani züt'tasrifi fi'l-ekvani
@@ -10295,6 +10293,10 @@ to the voice of
 our beloved Pir,
 Shaykh Muhyiddin Ansari!
 
+Tap on the link below to read poems 
+by Shaykh Taner Ansari:
+$what-is-you-and-what-is-me
+
 
 Y:
 
@@ -11796,6 +11798,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
