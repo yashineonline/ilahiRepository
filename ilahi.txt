@@ -5393,7 +5393,7 @@ SuggestedZikr: Hu, Hayy
 HİZMETİNİ EDEMEDİM                        
 
 Hizmetini edemedim                                 
-Himmetini alamadım                                
+##Himmetini## alamadım                                
 Aşk oduna yanamadım                            
 Yandır Şeyhim kül olayım illallah Hu
 Aşk oduna ben yanayım illallah Hu 
@@ -5414,7 +5414,7 @@ Ya Mevlana Şeyhen lillah illallah Hu
 Selatullah selamullah aleyke ya Habib Allah
 Ya Hacı Bektaş Şeyhen lillah illallah Hu         
 
-Bana himmet daim eyle                           
+Bana ##himmet## daim eyle                           
 Kare kalbim cila eyle                                 
 Hizmetinde daim eyle                                
 Yandır Şeyhim kül olayım illallah Hu
@@ -5427,7 +5427,7 @@ Ya Hashimi Şeyhen lillah illallah Hu
    
 İhvanınla niyazdayız                         
 Rahmatinle sıratdayız                     
-La tak netu himmet bize                        
+La tak netu ##himmet## bize                        
 Yandır Şeyhim kül olayım illallah Hu 
 Aşk oduna ben yanayım illallah Hu     
 
@@ -5519,7 +5519,7 @@ Thank you
 
 T:
 I could not do your service
-I could not get your blessing
+I could not get your blessing ( ##himmet## )
 I could not burn in the fire of love
 Oh my Shaykh, let me be ashes, illallah Hu
 Let me burn in the fire of Love illallah Hu
@@ -5540,7 +5540,7 @@ Mevlana Rumi is a Shaykh of Allah illallah Hu
 May peace and blessing be on you Beloved of Allah
 Haji Bektash is a Shaykh of Allah
 
-Continue sending your blessings on me
+Continue sending your blessings ( ##himmet## ) on me
 Open up my black heart
 Keep me constant in your service
 Oh my Shaykh, let me be ashes, illallah Hu
@@ -11798,6 +11798,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
