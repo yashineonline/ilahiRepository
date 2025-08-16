@@ -5392,6 +5392,8 @@ SuggestedZikr: Hu, Hayy
 
 HİZMETİNİ EDEMEDİM                        
 
+test 
+
 Hizmetini edemedim                                 
 ##Himmetini## alamadım                                
 Aşk oduna yanamadım                            
@@ -11798,6 +11800,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
