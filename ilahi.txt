@@ -1569,6 +1569,30 @@ BİR ACIZ HAYRANIM / YA HAZRETİ GEYLANİ
 Bir acız hayranım 
 Bu cihanda perişanım 
 Bir tabibe muhtacım 
+Ya Müzeyyen Anneciğim 
+
+Sen bize himmet et 
+Ef’alinle şefkat kıl 
+Sen billahi velisin 
+Ya Taner ve Muhyiddin 
+Sen billahi velisin
+Ya Müzeyyen Nureddin
+
+Yolunda aşıklar 
+Kapunda sadıklar 
+Eşiğini bekler dervişler 
+Ya Müzeyyen erenler
+
+Yüregim giryandır 
+Ciğerim püryandır 
+Bu can sana fedadır 
+Ya Müzeyyen ve Taner
+
+as sung in dergah:
+
+Bir acız hayranım 
+Bu cihanda perişanım 
+Bir tabibe muhtacım 
 Ya Hazreti Geylani 
 
 Sen bize himmet et 
@@ -6404,8 +6428,7 @@ Shaykh taner her dem Hû dimek ister
 Müzeyyen her dem Hû dimek ister
 Pirimiz her dem Hû dimek ister
 
-
-
+$bi-r-aciz-hayranim-ya-hazreti-geylani
 
 More:
 
@@ -11849,6 +11872,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
