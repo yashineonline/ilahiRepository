@@ -3815,6 +3815,8 @@ Sure-i şems-i duhâ geldi cemâlin şanına
 Ya Resulallah şefaat kıl Gazali hastaye
 Bir günahkar ümmetindir, hem kamunun kemteri
 
+$yuzun-nuru-hudadir
+
 T:
 O, The Brightest Light
 O the brightest light, the sun and the moon of prophet-hood throne.
@@ -11831,6 +11833,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
