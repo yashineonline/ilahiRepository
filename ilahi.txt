@@ -460,11 +460,9 @@ Muhammed doğduğu gece
 Mümin münafık fark oldu
 Muhammed doğduğu gece
 
-£https://aqrtsufi.github.io/ilahi/poems/Taskeen%20Noorbhai#imagine
+£https://aqrtsufi.github.io/ilahi/poems/Taskeen%20Noorbhai#imagine|Imagine
 
-$imagine
-
-##test###
+##test2##
 
 Gökten yere nur atıldı,
 Yediler, kırklar katıldı,
@@ -11839,6 +11837,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
