@@ -9746,6 +9746,8 @@ kemâ teşau
 
 Ya Habibi Ya Tabibi Ya Raufi Ya Rahimi
 
+$a1-asma-ul-husna-kadi-ri-esma
+
 History:
 Hassân bin Sâbit r.a Hazretlerinin Efendimiz (s.a.v) için yazdığı şiirdir.
 
@@ -11815,6 +11817,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
