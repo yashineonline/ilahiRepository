@@ -6399,6 +6399,14 @@ Olmağa bende Hû dimek ister
 Hû ismi azam, Hû Hû di hasm 
 Kuddûsî her dem Hû dimek ister
 
+Hû ismi azam, Hû Hû de hocam 
+Shaykh taner her dem Hû dimek ister
+Müzeyyen her dem Hû dimek ister
+Pirimiz her dem Hû dimek ister
+
+
+
+
 More:
 
 Pendimi tut gel
@@ -11841,6 +11849,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
