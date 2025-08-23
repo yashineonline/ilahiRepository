@@ -4604,6 +4604,8 @@ Vasf edemem gönül seni
 Nutku beyan seninledir         
 Vasf edemem gönül seni 
 
+$mestu-hayranim
+
 Pronunciation:
 
 Gü-zel a-şık cev-ri-mi-zi  
@@ -11839,6 +11841,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
