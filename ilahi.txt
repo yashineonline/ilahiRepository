@@ -492,7 +492,7 @@ Akar gözden kanlı yaşlar (Hayy Hayy)
 Secde kıldı dağlar taşlar (İllallah Hu Ya Hu)
 Muhammed doğduğu gece (İllallah Hu Canım)
 
-#imagine
+#test
 
 Chorus for Alternative tune
 
@@ -11835,6 +11835,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
