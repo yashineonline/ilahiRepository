@@ -448,15 +448,17 @@ A:https://www.youtube.com/watch?v=SpTpVPU1KZk
 
 A:https://www.youtube.com/watch?v=Ncx0wZBfVvk
 
-test
-
-
 ALEMLER NURA GARK OLDU
 
-Alemler Nura gark oldu (Canım)
-Muhammed doğduğu gece (Hayy Hayy)
-Mümin münafık fark oldu (İllallah Hu Ya Hu)
-Muhammed doğduğu gece (İllallah Hu Canım)
+Ya Resul selam aleyke
+Ya Habip selam aleyke
+Ya Nebi selam aleyke
+Salavatullah aleyke
+
+Alemler Nura gark oldu
+Muhammed doğduğu gece
+Mümin münafık fark oldu
+Muhammed doğduğu gece
 
 Gökten yere nur atıldı,
 Yediler, kırklar katıldı,
@@ -483,12 +485,19 @@ Aleme rahmet saçıldı,
 Hülle donları biçildi,
 Muhammed doğduğu gece
 
-Yunus der ki ey kardeşler Canım
-Akar gözden kanlı yaşlar Hayy Hayy
-Secde kıldı dağlar taşlar İllallah Hu Ya Hu
-Muhammed doğduğu gece İllallah Hu Canım
+Yunus der ki ey kardeşler (Canım)
+Akar gözden kanlı yaşlar (Hayy Hayy)
+Secde kıldı dağlar taşlar (İllallah Hu Ya Hu)
+Muhammed doğduğu gece (İllallah Hu Canım)
+
+#imagine
 
 Chorus for Alternative tune
+
+Alemler Nura gark oldu (Canım)
+Muhammed doğduğu gece (Hayy Hayy)
+Mümin münafık fark oldu (İllallah Hu Ya Hu)
+Muhammed doğduğu gece (İllallah Hu Canım)
 
 Ya Resul selam aleyke
 Ya Habip selam aleyke
@@ -11822,6 +11831,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
