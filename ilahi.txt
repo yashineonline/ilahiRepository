@@ -11084,6 +11084,8 @@ Al Rashid Al Sabur Ya Allah
 
 Ya Allah Ya Allah Ya Allah Ya Allah
 
+$derdi-ne-derman-i-steyen-gelsi-n
+
 Turkish:
 
 Ya Allah Ya Allah Ya Allah
@@ -11817,6 +11819,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
