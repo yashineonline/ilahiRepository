@@ -2972,8 +2972,7 @@ Aur saare Awliya ké, yaqeen benazeer hein
 Hafiz kilo khabar ke, ye khadeem he aap ke
 Yeh Peer oos ke aap hein, aap dastageer hein
 
-
-
+$envarul-huseyni?file=ilahi.txt
 
 
 
@@ -4340,6 +4339,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
