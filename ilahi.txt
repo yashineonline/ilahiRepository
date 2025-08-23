@@ -1588,6 +1588,8 @@ Ciğerim püryandır
 Bu can sana fedadır 
 Ya Müzeyyen ve Taner
 
+$peeron-ka-peer-hazrat-peeran-peer-hein?file=naat.txt
+
 as sung in dergah:
 
 Bir acız hayranım 
@@ -11872,6 +11874,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
