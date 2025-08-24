@@ -276,6 +276,8 @@ isse aap ka hi aasra
 Ke jahan mein hain mere Mustafa, 
 koyi mujh se ziyaa-da bhura nahin
 
+$janaabe-sakiye-kawsar-hoowe-payda-mubaarak-ho
+
 T:
 
 English (French is after)
@@ -4339,6 +4341,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
