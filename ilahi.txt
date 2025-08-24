@@ -11413,6 +11413,8 @@ Feizâ ferağte fensab
 
 Ve ila Rabbike ferğab
 
+$evrad
+
 T:
 In the name of Allah, The One Who Acts with 
 Mercy, The Source of Mercy.
@@ -11947,6 +11949,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
