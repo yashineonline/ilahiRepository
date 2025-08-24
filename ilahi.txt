@@ -1031,6 +1031,10 @@ Alemlerin sultanı sensin ya Resulallah
 
 $elem-nesrah-leke-sadrak
 
+$yuzun-nuru-hudadir
+
+$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
+
 T:
 With your love let the lovers burn, O Rasulullah
 May they drink the wine of love and be satisfied, O Rasulullah
@@ -5200,6 +5204,10 @@ la murade illallah
 la mevcude illallah
 la ilaha illallah
 
+$ey-risalet-tahtini
+
+$yuzun-nuru-hudadir
+
 More:
 la matlube illallah 
 la maksude illallah 
@@ -7482,6 +7490,8 @@ Yunus Emrem iş bu sözü can içinde söyledi
 Söyleyen bî-çare Yûnus Tapduk Emrem sırrıdır
 
 $ey-risalet-tahtini
+
+$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
 
 
 
@@ -11951,6 +11961,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
