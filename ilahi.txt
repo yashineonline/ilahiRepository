@@ -8039,6 +8039,8 @@ Allahumma salli wa sallim wa barik ala
 Nurul Huda Muhammadin wa ala aalihi adede 
 kema lilla hi wa kema yeli ku bi kemalihi
 
+$yeh-mera-aqeeda-hai-dosto
+
 Slightly different version
 
 SALÂT-I KEMÂLİYE
@@ -11874,6 +11876,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
