@@ -215,6 +215,10 @@ Muhammad ya Habib Allah
 Muhammad ya Rasoul Allah
 
 $hi-zmeti-ni-edemedi-m
+
+$ya-hasan-basare
+
+$il-refahi-koulsheire-nillah
  
 Y:
 
@@ -3344,6 +3348,10 @@ Joud be tas leed minbada
 Mohammad Rasool Allah
 
 $la-ilaha-illallah
+
+$hi-zmeti-ni-edemedi-m
+
+$ya-hasan-basare
  
 Y:
 
@@ -3374,6 +3382,8 @@ Jannatoul Ada, Ahmadoul lahi Refahi
 
 Sayyad Ahmadoul Kabir, Sayyad Ali yil maki
 Ashikoul dwamir, mashouk oullah Refahi
+
+$hi-zmeti-ni-edemedi-m
 
 Y:
 
@@ -4359,6 +4369,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
