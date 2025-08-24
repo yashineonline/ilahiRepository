@@ -1176,6 +1176,8 @@ Safee Allah ke sarwar hoowe payda Mubaarak ho
 Khalilullah ke dilbar hoowe payda Mubaarak ho
 Kalimullah ke afshar hoowe payda Mubaarak ho
 
+$bismillah
+
 T: 
 
 Our master, the cupbearer, distributor of Kawsar is born, Mubarak, congratulations!
@@ -4347,6 +4349,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
