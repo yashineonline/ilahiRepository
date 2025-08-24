@@ -7481,6 +7481,8 @@ Ol Cehennem'de yananlar münkirin inkarıdır
 Yunus Emrem iş bu sözü can içinde söyledi
 Söyleyen bî-çare Yûnus Tapduk Emrem sırrıdır
 
+$ey-risalet-tahtini
+
 
 
 
@@ -11949,6 +11951,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
