@@ -2630,7 +2630,7 @@ Sarkar ilteja he har baar ye nazar ki
 Sultan Abdul Qadir Jilani har baar ye nazar ki
 Mera salaam lena, mera salaam lena
 
-$medet-senden-medet-sultanim-ali
+$a3-ri-fai-wi-rd-vi-rd
 
 Y:
 
@@ -4359,6 +4359,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
