@@ -7864,6 +7864,8 @@ As-salaatu was-salaamu 'alayka yaa Sayyid al-awwaleena wal-aakhireen
 Was-salaamun 'alal-mursaleen
 Wal-hamdu lillaahi Rabbil-'aalameen
 
+$sevgi-baht-olmus
+
 
 
 
@@ -11547,6 +11549,12 @@ words to add
 
 $ya-muhammad-mustafa-shammen-risaalat-assalaam
 
+Y:
+
+POSITIVITY PRAYER
+
+add here
+
 
 
 
@@ -12062,6 +12070,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
