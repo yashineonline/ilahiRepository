@@ -2512,6 +2512,8 @@ Erenler bagından koku al koku
 Arif ol kitabı hemen bil oku               
 Fenerin mumunu yak da gel derviş 
 
+$sultanul-evli-ya-ahmed-er-ri-fai
+
 T:
 You cannot reach that high headquarters of love with your selfishness
 You have to leave what you have and what you have not, then come dervish
@@ -4108,6 +4110,8 @@ Seyyid Nizamoğlu yürü bula gör kendinden yari
 
 Ko yanayım kül olayım taşkın akan sel olayım
 Çiğneneyim yol olayım istediğim Haktır benim
+
+$aliya
 
 Y:
 
@@ -5778,7 +5782,9 @@ Himmet Pirim Şeyhen lillah
 Muhammed şefiimiz                  
 Ali’dir penahımız                        
 Abdul Kadir Pirimiz                    
-Rufai şerefimiz                              
+Rufai şerefimiz       
+
+$cani-di-lden-fani-kildin-aki-bet
 
 Alternative wording:
 Müridine nar gülzar
@@ -9338,6 +9344,10 @@ Gönülde mihmahsın Ahmed er-Rifai
 Sahibü'l-alemeyn Mürşidi's-sakaleyn
 Zeynetü'l Arşiyan Ahmed'er-Rifai
 
+$cani-di-lden-fani-kildin-aki-bet
+
+$i-ki-kere-gavs-oldu
+
 Extra words in Arabic (from a thesis)
 
 Sultanu’l-evliya Ahmede’r-Rufaî
@@ -12052,6 +12062,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
