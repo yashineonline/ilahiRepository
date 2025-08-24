@@ -8555,6 +8555,8 @@ Be diyelim ki Rabb’in duygusu,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü, bizde bir türlü.
 
+$positivity-prayer
+
 History:
 İbrahim Yurtören
 
@@ -12070,6 +12072,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
