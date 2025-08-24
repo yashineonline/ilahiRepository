@@ -1029,7 +1029,7 @@ Seni sevmiyen nare yansın ya Resulallah
 Derviş Yunus'un canı ilmi şefaat kanı
 Alemlerin sultanı sensin ya Resulallah
 
-$
+$elem-nesrah-leke-sadrak
 
 T:
 With your love let the lovers burn, O Rasulullah
@@ -11947,6 +11947,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
