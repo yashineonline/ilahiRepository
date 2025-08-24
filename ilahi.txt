@@ -79,6 +79,8 @@ Rıdwana ala rıdwani
 
 $sirni-ala
 
+$munkur-terket-nizayi
+
 Alternative and Extra words:
 
 Abdul Kadir el-Geylani züt'tasrifi fi'l-ekvani
@@ -11998,6 +12000,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
