@@ -4115,8 +4115,6 @@ Seyyid Nizamoğlu yürü bula gör kendinden yari
 Ko yanayım kül olayım taşkın akan sel olayım
 Çiğneneyim yol olayım istediğim Haktır benim
 
-$aliya
-
 Y:
 
 Category: basic, Order:11, Bektashi, Hacı Bektaş, Shaykh Taner, 
@@ -4155,6 +4153,8 @@ Pir Sultan Yolundan ayırma bizi
 Şol Mahşer gününde isteriz size	
 Muhammed önünde can Hacı Bektaş
 Muhammed önünde can Hacı Bektaş
+
+$aliya
 
 Alternative version:
 
@@ -12088,6 +12088,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
