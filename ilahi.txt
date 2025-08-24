@@ -7106,6 +7106,8 @@ Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
 illallah
 
+$prophet-salawat
+
 T:
 
 Leave behind strife with the one who denies,
@@ -11495,6 +11497,8 @@ PROPHET SALAWAT
 
 words to add
 
+$ya-muhammad-mustafa-shammen-risaalat-assalaam
+
 
 
 
@@ -12010,6 +12014,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
