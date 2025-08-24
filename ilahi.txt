@@ -601,6 +601,8 @@ Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
 
+$tale-al-bedru-aleyna
+
 More chorus:
 
 Allah Allah hüve Rabbüna Rahmani
@@ -3339,51 +3341,81 @@ SuggestedZikr: Hayy Hayy Hayy Allah, Allah,
 
 ENVARÜL HÜSEYNİ
 
-Envarül Hüseyni Gavsüs Sakaleyni
-Mevlana Rifai ebul alemeyni
+Envarül Hüseyni 
+Gavsüs Sakaleyni
+Mevlana Rifai 
+ebul alemeyni
 
-Arifun celilun mahbubun halilun
-Küllina dahilun ebul Hasaneyni
+Arifun celilun
+mahbubun halilun
+Küllina dahilun
+ebul Hasaneyni
 
-Envarül Hüseyni Gavsüs Sakaleyni
-Piruna Rifai ebul alemeyni
+Envarül Hüseyni
+Gavsüs Sakaleyni
+Piruna Rifai
+ebul alemeyni
 
-Kubbetühül hadra, cedduhul Mustafa
-Ruhut tayyibeyni beynel Hazreteyni
+Kubbetühül hadra,
+cedduhul Mustafa
+Ruhut tayyibeyni
+beynel Hazreteyni
 
-Envarül Hüseyni Gavsüs Sakaleyni
-Şeyhuna Rifai ebul alemeyni
+Envarül Hüseyni
+Gavsüs Sakaleyni
+Şeyhuna Rifai 
+ebul alemeyni
 
-Ümmühül betülün cedduhul Resulün
-Seyfüna meslulü beynel evliya-i
+Ümmühül betülün 
+cedduhul Resulün
+Seyfüna meslulü 
+beynel evliya-i
 
-Envarül Hüseyni Gavsüs Sakaleyni
-Meded ya Rifai Sahib kıbleteyni
+Envarül Hüseyni 
+Gavsüs Sakaleyni
+Meded ya Rifai
+Sahib kıbleteyni
 
+$allah-allah-huve-rabbuna-rahmani
 
-
+$fi-haleti-l-budi-ruhi-kuntu-ursi-luha-ri-fai-kasi-de
 
 T:
-The lights of Hz Huseyn, The Helper of both humans and jinn
-Our Protecting Master Rifai, The Father of Two Banners
+The lights of Hz Huseyn,
+The Helper of both humans and jinn
+Our Protecting Master Rifai, 
+The Father of Two Banners
 
-Mighty Knower from the heart, Beloved of The Friend
-Shelter for all of us, Descendant of Hasan and Huseyn
+Mighty Knower from the heart, 
+Beloved of The Friend
+Shelter for all of us, 
+Descendant of Hasan and Huseyn
 
-The lights of Hz Huseyn, The Helper of both worlds
-Our Spiritual Ancestor, Pir Rifai, The Father of Two Banners
+The lights of Hz Huseyn, 
+The Helper of both worlds
+Our Spiritual Ancestor, Pir Rifai,
+The Father of Two Banners
 
-The one who went in the Presence at the Green Tomb, Descendant of Hz Mustafa
-Soul of the Pure ones, Among the two Great Masters
+The one who went in the Presence at the Green Tomb, 
+Descendant of Hz Mustafa
+Soul of the Pure ones, 
+Among the two Great Masters
 
-The lights of Hz Huseyn, The Helper of both worlds
-Our Spiritual Teacher, Shaykh Rifai, The Father of Two Banners
+The lights of Hz Huseyn,
+The Helper of both worlds
+Our Spiritual Teacher, Shaykh Rifai,
+The Father of Two Banners
 
-His mother is Hz Fatima, his grandfather is the Messenger
-He is the sword of the martyrs, he is among the Great Friends of Allah
+His mother is Hz Fatima,
+his grandfather is the Messenger
+He is the sword of the martyrs,
+he is among the Great Friends of Allah
 
-The lights of Hz Huseyn, The Helper of both worlds
-Help us Ya Rifai, Master of both Kibla (direction of prayer)
+The lights of Hz Huseyn, 
+The Helper of both worlds
+Help us Ya Rifai, 
+Master of both Kibla (direction of prayer)
+
 Y:
 
 L: https://youtu.be/IJjfAU5ZIwg?si=J6Qu6t7PMDThfe09
@@ -3943,6 +3975,8 @@ Fi haletil - bu`di ruhi küntü ürsilüha
 Tükabbilul - arda anni ve hiye na-ibeti
 Ve hazihi devletül - eşbahi kad hadarat
 Fe’mdüd yemineke key tahda biha şefeti
+
+$allah-allah-huve-rabbuna-rahmani
 
 Y:
 
@@ -6566,6 +6600,8 @@ Hanını Muhammedin
 
 Hak La ilaha illallah
 La ilaha illallah       
+
+$cikilmaz-benli-kle-ulu-dergaha
 
 Alternative and Extra words
 
@@ -9405,6 +9441,8 @@ Marhaban Jaddal Husayni
 Marhaban ahlan wa sahlan
 Marhaban ya khayra da-i
 
+$mevlam-nurdan-yaratmis
+
 
 T:
 
@@ -12014,6 +12052,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
