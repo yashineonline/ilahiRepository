@@ -9429,6 +9429,8 @@ Ci'te şerrafte'l- Medine merhaba ya hayra da'
 Ente şemsun, ente bedrun ente nûrun 'ala nûr
 Ente misbaha's-süreyya ya habibi ya resûl
 
+$mevlam-nurdan-yaratmis
+
 Arabic:
 
 TALA AL BADRU ALAYNA
@@ -9462,8 +9464,6 @@ Marhaban Ya Nurul 'Ayni
 Marhaban Jaddal Husayni 
 Marhaban ahlan wa sahlan
 Marhaban ya khayra da-i
-
-$mevlam-nurdan-yaratmis
 
 
 T:
@@ -12086,6 +12086,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
