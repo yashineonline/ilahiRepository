@@ -7861,6 +7861,10 @@ Esselatu Vesselamu Aleyke YA seyyidel evveline vel AHİRİN
 Ve selamün alel murselin 
 velhamdülillahi rabbil alemin
 
+$sevgi-baht-olmus
+
+$sirni-ala
+
 Pronunciation:
 As-salaatu was-salaamu 'alayka yaa Rasoolallaah
 As-salaatu was-salaamu 'alayka yaa Habeeballaah
@@ -7868,7 +7872,7 @@ As-salaatu was-salaamu 'alayka yaa Sayyid al-awwaleena wal-aakhireen
 Was-salaamun 'alal-mursaleen
 Wal-hamdu lillaahi Rabbil-'aalameen
 
-$sevgi-baht-olmus
+
 
 
 
@@ -11535,6 +11539,8 @@ Fa am mal yatima fala taqhar
 Wa am mas sa-ila fala tanhar
 Wa amma bi ni'mati Rabbika fahad-dis
 
+$yuzun-nuru-hudadir
+
 T:
 Bismillah Al Rahman Al Rahim 
 1. I swear by the mid-morning brilliance,
@@ -12080,6 +12086,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
