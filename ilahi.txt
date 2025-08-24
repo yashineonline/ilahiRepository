@@ -3386,6 +3386,8 @@ $allah-allah-huve-rabbuna-rahmani
 
 $fi-haleti-l-budi-ruhi-kuntu-ursi-luha-ri-fai-kasi-de
 
+$sabah-seherinde-niyaza-geldim
+
 T:
 The lights of Hz Huseyn,
 The Helper of both humans and jinn
@@ -7718,6 +7720,8 @@ Pir Sultan Efendim erenler nesli
 Erenler neslidir Ali'nin aslı
 Çar alem ile (turna avaz) sesli
 Gümler ya Muhammed Ali çağırır
+
+$fi-haleti-l-budi-ruhi-kuntu-ursi-luha-ri-fai-kasi-de
 
 T:
 
@@ -12090,6 +12094,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
