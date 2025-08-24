@@ -6297,6 +6297,8 @@ Medet senden medet Sultanım Ali
 Gülüm gülistanım seyranım Ali (Hayy Hayy)
 Mürşidim Muhammed Rehberim Ali
 
+$a3-ri-fai-wi-rd-vi-rd
+
 T:
 
 Help from you, my Sultan Ali, help me.
@@ -11894,6 +11896,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
