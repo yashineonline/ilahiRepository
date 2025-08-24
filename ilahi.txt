@@ -1029,6 +1029,8 @@ Seni sevmiyen nare yansın ya Resulallah
 Derviş Yunus'un canı ilmi şefaat kanı
 Alemlerin sultanı sensin ya Resulallah
 
+$
+
 T:
 With your love let the lovers burn, O Rasulullah
 May they drink the wine of love and be satisfied, O Rasulullah
@@ -10646,6 +10648,8 @@ anta zahirun lana wa li-kulli karbin azim
 Ya Rabbi farrij anna al hamma wa al ghamma 
 bi fad-li Bismillahir Rahmanir Rahim
 
+$askin-i-le-asiklar
+
 T:
 
 Rifai Wird
@@ -11896,6 +11900,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
