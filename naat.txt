@@ -4030,7 +4030,7 @@ Un ke ankhon se musalsal behke taaron ko salaam
 Ya Muhammad Mustafa Shamm’en risaalat Assalaam
 Masjide Nabawi tere un sab sitaaron ko salaam
 
-
+$alemler-nura-gark-oldu
 
 T:
 
@@ -4353,6 +4353,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
