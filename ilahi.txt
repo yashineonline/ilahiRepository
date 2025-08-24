@@ -2717,6 +2717,14 @@ Emr ile ferman isteyen gelsin.
 
 $yeh-mera-aqeeda-hai-dosto
 
+T:
+---
+---
+
+Our school is the school of the Most Beautiful Names,
+Whoever seeks knowledge and wisdom, let them come.
+
+
 
 Y:
 
@@ -11878,6 +11886,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
