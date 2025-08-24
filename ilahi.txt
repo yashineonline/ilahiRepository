@@ -2715,7 +2715,7 @@ Kurbet-i sübhan isteyen gelsin.
 Canını kurban etmeğe Sami,
 Emr ile ferman isteyen gelsin.
 
-
+$yeh-mera-aqeeda-hai-dosto
 
 
 Y:
@@ -11878,6 +11878,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
