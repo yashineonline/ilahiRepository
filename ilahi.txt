@@ -11436,7 +11436,7 @@ EVRAD
 
 evrad rifai bismillah
 
-$askin-i-le-asiklar
+$ol-alem-fahri-muhammed-nebi-ler-serveri-di-r
 
 ZIKRPRACTICE:
 
@@ -11947,6 +11947,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
