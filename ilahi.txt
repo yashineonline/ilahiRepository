@@ -8331,6 +8331,8 @@ Bu ne mezhep imiş dinden içeru
 Yunusun gözleri hundur açılmaz    
 Kapunda kul var Sultandan içeru 
 
+$butun-evren-semah-doner
+
 basic zikr follow up ilahi:
 
 $hi-zmeti-ni-edemedi-m
@@ -12086,6 +12088,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
