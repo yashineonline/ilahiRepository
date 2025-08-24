@@ -10724,6 +10724,10 @@ bi fad-li Bismillahir Rahmanir Rahim
 
 $askin-i-le-asiklar
 
+$yeh-mera-aqeeda-hai-dosto
+
+$ya-habi-bi-ya-tabi-bi-ya-raufi-ya-rahi-mi
+
 T:
 
 Rifai Wird
@@ -12076,6 +12080,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
