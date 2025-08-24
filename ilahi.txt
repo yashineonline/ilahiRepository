@@ -2099,7 +2099,7 @@ Muhammeden gıdamız var
 
 basic zikr follow up ilahi:
 
-$gece-gunduz-hayaline-haci-bektas
+$gece-gunduz-hayali-ne-haci-bektas
 
 T:
 The whole universe makes Sema
@@ -12088,6 +12088,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
