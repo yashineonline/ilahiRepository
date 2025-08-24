@@ -213,6 +213,8 @@ Muhammad Nooré soubhana
 Muhammad Nooré fadlana
 Muhammad ya Habib Allah
 Muhammad ya Rasoul Allah
+
+$hi-zmeti-ni-edemedi-m
  
 Y:
 
@@ -3341,7 +3343,7 @@ Ahmadou moufnil head
 Joud be tas leed minbada
 Mohammad Rasool Allah
 
-
+$la-ilaha-illallah
  
 Y:
 
@@ -3436,6 +3438,10 @@ Wal atro twil kan (Atham)
 Alai he moor Jafar 
 Allah
 Sayed Mohammad Aliya
+
+$il-refahi-koulsheire-nillah
+
+$la-ilaha-illallah
 
 Alternative:
 
@@ -4353,6 +4359,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
