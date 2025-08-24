@@ -3863,6 +3863,8 @@ Bir günahkar ümmetindir, hem kamunun kemteri
 
 $yuzun-nuru-hudadir
 
+$wad-duha
+
 T:
 O, The Brightest Light
 O the brightest light, the sun and the moon of prophet-hood throne.
@@ -11471,7 +11473,6 @@ Wa amma bi ni'mati Rabbika fahad-dis
 
 T:
 Bismillah Al Rahman Al Rahim 
-
 1. I swear by the mid-morning brilliance,
 2. And by the night when it is most tranquil,
 3. Your Rab [Lord] has not forgotten you, neither does He despise you,
@@ -11997,6 +11998,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
