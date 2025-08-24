@@ -4,6 +4,8 @@ BISMILLAH
 
 Bismillah
 
+$salawat-ummi
+
 Y:
 
 Category: Allah
@@ -4349,6 +4351,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
