@@ -2729,6 +2729,10 @@ Emr ile ferman isteyen gelsin.
 
 $yeh-mera-aqeeda-hai-dosto
 
+$askin-i-le-asiklar
+
+$ey-risalet-tahtini
+
 T:
 ---
 ---
@@ -12072,6 +12076,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
