@@ -2704,7 +2704,7 @@ Derdine derman isteyen gelsin,
 Canına canan isteyen gelsin.
 
 Mektebimizdir mekteb-i esma,
-Hm ile irfan isteyen gelsin.
+İlm ile irfan isteyen gelsin.
 
 Fazar-ı vahdet sermayesinden,
 Hisse-i ihsan isteyen gelsin.
@@ -9915,15 +9915,19 @@ attributed to the companion Hassan ibn Thabit,
 known as the "Poet of the Prophet."
 
 T:
+No eye has ever seen anyone more beautiful than you,
+No mother has ever given birth to anyone more handsome than you.
+You were created free from all faults,
+As if you were created just the way you wished.
+
+Turkish
+
 Gözler senden daha güzelini görmedi
 Kadınlar senden daha güzelini doğurmadı
 Sen her türlü kusurdan beri yaratıldın
 Sen sanki istediğin gibi yaratıldın.
 
-No eye has ever seen anyone more beautiful than you,
-No woman has ever given birth to anyone more handsome than you.
-You were created free from all faults,
-As if you were created just the way you wished.
+
 
 
 
@@ -12094,6 +12098,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
