@@ -3895,12 +3895,15 @@ Ey Risalet Tahtını
 
 Ey risalet tahtının hurşîd-i mâh-ı enveri
 Vey nübüvvet mazharı âhir zaman peygamberi
+
 Hak senin şanında Levlâk okudu yâ Mustafa
 Yani sensin Nur Muhammed kâinatın rehberi
 
+$wash-shamsi-wa-duha
+
 Sure-i şems-i duhâ geldi cemâlin şanına
 Âlemi kıldı münevver ba kemalin enveri
-Ya Resulallah şefaat kıl Gazali hastaye
+Ya Resulallah şefaat kıl Gazali (hazreti) hastaye
 Bir günahkar ümmetindir, hem kamunun kemteri
 
 $yuzun-nuru-hudadir
@@ -3908,21 +3911,24 @@ $yuzun-nuru-hudadir
 $wad-duha
 
 T:
-O, The Brightest Light
-O the brightest light, the sun and the moon of prophet-hood throne.
-And the honourable one where prophet-hood became visible, the prophet until end of times.
-Lord read levlak* (if you haven’t existed) in your honour, ya Mustafa (sav).
-Therefore you are the guide of the universe O the radiant Muhammed (sav).
+O the brightest light, the sun and the moon of prophethood throne.
+And the honourable one where prophethood became visible, the prophet until end of times.
 
-The Surah of “Sems-i Duha” came in the honour of your beauty.
+Lord created universe in your honor*, o Chosen one.
+Therefore you are the guide of the universe O the radiant Muhammed.
+
+The Sura of “Sems-i Duha” came in the honor of your beauty.
 The radiance of your perfection has enlightened the universe.
-O Resulallah, have intercession for the ill Gazali (ks),
+O Resulallah, have intercession for the ill (honorable) Gazali (ks),
 He is a sinner among your people; and he is the lowest of the public.
 
 Notes:
-* Here, Hz Gazali ks is pointing to the hadis-i kutsi where Allah has said “levlake levlake lemâ halaktü’l-eflâk” meaning “ If you haven’t existed, I wouldn't have created the universes”
+*Hz Gazali ks is pointing to the hadis-i kutsi where Allah has said 
+“levlake levlake lemâ halaktü’l-eflâk” 
+meaning 
+“If you have not existed, 
+I would not have created the universes”
 
-ilahis.org/ilahis/2540
 
 
 
@@ -12320,6 +12326,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
