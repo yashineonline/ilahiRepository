@@ -8577,7 +8577,7 @@ Be diyelim ki Rabb’in duygusu,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü, bizde bir türlü.
 
-$positivity-prayer
+$positivity-prayers
 
 History:
 İbrahim Yurtören
@@ -11555,12 +11555,14 @@ seyyid-el-mürseliyne
 ve alâ 
 âlihi ve 
 sahbihi ecma'iyn. 
+
 Ya Allahu yâ Rahmanü 
 irham-il-müslimiyne.
 Yâ Allahu ya Rahmanu 
 veffik-il-müslimiyne. 
 Ya Allahu ya Rahmanu 
 unsur-il-müslimiyne 
+
 elfü salâtin 
 sümme selâmin 
 ales-sırrıl aziym. 
@@ -11570,6 +11572,7 @@ ve alâ
 âlihi ve 
 sahbihi 
 ecma'iyn. 
+
 Yâ hannanü yâ mennân 
 teveffenâ 
 alel-iman 
@@ -11582,8 +11585,10 @@ lehuş-şefa'at
 alâmet
 Nebiyyinâ Muhammed 
 muzallelün bil-gamamet 
+
 ya Mustafa şey'en lillah
 yâ sırren min sırrıllah 
+
 yâ Mustafa şey'en lillah 
 yâ feyzen min feyzillah 
 
@@ -11604,6 +11609,7 @@ mû'temedi
 yâ nebiyyallahi kün lenâ şâfi'an 
 ente vallahü şefi'ün lâ türed 
 lâ türed
+
 yâ Rabi enta Allah 
 Allah
 yâ Rabi enta Allah 
@@ -11628,6 +11634,7 @@ There is no higher power but Allah
 Muhammad is the Messenger of Allah
 Abraham is the Friend of Allah
 peace and blessings of Allah be upon them
+
 Peace and blessings 
 be upon the manifest light
 Ahmed the Chosen One
@@ -11635,14 +11642,16 @@ the revered master of the messengers
 and upon 
 his family 
 and his companions 
-all together
+all together.
+
 O Allah O The One Who Acts with Mercy
 have mercy on those who surrender to Allah
 O Allah O The One Who Acts with Mercy
 grant success to those who make peace with Allah
 O Allah O The One Who Acts with Mercy
 grant victory to those who submit their will to Allah
-a thousand prayers
+
+A thousand prayers
 then peace
 upon the great secret
 Ahmed the Chosen One
@@ -11650,7 +11659,8 @@ the revered master of the worlds
 and upon 
 his family 
 and his companions 
-all together
+all together.
+
 O Most Compassionate 
 O Most Generous
 cause us to die 
@@ -11663,8 +11673,10 @@ The prayers of Allah be upon the one
 who has the sign of intercession
 our Prophet Muhammad
 sheltered by the cloud
+
 O Mustafa the Shaykh appointed by Allah
 O secret from the secret of Allah
+
 O Mustafa the Shaykh appointed by Allah
 O overflow from the overflow of Allah
 
@@ -11801,15 +11813,81 @@ Y:
 
 PROPHET SALAWAT
 
-words to add
+---
 
 $ya-muhammad-mustafa-shammen-risaalat-assalaam
 
+T:
+
+
+
 Y:
 
-POSITIVITY PRAYER
+POSITIVITY PRAYERS
 
-add here
+ZIKR 
+
+Ya Hadi Ya Haqq Ya Latif
+
+Ya Alim Ya Hakim 
+Ya Hasib Ya Haqq Ya Rashid
+
+Ya Mu’min Ya Rashid
+
+Ya Muhaymin Ya Hafiz
+
+Ya Wadud Ya Salaam Ya Jami Ya Nafi
+
+Ya Adl Ya Muqsit Ya Haqq Ya Salaam
+
+Ya Fattah Ya Razzaq
+
+Ya Ghani Ya Razzaq
+
+Ya Karim Ya Wahhab
+
+Ya Ghalib Ya Azim
+
+Ya Muqtadir Ya Qadir Ya Nafi
+
+Ya Qawi Ya Matin Ya Shafi
+
+Ya Sabur Ya Latif
+
+Ya Ghafur Ya Afu
+
+Ya Shakur Ya Mujib
+
+At the end, recite: 
+Salawat and Sura Al Fatiha
+
+T:
+
+MEANING
+
+Guidance to the Truth with Ease
+Knowledge, Wisdom, Calculation, Just and Maturity
+Mature Believers
+Love, Peace, and Togetherness in Goodness
+Balance (physical, emotional, mental)
+Protection from all evil (hidden and apparent)
+Opening Door for Sustenance
+Self-Sufficiency in Sustenance 
+Generosity and Benevolence
+Ability to Do Things in Goodness
+Strength, Endurance and Healing
+Success
+Patience and Tolerance with Kindness
+Absolution and Forgiveness
+Gratitude and Acceptance
+
+History:
+
+This set of zikr, dubbed as the Positivity Prayers, is a gift to humanity from Murshid Shaykh Taner and Murshida Shaykha Muzeyyen Vargonen Ansari. 
+
+Repeat each set of Positivity Prayers 3 to 33 times a day, at least 3 days per week for yourself, your family, your community, your country, the world, insha Allah.
+
+£https://sufiview.com/prayers-of-the-heart-positivity-prayers/|For more explanation, click here...
 
 
 
@@ -12326,6 +12404,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
