@@ -11481,9 +11481,14 @@ Y:
 
 SALAWAT UMMI
 
-Allahumma salli ʿalā Sayyidinā Muḥammadin an-Nabiyyi al-Ummiyyi wa ʿalā ālihi wa sallim
+Allahumma salli ala Sayyidina Muhammadinin Nabiyyil Ummiyyi wa ala aalihi wa sahbihi wa sallim
 
 $medet-senden-medet-sultanim-ali
+
+T:
+O our Allah! Please send peace and blessings upon our Revered Master Muhammad
+the Prophet who cannot read or write,
+and to all of his families and companions.
 
 Y:
 
@@ -11499,11 +11504,11 @@ Elleziy enkada zahrâk
 
 Ve refa’nâ leke zikrâk
 
-Feinne me’al’usri yusrâ
+Fe inne me’al’usri yusrâ
 
 İnne me’al’usri yusrâ
 
-Feizâ ferağte fensab
+Fe izâ ferağte fensab
 
 Ve ila Rabbike ferğab
 
@@ -11526,13 +11531,170 @@ So when you are relieved and you find ease,
 still continue to work,
 And to your Lord turn all your longing.
 
+Translated by Shaykh Taner Vargonen el Ansari
+
 Y:
 
 EVRAD
 
-evrad rifai bismillah
+lâ ilâhe illallah 
+Muhammedün Resûlüllah
+İbrahimü Halilülllah
+sallalahu aleyhi ve selleme
+
+Sallalahu ve sellem
+alen-nûr-il-mübiyne.
+Ahmed-el-Mustafa 
+seyyid-el-mürseliyne 
+ve alâ 
+âlihi ve 
+sahbihi ecma'iyn. 
+Ya Allahu yâ Rahmanü 
+irham-il-müslimiyne.
+Yâ Allahu ya Rahmanu 
+veffik-il-müslimiyne. 
+Ya Allahu ya Rahmanu 
+unsur-il-müslimiyne 
+elfü salâtin 
+sümme selâmin 
+ales-sırrıl aziym. 
+Ahmed-el-Mustafa 
+seyyid-il-âlemiyne 
+ve alâ 
+âlihi ve 
+sahbihi 
+ecma'iyn. 
+Yâ hannanü yâ mennân 
+teveffenâ 
+alel-iman 
+salâti ve selâmi 
+alâ bedr-it-tamam 
+ilâ yevm-il-kıyamet 
+ve fi tûl-iz-zaman. 
+Salâvatullah alâ men 
+lehuş-şefa'at 
+alâmet
+Nebiyyinâ Muhammed 
+muzallelün bil-gamamet 
+ya Mustafa şey'en lillah
+yâ sırren min sırrıllah 
+yâ Mustafa şey'en lillah 
+yâ feyzen min feyzillah 
+
+yâ Mustafa şey'en lillah 
+yâ nûren min nurillah. 
+
+Yâ mütecelli (celli) irham zilli-i 
+ya müta'ali-i aslihi hali-i
+Yâ mütecelli (celli) irham zilli-i 
+ya müta'ali-i aslihi hali-i
+Yâ mütecelli (celli) irham zilli-i 
+ya müta'ali-i aslihi hali-i
+
+yâ Resûlallah gavsen ve meded 
+Meded
+yâ habiballahi aleyk-el mû'temedi 
+mû'temedi
+yâ nebiyyallahi kün lenâ şâfi'an 
+ente vallahü şefi'ün lâ türed 
+lâ türed
+yâ Rabi enta Allah 
+Allah
+yâ Rabi enta Allah 
+Allah
+yâ hasbü enta Allah 
+Allah
+yessir lenâ ilme 
+Lâ ilâhe illâllah
+Allah
+
+Muhammedin Resûlüllahi 
+hakkan ve sıdkan 
+ve salli alâ eşrefi nûri 
+cemi-il-enbiyâ'-i vel-mürseliyn 
+vel-hamdü lillahi Rabbil âlemiyn
 
 $ol-alem-fahri-muhammed-nebi-ler-serveri-di-r
+
+T:
+
+There is no higher power but Allah
+Muhammad is the Messenger of Allah
+Abraham is the Friend of Allah
+peace and blessings of Allah be upon them
+Peace and blessings 
+be upon the manifest light
+Ahmed the Chosen One
+the revered master of the messengers
+and upon 
+his family 
+and his companions 
+all together
+O Allah O The One Who Acts with Mercy
+have mercy on those who surrender to Allah
+O Allah O The One Who Acts with Mercy
+grant success to those who make peace with Allah
+O Allah O The One Who Acts with Mercy
+grant victory to those who submit their will to Allah
+a thousand prayers
+then peace
+upon the great secret
+Ahmed the Chosen One
+the revered master of the worlds
+and upon 
+his family 
+and his companions 
+all together
+O Most Compassionate 
+O Most Generous
+cause us to die 
+with faith
+prayers and peace
+upon the full moon of perfection
+until the Day of Resurrection
+and through all times
+The prayers of Allah be upon the one
+who has the sign of intercession
+our Prophet Muhammad
+sheltered by the cloud
+O Mustafa the Shaykh appointed by Allah
+O secret from the secret of Allah
+O Mustafa the Shaykh appointed by Allah
+O overflow from the overflow of Allah
+
+O Mustafa the Shaykh appointed by Allah
+O light from the light of Allah
+
+O Manifest One have mercy on my shadow
+O Most High correct my state
+O Manifest One have mercy on my shadow
+O Most High correct my state
+O Manifest One have mercy on my shadow
+O Most High correct my state
+
+O Messenger of Allah help and support
+help
+O Beloved of Allah on you is reliance
+reliance
+O Prophet of Allah be for us an intercessor
+you are by Allah an intercessor who is never rejected
+never rejected
+
+O my Lord You are Allah
+Allah
+O my Lord You are Allah
+Allah
+O my sufficiency You are Allah
+Allah
+make the knowledge of  
+la ilaha illallah
+easy for us
+
+Muhammad is the Messenger of Allah
+in truth and sincerity
+and blessings upon the noblest light
+of all the prophets and messengers
+and praise be to Allah the Lord of the worlds
 
 Y:
 
@@ -12098,6 +12260,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
