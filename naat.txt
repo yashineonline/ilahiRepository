@@ -1239,7 +1239,7 @@ is born, Mubarak, congratulations!
 
 French / français
 
-Notre maître, le sommelier, le distributeur du Kawsar est né, Mubarak, félicitations !
+Notre maître, le distributeur du Kawsar est né, Mubarak, félicitations !
 Le Prophète spécial de Dieu est né, Mubarak, félicitations !
 
 Le bien-aimé de la mère nourricière, Haleema, est né, Mubarak, félicitations !
@@ -4405,6 +4405,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
