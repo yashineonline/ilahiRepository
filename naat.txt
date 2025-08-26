@@ -2640,35 +2640,156 @@ Category: Muharram, Mawlud, Meelad
 
 Ey Shahe deen o duniya mera salaam lena
 
-Eh shahe deen-o- duniya mera salaam lena
-Tumse banegi auk ba mera salaam lena
+Eh shahe deen o duniya 
+mera salaam lena
+Tumse banegi ukba 
+mera salaam lena
 
-Har jazbahé akeedat, kehta he dil se uthkar
-Lillahé mere Mawla, mera salaam lena
+Har jazbahe akeedat, 
+kehta he dil se uthkar
+Lillahe mere Mawla
+mera salaam lena
 
-Siddick aur Oumar ka, Usmaan aur Ali ka
-Chaaron ka sadka dena, mera salaam lena
+Siddick aur Umar ka, 
+Usmaan aur Ali ka
+Chaaron ka sadka dena, 
+mera salaam lena
 
-Sahare he ambiya ka, tum ko kiya khuda ne
-Rutba he kya tumhara, mera salaam lena
+Sahare he ambiya ka, 
+tum ko kiya Khuda ne
+Rutba he kya tumhara, 
+mera salaam lena
 
-Hussein ke tassadduk, mujh ko bhi kuch ata ho
-Ey benawa ke daata, mera salaam lena.
+Hussein ke tassadduk, 
+mujh ko bhi kuch ata ho
+Ey benawa ke daata, 
+mera salaam lena.
 
-Mehman lamakhan ka, tum ko banaya Haq ne
-Mehraj wale aka, mera salaam lena
+Mehman lamakhan ka, 
+tum ko banaya Haq ne
+Mehraj wale aka, 
+mera salaam lena
 
-Ay zwahire Madina, ounse zaroor rehna
-kehta he naam lensa, mera salaam lena.
+Ay zwahire Madina, 
+unse zaroor rehna
+kehta he naam lena,
+mera salaam lena.
 
-Tum ho Habeebe dawar, mein tum khata ka peikar
-Tum meri laaj rakna, mera salaam lena
+Tum ho Habeebe daawar, 
+mein tum khata ka peikar
+Tum meri laaj rakhna, 
+mera salaam lena
 
-Sarkar ilteja he har baar ye nazar ki
-Sultan Abdul Qadir Jilani har baar ye nazar ki
-Mera salaam lena, mera salaam lena
+Sarkar ilteja he 
+har baar ye nazar ki
+Sultan Abdul Qadir Jilani 
+har baar ye nazar ki
+Mera salaam lena,
+mera salaam lena
 
 $a3-ri-fai-wi-rd-vi-rd
+
+T:
+
+O King of the path and of the world,
+accept my greetings of peace.
+Through you will my Hereafter be made,
+accept my greetings of peace.
+
+Every emotion of devotion,
+my heart rises to say:
+For the sake of Allah, my Master,
+accept my greetings of peace.
+
+For the sake of Siddiq and Umar,
+for Usman and Ali,
+grant me their intercession,
+accept my greetings of peace.
+
+You are the support of the Prophets,
+God Himself has raised your rank,
+what greatness is yours,
+accept my greetings of peace.
+
+By the sacrifice of Husayn,
+grant me too some portion,
+O giver to the poor and destitute,
+accept my greetings of peace.
+
+The Guest of the place beyond place,
+Allah made you to be,
+O Master of Mi’raj,
+accept my greetings of peace.
+
+O radiant lights of Madinah,
+always remain with him,
+when his name is spoken,
+accept my greetings of peace.
+
+You are the Beloved of the Judge,
+while I am clothed in sin,
+protect my honor,
+accept my greetings of peace.
+
+O Master, my constant plea,
+from every glance and vision:
+Sultan Abdul Qadir Jilani,
+from every glance and vision,
+accept my greetings of peace,
+accept my greetings of peace.
+
+French / français
+
+Ô roi de la religion et du monde,
+recevez mon salut.
+Par vous l’au-delà se réalisera,
+recevez mon salut.
+
+Chaque élan de dévotion,
+mon cœur le prononce debout :
+« Pour Dieu, ô mon Maître,
+recevez mon salut. »
+
+De la sincérité de Hz Abou Bakr et de Hz Umar,
+de Hz Uthmân et de Hz Ali,
+donnez-moi le mérite,
+recevez mon salut.
+
+Soutien des Prophètes,
+ainsi Dieu vous a fait,
+quelle est donc votre grandeur,
+recevez mon salut.
+
+Par le sacrifice de Hz Husayn,
+accordez-moi aussi quelque grâce,
+ô Donateur des démunis,
+recevez mon salut.
+
+L’Hôte du Laamakan,
+ainsi Dieu vous a établi,
+ô Maître de l’Ascension,
+recevez mon salut.
+
+Ô lumières de Médine,
+soyez toujours proches de lui,
+dites son Nom,
+recevez mon salut.
+
+Vous  êtes le Bien-aimé du Juge suprême,
+et moi je suis l’incarnation de la faute,
+préservez mon honneur,
+recevez mon salut.
+
+Ô Seigneur, c’est ma supplication
+à chaque regard levé :
+Sultan ‘Abd al-Qâdir Jîlânî,
+c’est ma supplication,
+recevez mon salut.
+recevez mon salut.
+
+
+
+
 
 Y:
 
@@ -4405,6 +4526,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
