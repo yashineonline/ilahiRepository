@@ -214,6 +214,8 @@ Muhammad Nooré fadlana
 Muhammad ya Habib Allah
 Muhammad ya Rasoul Allah
 
+$sultanul-evli-ya-ahmed-er-ri-fai
+
 $hi-zmeti-ni-edemedi-m
 
 $ya-hasan-basare
@@ -3502,6 +3504,8 @@ Ahmadou moufnil head
 Joud be tas leed minbada
 Mohammad Rasool Allah
 
+$sultanul-evli-ya-ahmed-er-ri-fai
+
 $la-ilaha-illallah
 
 $hi-zmeti-ni-edemedi-m
@@ -3537,6 +3541,8 @@ Jannatoul Ada, Ahmadoul lahi Refahi
 
 Sayyad Ahmadoul Kabir, Sayyad Ali yil maki
 Ashikoul dwamir, mashouk oullah Refahi
+
+$sultanul-evli-ya-ahmed-er-ri-fai
 
 $hi-zmeti-ni-edemedi-m
 
@@ -3603,6 +3609,8 @@ Wal atro twil kan (Atham)
 Alai he moor Jafar 
 Allah
 Sayed Mohammad Aliya
+
+$sultanul-evli-ya-ahmed-er-ri-fai
 
 $il-refahi-koulsheire-nillah
 
@@ -4526,6 +4534,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
