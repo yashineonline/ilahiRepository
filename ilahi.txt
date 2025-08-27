@@ -5827,6 +5827,8 @@ Rufai şerefimiz
 
 $hi-zmeti-ni-edemedi-m
 
+$ya-hasan-basare
+
 $cani-di-lden-fani-kildin-aki-bet
 
 Alternative wording:
@@ -9442,6 +9444,8 @@ $cani-di-lden-fani-kildin-aki-bet
 
 $i-ki-kere-gavs-oldu
 
+$ya-hasan-basare
+
 $hi-zmeti-ni-edemedi-m
 
 Extra words in Arabic (from a thesis)
@@ -12688,6 +12692,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
