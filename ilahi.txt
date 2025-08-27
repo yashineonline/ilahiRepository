@@ -2512,6 +2512,10 @@ Erenler bagından koku al koku
 Arif ol kitabı hemen bil oku               
 Fenerin mumunu yak da gel derviş 
 
+$sabah-seherinde-niyaza-geldim
+
+$cani-di-lden-fani-kildin-aki-bet
+
 $sultanul-evli-ya-ahmed-er-ri-fai
 
 T:
@@ -5819,6 +5823,8 @@ Ali’dir penahımız
 Abdul Kadir Pirimiz                    
 Rufai şerefimiz       
 
+$hi-zmeti-ni-edemedi-m
+
 $cani-di-lden-fani-kildin-aki-bet
 
 Alternative wording:
@@ -7785,6 +7791,8 @@ Erenler neslidir Ali'nin aslı
 Çar alem ile (turna avaz) sesli
 Gümler ya Muhammed Ali çağırır
 
+$cani-di-lden-fani-kildin-aki-bet
+
 $fi-haleti-l-budi-ruhi-kuntu-ursi-luha-ri-fai-kasi-de
 
 T:
@@ -9431,6 +9439,8 @@ Zeynetü'l Arşiyan Ahmed'er-Rifai
 $cani-di-lden-fani-kildin-aki-bet
 
 $i-ki-kere-gavs-oldu
+
+$hi-zmeti-ni-edemedi-m
 
 Extra words in Arabic (from a thesis)
 
@@ -12676,6 +12686,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
