@@ -801,9 +801,9 @@ Allah Allah hüve Rabbüna Rahmani
 
 T:
 Allah, Allah, He is our Lord, The One Who Acts with Mercy
-Have mercy, by the grace of our Shaykh: 
+Have mercy, by the grace of our Pirs and ShaykhA: 
 Ansari
-from Tarsus (Shaykh Taner and Shaykha Muzeyyen)
+Tarsusi: from Tarsus (Shaykh Taner and Shaykha Muzeyyen)
 
 O The Living One, O The Living One, O The Living One
 
@@ -1213,6 +1213,8 @@ AŞKIN İLE AŞIKLAR
 Aşkın ile aşıklar yansın ya Resulallah
 İçüp aşkın şerabın kansın ya Resulallah
 
+$elem-nesrah-leke-sadrak
+
 Hu Allah, La ilaha illallah, la ilaha illallah 
 La ilaha illallah, la ilaha illallah                         
 
@@ -1231,11 +1233,11 @@ Seni sevmiyen nare yansın ya Resulallah
 Derviş Yunus'un canı ilmi şefaat kanı
 Alemlerin sultanı sensin ya Resulallah
 
-$elem-nesrah-leke-sadrak
+$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
 
 $yuzun-nuru-hudadir
 
-$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
+$elem-nesrah-leke-sadrak
 
 T:
 With your love let the lovers burn, O Rasulullah
@@ -1962,7 +1964,8 @@ This ilahi is written by
 Shaykh Hamide Veli, 
 also known as Somuncu Baba. 
 
-( Try to sing in the tune of the second couplet of $yedi-i-kli-mde-surulur )
+( Try to sing in the tune of the second couplet of 
+$yedi-i-kli-mde-surulur )
 
 Y:
 
@@ -2716,6 +2719,33 @@ $cani-di-lden-fani-kildin-aki-bet
 
 $sultanul-evli-ya-ahmed-er-ri-fai
 
+alternative
+with author's name: Ruhi
+
+Çıkılmaz benlikle arş-ı dîdâra,
+Varını, yoğunu yakda gel, derviş!
+
+Ene'l Hakk uğrunda çekilip dâra 
+Mansur'un camını çak da gel, derviş !
+
+Erenler bağından koku al, koku,
+Ârif ol, kitab-ı elesti oku,
+
+Mânâ tezgahında diybalar doku, 
+Hülleyi sırtına tak da gel, derviş ! 
+
+Mürşide teslim ol mevtalar gibi,
+Sükût eyle, görme, âmalar gibi,
+
+Lâkin zamanında deryalar gibi,
+Coşup çağlayarak ak da gel, derviş !
+
+Çıkmasın "Sekahüm" remzi dilinden 
+Mürşidini hak bil çıkma yolundan, 
+
+Koku alacaksan mâna gülünden 
+Rûhî'nin kalbine bak da gel, derviş
+
 T:
 You cannot reach that high headquarters of love with your selfishness
 You have to leave what you have and what you have not, then come dervish
@@ -2733,6 +2763,11 @@ And put them on, then come dervish
 
 Smell the fragrance of the vineyards of those who have attained
 Connect your understanding to Allah and read the book right away
+
+History:
+According to various records, this ilahi is from Ruhi Efendi. 
+
+The word, "Sekahüm" is from the Qur'an, sura Al Insan, verse 21. 
 
 Y:
 
@@ -12941,6 +12976,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
