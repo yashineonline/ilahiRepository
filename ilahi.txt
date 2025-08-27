@@ -4166,6 +4166,8 @@ Pir Sultan Yolundan ayırma bizi
 Muhammed önünde can Hacı Bektaş
 Muhammed önünde can Hacı Bektaş
 
+$sultanul-evli-ya-ahmed-er-ri-fai
+
 $aliya
 
 Alternative version:
@@ -12686,6 +12688,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
