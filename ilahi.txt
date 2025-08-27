@@ -466,6 +466,8 @@ Muhammed doğduğu gece
 
 £https://aqrtsufi.github.io/ilahi/poems/Taskeen%20Noorbhai#imagine|Imagine
 
+$prophet-salawat
+
 $salatu-selam
 
 Gökten yere nur atıldı,
@@ -7185,6 +7187,8 @@ illallah
 
 $prophet-salawat
 
+$alemler-nura-gark-oldu
+
 T:
 
 Leave behind strife with the one who denies,
@@ -12688,6 +12692,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
