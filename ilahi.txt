@@ -2692,16 +2692,18 @@ SuggestedZikr: Hayy (fast), Qayyum Allah,
 Çıkılmaz benlikle ulu dergaha           
 Varını yoğunu atta gel derviş               
 Fenerin mumunu yak da gel derviş   
-                                                                              
-Enel Hak uğruna çekilir dare               
-Enel Hak uğruna çekilir dare               
-Mansurun sabrını çek da gel derviş
-Fenerin mumunu yak da gel derviş    
 
 Teslim ol mürşidine mevtalar gibi       
 Teslim ol mürşidine mevtalar gibi       
 Her şeye göz yum geç amalar gibi        
 Fenerin mumunu yak da gel derviş
+
+$sabah-seherinde-niyaza-geldim
+
+Enel Hak uğruna çekilir dare               
+Enel Hak uğruna çekilir dare               
+Mansurun sabrını çek da gel derviş
+Fenerin mumunu yak da gel derviş    
 
 Mana tezgahında libaslar doku
 Mana tezgahında libaslar doku
@@ -2752,11 +2754,13 @@ You have to leave what you have and what you have not, then come dervish
 
 You have to light your candle and then come dervish
 
+Surrender to your murshid like dead people
+Close your eyes to everything like the blind and then come dervish
+
 For the sake of “I am the Truth” you can be put to hanging
 You have to have the patience of Mansur and then come a dervish
 
-Surrender to your murshid like dead people
-Close your eyes to everything like the blind and then come dervish
+
 
 Make clothes in the spiritual loom
 And put them on, then come dervish
@@ -2942,6 +2946,8 @@ Canına canan isteyen gelsin.
 
 Mektebimizdir mekteb-i esma,
 İlm ile irfan isteyen gelsin.
+
+$yeh-mera-aqeeda-hai-dosto
 
 Fazar-ı vahdet sermayesinden,
 Hisse-i ihsan isteyen gelsin.
@@ -3619,15 +3625,15 @@ Gavsüs Sakaleyni
 Meded ya Rifai
 Sahib kıbleteyni
 
-$allah-allah-huve-rabbuna-rahmani
-
 $fi-haleti-l-budi-ruhi-kuntu-ursi-luha-ri-fai-kasi-de
+
+$allah-allah-huve-rabbuna-rahmani
 
 $sabah-seherinde-niyaza-geldim
 
 T:
-The lights of Hz Huseyn,
-The Helper of both humans and jinn
+The lights of Huseyn,
+The Helper of both worlds
 Our Protecting Master Rifai, 
 The Father of Two Banners
 
@@ -3636,17 +3642,18 @@ Beloved of The Friend
 Shelter for all of us, 
 Descendant of Hasan and Huseyn
 
-The lights of Hz Huseyn, 
+The lights of Huseyn, 
 The Helper of both worlds
 Our Spiritual Ancestor, Pir Rifai,
 The Father of Two Banners
 
-The one who went in the Presence at the Green Tomb, 
+The one who went in the Presence 
+at the Green Tomb, 
 Descendant of Hz Mustafa
 Soul of the Pure ones, 
 Among the two Great Masters
 
-The lights of Hz Huseyn,
+The lights of Huseyn,
 The Helper of both worlds
 Our Spiritual Teacher, Shaykh Rifai,
 The Father of Two Banners
@@ -3656,10 +3663,11 @@ his grandfather is the Messenger
 He is the sword of the martyrs,
 he is among the Great Friends of Allah
 
-The lights of Hz Huseyn, 
+The lights of Huseyn, 
 The Helper of both worlds
 Help us Ya Rifai, 
-Master of both Kibla (direction of prayer)
+Master of both Kibla 
+(direction of prayer)
 
 Y:
 
@@ -4399,9 +4407,11 @@ Pir Sultan Yolundan ayırma bizi
 Muhammed önünde can Hacı Bektaş
 Muhammed önünde can Hacı Bektaş
 
+$aliya
+
 $sultanul-evli-ya-ahmed-er-ri-fai
 
-$aliya
+
 
 Alternative version:
 
@@ -5477,15 +5487,17 @@ L: https://youtu.be/057Lbi4ZgaA?t=20
 
 HASBİ RABBİ CELLALLAH / DİLİM DE ZİKRİM ALLAH
 
+Dilim de zikrim Allah
+Kalbim de fikrim Allah
+Daima şükrüm Allah
+la ilahe illallah
+
 Hasbi Rabbi Cellallah 
 Mafi kalbi gayrullah
 Nur Muhammed Sallallah 
 La ilahe illallah
 
-Dilim de zikrim Allah
-Kalbim de fikrim Allah
-Daima şükrüm Allah
-la ilahe illallah
+$ey-risalet-tahtini
 
 la mahbube illallah
 la maksude illallah
@@ -5515,14 +5527,14 @@ la ma’shuke illallah
  
 
 T:
-My sufficiency is my Lord, Allah
-In my heart there is none but Allah
-The light of Muhammad, blessings of Allah
-There is no god but Allah
-
 On my tongue my remembrance is Allah
 In my heart my thought is Allah
 Always my gratitude is to Allah
+There is no god but Allah
+
+My sufficiency is my Lord, Allah
+In my heart there is none but Allah
+The light of Muhammad, blessings of Allah
 There is no god but Allah
 
 There is no beloved but Allah
@@ -6058,11 +6070,11 @@ Ali’dir penahımız
 Abdul Kadir Pirimiz                    
 Rufai şerefimiz       
 
+$cani-di-lden-fani-kildin-aki-bet
+
 $hi-zmeti-ni-edemedi-m
 
 $ya-hasan-basare
-
-$cani-di-lden-fani-kildin-aki-bet
 
 Alternative wording:
 Müridine nar gülzar
@@ -6748,6 +6760,16 @@ A: https://www.youtube.com/watch?v=CU8WfpMeXzA
 SuggestedZikr: Hu
 
 MESTU HAYRANIM
+
+Hû ismi azam, Hû Hû de hocam 
+Kuddûsî her dem Hû dimek ister
+
+Shaykh taner her dem Hû Hû de hocam 
+Müzeyyen her dem Hû dimek ister
+Pirimiz her dem Hû dimek ister
+
+$bi-r-aciz-hayranim-ya-hazreti-geylani
+
 
 Mest u hayranım zar u giryanım
 Her dem lisanım hu dimek ister 
@@ -7845,6 +7867,15 @@ nebiler serveridir
 Ver salavat aşk ile 
 ol günahlar eridir
 
+Yunus Emrem iş bu sözü 
+can içinde söyledi
+Söyleyen bî-çare Yûnus 
+Tapduk Emrem sırrıdır
+
+$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
+
+$ey-risalet-tahtini
+
 Hak onu öğdü yaratdı sevdi Habib'im dedi
 Yer yüzünde cümle çiçek Mustafa'nın teridir
 
@@ -8044,6 +8075,13 @@ Dağlar ya Muhammed Ali çağırır
 Bülbülün figanı bağrımı deldi
 Güller ya Muhammed Ali çağırır
 
+Muhammed Ali'nin çoktur aşıkı
+Aşık olanların yanar ışığı
+Hasan ile Hüseyin'in beşiği
+Sallar ya Muhammed Ali çağırır
+
+$cani-di-lden-fani-kildin-aki-bet
+
 Vird verildi gökte uçan kuşlara
 Bakmaz mısın gözden akan yaşlara
 Sular yüzün sürer taştan taşlara
@@ -8226,6 +8264,8 @@ Ve selamün alel murselin
 velhamdülillahi rabbil alemin
 
 $sevgi-baht-olmus
+
+Esselatu Vesselamu Aleyke Ya Rahmetel lil Alamin
 
 $sirni-ala
 
@@ -8909,6 +8949,8 @@ Sizde bir türlü, bizde bir türlü,
 Alaca düşmüş gördüğümüze,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü bizde bir türlü.
+
+$positivity-prayers
 
 Donandı dağlar, bahar olunca,
 Gölgem kayboldu gönlüm dolunca, Ah
@@ -9724,13 +9766,15 @@ Gönülde mihmahsın Ahmed er-Rifai
 Sahibü'l-alemeyn Mürşidi's-sakaleyn
 Zeynetü'l Arşiyan Ahmed'er-Rifai
 
+$hi-zmeti-ni-edemedi-m
+
 $cani-di-lden-fani-kildin-aki-bet
 
 $i-ki-kere-gavs-oldu
 
 $ya-hasan-basare
 
-$hi-zmeti-ni-edemedi-m
+
 
 Extra words in Arabic (from a thesis)
 
@@ -9794,6 +9838,8 @@ Turkish:
 
 Taleal- bedru aleyna min seniyyati-il veda
 Vecebe'ş-şükrü aleyna ma de'a lillahi da'
+
+$mevlam-nurdan-yaratmis
 
 Eyyühel meb'usü fina ci'te bi'l-emri'l muta'
 Ci'te şerrafte'l- Medine merhaba ya hayra da'
@@ -10685,12 +10731,12 @@ Nesimi ümmeti eyle şefaat
 Kapında bir gedadır ya Muhammed 
 Kapında bir gedadır ya Muhammed 
 
-Singing Note:
-You can say Ömer or Omar.
-
 basic zikr follow up ilahi:
 
 $seyreyleyi-p-yandim-mah-cemali-ne
+
+Singing Note:
+You can say Ömer or Omar.
 
 Pronunciation:
 
@@ -12295,6 +12341,8 @@ Wal qamari izaa talaa haa
 Wan nahaari izaa jallaa haa
 Wal layli izaa yaghshaa haa
 
+$ey-risalet-tahtini
+
 Wassamaaa'i wa maa banaahaa
 Wal ardi wa maa tahaahaa
 
@@ -12976,6 +13024,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
