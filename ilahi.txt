@@ -764,6 +764,8 @@ Allah Allah hüve Rabbüna Rahmani
 İrham bi fazlı şeyhina Ensari
 İrham bi fazlı şeyhina Ensari
 
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
+
 A Sultanım Sen var iken
 Ya ben kime yalvarayım Ya Hu
 
@@ -771,12 +773,16 @@ Allah Allah hüve Rabbüna Rahmani
 İrham bi fazlı şeyhina Tarsusi
 İrham bi fazlı şeyhina Tarsusi
 
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
+
 Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
 
 Allah Allah hüve Rabbüna Rahmani
 İrham bi fazlı şeyhina Taneri
 İrham bi fazlı şeyhina Müzeyyen
+
+Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 
 $tale-al-bedru-aleyna
 
@@ -794,6 +800,21 @@ Allah Allah hüve Rabbüna Rahmani
 İrham bi fazlı şeyhina Müzeyyen
 
 T:
+Allah, Allah, He is our Lord, The One Who Acts with Mercy
+Have mercy, by the grace of our Shaykh: 
+Ansari
+from Tarsus (Shaykh Taner and Shaykha Muzeyyen)
+
+O The Living One, O The Living One, O The Living One
+
+O my Sultan, while You exist
+To whom shall I plead, O Hu?
+
+The One Who makes Yunus ecstatic
+To whom shall I plead, O Hu?
+
+----
+
 Allah, Allah, He is our Lord, The One Who Acts with Mercy
 Have mercy, by the grace of our Shaykh: 
 from Geylan (Abdul Qadir Geylani), 
@@ -12920,6 +12941,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
