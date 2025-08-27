@@ -79,7 +79,23 @@ Rıdwana ala rıdwani
 
 $sirni-ala
 
+-----
+
+Special Urs / Mawlid Aug 2025
+
+Abdul Kadirül Geylani
+Züt tasrifil ekvani
+Ya Mevla ya ferda anhü
+Rıdwana ala rıdwani
+
+Ya Rabbi bi Muhyiddini
+Vel Ali madad temkini
+Et felli Bahaeddini
+Vel Abdü şefa vel hali
+
 $munkur-terket-nizayi
+
+----
 
 Alternative and Extra words:
 
@@ -498,8 +514,6 @@ Akar gözden kanlı yaşlar (Hayy Hayy)
 Secde kıldı dağlar taşlar (İllallah Hu Ya Hu)
 Muhammed doğduğu gece (İllallah Hu Canım)
 
-#test
-
 Chorus for Alternative tune
 
 Alemler Nura gark oldu (Canım)
@@ -600,6 +614,27 @@ Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
 
 Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
+
+----
+Special Urs / Mawlid Aug 2025
+
+Allah Allah hüve Rabbüna Rahmani
+İrham bi fazlı şeyhina Ensari
+İrham bi fazlı şeyhina Ensari
+
+A Sultanım Sen var iken
+Ya ben kime yalvarayım Ya Hu
+
+Allah Allah hüve Rabbüna Rahmani
+İrham bi fazlı şeyhina Tarsusi
+İrham bi fazlı şeyhina Tarsusi
+
+Yunus'u bir-huş eyleyen
+Ya ben kime yalvarayım Ya Hu
+
+Allah Allah hüve Rabbüna Rahmani
+İrham bi fazlı şeyhina Taneri
+İrham bi fazlı şeyhina Müzeyyen
 
 $tale-al-bedru-aleyna
 
@@ -12692,6 +12727,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
