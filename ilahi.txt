@@ -466,9 +466,7 @@ Muhammed doğduğu gece
 
 £https://aqrtsufi.github.io/ilahi/poems/Taskeen%20Noorbhai#imagine|Imagine
 
-$prophet-salawat
-
-$salatu-selam
+$ya-muhammad-mustafa-shammen-risaalat-assalaam
 
 Gökten yere nur atıldı,
 Yediler, kırklar katıldı,
@@ -7185,8 +7183,6 @@ Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
 illallah
 
-$prophet-salawat
-
 $alemler-nura-gark-oldu
 
 T:
@@ -12085,18 +12081,6 @@ that which will make you well pleased.
 
 Y:
 
-PROPHET SALAWAT
-
----
-
-$ya-muhammad-mustafa-shammen-risaalat-assalaam
-
-T:
-
-
-
-Y:
-
 POSITIVITY PRAYERS
 
 ZIKR 
@@ -12692,6 +12676,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
