@@ -6831,6 +6831,18 @@ Aman şahım merdan aman el aman
 Yakıyor canımı ateşi suzan (Hayy Hayy)
 Yakıyor canımı ateşi suzan
 
+Medet senden medet Sultanım Ali
+Dertliyim derdime dermanım Ali (Hayy Hayy) 
+Dertliyim derdime dermanım Ali
+
+Mürşidim Muhammed Rehberim Ali
+
+Mürşidim Taner Rehberim Muzeyyen
+
+$ey-shahe-deen-o-duniya-mera-salaam-lena
+
+Special adjustment for Mawlid / Urs 2025
+
 Aman erenlerim amana geldim
 İsmail olu ben kurbana geldim (Hayy Hayy)
 İsmail olu ben kurbana geldim
@@ -6891,6 +6903,13 @@ Whenever I am troubled, you are the remedy for my troubles, Ali.
 
 Oh, my brave king, Oh, my valiant ruler, Oh, dear
 An intense, consuming fire is burning my soul 
+
+Help from you, my Sultan Ali, help me.
+My rose, my rose garden, my joy, Ali.
+Whenever I am troubled, you are the remedy for my troubles, Ali.
+
+Muhammad is my Murshid, Ali is my Rehber
+(Shaykh) Taner is my Murshid, (Shaykha) Muzeyyen is my Rehber 
 
 Oh my erenler, walis, saints, masters, I have come to your doorstep in peace
 I have come as a sacrifice, like İsmail
@@ -13332,6 +13351,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
