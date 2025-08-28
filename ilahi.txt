@@ -5947,6 +5947,55 @@ Abdul Kadir Şeyhen lillah illallah Hu
 Selatullah selamullah aleyke ya Habib Allah
 Ya Rufai Şeyhen lillah illallah Hu                    
 
+Selatullah selamullah aleyke ya Rasul Allah 
+Ya Hashimi Şeyhen lillah illallah Hu        
+Selatullah selamullah aleyke ya Habib Allah
+Ya Ansari Şeyhen lillah illallah Hu                   
+
+Muhyi taksirin affeyle                                
+Kapunda daim kul eyle                             
+Hizmetinde mukiym eyle                          
+Yandır Şeyhim kül olayım illallah Hu 
+Aşk oduna ben yanayım illallah Hu  
+
+Selatullah selamullah aleyke ya Habib Allah
+Ya Taner Ansari Şeyhen lillah illallahu  
+Selatullah selamullah aleyke ya Rasulullah   
+Ya Müzeyyen Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Rasulullah   
+Ya Sheila Ansari Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Habib Allah
+Ya Ibrahim Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Rasulullah   
+Nishaat Siddiqi Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Habib Allah
+Dr Steve Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Rasulullah
+Ya Reeyaaz Ansari Şeyhen lillah illallah Hu 
+
+Selatullah selamullah aleyke ya Habib Allah
+Ya Sadeck Ansari Şeyhen lillah illallah Hu 
+
+$salatu-selam
+
+Above is special adjustment for Mawlid / Urs 2025
+
+Hizmetini edemedim                                 
+##Himmetini## alamadım                                
+Aşk oduna yanamadım                            
+Yandır Şeyhim kül olayım illallah Hu
+Aşk oduna ben yanayım illallah Hu 
+
+Selatullah selamullah aleyke ya Rasulullah  
+Abdul Kadir Şeyhen lillah illallah Hu    
+Selatullah selamullah aleyke ya Habib Allah
+Ya Rufai Şeyhen lillah illallah Hu                    
+
 Yüzüm kare kalbim kare                         
 Böyle hizmet ettim sana                            
 Eyle şefaat sen bana                                   
@@ -8452,9 +8501,19 @@ velhamdülillahi rabbil alemin
 
 $sevgi-baht-olmus
 
-Esselatu Vesselamu Aleyke Ya Rahmetel lil Alamin
+Special addition below for Mawlid / Urs 2025
+
+Assalatu was Salaamu Alayka ya Rasul Allah 
+
+Assalatu was Salaamu Alayka ya Habib Allah 
+
+Assalatu was Salaamu Alayka ya Rahmatal lil alamin
 
 $sirni-ala
+
+Alternative extra line
+
+Esselatu Vesselamu Aleyke Ya Rahmetel lil Alamin
 
 Pronunciation:
 As-salaatu was-salaamu 'alayka yaa Rasoolallaah
@@ -8463,7 +8522,25 @@ As-salaatu was-salaamu 'alayka yaa Sayyid al-awwaleena wal-aakhireen
 Was-salaamun 'alal-mursaleen
 Wal-hamdu lillaahi Rabbil-'aalameen
 
+T:
+May peace and blessings be upon you, O Allah’s Messenger
 
+May peace and blessings be upon you, O Allah’s Beloved
+
+Peace and blessings be upon you, O Master of the first and the last.
+
+And peace be upon the messengers.
+
+And all gratitude and praise belong to Allah, 
+the Lord of the worlds. 
+
+
+May peace and blessings be upon you, O Allah’s Messenger
+
+May peace and blessings be upon you, O Allah’s Beloved
+
+May peace and blessings be upon you, O the one who has been sent as Mercy
+and Compassion to all the realms
 
 
 
@@ -13211,6 +13288,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
