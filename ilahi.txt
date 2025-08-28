@@ -47,6 +47,13 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
+Ya Rabbi bi Muhyiddini
+Vel Ali madad temkini
+Et felli Bahaeddini
+Vel Abdü şefa vel hali
+
+$munkur-terket-nizayi
+
 Lebbeyna hü müznadana
 Şahitna lehül bürhana
 Vezdütna bihi kana
@@ -167,6 +174,11 @@ Abdul Qadir of Geylan
 Possessor of the power to direct the universe
 O Master, O Unique One, through him
 Grant pleasure upon pleasure
+
+O my Lord, by (the rank of) Muhyiddin
+And Ali, grant steadfast support
+By the splendour of Bahauddin
+And Abdu, grant intercession and well-being
 
 We answered him, our reliance.
 We witnessed in him the clear proof.
@@ -2528,6 +2540,11 @@ CANI DİLDEN FANİ KILDIN AKİBET
 Canı dilden fani kıldın akıbet         
 İkisin virane kıldın akıbet                   
 
+Ey Fakirullah bu hakki bende mi?
+Vasılı canana kıldın akıbet  
+
+$seni-ben-severi-m
+
 Şol canın zincirin tahrik eyleyip      
 Sen beni divane kıldın akıbet            
 
@@ -2570,6 +2587,9 @@ Va-sı-lı ja-na-na kıl-dın a-ki-bet
 T:
 My fate, you ended this life in my heart
 You ruined both of them, O my fate
+
+O Fakirullah, is this the service of the True?
+You ruined my chance of getting to my lover, O my fate
 
 You tempted the chain of my heart
 And then you made me crazy, O my fate
@@ -5016,6 +5036,13 @@ Güzel aşık cevrimizi
 Bu bir rıza lokmasıdır            
 Yiyemezsin demedim mi?     
 
+Pir Sultan Ali şahımız            
+Hakka ulaşır rahımız             
+On iki imam fenahımız          
+Uyamazsın demedim mi?      
+
+$mestu-hayranim
+
 Yemeyenler kalır naçar         
 Gözlerinden kanlar saçar     
 Bu bir demdir gelir geçer      
@@ -5091,6 +5118,11 @@ Beautiful lover, you cannot
 Put up with our trouble, didn’t I say so?
 This is a bite of the food of contentment
 You cannot eat it, didn’t I say so?
+
+Pir Sultan Ali is our king
+Our path reaches to Haqq.
+The place we end is 12 İmams.
+You can’t follow them, didn’t I say so?
 
 The ones who cannot eat stay desperate
 They spill tears of blood from their eyes
@@ -6121,6 +6153,18 @@ L: https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
 SuggestedZikr: Allah Hayy Ya Qayyum, la ila ha illallah, Hayy Hayy Hayy Allah
 
 İKİ KERE GAVS OLDU
+
+Allahumma sal li ala 
+Sayyidina 
+Muhammadin wa ala 
+aali Sayyidina Muhammad
+
+Abdul Qadir Gavsımız
+Rufai Sultanımız
+Shaykh Taner Pirimiz
+Müzeyyen Mürşidimiz
+
+Above is special addition for Mawlid / Urs 2025
 
 Movement for Allah Hayy Ya Qayyum: silat (martial art)
 
@@ -13138,6 +13182,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
