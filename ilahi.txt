@@ -1794,7 +1794,7 @@ Eşiğini bekler dervişler
 Ya Müzeyyen erenler
 Ya Hazreti Shaykh Taner
 
-Yüregim giryandır 
+Yüreğim giryandır 
 Ciğerim püryandır 
 Bu can sana fedadır 
 Ya Müzeyyen ve Taner
@@ -13138,6 +13138,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
