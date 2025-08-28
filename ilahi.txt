@@ -6839,6 +6839,8 @@ Mürşidim Muhammed Rehberim Ali
 
 Mürşidim Taner Rehberim Muzeyyen
 
+$mehboob-ki-mehfil-ko-mehboob-sajaate-hain?file=naat.txt
+
 $ey-shahe-deen-o-duniya-mera-salaam-lena
 
 Special adjustment for Mawlid / Urs 2025
@@ -13351,6 +13353,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
