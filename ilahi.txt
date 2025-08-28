@@ -54,6 +54,13 @@ Vel Abdü şefa vel hali
 
 $munkur-terket-nizayi
 
+Above is special adjustment for Mawlid / Urs 2025
+
+Abdul Kadirül Geylani
+Züt tasrifil ekvani
+Ya Mevla ya ferda anhü
+Rıdwana ala rıdwani
+
 Lebbeyna hü müznadana
 Şahitna lehül bürhana
 Vezdütna bihi kana
@@ -2545,6 +2552,11 @@ Vasılı canana kıldın akıbet
 
 $seni-ben-severi-m
 
+Above is special adjustment for Mawlid / Urs 2025
+
+Canı dilden fani kıldın akıbet         
+İkisin virane kıldın akıbet            
+
 Şol canın zincirin tahrik eyleyip      
 Sen beni divane kıldın akıbet            
 
@@ -5029,8 +5041,6 @@ SuggestedZikr: Allah Allah Allah Allah
 
 GÜZEL AŞIK CEVRİMİZİ   
 
-Movement: like wheat / corn / sugarcane field
-
 Güzel aşık cevrimizi                
 Çekemezsin demedim mi?    
 Bu bir rıza lokmasıdır            
@@ -5042,6 +5052,15 @@ On iki imam fenahımız
 Uyamazsın demedim mi?      
 
 $mestu-hayranim
+
+Above is special adjustment for Mawlid / Urs 2025
+
+Movement: like wheat / corn / sugarcane field
+
+Güzel aşık cevrimizi                
+Çekemezsin demedim mi?    
+Bu bir rıza lokmasıdır            
+Yiyemezsin demedim mi?     
 
 Yemeyenler kalır naçar         
 Gözlerinden kanlar saçar     
@@ -6320,6 +6339,16 @@ Beynennas / Ebu’l Arca / Ebül üreyca,
 the Father of the Lame.
 
 T:
+O Allah, send peace and blessings 
+upon our master
+Muhammad and upon
+the family of our master Muhammad
+
+Abdul Qadir, our Helper
+Rifai, our King
+Shaykh Taner, our Pir (spiritual guide)
+Müzeyyen, our Murshid (spiritual teacher)
+
 He became qutb (perfect) twice
 The world filled with his fame
 He got his share from Ali
@@ -13182,6 +13211,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
