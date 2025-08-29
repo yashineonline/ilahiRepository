@@ -4827,13 +4827,40 @@ Y:
 
 Category: Pir Rifai
 
- Il-Refahi koulsheire Nillah
-
- 
 Il-Refahi koulsheire Nillah
-Abdool Qadeer Jilani
-Allahou-Allah hou Allah
-Mohammad Rasool Allah
+ 
+Il Rifai kul sheyh al lillah
+Abdool Qadeer Geylani
+Allahu Allah Hu Allah (Allah)
+Muhammad Rasul Allah
+
+Ya Shaykh Taner Ansari
+Ya Muzeyyen Ansari
+Allahu Allah Hu Allah (Allah)
+Muhammad Rasul Allah
+
+Martaba aysa hak ne ata
+Tum ko kiya he shahe wila
+Koyi wali tum san a houwa (Allah)
+Muhammad Rasul Allah
+
+Ya Shaykh Taner Ansari
+Ya Muzeyyen Ansari
+Allahu Allah Hu Allah (Allah)
+Muhammad Rasul Allah
+
+$la-ilaha-illallah
+
+$sultanul-evli-ya-ahmed-er-ri-fai
+
+$ya-hasan-basare
+
+$hi-zmeti-ni-edemedi-m
+
+Il Rifai kul sheyh al lillah
+Abdool Qadeer Geylani
+Allahu Allah Hu Allah (Allah)
+Muhammad Rasul Allah
 
 Kheire ho mamwaté hassarah
 Al mosaffa fil wara
@@ -4882,7 +4909,34 @@ $la-ilaha-illallah
 $hi-zmeti-ni-edemedi-m
 
 $ya-hasan-basare
- 
+
+T:
+
+Al-Rifai, master of all shaykhs of Allah
+And so is Abdul Qadir al-Geylani
+Allahu Allah Hu Allah,
+Muhammad is the Messenger of Allah.
+
+O Shaykh Taner Ansari,
+O Muzeyyen Ansari.
+Allahu Allah Hu Allah,
+Muhammad is the Messenger of Allah.
+
+Such a rank Allah has bestowed upon you,
+He has made you the King of Sainthood.
+No wali has been like you.
+Muhammad is the Messenger of Allah.
+
+O Shaykh Taner Ansari,
+O Muzeyyen Ansari.
+Allahu Allah Hu Allah,
+Muhammad is the Messenger of Allah.
+
+---
+
+
+
+
 Y:
 
 Category: Pir Rifai, Muharram
@@ -5905,6 +5959,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
