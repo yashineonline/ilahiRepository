@@ -12562,10 +12562,10 @@ Ya Allahu ya Rahmanu
 unsur-il-müslimiyne 
 
 elfü salâtin 
-sümme selâmin 
+elfü selâmin 
 ales-sırrıl aziym. 
 Ahmed-el-Mustafa 
-seyyid-il-âlemiyne 
+eşref el âlemiyne 
 ve alâ 
 âlihi ve 
 sahbihi 
@@ -12582,22 +12582,22 @@ Salâvatullah alâ men
 lehuş-şefa'at 
 alâmet
 Nebiyyinâ Muhammed 
-muzallelün bil-gamamet 
+muzallen bil-gamamet 
 
-ya Mustafa şey'en lillah
+ya Mustafa şeyhen lillah
 yâ sırren min sırrıllah 
 
-yâ Mustafa şey'en lillah 
+yâ Mustafa şeyhen lillah 
 yâ feyzen min feyzillah 
 
-yâ Mustafa şey'en lillah 
+yâ Mustafa şeyhen lillah 
 yâ nûren min nurillah. 
 
-Yâ mütecelli (celli) irham zilli-i 
+Yâ mütecelli (celli) irham zulli-i 
 ya müta'ali-i aslihi hali-i
-Yâ mütecelli (celli) irham zilli-i 
+Yâ mütecelli (celli) irham zulli-i 
 ya müta'ali-i aslihi hali-i
-Yâ mütecelli (celli) irham zilli-i 
+Yâ mütecelli (celli) irham zulli-i 
 ya müta'ali-i aslihi hali-i
 
 yâ Resûlallah gavsen ve meded 
@@ -12606,17 +12606,16 @@ yâ habiballahi aleyk-el mû'temedi
 mû'temedi
 yâ nebiyyallahi kün lenâ şâfi'an 
 ente vallahü şefi'ün lâ türed 
-lâ türed
 
-yâ Rabi enta Allah 
+yâ Rabbi enta Allah 
 Allah
-yâ Rabi enta Allah 
+yâ Rabbi enta Allah 
 Allah
 yâ hasbü enta Allah 
 Allah
 yessir lenâ ilme 
-Lâ ilâhe illâllah
-Allah
+Lâ ilâhe ill Allah
+
 
 Muhammedin Resûlüllahi 
 hakkan ve sıdkan 
@@ -13406,6 +13405,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
