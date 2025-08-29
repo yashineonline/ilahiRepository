@@ -4943,8 +4943,12 @@ Category: Pir Rifai, Muharram
 
 Ya Hasan Basare
 
-Ya Hasan basaré, Ya Sayyad Shabaan
-Sayyade Izzi deen Habeebé, Yusul Refahi – Ya Mawla
+Ya Hasan basare, 
+Ya Sayyad Shabaan
+Sayyade Izzi deen Habeebe, 
+Yusuf Rifai – Ya Mawla
+
+$hi-zmeti-ni-edemedi-m
 
 Sayyadé Shahadat, Swahebé Karaamat
 Mouz aral ashraf, Sayyad Yusul Refahi
@@ -4971,11 +4975,63 @@ $sultanul-evli-ya-ahmed-er-ri-fai
 
 $hi-zmeti-ni-edemedi-m
 
+T:
+O Hasan of Basri
+O Master Shabaan
+O Master Izzi Deen, The beloved
+Yusuf Rifai, O Protecting Guardian
+
 Y:
 
 Category: Muharram
 
 Aliya
+
+Aliya to Aliya
+Aliya to Aliya 
+Ewa Allah 
+Aliya to Aliya 
+Allah
+Seyyed Muhammad Aliya 
+Ewa Allah 
+
+Ya Fatema Zahra
+Ya Hasan Ya Huseyn
+Ewa Allah
+Ya Aliyyil Murteza
+Allah
+Sayed Mohammad Aliya
+
+Aliya to Aliya
+Aliya to Aliya 
+Ewa Allah 
+Aliya to Aliya 
+Allah
+Seyyed Muhammad Aliya 
+Ewa Allah 
+
+Ya Taner Ansari 
+Ya Muzeyyen Ansari
+Ewa Allah
+Ya Qutubul Zamani
+Allah
+Sayed Muhammad Aliya
+
+Aliya to Aliya
+Aliya to Aliya 
+Ewa Allah 
+Aliya to Aliya 
+Allah
+Seyyed Muhammad Aliya 
+Ewa Allah 
+
+$il-refahi-koulsheire-nillah
+
+$la-ilaha-illallah
+
+$sultanul-evli-ya-ahmed-er-ri-fai
+
+$ya-hasan-basare
 
 Aliya to Aliya
 Aliya to Aliya 
@@ -5092,6 +5148,33 @@ Ya Shaykh Taner Ansari
 Allah
 Seyyed Muzeyyen Ansari
 Ewa Allah 
+
+T:
+Aliya is the name of 
+Hz Fatima
+Aliya refers to the 
+family of
+Prophet Muhammad
+Peace be upon them all
+ewa Allah: as Allah wishes
+
+Hz Fatima, the daught of the Prophet pbuh
+Hz Hasan and Hz Huseyn, 
+the grandsons of the Prophet pbuh
+Hz Ali, the cousin of the Prophet pbuh
+and spiritual successor of Prophet Muhammad pbuh
+
+Shayh Taner Ansari
+and 
+Shaykha Muzeyyen Ansari
+are also part of the family
+of the Prophet pbuh,
+This is Allah's wish!
+Eywallah!
+
+
+
+
 
 Y:
 
@@ -5959,6 +6042,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
