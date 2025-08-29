@@ -7724,6 +7724,8 @@ Hayy Hayy Hayy Hayy
 Hu Hu Hu Hu
 illallah
 
+$baghdad-mujhe-ponchaade-khuda
+
 $alemler-nura-gark-oldu
 
 ---
@@ -13405,6 +13407,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
