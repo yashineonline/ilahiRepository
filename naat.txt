@@ -3912,11 +3912,11 @@ mera salaam lena
 Tumse banegi ukba 
 mera salaam lena
 
+Sultane Awliya Hai 
+Abdul Qadir Jilani
 Sarkar ilteja he 
 har baar ye nazar ki
-Sultan Abdul Qadir Jilani 
-har baar ye nazar ki
-Mera salaam lena,
+Mera salaam lena, 
 mera salaam lena
 
 Eh shahe deen o duniya 
@@ -3961,11 +3961,11 @@ mein tum khata ka peikar
 Tum meri laaj rakhna, 
 mera salaam lena
 
+Sultane Awliya Hai 
+Abdul Qadir Jilani
 Sarkar ilteja he 
 har baar ye nazar ki
-Sultan Abdul Qadir Jilani 
-har baar ye nazar ki
-Mera salaam lena,
+Mera salaam lena, 
 mera salaam lena
 
 $a3-ri-fai-wi-rd-vi-rd
@@ -3982,10 +3982,10 @@ for Usman and Ali,
 grant me their intercession,
 accept my greetings of peace.
 
+King of all friends of Allah
+Abdul Qadir Jilani
 O Master, my constant plea,
 from every glance and vision:
-Sultan Abdul Qadir Jilani,
-from every glance and vision,
 accept my greetings of peace,
 accept my greetings of peace.
 
@@ -4024,10 +4024,10 @@ while I am clothed in sin,
 protect my honor,
 accept my greetings of peace.
 
+King of all friends of Allah
+Abdul Qadir Jilani
 O Master, my constant plea,
 from every glance and vision:
-Sultan Abdul Qadir Jilani,
-from every glance and vision,
 accept my greetings of peace,
 accept my greetings of peace.
 
@@ -4073,16 +4073,13 @@ et moi je suis l’incarnation de la faute,
 préservez mon honneur,
 recevez mon salut.
 
+Le chef des amis d'Allah
+‘Abd al-Qâdir Jîlânî
 Ô Seigneur, c’est ma supplication
 à chaque regard levé :
-Sultan ‘Abd al-Qâdir Jîlânî,
 c’est ma supplication,
 recevez mon salut.
 recevez mon salut.
-
-
-
-
 
 Y:
 
@@ -6123,6 +6120,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
