@@ -10274,10 +10274,10 @@ TALE AL BEDRU ALEYNA
 
 Turkish:
 
-Taleal- bedru aleyna 
-min seniyyati-il veda
+Tale al bedru aleyna 
+min seniyyatil veda-i
 Vecebe'ş-şükrü aleyna 
-ma de'a lillahi da'
+ma de'a lillahi da'i
 
 $mevlam-nurdan-yaratmis
 
@@ -13460,6 +13460,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
