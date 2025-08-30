@@ -4921,9 +4921,9 @@ Y:
 
 Category: Pir Rifai
 
-Il-Refahi koulsheire Nillah
+Il Rifai kul shayh Lillah
  
-Il Rifai kul sheyh al lillah
+Il Rifai kul shayh al lillah
 Abdool Qadeer Geylani
 Allahu Allah Hu Allah (Allah)
 Muhammad Rasul Allah
@@ -5045,10 +5045,10 @@ Yusuf Rifai – Ya Mawla
 $hi-zmeti-ni-edemedi-m
 
 Sayyadé Shahadat, Swahebé Karaamat
-Mouz aral ashraf, Sayyad Yusul Refahi
+Mouz aral ashraf, Sayyad Yusuf Refahi
 
 Bin Sayyad Sultwaan, Mahdanil Irfaan
-Hahiboud dayyyan, Abdool Rahim Refahi
+Habiboud dayyyan, Abdool Rahim Refahi
 
 Mohammad Zulmein, Was far Abeedina
 Mouz haril Yakeen na, Sayyad Swallé Refahi
@@ -5062,7 +5062,7 @@ Dwa miroul Akhtar, Sayyad Ali Refahi
 Sayyad Mohammad, wassila zulmein
 Jannatoul Ada, Ahmadoul lahi Refahi
 
-Sayyad Ahmadoul Kabir, Sayyad Ali yil maki
+Sayyad Ahmadoul Kabir, Sayyad Ali yil Makki
 Ashikoul dwamir, mashouk oullah Refahi
 
 $sultanul-evli-ya-ahmed-er-ri-fai
@@ -6151,6 +6151,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
