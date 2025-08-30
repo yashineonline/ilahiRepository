@@ -8609,6 +8609,8 @@ Esselatu Vesselamu Aleyke YA seyyidel evveline vel AHİRİN
 Ve selamün alel murselin 
 velhamdülillahi rabbil alemin
 
+$wafu-anna
+
 $sevgi-baht-olmus
 
 Special addition below for Mawlid / Urs 2025
@@ -12776,14 +12778,15 @@ Anta mawlaanaa
 fansurnaa 
 'alal qawmil kaafireen
 
+$sevgi-baht-olmus
+
 T:
 Forgive us, 
 absolve us and tolerate us, 
 and have mercy and be kind to us.
 You are our Mawla [Protecting Master], 
 so give us victory 
-over the
-community of kafirin.”
+over the community of kafirin.”
 
 
 Translated by Shaykh Taner Vargonen el Ansari
@@ -13486,6 +13489,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
