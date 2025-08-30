@@ -10753,10 +10753,17 @@ attributed to the companion Hassan ibn Thabit,
 known as the "Poet of the Prophet."
 
 T:
-No eye has ever seen anyone more beautiful than you,
-No mother has ever given birth to anyone more handsome than you.
-You were created free from all faults,
-As if you were created just the way you wished.
+O my Beloved, O my Doctor 
+O Kind One, O My Merciful One
+
+No eye has ever seen 
+anyone more beautiful than you,
+No mother has ever given birth 
+to anyone more handsome than you.
+You were created 
+free from all faults,
+As if you were created 
+just the way you wished.
 
 Turkish
 
@@ -13451,6 +13458,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
