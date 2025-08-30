@@ -1190,7 +1190,7 @@ $hi-zmeti-ni-edemedi-m
 
 $ya-hasan-basare
 
-$il-refahi-koulsheire-nillah
+$il-rifai-kul-shayh-lillah
 
 Mohammad zainé koul zainé
 La houle badroule kasam nisfeine
@@ -1233,7 +1233,7 @@ $hi-zmeti-ni-edemedi-m
 
 $ya-hasan-basare
 
-$il-refahi-koulsheire-nillah
+$il-rifai-kul-shayh-lillah
 
 T:
 
@@ -5119,7 +5119,7 @@ Allah
 Seyyed Muhammad Aliya 
 Ewa Allah 
 
-$il-refahi-koulsheire-nillah
+$il-rifai-kul-shayh-lillah
 
 $la-ilaha-illallah
 
@@ -5187,7 +5187,7 @@ Sayed Mohammad Aliya
 
 $sultanul-evli-ya-ahmed-er-ri-fai
 
-$il-refahi-koulsheire-nillah
+$il-rifai-kul-shayh-lillah
 
 $la-ilaha-illallah
 
@@ -6151,6 +6151,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
