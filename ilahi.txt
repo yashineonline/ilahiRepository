@@ -8469,6 +8469,11 @@ The mountains cry out, O Muhammad Ali
 The lament of the nightingale pierced my chest
 The roses cry out, O Muhammad Ali
 
+There are many lovers of Muhammad and Ali
+The light of the lovers burns
+The cradle of Hasan and Husayn
+It rocks, O Muhammad Ali cries out
+
 The chant was given to the birds flying in the sky
 Do you not see the tears falling from the eyes?
 The waters anoint stone after stone
@@ -8494,7 +8499,7 @@ Your mother may not approve, but the wise masters do
 The sick have also come, asking for healing
 The healed cry out, O Muhammad Ali
 
-There are many lovers of Muhammad Ali
+There are many lovers of Muhammad and Ali
 The light of the lovers burns
 The cradle of Hasan and Husayn
 It rocks, O Muhammad Ali cries out
@@ -13446,6 +13451,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
