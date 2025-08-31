@@ -9326,6 +9326,10 @@ Alaca düşmüş gördüğümüze,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü bizde bir türlü.
 
+Ya Rahman Ya Rahim
+The One Who Acts with Mercy
+The Source of Mercy
+
 $positivity-prayers
 
 Donandı dağlar, bahar olunca,
@@ -12932,6 +12936,9 @@ Ya Shakur Ya Mujib
 At the end, recite: 
 Salawat and Sura Al Fatiha
 
+Ya Shakur Ya Taner
+Ya Shakur Ya Muzeyyen
+
 T:
 
 MEANING
@@ -13489,6 +13496,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
