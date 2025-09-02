@@ -47,20 +47,6 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
-Ya Rabbi bi Muhyiddini
-Vel Ali madad temkini
-Et felli Bahaeddini
-Vel Abdü şefa vel hali
-
-$munkur-terket-nizayi
-
-Above is special adjustment for Mawlid / Urs 2025
-
-Abdul Kadirül Geylani
-Züt tasrifil ekvani
-Ya Mevla ya ferda anhü
-Rıdwana ala rıdwani
-
 Lebbeyna hü müznadana
 Şahitna lehül bürhana
 Vezdütna bihi kana
@@ -91,21 +77,12 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
+next ilahi for basic zikr: 
+
 $sirni-ala
 
------
-
-Special Urs / Mawlid Aug 2025
-
-Abdul Kadirül Geylani
-Züt tasrifil ekvani
-Ya Mevla ya ferda anhü
-Rıdwana ala rıdwani
-
-Ya Rabbi bi Muhyiddini
-Vel Ali madad temkini
-Et felli Bahaeddini
-Vel Abdü şefa vel hali
+special Mawlid / Urs 2025
+next ilahi:
 
 $munkur-terket-nizayi
 
@@ -181,11 +158,6 @@ Abdul Qadir of Geylan
 Possessor of the power to direct the universe
 O Master, O Unique One, through him
 Grant pleasure upon pleasure
-
-O my Lord, by (the rank of) Muhyiddin
-And Ali, grant steadfast support
-By the splendour of Bahauddin
-And Abdu, grant intercession and well-being
 
 We answered him, our reliance.
 We witnessed in him the clear proof.
@@ -616,6 +588,8 @@ Muhammed doğduğu gece
 Mümin münafık fark oldu
 Muhammed doğduğu gece
 
+mawlid / urs 2025 special series:
+
 $ya-muhammad-mustafa-shammen-risaalat-assalaam
 
 Gökten yere nur atıldı,
@@ -767,8 +741,7 @@ Above is Special Urs / Mawlid Aug 2025
 
 ----
 
-Original
-
+Older version
 
 Allah Allah hüve Rabbüna Rahmani
 İrham bi fazlı şeyhina Geylani
@@ -792,47 +765,6 @@ Yunus'u bir-huş eyleyen
 Ya ben kime yalvarayım Ya Hu
 
 ----
-
-
-
-Allah Allah hüve Rabbüna Rahmani
-İrham bi fazlı şeyhina Ensari
-İrham bi fazlı şeyhina Ensari
-
-Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
-
-A Sultanım Sen var iken
-Ya ben kime yalvarayım Ya Hu
-
-Allah Allah hüve Rabbüna Rahmani
-İrham bi fazlı şeyhina Tarsusi
-İrham bi fazlı şeyhina Tarsusi
-
-Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
-
-Yunus'u bir-huş eyleyen
-Ya ben kime yalvarayım Ya Hu
-
-Allah Allah hüve Rabbüna Rahmani
-İrham bi fazlı şeyhina Taneri
-İrham bi fazlı şeyhina Müzeyyen
-
-Ya Hayy, Ya Hayy, Ya Hayy, Ya Hayy
-
-$tale-al-bedru-aleyna
-
-More chorus:
-
-Allah Allah hüve Rabbüna Rahmani
-İrham bi fazlı şeyhina Rifai
-
-İrham bi fazlı şeyhina Ensari
-
-İrham bi fazlı şeyhina Tarsusi
-
-İrham bi fazlı şeyhina Taneri
-
-İrham bi fazlı şeyhina Müzeyyen
 
 T:
 Allah, Allah, He is our Lord, The One Who Acts with Mercy
@@ -874,14 +806,6 @@ from Tarsus (Shaykh Taner and Shaykha Muzeyyen)
 
 O The Living One, O The Living One, O The Living One
 
-O my Sultan, while You exist
-To whom shall I plead, O Hu?
-
-Your name is Ghani and Sattar, The Self-Sufficient and The Coverer
-To whom shall I plead, O Hu?
-
-The One Who makes Yunus ecstatic
-To whom shall I plead, O Hu?
 
 Y:
 
@@ -1262,8 +1186,6 @@ AŞKIN İLE AŞIKLAR
 
 Aşkın ile aşıklar yansın ya Resulallah
 İçüp aşkın şerabın kansın ya Resulallah
-
-$elem-nesrah-leke-sadrak
 
 Hu Allah, La ilaha illallah, la ilaha illallah 
 La ilaha illallah, la ilaha illallah                         
@@ -1957,6 +1879,7 @@ Ol Muhammed’dir mutlak
 Y:
 
 Category: Geylani, Rifai, 
+
 SuggestedZikr: Allah, la ila ha illallah
 
 BİR GECE YATARKEN / SULTAN ENBİYA
@@ -2474,7 +2397,6 @@ L: https://youtu.be/vqfdGvRa7BA?si=CEPWHkuv5PfecCyU
 
 SuggestedZikr: Allah Hayy Ya Qayyum, Hayy Hayy Hayy Allah, Hayy
 
-
 CAN YİNE BÜLBÜL OLDU  
 
 Can yine bülbül oldu           
@@ -2773,6 +2695,7 @@ Y:
 Category: Ruhi, inter, Shaykh Taner, 
 
 L: https://youtu.be/I12stA1sQQQ?si=WHTLQswQgL80Jpxz
+
 SuggestedZikr: Hayy (fast), Qayyum Allah, 
 
 ÇIKILMAZ BENLİKLE ULU DERGAHA 
@@ -2782,17 +2705,15 @@ SuggestedZikr: Hayy (fast), Qayyum Allah,
 Varını yoğunu atta gel derviş               
 Fenerin mumunu yak da gel derviş   
 
-Teslim ol mürşidine mevtalar gibi       
-Teslim ol mürşidine mevtalar gibi       
-Her şeye göz yum geç amalar gibi        
-Fenerin mumunu yak da gel derviş
-
-$sabah-seherinde-niyaza-geldim
-
 Enel Hak uğruna çekilir dare               
 Enel Hak uğruna çekilir dare               
 Mansurun sabrını çek da gel derviş
 Fenerin mumunu yak da gel derviş    
+
+Teslim ol mürşidine mevtalar gibi       
+Teslim ol mürşidine mevtalar gibi       
+Her şeye göz yum geç amalar gibi        
+Fenerin mumunu yak da gel derviş
 
 Mana tezgahında libaslar doku
 Mana tezgahında libaslar doku
@@ -2804,11 +2725,11 @@ Erenler bagından koku al koku
 Arif ol kitabı hemen bil oku               
 Fenerin mumunu yak da gel derviş 
 
-$sabah-seherinde-niyaza-geldim
-
 $cani-di-lden-fani-kildin-aki-bet
 
 $sultanul-evli-ya-ahmed-er-ri-fai
+
+$sabah-seherinde-niyaza-geldim
 
 alternative
 with author's name: Ruhi
@@ -2843,12 +2764,11 @@ You have to leave what you have and what you have not, then come dervish
 
 You have to light your candle and then come dervish
 
-Surrender to your murshid like dead people
-Close your eyes to everything like the blind and then come dervish
-
 For the sake of “I am the Truth” you can be put to hanging
 You have to have the patience of Mansur and then come a dervish
 
+Surrender to your murshid like dead people
+Close your eyes to everything like the blind and then come dervish
 
 
 Make clothes in the spiritual loom
@@ -3036,8 +2956,6 @@ Canına canan isteyen gelsin.
 Mektebimizdir mekteb-i esma,
 İlm ile irfan isteyen gelsin.
 
-$yeh-mera-aqeeda-hai-dosto
-
 Fazar-ı vahdet sermayesinden,
 Hisse-i ihsan isteyen gelsin.
 
@@ -3079,6 +2997,7 @@ Y:
 Category: inter, Niyazi Misri,
 
 L: https://www.youtube.com/watch?v=ZB0bobH92Hs
+
 SuggestedZikr: Hayy, Hayy Hayy Hayy Allah, Allah
 
 DERMAN ARARDIM DERDİME
@@ -5072,20 +4991,6 @@ SuggestedZikr: Allah Allah Allah Allah
 
 GÜZEL AŞIK CEVRİMİZİ   
 
-Güzel aşık cevrimizi                
-Çekemezsin demedim mi?    
-Bu bir rıza lokmasıdır            
-Yiyemezsin demedim mi?     
-
-Pir Sultan Ali şahımız            
-Hakka ulaşır rahımız             
-On iki imam fenahımız          
-Uyamazsın demedim mi?      
-
-$mestu-hayranim
-
-Above is special adjustment for Mawlid / Urs 2025
-
 Movement: like wheat / corn / sugarcane field
 
 Güzel aşık cevrimizi                
@@ -5168,11 +5073,6 @@ Beautiful lover, you cannot
 Put up with our trouble, didn’t I say so?
 This is a bite of the food of contentment
 You cannot eat it, didn’t I say so?
-
-Pir Sultan Ali is our king
-Our path reaches to Haqq.
-The place we end is 12 İmams.
-You can’t follow them, didn’t I say so?
 
 The ones who cannot eat stay desperate
 They spill tears of blood from their eyes
@@ -5678,8 +5578,6 @@ Mafi kalbi gayrullah
 Nur Muhammed Sallallah 
 La ilahe illallah
 
-$ey-risalet-tahtini
-
 la mahbube illallah
 la maksude illallah
 la mevcude illallah
@@ -6012,9 +5910,14 @@ Ya Reeyaaz Ansari Şeyhen lillah illallah Hu
 Selatullah selamullah aleyke ya Habib Allah
 Ya Sadeck Ansari Şeyhen lillah illallah Hu 
 
+From the above, sing only relevant parts(s) to your center.
+
+for basic zikr, follow up with:
+
 $salatu-selam
 
-Above is special adjustment for Mawlid / Urs 2025
+longer version of the ilahi
+(not recommended for basic zikr)
 
 Hizmetini edemedim                                 
 ##Himmetini## alamadım                                
@@ -6152,7 +6055,7 @@ Aşk o-du-na ben ya-na-yım il-lal-lah Hu
 Note:
 Shaykha Muzeyyen would like us to say
 Ya Hashimi when singing the long version, 
-instead of what it says in the old recording.
+instead of ya alawi as it says in the old audio recording.
 Thank you
 
 
@@ -6253,24 +6156,6 @@ SuggestedZikr: Allah Hayy Ya Qayyum, la ila ha illallah, Hayy Hayy Hayy Allah
 
 İKİ KERE GAVS OLDU
 
-Allahumma sal li ala 
-Sayyidina 
-Muhammadin wa ala 
-aali Sayyidina Muhammad
-
-Abdul Qadir Gavsımız
-Rufai Sultanımız
-Shaykh Taner Pirimiz
-Müzeyyen Mürşidimiz
-
-$ya-hasan-basare
-
-$hi-zmeti-ni-edemedi-m
-
-
-
-Above is special addition for Mawlid / Urs 2025
-
 Movement for Allah Hayy Ya Qayyum: silat (martial art)
 
 İki kere Gavs oldu                   
@@ -6333,11 +6218,30 @@ Ali’dir penahımız
 Abdul Kadir Pirimiz                    
 Rufai şerefimiz       
 
+More of Allah Hayy Ya Qayyum:
+$can-yi-ne-bulbul-oldu
+
+Hayy:
 $cani-di-lden-fani-kildin-aki-bet
 
+Hu:
 $hi-zmeti-ni-edemedi-m
 
+Added words from Mawlid event 2024:
+
+Allahumma sal li ala 
+Sayyidina 
+Muhammadin wa ala 
+aali Sayyidina Muhammad
+
+Abdul Qadir Gavsımız
+Rufai Sultanımız
+Shaykh Taner Pirimiz
+Müzeyyen Mürşidimiz
+
 $ya-hasan-basare
+
+$hi-zmeti-ni-edemedi-m
 
 Alternative wording:
 Müridine nar gülzar
@@ -6425,15 +6329,9 @@ Beynennas / Ebu’l Arca / Ebül üreyca,
 the Father of the Lame.
 
 T:
-O Allah, send peace and blessings 
-upon our master
-Muhammad and upon
-the family of our master Muhammad
 
-Abdul Qadir, our Helper
-Rifai, our King
-Shaykh Taner, our Pir (spiritual guide)
-Müzeyyen, our Murshid (spiritual teacher)
+---
+
 
 He became qutb (perfect) twice
 The world filled with his fame
@@ -6464,6 +6362,22 @@ He opens his hands and asks forgiveness
 The followers are needy of your blessing
 Help me My Pir, O Shaykh of Allah
 
+...
+
+...
+
+
+for the added words:
+
+O Allah, send peace and blessings 
+upon our master
+Muhammad and upon
+the family of our master Muhammad
+
+Abdul Qadir, our Helper
+Rifai, our King
+Shaykh Taner, our Pir (spiritual guide)
+Müzeyyen, our Murshid (spiritual teacher)
 
 
 Y:
@@ -6682,9 +6596,9 @@ Category: Mersiye, Kaside, ehli beyt |
 
 L: https://drive.google.com/file/d/1S9ivP1YEqjWWBE1z_Gy1J_iu2I11plK5/view?usp=sharing
 
-KUDRETİL AYNI HABİBİ KİBRİYASIN YA HUSEYN
-
 SuggestedZikr: la ilaha illallah
+
+KUDRETİL AYNI HABİBİ KİBRİYASIN YA HUSEYN
 
 Kudretil ayni habibi kibriyasın ya Hüseyn
 Nuri çeşmi şahı merdan mürtezasın ya Hüseyn
@@ -6854,6 +6768,8 @@ L: https://drive.google.com/file/d/1TkFv4qirIJQ4FCBtv-AIrI3qDqImh0O9/view?usp=sh
 
 A: https://youtu.be/iP6zenZdvg4?si=SelZ_Y2ODrNV9oHZ
 
+SuggestedZikr: Allah Hayy Ya Qayyum, Hayy Hayy Hayy Allah, Hayy
+
 MEDET SENDEN MEDET SULTANIM ALİ
 
 Medet senden medet Sultanım Ali
@@ -6867,20 +6783,6 @@ Dertliyim derdime dermanım Ali
 Aman şahım merdan aman el aman 
 Yakıyor canımı ateşi suzan (Hayy Hayy)
 Yakıyor canımı ateşi suzan
-
-Medet senden medet Sultanım Ali
-Dertliyim derdime dermanım Ali (Hayy Hayy) 
-Dertliyim derdime dermanım Ali
-
-Mürşidim Muhammed Rehberim Ali
-
-Mürşidim Taner Rehberim Muzeyyen
-
-$mehboob-ki-mehfil-ko-mehboob-sajaate-hain?file=naat.txt
-
-$ey-shahe-deen-o-duniya-mera-salaam-lena
-
-Special adjustment for Mawlid / Urs 2025
 
 Aman erenlerim amana geldim
 İsmail olu ben kurbana geldim (Hayy Hayy)
@@ -6928,7 +6830,25 @@ Medet senden medet Sultanım Ali
 Gülüm gülistanım seyranım Ali (Hayy Hayy)
 Mürşidim Muhammed Rehberim Ali
 
+Alternative chorus:
+
+Medet senden medet Sultanım Ali
+Dertliyim derdime dermanım Ali (Hayy Hayy) 
+Dertliyim derdime dermanım Ali
+
+Ending lines:
+
+Mürşidim Muhammed Rehberim Ali
+
+Adapted to:
+
+Mürşidim Taner Rehberim Muzeyyen
+
+$mehboob-ki-mehfil-ko-mehboob-sajaate-hain
+
 $ey-shahe-deen-o-duniya-mera-salaam-lena
+
+Above are special links for Mawlid / Urs 2025
 
 T:
 
@@ -6984,7 +6904,8 @@ Help from you, Help O my King, Ali
 My rose, my rose garden, my joy, Ali.
 Muhammad is my Murshid, Ali is my Rehber
 
-The above translation is still under review. Hu!
+Shaykh Taner is my Murshid, 
+Shaykha Muzeyyen is my Rehber
 
 Y:
 
@@ -7051,19 +6972,9 @@ A: https://youtu.be/TRPt63f8CDs?si=nvfv-zuI04F8x_kQ
 
 A: https://www.youtube.com/watch?v=CU8WfpMeXzA
 
-SuggestedZikr: Hu
+SuggestedZikr: Hu, Allah (slow)
 
 MESTU HAYRANIM
-
-Hû ismi azam, Hû Hû de hocam 
-Kuddûsî her dem Hû dimek ister
-
-Shaykh taner her dem Hû Hû de hocam 
-Müzeyyen her dem Hû dimek ister
-Pirimiz her dem Hû dimek ister
-
-$bi-r-aciz-hayranim-ya-hazreti-geylani
-
 
 Mest u hayranım zar u giryanım
 Her dem lisanım hu dimek ister 
@@ -7123,17 +7034,12 @@ Kuddüsi her dem
 Hu demek ister
 
 History:
-Ahmet KUDDUSİ Efendi
+Shaykh Ahmet KUDDUSİ Efendi
 (1769 - 1849)
+A Qadiri Shaykh
+Near Kapadokya area
 
 T:
-
-Hû is the greatest name, Hû in my teacher,
-Kuddusi at every moment wishes to say Hû.
-
-Hu in my teacher, Shaykh taner, all the time
-Müzeyyen at every moment wishes to say Hû
-Our Pirs at every moment wishes to say Hû
 
 I am in ecstasy, I am in tears
 
@@ -7154,6 +7060,13 @@ To become a true servant, one wishes to say "Hû."
 
 "Hû" is the greatest name, "Hû Hû" defeats the enemy,
 Kuddusi at every moment wishes to say "Hû."
+
+Hû is the greatest name, Hû in my teacher,
+Kuddusi at every moment wishes to say Hû.
+
+Hu in my teacher, Shaykh taner, all the time
+Müzeyyen at every moment wishes to say Hû
+Our Pirs at every moment wishes to say Hû
 
 Notes:
 
@@ -7741,7 +7654,8 @@ $alemler-nura-gark-oldu
 
 ---
 
-Original
+Older version
+as sung by Shaykh Muhyiddin Ensari
 
 Münkür terket niza-i
 Münkür terket niza-i
@@ -7866,8 +7780,7 @@ Father of the two banners, Rifai
 
 History:
 The original lyrics of this ilahi
-has been adjusted
-
+has been adjusted.
 
 Qur'an reference for the word "münkür"
 Sura Al A'raf, ayat 157
@@ -8208,15 +8121,6 @@ nebiler serveridir
 Ver salavat aşk ile 
 ol günahlar eridir
 
-Yunus Emrem iş bu sözü 
-can içinde söyledi
-Söyleyen bî-çare Yûnus 
-Tapduk Emrem sırrıdır
-
-$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
-
-$ey-risalet-tahtini
-
 Hak onu öğdü yaratdı sevdi Habib'im dedi
 Yer yüzünde cümle çiçek Mustafa'nın teridir
 
@@ -8237,14 +8141,24 @@ can içinde söyledi
 Söyleyen bî-çare Yûnus 
 Tapduk Emrem sırrıdır
 
+$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
+
 $ey-risalet-tahtini
 
-$hasbi-rabbi-cellallah-di-li-m-de-zi-kri-m-allah
+alternative chorus: 
 
 Salli Ala Muhammed 
 Salli Ala Muhammed 
 Allahumma Salli Ala Salli Ala Muhammed 
 Allahumma Salli Ala Salli Ala Muhammed
+
+History:
+The ilahi Ol alem... 
+was sung in the tune
+of askin ile asiklar 
+during Mawlid / Urs 2025, 
+and followed shortly after by 
+dilimde zikrim Allah.
 
 T:
 
@@ -8416,13 +8330,6 @@ Dağlar ya Muhammed Ali çağırır
 Bülbülün figanı bağrımı deldi
 Güller ya Muhammed Ali çağırır
 
-Muhammed Ali'nin çoktur aşıkı
-Aşık olanların yanar ışığı
-Hasan ile Hüseyin'in beşiği
-Sallar ya Muhammed Ali çağırır
-
-$cani-di-lden-fani-kildin-aki-bet
-
 Vird verildi gökte uçan kuşlara
 Bakmaz mısın gözden akan yaşlara
 Sular yüzün sürer taştan taşlara
@@ -8469,11 +8376,6 @@ The mountains cry out, O Muhammad Ali
 The lament of the nightingale pierced my chest
 The roses cry out, O Muhammad Ali
 
-There are many lovers of Muhammad and Ali
-The light of the lovers burns
-The cradle of Hasan and Husayn
-It rocks, O Muhammad Ali cries out
-
 The chant was given to the birds flying in the sky
 Do you not see the tears falling from the eyes?
 The waters anoint stone after stone
@@ -8508,8 +8410,6 @@ My master Pir Sultan is of the saintly lineage
 From the lineage of saints is the essence of Ali
 With the whole world, (like the song of the crane) his voice echoes
 It thunders, O Muhammad Ali cries out
-
-(generated by GPT)
 
 Y:
 
@@ -8604,14 +8504,20 @@ SuggestedZikr: Hu
 SALATU SELAM
 
 Esselatu Vesselamu Aleyke YA RESULALLAH
+
 Esselatu Vesselamu Aleyke YA HABİBALLAH
+
 Esselatu Vesselamu Aleyke YA seyyidel evveline vel AHİRİN
+
 Ve selamün alel murselin 
+
 velhamdülillahi rabbil alemin
 
-$wafu-anna
+Follow up for zikr: 
 
-$sevgi-baht-olmus
+sit down and make dua:
+
+$positivity-prayers
 
 Special addition below for Mawlid / Urs 2025
 
@@ -8626,6 +8532,15 @@ $sirni-ala
 Alternative extra line
 
 Esselatu Vesselamu Aleyke Ya Rahmetel lil Alamin
+
+Qur'an / Dua at the end of zikr: 
+
+$wafu-anna
+
+ilahi by Shaykh Muhyiddin Ensari:
+
+$sevgi-baht-olmus
+
 
 Pronunciation:
 As-salaatu was-salaamu 'alayka yaa Rasoolallaah
@@ -8907,6 +8822,8 @@ $yeh-mera-aqeeda-hai-dosto
 
 $bismillah
 
+Above are added links for Mawlid / Urs 2025
+
 Slightly different version
 
 SALÂT-I KEMÂLİYE
@@ -9113,11 +9030,15 @@ Bu ne mezhep imiş dinden içeru
 Yunusun gözleri hundur açılmaz    
 Kapunda kul var Sultandan içeru 
 
-$butun-evren-semah-doner
-
 basic zikr follow up ilahi:
 
+Hu
 $hi-zmeti-ni-edemedi-m
+
+Ya Wadud Ya Salaam Ya Jami Ya Nafi
+$butun-evren-semah-doner
+
+Above is Special Mawlid / Urs 2025 follow up
 
 Pronunciation:
 
@@ -9157,6 +9078,7 @@ What kind of a mazhab, sect, pact, tariqa, road is this, deeper in religion?
 
 The eyes of Yunus are closed, not open
 There is a servant in front of your door but he is deeper in the sultan
+
 Y:
 
 A: https://youtu.be/LX6gPp49Wk4?si=4-BxYeh5dpw-KI5e
@@ -9326,12 +9248,6 @@ Alaca düşmüş gördüğümüze,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü bizde bir türlü.
 
-Ya Rahman Ya Rahim
-The One Who Acts with Mercy
-The Source of Mercy
-
-$positivity-prayers
-
 Donandı dağlar, bahar olunca,
 Gölgem kayboldu gönlüm dolunca, Ah
 Gölgem kayboldu gönlüm dolunca,
@@ -9353,10 +9269,23 @@ Be diyelim ki Rabb’in duygusu,
 Sizde bir türlü, bizde bir türlü, Ah
 Sizde bir türlü, bizde bir türlü.
 
+One can try to recite the following zikr
+in the tune of this ilahi.
+
+Ya Rahman Ya Rahim
+
 $positivity-prayers
 
 History:
 İbrahim Yurtören
+
+This ilahi is sung by Shaykh Muhyiddin Ensari.
+
+T:
+Al Rahman
+Al Rahim
+The One Who Acts with Mercy
+The Source of Mercy
 
 Y:
 
@@ -9453,30 +9382,13 @@ SEYREYLEYİP YANDIM MAH CEMALİNE
 
 Seyreyleyip yandım mah cemaline Allah Allah 
 Seyreyleyip yandım mah cemaline Allah Allah 
+
 Nur kundak içinde yatar Muhammed 
 Canımın cananısın ya Muhammed 
 
-Fehmi der ki candan cananımız var Allah Allah 
-Fehmi der ki candan cananımız var Allah Allah
-Yürekler derdine dermanımız var 
-Yürekler derdine dermanımız var 
-Peygamberi ahir zamanımız var Allah Allah
-Peygamberi ahir zamanımız var Allah Allah
-Nur kundak içinde yatar Muhammed 
-Canımın cananısın ya Muhammed
-
-$abdul-kadi-rul-geylani
-
-above is especially for Mawlid / Urs 2025
-
-----
-
-Seyreyleyip yandım mah cemaline Allah Allah 
-Seyreyleyip yandım mah cemaline Allah Allah 
-Nur kundak içinde yatar Muhammed 
-Canımın cananısın ya Muhammed 
 Kokuları benzer cennet gülüne Allah Allah 
 Kokuları benzer cennet gülüne Allah Allah 
+
 Nur kundak içinde yatar Muhammed 
 Canımın cananısın ya Muhammed 
 
@@ -9734,6 +9646,10 @@ Al-lah, Al-lah, Al-lah, Al-lah Al-lah
 
 
 History:
+According to documentation and academic research,
+this ilahi is from 
+Shaykh Revas al Rifai.
+
 SİRNA ALA (FULL VERSION)
 Turkish:
 
@@ -10142,30 +10058,6 @@ SuggestedZikr: Hayy, Hayy Hayy Hayy Allah, Allah Hayy Ya Qayyum, Allah Allah Hay
 
 SULTANÜL EVLİYA AHMED ER RİFAİ               
 
-Kutubul Zamani 
-Shaykh Taner Ansari 
-Varisul zul sultani
-Muzeyyen Ansari 
-
-Melceimdir Benim
-Meshrebim dir Benim
-Mezhebimdir Benim
-Shaykh Taner Pir Benim
-
-Sahibü'l-alemeyn 
-Mürşidi's-sakaleyn
-Zeynetü'l Arşiyan 
-Mürşidi Müzeyyen
-
-Sultanul Evliya
-Shaykh Taner Mustafa
-Varisul Enbiya
-Muzeyyen Murshida
-
-$i-ki-kere-gavs-oldu
-
-above is special addition for Mawlid / Urs 2025
-
 Sultan-ül Evliya Ahmed er-Rifai 
 Varisül Enbiya Ahmed er-Rifai        
 
@@ -10193,6 +10085,33 @@ Zeynetü'l Arşiyan Ahmed'er-Rifai
 $hi-zmeti-ni-edemedi-m
 
 $cani-di-lden-fani-kildin-aki-bet
+
+$i-ki-kere-gavs-oldu
+
+The version below was first written in 2006, 
+and adapted further in 2025
+for the Mawlid / Urs celebration
+(annual aqrt ilahi event).
+
+Kutubul Zamani 
+Shaykh Taner Ansari 
+Varisul zul sultani
+Muzeyyen Ansari 
+
+Melceimdir Benim
+Meshrebim dir Benim
+Mezhebimdir Benim
+Shaykh Taner Pir Benim
+
+Sahibü'l-alemeyn 
+Mürşidi's-sakaleyn
+Zeynetü'l Arşiyan 
+Mürşidi Müzeyyen
+
+Sultanul Evliya
+Shaykh Taner Mustafa
+Varisul Enbiya
+Muzeyyen Murshida
 
 $i-ki-kere-gavs-oldu
 
@@ -10274,7 +10193,7 @@ L: https://youtu.be/8Lchfvfy_mo?si=hZi9frFlONSKdyy0
 
 L: https://youtu.be/z5HiXM9JGJQ?si=2q0Rv8hjKCLIRYaT
 
-SuggestedZikr: Hu, Hayy, 
+SuggestedZikr: Hu, Hayy, Allah
 
 TALE AL BEDRU ALEYNA
 
@@ -10284,8 +10203,6 @@ Tale al bedru aleyna
 min seniyyatil veda-i
 Vecebe'ş-şükrü aleyna 
 ma de'a lillahi da'i
-
-$mevlam-nurdan-yaratmis
 
 Eyyühel meb'usü fina ci'te bi'l-emri'l muta'
 Ci'te şerrafte'l- Medine merhaba ya hayra da'
@@ -10791,6 +10708,7 @@ L: https://youtu.be/uLNSanzCXjQ?si=WF8zomF2Q1_nDJ6i
 A: https://youtu.be/vEbz8doXQBs?si=UZKSGgB6Kf6a5kf4
 
 Category: Revas, Rifai, Mawlid, 
+
 SuggestedZikr: Hayy (fast), Allah, 
 
 YA İMAM AL RUSLİ
@@ -11605,11 +11523,13 @@ al hamma wa al ghamma
 bi fad-li 
 Bismillahir Rahmanir Rahim
 
+follow up links for zikr
+(Istanbul Kadiri Rufai dergah style)
+
+la ilaha illallah:
 $askin-i-le-asiklar
 
-$yeh-mera-aqeeda-hai-dosto
 
-$ya-habi-bi-ya-tabi-bi-ya-raufi-ya-rahi-mi
 
 T:
 
@@ -12181,8 +12101,6 @@ L: https://youtu.be/yt9yYsh4rvo?si=T3fKKC5LcfAIsA2P
 
 A1. ASMA UL HUSNA - KADİRİ ESMA
 
-$derdi-ne-derman-i-steyen-gelsi-n
-
 Ya Allah Ya Allah Ya Allah
 Ya Allah Ya Allah Ya Allah
 Ya Allah Ya Allah Ya Allah
@@ -12250,6 +12168,9 @@ Al Baqi Al Warith Ya Allah
 Al Rashid Al Sabur Ya Allah 
 
 Ya Allah Ya Allah Ya Allah Ya Allah
+
+An ilah that talks about 
+the school of the Beautiful names:
 
 $derdi-ne-derman-i-steyen-gelsi-n
 
@@ -12713,6 +12634,15 @@ and blessings upon the noblest light
 of all the prophets and messengers
 and praise be to Allah the Lord of the worlds
 
+History:
+Evrad is the plural of Wird. 
+Wird means reading, recitation. 
+Hz Rufai used to recite 
+many different kinds of salawats
+every day. 
+This is one set of them. 
+There are many more...
+
 Y:
 WAFU ANNA
 
@@ -12733,7 +12663,8 @@ You are our Mawla [Protecting Master],
 so give us victory 
 over the community of kafirin.”
 
-
+This is a dua from
+The Qur'an, Sura Al Baqara, excerpt of verse 286
 Translated by Shaykh Taner Vargonen el Ansari
 
 Y:
@@ -12796,7 +12727,11 @@ let her drink (on her appointed days).”
 for their sin, making the destruction equal for them all.
 15. And He does not fear the outcome.
 
+Qur'an, Sura Al Shams
 Translated by Shaykh Taner Vargonen el Ansari
+
+This is a recommended reading for the year 2025
+by Murshida Shaykha Muzeyyen Ansari.
 
 Y:
 
@@ -12835,6 +12770,7 @@ that which will make you well pleased.
 10. And do not drive away those who are needy and ask for help,
 11. And focus instead on proclaiming the bounties of your Rab.
 
+Qur'an, Sural Al Duha
 Translated by Shaykh Taner Vargonen el Ansari
 
 Y:
@@ -12876,6 +12812,11 @@ Ya Shakur Ya Mujib
 
 At the end, recite: 
 Salawat and Sura Al Fatiha
+
+Below was added for 
+Mawlid / Urs 2025
+And sung in tune of 
+$sevgi-baht-olmus
 
 Ya Shakur Ya Taner
 Ya Shakur Ya Muzeyyen
@@ -13137,7 +13078,7 @@ La ila ha il lal lah
 
 ilahis:
 $yuzun-nuru-hudadir
-$seyreyleyi-p-yandim
+$seyreyleyi-p-yandim-mah-cemali-ne
 
 https://youtu.be/aypDRt-pvp0?t=1672&end=1860
 La ila ha il lal lah (jahri - fast)
@@ -13179,7 +13120,7 @@ So, let us get up and do some zikr standing.
 https://youtu.be/aypDRt-pvp0?t=2200&end=2380
 Sirna ala
 
-$sirni-ala-for-zikr
+$sirni-ala
 
 https://youtu.be/aypDRt-pvp0?t=2380&end=2401
 Explanation of "Sirna ala" Zikr
@@ -13207,7 +13148,7 @@ https://youtu.be/aypDRt-pvp0?t=2949&end=3233
 Hu (with seni ben and salatu salam)
 
 $seni-ben-severi-m
-$salat-u-selam
+$salatu-selam
 
 https://youtu.be/aypDRt-pvp0?t=3233&end=3295
 Al Fatiha
@@ -13352,7 +13293,7 @@ La ila ha il lal lah
 
 ilahis:
 $yuzun-nuru-hudadir
-$seyreyleyi-p-yandim
+$seyreyleyi-p-yandim-mah-cemali-ne
 $abdul-kadi-rul-geylani
 
 Hu
@@ -13360,6 +13301,7 @@ $cani-di-lden-fani-kildin-aki-bet
 derdine dermana geldim (kaside)
 $seni-ben-severi-m
 $hi-zmeti-ni-edemedi-m
+$salatu-selam
 
 Salat ü Selam:
 As-salaatu was-salaamu 'alayka yaa Rasoolallaah
@@ -13427,7 +13369,12 @@ $derdi-n-ne-be-hey-asik
 $mevlam-nurdan-yaratmis
 $hakkin-habi-bi-ni-n-sevgi-li-dostu
 
-Çalap nurdan yaratmış adını Muhammed'in
+alternative wording 
+as sung in this recording
+for Mevlam ilahi:
+
+##Çalap## nurdan yaratmış 
+adını Muhammed'in
 
 
 
@@ -13437,6 +13384,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
