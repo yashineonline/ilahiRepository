@@ -3195,8 +3195,9 @@ words missing here to be added!
  
 Y:
 
- Paro kalma Mohammad ka, Mohammad naam lélékar
+Category: Naate Rasul, mawt
 
+Paro kalma Muhammad ka
  
 Paro kalma Mohammad ka, Mohammad naam lélékar
 Karo Islam ko kaa-im, Mohammad naam lélékar
@@ -3226,7 +3227,9 @@ Karoun wan shukr ke sajdé, Mohammad naam lélékar
  
 Y:
 
- Jab mawt ke paighram tujhé aawé ga baba
+Category: mawt
+
+Jab mawt ke payghaam tujhe aaega baba
  
 
 Jab mawt ke paighram tujhé aawé ga baba
@@ -3267,8 +3270,9 @@ Allah ko kia ous gharee batla-é-ga baba
  
 Y:
 
- Mujhé mawt aayé Ya Rab
+Category: Naate Rasul, mawt
 
+Mujhe mawt aaye Ya Rab
 
 Mujhé mawt aayé Ya Rab
 Daré mustafa pe jaakar
@@ -3997,7 +4001,7 @@ Dieu a fait de cet amour la cause de ton pardon
 
 Y:
 
-Category: Muharram, Mawlud, Meelad
+Category: Muharram, Mawlud, Meelad, Naate Rasul
 
 Ey Shahe deen o duniya mera salaam lena
 
@@ -4235,7 +4239,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Shayl’lillah Ya Abdoul Qaadir
+Shayal lillah Ya Abdul Qadir
 
 
 Shayl’lillah Ya Abdoul Qaadir
@@ -4320,7 +4324,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Aaya hein tera deewaana Shayl’lillah Shayl’lillah
+Aaya hein tera deewaana Shay alillah Shay al lillah
  
 Aaya hein tera deewaana Shayl’lillah Shayl’lillah
 Kehta hein yehi ye mastana, Shayl’lillah Shayl’lillah
@@ -4357,7 +4361,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Khuda ke fazl se hampar hé saaya Ghaws e Azam ka
+Khuda ke fazl se hampar hai saaya Ghawse Azam ka
  
 
 Khuda ke fazl se hampar, hé saaya Ghaws e Azam ka
@@ -4393,7 +4397,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Mujhé jaldi aao nazar Ghaws E Azam 
+Mujhe jaldi aao nazar Ghaws E Azam 
  
 Mujhé jaldi aao nazar Ghaws E Azam 
 Nahin mujhé hota sabar Ghaws E Azam
@@ -4877,7 +4881,6 @@ Y:
 Category: Ghaws, Pir Geylani, 
 
 Aaj karamat apni sab ko dikhana
-
  
 Aaj karamat apni, sab ko dikhana
 Ghaws piya meri, (Bigri banana) x 2
@@ -4913,9 +4916,7 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Mohammad mustafa ka laadla sultané Jilani
-
- 
+Muhammad Mustafa ka laadla sultane Jilani
 
 Mohammad mustafa ka laadla sultané Jilani
 Khuda né pyar sé toujh ko kaha mehboobé soubhani
@@ -4985,7 +4986,7 @@ Dil ko, toujise pyaar hai
  
 Y:
 
-Category: Pir Rifai
+Category: Pir Rifai, Pir Geylani, Ghaws
 
 Il Rifai kul shayh Lillah
  
@@ -5369,9 +5370,9 @@ kiss ke hawale ey desiyon wale
 
 Y:
 
-Category: Ajmer
+Category: Ajmeer
 
-Parda zara outhade Ajmeer wale khwaja
+Parda zara oothaade Ajmeer waale khwaja
 
 Parda zara outhade Ajmeer wale khwaja
 Lillah jhalak dikhadé, Ajmeer wale kwaja
@@ -5402,7 +5403,7 @@ Ab iss ka mud-dua dé Ajmeer wale khwaja
 
 Y:
 
-Category: Ajmer
+Category: Ajmeer
 
 Shahe Baba Peer khwaja
 
@@ -5427,7 +5428,9 @@ Sab ko mil jaata hei kouch, khwaja teri gali mein
  
 Y:
 
- Ya Nabee Salaam alaika
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
+
+Ya Nabee Salaam alayka
 
  
 Ya Nabee Salaam-alaika
@@ -5512,6 +5515,8 @@ Hum gunehgaaron ki sounlo
 
 Y:
 
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
+
 Mustafa jaane rehmat pe laakon salaam
 
 mustafa jaane rehmat pe lakhon salaam
@@ -5556,8 +5561,9 @@ mustafa jaane rehmat pe lakhon Salaam
  
 Y:
 
- Ya Nabee kijiye karam ham par
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
 
+Ya Nabee kijiye karam ham par
  
 Ya Nabee kidiyé karam ham par
 Be saharé salaam kehté hein
@@ -5615,7 +5621,7 @@ Sab gulaamon salaam kehté hein
  
 Y:
 
-Category: Naate Rasul, Salaam
+Category: Naate Rasul, Salatu Salaam
 
 L: https://youtu.be/CBPW8RfrhGA?si=PDxj8L-96xFsXrdT
 
@@ -5667,7 +5673,7 @@ Deedar ataa karna
  
 Y:
 
-Category: Muharram
+Category: Muharram, Salatu Salaam
 
 Ibne Ali Ki azmat pe laakon salaam
  
@@ -5716,7 +5722,7 @@ Hassan-o-Hussein Ibné Heidar pe lakhon salaam
  
 Y:
 
-Category: Muharram
+Category: Muharram, dua, Salatu Salaam
 
 Ya Habeebe Khuda Hai hamari dua
  
@@ -5752,9 +5758,9 @@ Ya Habeebé khuda
  
 Y:
 
-Category: Ghaws, Pir Geylani, 
+Category: Ghaws, Pir Geylani, Salatu Salaam 
 
-Ghaws Azam Hak ke pyaare lo salaam abto hamare
+Ghawse Azam Hak ke pyaare lo salaam ab to hamaare
 
  
 Ghaws Azam hak ke pyaaré, lo salaam abto hamaré
@@ -5798,10 +5804,12 @@ Lo salaam abto hamaré
  
 Y:
 
- Ya Muhammad Noor e Mujassam ya Habibi ya Moulai
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
+
+Ya Muhammad Noor e Mujassam
 
  
-Ya Muhammad Noor e Mujassam ya Habibi ya Moulai
+Ya Muhammad Noor e Mujassam ya Habibi ya Mawla-i
 Taswir e Kamal e Muhabbat Tanwir e Jamal e Khudai
 Tera was bayan ho kis se Teri kon karega bharai
 Nabi ji, Teri kon karega bharai
@@ -5820,10 +5828,12 @@ Hai Adib ko tujh se nisbat yeh Ghulam hai, Tu Aqa’i
  
 Y:
 
-Ya Nabi nazre karam farmana / Aye Hasnain ke nana
+Category: Muharram
+
+Ya Nabi nazre karam farmana / Ey Hasnain ke nana
 
 Ya Nabi nazre karam farmana
-Aye Hasnain ke nana, Aye Hasnain ke nana
+Ey Hasnain ke nana, Ey Hasnain ke nana
 Zahra paak ke sadqay humko taiba mein bulwana
 Aye Hasnain ke nana, Aye Hasnain ke nana
 
@@ -5848,6 +5858,8 @@ Aap ki aal ke dar k sag hun saail hun purana
 Aye Hasnain ke nana, Aye Hasnain ke nana
 
 Y:
+
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
 
 Ya Muhammad Mustafa Shammen risaalat Assalaam
 
@@ -5962,6 +5974,8 @@ Ya Wadud Ya Salaam Ya Jami Ya Nafi
 
 Y:
 
+Category: Ghaws, Pir Geylani, 
+
 Ya Sayyadana Ghausal Azam
 
 Ya Sayyadana Ghausal Azam, Shai allillah, Shai allillah
@@ -5992,6 +6006,8 @@ Hai abde Aleeme Siddiqi, waabasta-e daamaane qudsee,
 Haa sadqa'e ajdaade Akram, Shai al lillah,Shai al lillah
 
 Y:
+
+Category: Dua
 
 Raham Kar ya Rab Muhammad Mustafa ke waaste
 
@@ -6033,7 +6049,7 @@ Shaafa - e- roze jazaa khairul wara ke waasthe
 
 Y:
 
-Category: Naate Rasul, Mawlud, Meelad,  
+Category: Naate Rasul, Mawlud, Meelad, Salatu Salaam 
 
 Aye Shahenshah-e-madina Assalaato Wassalaam
 
@@ -6078,7 +6094,9 @@ Mera Laasha Bhi Kahega Assalaato Wassalaam
 
 Y:
 
-Ya Rab Meri Soi Huyi Taqdeer Jaga De
+Category: Naate Rasul, Salatu Salaam 
+
+Ya Rab Meri Soi Huyi Taqdeer Jagaa De
 
 Ya Rab Meri Soi Huyi Taqdeer Jaga De
 Aankhein Mujhay Di Hain To Madina Bhi Dikha De.
@@ -6214,6 +6232,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
