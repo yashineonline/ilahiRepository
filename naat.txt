@@ -1179,19 +1179,6 @@ La ilaha illallah
 La ilaha Illallah (3)
 Rasool Mohammad Swalle Ala
 
-Muhammad Noore soobhana
-Muhammad Noore fadlana
-Muhammad ya Habib Allah
-Muhammad ya Rasoul Allah
-
-$sultanul-evli-ya-ahmed-er-ri-fai
-
-$hi-zmeti-ni-edemedi-m
-
-$ya-hasan-basare
-
-$il-rifai-kul-shayh-lillah
-
 Mohammad zainé koul zainé
 La houle badroule kasam nisfeine
 Ourij ya lai latal isneine
@@ -1222,10 +1209,10 @@ Si waali ummatil kalbi
 Qasa mehli minaz zambi
 Wa aghfirli zonoub Allah
 
-Muhammad Nooré soubhana
-Muhammad Nooré fadlana
+Muhammad Noore soobhana
+Muhammad Noore fadlana
 Muhammad ya Habib Allah
-Muhammad ya Rasoul Allah
+Muhammad ya Rasool Allah
 
 $sultanul-evli-ya-ahmed-er-ri-fai
 
@@ -1509,28 +1496,6 @@ Mehboob sajaate hein
 Aate hein wohi jinko, 
 sarkaar boolaate hein
 
-Iss aass pe jeetaa hoon, 
-ye kehde koyi aakar
-Chal tujhko madine mein 
-sarkaar boolaate hein
-
-Mehboob ki mehfil ko, 
-Mehboob sajaate hein
-Aate hein wohi jinko, 
-sarkaar boolaate hein
-
-Jisska bhari duniya mein 
-koyi bhi nahin wali
-Oossko bhi mere Aaqaa 
-seene se lagaate hain
-
-Mehboob ki mehfil ko, 
-Mehboob sajaate hein
-Aate hein wohi jinko, 
-sarkaar boolaate hein
-
-$ey-shahe-deen-o-duniya-mera-salaam-lena
-
 Ye log khudaa shaahid, 
 kismat ke sikandar hein
 Jo sarware aalam ka, 
@@ -1561,27 +1526,15 @@ Maalik he Nabee sarwar
 Ye sach he ke niyaazi ham, 
 Sarkar ke khaate hein
 
+Mehboob ki mehfil ko, 
+Mehboob sajaate hein
+Aate hein wohi jinko, 
+sarkaar boolaate hein
+
+$ey-shahe-deen-o-duniya-mera-salaam-lena
+
+
 T:
-
-The gathering of the beloved,
-The beloved adorns it with his presence 
-Those who come
-are invited by the Master himself
-
-I live with this hope, 
-that someone may come and say:
-Come, let us go to Madina, 
-the Master is calling you
-
-The gathering of the beloved,
-The beloved adorns it with his presence 
-Those who come
-are invited by the Master himself
-
-In this heavy world,
-the one who has no protector (wali)
-Even him, my Master 
-embraces to His chest.
 
 The gathering of the beloved,
 The beloved adorns it with his presence 
@@ -3906,30 +3859,6 @@ mera salaam lena
 Tumse banegi ukba 
 mera salaam lena
 
-Siddick aur Umar ka, 
-Usmaan aur Ali ka
-Chaaron ka sadka dena, 
-mera salaam lena
-
-Eh shahe deen o duniya 
-mera salaam lena
-Tumse banegi ukba 
-mera salaam lena
-
-Sultane Awliya Hai 
-Abdul Qadir Jilani
-Sarkar ilteja he 
-har baar ye nazar ki
-Mera salaam lena, 
-mera salaam lena
-
-Eh shahe deen o duniya 
-mera salaam lena
-Tumse banegi ukba 
-mera salaam lena
-
-$a3-ri-fai-wi-rd-vi-rd
-
 Har jazbahe akeedat, 
 kehta he dil se uthkar
 Lillahe mere Mawla
@@ -4439,11 +4368,11 @@ kahoonga jawaab mein
 Mein Ghaws ka murid hoon, 
 Shaykh Taner ka murid hoon
 wo mera Peer hein
+Muzeyyen ka murid hoon
+wo mera Peer hein
 
 Mehboobe Hak hein Ghaws hein
 Roshan zameer hein
-
-$envarul-huseyni
 
 Mujrim agar sab ankhon 
 par gham nahin mujhe
@@ -4664,13 +4593,6 @@ Chaadar mein charaoon phoolon ki
 Ye sadka karoon tann mann apnaa
 Chaadar mein charaoon phoolon ki
 
-Farzand Ali ho Noore Nabee
-Mehboob Khuda hein zaat teri
-Ek baar dikha Rawzaa apnaa
-Chaadar mein charaoon phoolon ki
-
-$alemler-nura-gark-oldu
-
 Tann mann se judaa, mann tann se judaa
 Kabtak shahoon jhagra tann mann ka
 Jaan nazraa karoon tann mann apnaa 
@@ -4696,17 +4618,14 @@ He abdaki tujhse yehi dooah
 Dikhlaade mujhe Rawzaa apnaa
 Chaadar mein charaoon phoolon ki
 
+$alemler-nura-gark-oldu
+
 T:
 
 Baghdad, take me there O God,
 So I may spread flowers on the chaadar Mubarak (blessed sheet) of the grave
 With body and soul I make this Sadka, wish, offer
 And spread a sheet of flowers.
-
-Son of Ali, Light of the Prophet,
-Beloved of God is your essence.
-Show me once your blessed resting place,
-So I may spread a sheet of flowers.
 
 Body apart from soul, soul apart from body,
 How long this struggle of body and soul?
@@ -4931,6 +4850,11 @@ Muhammad Rasul Allah
 Ya Shaykh Taner Ansari
 Ya Muzeyyen Ansari
 Allahu Allah Hu Allah (Allah)
+Muhammad Rasul Allah
+
+Dil se wazifa soobh-o shaam
+Momino lijiye Ghaws ka naam
+Mushkil aasaan hoowe tamaam (Allah)
 Muhammad Rasul Allah
 
 Martaba aysa hak ne ata
@@ -5786,14 +5710,6 @@ Ya Muhammad Mustafa Shamm’en risaalat Assalaam
 Ey Madinaa tere nooraani nazaaron ko salaam
 Jannate jin pe fidaa hai un bahaaron ko salaam
 
-Ey Safee jo beythein honge iss ghari roze ke paas
-Un ke ankhon se musalsal behke taaron ko salaam
-
-Ya Muhammad Mustafa Shamm’en risaalat Assalaam
-Masjide Nabawi tere un sab sitaaron ko salaam
-
-$salatu-selam
-
 Ya Muhammad Mustafa Shamm’en risaalat Assalaam
 Ya Muhammad Mustafa Shamm’en risaalat Assalaam
 
@@ -6151,6 +6067,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
