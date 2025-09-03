@@ -1145,7 +1145,7 @@ Na az toufail se hazaarin, bar aawé dil ke mudh
 
 Y:
 
-Category: Allah
+Category: Allah, Naate Rasul
 
 Hasbi Rabbi Jallallah 
  
@@ -1788,9 +1788,9 @@ Para faize paaya saveré saveré
  
 Y:
 
- Shahé Madina, Shahé Madina
+Category: Naate Rasul
 
- 
+Shahe Madina
 
 Shahé Madina, Shahé Madina
 Taiba ke waali, saaré Nabee teré dar ke sawaali
@@ -1831,7 +1831,9 @@ Saaré Nabee teré dar ke sawaali
  
 Y:
 
- Ey Khuda ilteja hai ye meri
+Category: Naate Rasul, mawt
+
+Ey Khuda ilteja hai ye meri
  
 
 Ey Khuda ilteja hai ye meri
@@ -1876,7 +1878,9 @@ Jo darayé Madiné se ayé
  
 Y:
 
- Haqeeqat mein wo loutfé zindagi paaya nahin karté
+Category: Naate Rasul
+
+Haqeeqat mein wo lutfe zindagi paaya nahin karte
  
 
 Haqeeqat mein wo loutfé zindagi paaya nahin karté
@@ -2160,7 +2164,9 @@ Car voici la porte de la générosité,
  
 Y:
 
- Woh Raouf hein, Woh Raheem hein
+Category: Naate Rasul
+
+Woh Rauf hein Woh Raheem hein
  
 
 Woh Raouf hein, Woh Raheem hein
@@ -2204,9 +2210,9 @@ Wo kaleem thé ya Habeeb hein
  
 Y:
 
- Na kahin se door hein manzilein
+Category: Naate Rasul
 
- 
+Na kahin se door hein manzilein
 
 Na kahin se door hein manzilein
 Na koyi kareeb ki baat he
@@ -2250,8 +2256,9 @@ Yeh tere Habeen ki baat hein
  
 Y:
 
- Mawla ya swalli wa sallim, daa-iman abadann
- 
+Category: Naate Rasul
+
+Mawla ya swalli wa sallim daa-iman abadann
 
 Mawla ya swalli wa sallim, daa-iman abadann
 A’laa Habeebi ka khairil, khalqi kulli himi
@@ -2284,7 +2291,9 @@ Sa’-al tukal khaira ya-zal judi wal karami
  
 Y:
 
- Har dar ki dawah hein Swallé Alaa Muhammad
+Category: Naate Rasul
+
+Har dard ki dawah hein Swalle Alaa Muhammad
 
  
 
@@ -2330,7 +2339,9 @@ kia khoube lé chala hein, Swallé Alaa Muhammad
  
 Y:
 
- Khusrawi achi lagi na sarwari acchi lagi
+Category: Naate Rasul
+
+Khushrawi atchi lagi na sarwari atchi lagi
 
  
 Khusrawi achi lagi na sarwari acchi lagi
@@ -2369,9 +2380,9 @@ Ashiqaan-e-mustafa ko who bari acchi lagi
  
 Y:
 
-Sab se awla wo aala hamara nabee
+Category: Naate Rasul
 
- 
+Sab se awla wo aala hamara nabee
 
 Sab se awla wo aala hamara nabee
 Sab se bala wo aala hamara nabee
@@ -2842,9 +2853,9 @@ Kia khoube hai, kia khoube hai
  
 Y:
 
- Hum mazaré Mohammad pe Marjaaeingé
+Category: Naate Rasul, mawt, Mehraj, Miraj
 
- 
+Ham mazaare Muhammad pe Marjaaeinge
 
 Hum mazaré Mohammad pe Marjaaeingé
 Zindagi mein yehi kaam kar jaaeingé
@@ -2859,36 +2870,11 @@ Lehté jaaeingé rehmat balah saat-saat
 Hasré mein mere Mawla jidar jaeingé
 Hum mazaré Mohammad pe marjaeingé
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 Y:
 
- Allah Allah hou Allah hou Allah (2)
+Category: Naate Rasul, Mehraj, Miraj
 
- 
+Allah Allah Hu Allah Hu Allah
 
 Allah Allah hou Allah hou Allah (2)
 Swallallahou alay wassallam (2)
@@ -2934,7 +2920,9 @@ Chaliyé chaliyé Rasoolé paiyambar
  
 Y:
 
- Yehi hein tamanna yehi aarzoo hein
+Category: Naate Rasul, Haj
+
+Yehi hai tamannaa yehi aarzoo hai
  
 Yehi hein tamanna yehi aarzoo hein
 Yehi to sounaané ko ji chahata hein
@@ -2977,7 +2965,9 @@ Wo naatein sounané koji chahata hein
  
 Y:
 
- Wajihad-deeni wal karami
+Category: Naate Rasul, Haj
+
+Wajihad deeni wal karami
 
  
 Wajihad-deeni wal karami
@@ -3009,7 +2999,9 @@ Saari mehfil mein jalwé lapak jaaéga
 
 Y:
 
-Hamko taibah mein boulalo
+Category: Naate Rasul, Haj
+
+Hamko taiba mein boolaalo
 
 Hamko taibah mein boulalo-shahe zamani
 Mawla Makki Madani
@@ -3027,8 +3019,9 @@ Dil ki hasrat ye nikalém shahé zamani
 
 Y:
 
- Roté rote dil pakar kar rehgaé
+Category: Naate Rasul, Haj
 
+Rote rote dil pakar kar rehgae
  
 Roté rote dil pakar kar rehgaé
 Wo nazaré yaad jab bhi aagaé
@@ -3072,7 +3065,9 @@ Wo nazaré yaad jab bhi aagaé
  
 Y:
 
- Mehboobé kibriya sé, mera salaam kehna
+Category: Naate Rasul, Haj
+
+Mehboobe kibriya se mera salaam kehna
 
  
 Mehboobé kibriya sé, mera salaam kehna
@@ -3107,7 +3102,9 @@ Seené se bhi lagaana, ankhon se bhi lagaana
  
 Y:
 
- Yaad mein Aaka ki ansou behagaé
+Category: Naate Rasul, Haj
+
+Yaad mein Aaqa ki ansoo behgae
 
  
 Yaad mein Aaka ki ansou behagaé
@@ -3142,7 +3139,9 @@ Kate-la bichra akelé rehgaé
  
 Y:
 
- Hum bhi jaheingé Madiné, aaj nahin to kal sahi
+Category: Naate Rasul, Haj
+
+Ham bhi jaaeinge Madine aaj nahin to kal sahi
 
  
 
@@ -3164,21 +3163,11 @@ Dookré hum dil ke sounané, aaj nahin to kal sahi
 Panch-hi jaégué Hisrat hum bhi darbaré Nabee
 Bigri kismet ko banana, aaj nahin to kal sahi
 
-
-
-
-
-
-
-
-
-
-
- 
 Y:
 
- Jiska chaliswan aaj hai, Ya Mohammad Ya Rasool
+Category: mawt
 
+Jiskaa chaliswan aaj hai Ya Muhammad Ya Rasool
  
 Jiska chaliswan aaj hai, Ya Mohammad Ya Rasool
 Ouss bechare ki qabr par bejiyo rehmat ke phool
@@ -3194,6 +3183,7 @@ Kar karam ki thouk nigah je yeh soukhan hona ado
 
 Jahan ka tan
 
+words missing here to be added!
 
 
 
@@ -6224,6 +6214,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
