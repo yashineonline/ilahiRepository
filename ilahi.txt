@@ -9220,8 +9220,45 @@ Allah Allah Allah Allah
 Hakk La ilahe illallah
 
 
+Alternative version (longer)
 
+Server-i ser bülendimiz
+Hazret-i pir Efendimiz
+Sahid-i seh-levendimiz
+Hazret-i pir Efendimiz
 
+Cezbe-i Mustafa ile
+Saldi cihana velvele
+Gökde eder mukabele
+Hazret-i pir Efendimiz
+
+Künye-i feyzi bül-fütuh
+Sagar-ı aşkı pür-sabuh
+Verdi cihana zevk ü rûh
+Hazret-i pir Efendimiz
+
+Aşıkıdır bütün ciba
+Tabii oldu evliya
+Ehl-i süluke pişüva
+Hazret-i pir Efendimiz
+
+Arif-i Rumi namıdır
+Vahy-i Huda kelamıdır
+Şems-i cihan çerağıdır
+Hazret-i pir efendimiz
+
+Fahr-i cihan o serverin
+Varisi oldu Hayber'in
+Sirri idi peygamberin
+Hazret-i pir Efendimiz
+
+Sadi senin de hem-demin
+Olmalı gavs-i alemin
+Şulesidir bu didemin
+Hazret-i Pir Efendimiz
+
+History
+Şeyh Sadi Efendi
 
 
 
@@ -13384,6 +13421,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
