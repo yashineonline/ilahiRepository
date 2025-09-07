@@ -2586,6 +2586,11 @@ Sultan Abdul Kadir'in
 Yolunda sadıkları
 Pirim Abdul Kadir'in
 
+Hakk 
+la ilahe illallah
+illallah
+illallah
+
 Elim verdim eline
 Kurban oldum diline
 Canlar feda yoluna
@@ -2621,6 +2626,7 @@ Pirim Abdul Kadir'in
 Y:
 
 L: https://youtu.be/YoMeaVvIhyg?si=rHBDVH4GKXuVzYjr
+
 Category: Eşrefoğlu, Qadiri, Mawlid
 
 CEMİ ENBİYALARDAN MUHAMMED CÜMLENİN ŞAHI
@@ -7406,7 +7412,12 @@ Eminü sırrı yezdani
 Abdul Kadir-i Geylani
 
 Alel yalel ya seyyide ayni
-Alel yalel ya seyyide ruhi
+Alel yalel ya ruhi ya ayni
+
+Ya Hayy Ya Hayy Ya Hayy Ya Da'im
+Ya Hayy Ya Hayy Ya Hayy Ya Da'im
+Ya Hayy Ya Hayy Ya Hayy Ya Da'im
+Ya Hayy Ya Hayy Ya Hayy Ya Da'im
 
 Zehi simai nurani
 Zehi ferhunde pişani
@@ -7414,7 +7425,7 @@ Kemal-i hüsnü insani
 Abdul Kadir-i Geylani
 
 Alel yalel ya seyyide ayni
-Alel yalel ya seyyide ruhi
+Alel yalel ya ruhi ya ayni
 
 Cihan sohbet bevet bari
 Mukaddes kutbi rabbani
@@ -7422,7 +7433,7 @@ Kerameş feyzi rahmani
 Abdul Kadir-i Geylani
 
 Alel yalel ya seyyide ayni
-Alel yalel ya seyyide ruhi
+Alel yalel ya ruhi ya ayni
 
 Safa bahşı muhibbani
 Ata bahşı fakirani
@@ -7430,7 +7441,7 @@ Hata puşi müridani
 Abdul Kadir-i Geylani
 
 Alel yalel ya seyyide ayni
-Alel yalel ya seyyide ruhi
+Alel yalel ya ruhi ya ayni
 
 Medet ya şeyh-i Geylani
 Kerem ya Kutbi Rabbani
@@ -7438,7 +7449,17 @@ Ki mahrumen me gerdani
 Tu Muhyiddin-i Geylani
 
 Alel yalel ya seyyide ayni
+Alel yalel ya ruhi ya ayni
+
+Alternative chorus:
+
+Alel yalel ya seyyide ayni
 Alel yalel ya seyyide ruhi
+
+Ya Hayy Ya Hayy Ya Hayy Ya Hadi
+
+Ya Hayy Ya Hayy Ya Hayy Ya Qayyum
+
 
 Y:
 
@@ -12080,9 +12101,12 @@ and many other Qadiri Tekkes in Turkiye and the Balkan.
 It was put together as such by Shaykh Eshrefoglu Rumi al Qadiri.  
 
 The original Evradi Kadiriyye (Qadiri Wird) is much much longer. 
-It consists mainly of different sets of salawats. 
+It consists mainly of different sets of salawats,
+one set meant to be recited
+on each day of the week: 
+Sunday salawat, Monday salawat, ...
 The following salawats are also from the Evradi Kadiriyye, 
-that is, they used to be recitedd by 
+that is, they used to be recited by 
 Shaykh Abdul Qadir Al Geylani 
 (Kaddassallahu sirrahul Aziz).
 
@@ -13423,6 +13447,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
