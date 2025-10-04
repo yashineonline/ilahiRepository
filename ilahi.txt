@@ -3084,7 +3084,7 @@ The word, "Sekahüm" is from the Qur'an, sura Al Insan, verse 21.
 
 Y:
 
-CIN PERIYE HUKMEDEN FERMAN ONUN FERMANIDIR
+Bilmek istersen onu bil evliya sultanıdır
 
 Cin Periye hükmeden ferman onun fermanıdır
 Vasil-ı Mevlâ eden erkân onun erkânıdır.
@@ -15311,6 +15311,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
