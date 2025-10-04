@@ -1496,6 +1496,8 @@ Hiçlige talip olmaya geldim.
 
 Y:
 
+Category: Geylani
+
 BAZIM HU BAZIM GEL
 
 hayran hayran gel
@@ -1608,7 +1610,7 @@ Come, come into my heart,
 O Bāzū, O Geylani.
 
 Ocean of lovers,
-Father of Abu Salih,
+His Father is Abu Salih,
 Fatimah is your mother,
 Muhammad is your forefather,
 Rose of all nightingales,
@@ -2554,6 +2556,7 @@ Mu-ham-me-den gı-da-mız var
 Y:
 
 L: https://youtu.be/2iz7DtSUEWg?si=M9Y1HlxmbwX43BXI
+
 Category: Mahmud Hüdayi
 
 BUYRUĞUN TUT RAHMANIN
@@ -2592,6 +2595,10 @@ Y:
 
 CANAN ILININ GÜLLERININ BAGI GÖRÜNDÜ
 
+Kadirîyiz biz, pirimizin dergâhı göründü 
+Cümle tarikat pirlerinin dostluğu göründü 
+Dervişlerinin dostluğunun kemali göründü 
+
 Cânân ilinin güllerinin bâğı göründü
 Dost iklîminin lâlesinin dâğı göründü
 
@@ -2610,7 +2617,16 @@ Dil hastesinin derdine tîmâr erişdi
 ŞEMSÎ yine aşk ile bugün vecde erişdi
 Vâr ise hayât âbının ırmâğı göründü
 
+History:
+From a thesis:
+
+Transcription of the ilahi: Canan ilinin... with the esmâ ostinato. Cânân ilinin güllerinin bâğı göründü [The garden of the roses of the land of the Beloved is seen] Dost ikliminin lâlesinin hali göründü [The condition of the tulip of the land of the Friend is seen] Kadirîyiz biz, pirimizin dergâhı göründü [We are Kadirî, the dergâh of our pîr is seen] Cümle tarikat pirlerinin dostluğu göründü [The friendship of pîrs of all orders is seen] Dervişlerinin dostluğunun kemali göründü [The perfection of the friendship of their dervishes are seen] Following Çargah (A) Kelime-i Tevhid and salavat continues as if it is a part of the previous ilahi. I labeled it as Çargah, but it doesn't go beyond Db. Ending on the C give the impression of a half cadence.
+
 T:
+
+We are Kadirî, the dergâh of our pîr is seen 
+The friendship of pîrs of all orders is seen
+The perfection of the friendship of their dervishes are seen
 
 The garden of the Beloved’s land, filled with roses, has appeared,
 The mountain of tulips from the Friend’s realm has appeared.
@@ -2821,6 +2837,7 @@ You ruined my chance of getting to my lover, O my fate
 Y:
 
 L: https://youtu.be/_xh0fHWCzmk?si=lBBPckRvdNlK0fGw
+
 Category: Qadiri, Geylani, Eşrefoğlu, 
 
 CEM OLMUŞ DERVİŞLERİ SULTAN ABDUL KADİRİN
@@ -2890,14 +2907,14 @@ I am the nightingale of his vineyard
 Of my master Abdul Qadir
 
 Whoever denies that man
-Turns his guide into Satan
+Turns their guide into Satan
 For truly he is Geylani
-Of my master Abdul Qadir
+O my master Abdul Qadir
 
 To you I say, O person
 Remove unrest from your heart
-The dervish of my master Abdul Qadir
-Does not burn in fire
+Fire does not burn the dervish 
+of my master Abdul Qadir
 
 The guide of all saints
 The one who receives the secret of Truth
@@ -2906,11 +2923,12 @@ Of my master Abdul Qadir
 
 He is exalted in the sight of Truth
 He fills both worlds
-He is the servant of Eşrefzade
+Eşrefzade is the servant of 
 Of my master Abdul Qadir
 
-He is the servant of Eşrefzade (my master)
-Of my master Abdul Qadir
+History:
+Shaykh Eşrefzade Rumi el Kadiri
+Iznik, Turkiye
 
 
 
@@ -4674,7 +4692,10 @@ O Messenger, be my guide.
 I seek forgiveness from God the Mighty,
 O Messenger, be my guide.
 
+History:
 
+Hz Aziz Mahmud Hüdayi el Celveti, 
+Khalifa of Hz. Muhyiddin Uftade
 
 
 
@@ -6362,11 +6383,6 @@ Pirim Abdul Kadir’in
 Hak La İlahe İllallah
 Allah Allah İllallah
 
-Shaykh Hüsnü Üsküdari er Rifai el Qadiri
-
-Sung by our beloved, Shaykh Muhyiddin Ansari el Kadiri er Rifai
-May Allah be always pleased with him and his family
-
 More words:
 
 Evliya derbanıdır
@@ -6449,14 +6465,19 @@ The desired becomes beloved
 His dervish becomes enraptured
 Of Sultan Abdul Qadir
 
+History:
+Written by 
+Shaykh Hüsnü Üsküdari er Rifai el Qadiri
+One of the Khalifas of 
+Shaykh Abdullah Hashimi
+His Mezar is in Besiktas, in the yard of the Yahya Efendi Kadiri Dergah
 
+This ilahi used to be
+Sung by our beloved, 
+Shaykh Muhyiddin Ansari el Kadiri er Rifai
+May Allah be always pleased with him and his family.
 
-
-
-
-
-
-
+It is still sung in dergahs worldwide. 
 
 Y:
 
@@ -15615,6 +15636,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
