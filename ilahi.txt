@@ -5208,6 +5208,8 @@ A: https://youtu.be/QblfkqOxZTw
 
 Category:inter,Ensari,awliya,Geylani,Qadiri, Shaykh Muhyiddin |evliya,
 
+SuggestedZikr: Hayy Allah Hayy (Allah), Allah Allah Hayy (Allah), Hayy, Allah, la-ila ha illallah
+
 GEYLANDAN YÜRÜDÜ
 
 Geylan'dan yürüdü dil küşad ile Ya Hu
@@ -5240,7 +5242,7 @@ Kafile seladır ol bazül eşhep
 Gül bengi çeker evliyalar hep Ya Hu*
 Erenler Sultanı Pir Abdul Kadir
 
-Muhammed Muhyiddin kime yalvaram Ya Hu*
+Mehmet Muhyiddini kime yalvaram Ya Hu*
 Himmet eyle şahım ben/biz günahkara
 Senin aşkın ile ciğerim yare Ya Hu
 Erenler Sultanı Pir Abdul Kadir
@@ -5254,6 +5256,50 @@ Senin aşkın ile ciğerim yara Ya Hu
 Erenler sultanı Pir Abdul Kadir         
 
 T:
+From Geylan he arose, with tongue opened in praise, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+The sun rose over Baghdad in pure delight, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+Light of the Messenger, secret of eternity, Ya Hu,
+Abdul Qadir, the saint beholding the secret of Ali
+He is with My Master Hasan and with my King Husayn, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+The Pole of all poles, the seat of divine power and wonder, Ya Hu,
+To the poles he grants the robe of grace by his own hand.
+Thus was it written by the eternal Pen of the Presence, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+The Pole of poles is one—none shall come again, Ya Hu,
+No saint like the Master shall ever appear.
+From the throne of divine aid he steps not down, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+The unseen saints formed forty ranks, Ya Hu,
+In every rank stood seventy saints.
+All bowed their heads before Shaykh Abdul Qadir, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+Seek from him the knowledge of the hidden (ilm-i ledün), Ya Hu,
+He is the leader of the caravan, the gray falcon.
+All saints chant the rose-drink invocation, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+Mehmet says, O Muhyiddin, to whom shall I cry, Ya Hu?
+Grant your help, my master, to me, a sinner.
+My heart is wounded with your love, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+Adapted:
+
+Sheikh Muhyiddin Ansari—to whom shall I plead, Ya Hu?
+Sheikh Taner Ansari—to whom shall I plead, Ya Hu?
+Grant your help, my Sheikh, to me, a sinner.
+My heart is wounded with your love, Ya Hu,
+Sultan of the saints, Master Abdul Qadir.
+
+
 He walked from Geylan with an opening of heart
 Sultan of righteous dervishes, master Abdul Kadir
 Day broke in Baghdad with full sky
@@ -5282,6 +5328,49 @@ To whom should beseech Shaykh Taner Ansari
 O my leader, help this sinner 
 My heart is wounded with your love
 Sultan of righteous dervishes, master Abdul Kadir
+
+Pronunciation:
+
+Gün doğdu Bağdat'ta pür Sultan’ ile Ya Hu
+Gün doğdu Bağdat'ta pür Sultan’ ile Ya Hu
+Erenler Sultanı Pir Abdul Kadir
+Erenler Sultani Şeyh Abdul Kadir 
+
+Resûlullah nuru sırrı ezeli Ya Hu
+Resûlullah nuru sırrı ezeli Ya Hu
+Ab-dul Kadir veli esrarı ali
+Ab-dul Kadir veli esrarı ali
+Pirim Hasan ile, Şahım Hüseyni Ya Hu
+Pirim Hasan ile, Şahim Hüseyni Ya Hu
+Himmet eyle şahım ben günahkarım
+Himmet eyle şahım ben günahkarım
+Senin aş-kın i-i-i-i-le yüreğim yare Ya Hu
+Senin aş-kın i-i-i-i-le ciğeri-im yare Ya Hu
+Erenler Sultani Pir Ab-dul Kadir
+Erenler Sultani Şeyh Ab-dul Kadir
+
+Ga-ip-erenleri kırk saf oldular Ya Hu
+Ga-ip-erenleri kırk saf oldular Ya Hu
+Her saf-ta yetmişer veli durdular
+Her saf-ta yetmişer veli durdular
+Pir Abdul Kadir'e boyun eğdiler Ya Hu
+Pir Abdul Kadir'e boyun eğdiler Ya Hu
+Erenler Sultani Şeyh Abdul Kadir
+Erenler Sultani Pir Abdul Kadir
+
+Mehmet Muhyid-di(i)ni kime yalvaram Ya Hu
+Mehmet Muhyid-di(i)ni kime yalvaram Ya Hu
+Himmet eyle şahım ben günahkare
+Himmet eyle şahım ben günahkare
+Senin aş-kın ile yüreğim yare Ya Hu
+Senin aş-kın ile yüreğim yare Ya Hu
+Erenler Sultanı Pir Abdul Kadir
+Erenler Sultanı Şeyh Abdul Kadir
+
+(this script matches how 
+Shaykh Muhyiddin Ensari 
+sings it in the YouTube recording.)
+
 
 Y:
 
@@ -15526,6 +15615,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
