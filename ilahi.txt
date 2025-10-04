@@ -13418,6 +13418,72 @@ Y:
 
 Bismillahir Rahmanir Rahim Evradi Kadiriyye
 
+Bismillâhirrahmânirrahîm
+
+Allahümme inni es’elüke bi hakkı bismillahirrahmanirrahim.
+
+Ve bi hurmeti bismillahirrahmanirrahim,
+
+Ve bi fadlı bismillahirrahmanirrahim,
+
+Ve bi azameti bismillahirrahmanirrahim,
+
+Ve bi celali bismillahirrahmanirrahim ,
+
+Ve bi cemali bismillahirrahmanirrahim,
+
+Ve bi kemali bismillahirrahmanirrahim,
+
+Ve bi heybeti bismillahirrahmanirrahim,
+
+Ve bi menzileti bismillahirrahmanirrahim,
+
+Ve bi melekuti bismillahirrahmanirrahim,
+
+Ve bi ceberuti bismillahirrahmanirrahim,
+
+Ve bi kibriyai bismillahirrahmanirrahim,
+
+Ve bi senai bismillahirrahmanirrahim,
+
+Ve bi behai bismillahirrahmanirrahim,
+
+Ve bi kerameti bismillahirrahmanirrahim,
+
+Ve bi sultani bismillahirrahmanirrahim,
+
+Ve bi beraketi bismillahirrahmanirrahim,
+
+Ve bi ızzeti bismillahirrahmanirrahim,
+
+Ve bi kuvveti bismillahirrahmanirrahim,
+
+Ve bi kudreti bismillahirrahmanirrahim,
+
+İrfa’ kadri veşrah sadri ve yessir emri.
+Verzukni min haysü la yahtesib.
+
+Bi fadlike ve keramike 
+
+ya men hüve 
+
+kâf ha ya ayn sad 
+
+ha mim ayn sin kaf 
+
+ve es’elüke bi celalil izzeti 
+ve celalil heybeti 
+ve ceberutil azameti. 
+En tec’aleni min ibadikes salihin.
+
+Ellezine la havfün aleyhim ve la hüm yahzenun.
+Bi rahmetike ya erhamerrahimin. 
+Ve en tusalliye ala seyyidina Muhammedin ve ala 
+ali seyyidina Muhammedin 
+vef'al li keza ve keza.
+
+Alternative version
+
 Bismillah-hir-rahman-nir-rahim
 Allahumma inni as'aluka bi-haqqi Bismillah-hir-rahman-nir-rahim
 Wa bi-hurmati Bismillah-hir-rahman-nir-rahim
@@ -13455,6 +13521,72 @@ Wa antusalli ‘ala sayyiduna Muhammad wa ‘ala ali sayyiduna Muhammad
 
 T:
 
+In the name of Allah, the Most Compassionate, the Most Merciful
+
+O Allah, I ask You by the right of Bismillahirrahmanirrahim.
+
+And by the sanctity of Bismillahirrahmanirrahim,
+
+And by the grace of Bismillahirrahmanirrahim,
+
+And by the greatness of Bismillahirrahmanirrahim,
+
+And by the majesty of Bismillahirrahmanirrahim,
+
+And by the beauty of Bismillahirrahmanirrahim,
+
+And by the perfection of Bismillahirrahmanirrahim,
+
+And by the awe of Bismillahirrahmanirrahim,
+
+And by the rank of Bismillahirrahmanirrahim,
+
+And by the dominion of Bismillahirrahmanirrahim,
+
+And by the power of compulsion of Bismillahirrahmanirrahim,
+
+And by the grandeur of Bismillahirrahmanirrahim,
+
+And by the praise of Bismillahirrahmanirrahim,
+
+And by the splendor of Bismillahirrahmanirrahim,
+
+And by the nobility of Bismillahirrahmanirrahim,
+
+And by the sovereignty of Bismillahirrahmanirrahim,
+
+And by the blessing of Bismillahirrahmanirrahim,
+
+And by the might of Bismillahirrahmanirrahim,
+
+And by the strength of Bismillahirrahmanirrahim,
+
+And by the power of Bismillahirrahmanirrahim.
+
+Raise my rank, open my chest, and make my task easy.
+Provide for me from where I cannot expect.
+
+By Your grace and generosity, 
+
+O You who are 
+
+Kaf Ha Ya Ayn Sad, 
+
+Ha Mim Ayn Sin Qaf.
+And I ask You by the majesty of might, 
+the majesty of awe, 
+and the power of greatness,
+that You make me among Your righteous servants.
+
+Those upon whom there is no fear, nor shall they grieve.
+
+By Your mercy, O Most Merciful of the merciful.
+And that You send blessings upon our master Muhammad 
+and upon the family of our master Muhammad, 
+and that You accomplish for me this and that.
+
+Translation for Alternative version
+
 In the name of Allah, the Most Gracious, the Most Merciful
 O Allah, I ask You by the right of Bismillah-ir-Rahman-ir-Rahim
 And by the sanctity of Bismillah-ir-Rahman-ir-Rahim
@@ -13490,7 +13622,9 @@ Those upon whom there is no fear, nor shall they grieve
 By Your mercy, O Most Merciful of the merciful
 And send blessings upon our master Muhammad and upon the family of our master Muhammad
 
-
+History:
+Reference for turkish text
+£https://www.meviza.com/dua/besmele-i-serife-duasi/
 
 
 
@@ -15392,6 +15526,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
