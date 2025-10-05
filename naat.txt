@@ -4740,22 +4740,32 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Sarkaaré Ghaws-E-Azam nazré karam khudara
- 
-Sarkaaré Ghaws-E-Azam, nazré karam khudara
-Meri kaal jholi bhardo, mein faker houn tumhara
+Sarkaare Ghawse Azam
 
-Jholi ko meri bhardo, warna kahégi duniya
-Aissé sakhi ka mangta, phirta hé maara maara
+Sarkaare Ghawse Azam 
+nazre karam khudaaraa
+Meri khaali jholi bhardo 
+mein fakeer hoon tumhaaraa
 
-Mawla Ali ka sadqa, Ganjé shakar ka sadqa
-Meri laaj rakhlo ya Ghaws mein faqeer houn tumhara
+Jholi ko meri bhardo, 
+warna kahegi duniyaa
+Eyse sakhi ka mangta, 
+phirta hai maaraa maaraa
 
-Sab ka koyi na koyi, duniya mein aasra hein
-Mera bajuz tumharé, koyi nahin sahara
+Mawla Ali ka sadqaa, 
+Ganje shakar ka sadqaa
+Meri laaj rakhlo ya Ghaws 
+mein faqeer houn tumhaaraa
 
-Ye téra karam hein ya Ghaws, jo boullaliya hé darpar
-Kahan roussiyaah Fareedee, kahan aasta tumhara
+Sab kaa koyi naa koyi, 
+duniya mein aasraa hein
+Mera bajuz tumhaare, 
+koyi nahin sahaaraa
+
+Ye tera karam hein ya Ghaws, 
+jo boolaa-liyaa hai dar par
+Kahan roussiyaah Fareedee, 
+kahan aasta tumhaaraa
 
 
 
@@ -4776,23 +4786,30 @@ Y:
 
 Category: Ghaws, Pir Geylani, 
 
-Sab kuch milega Ghaws ke dar se tou mangle
- 
+Sab kuch milega Ghaws ke dar se too mangle
 
 Sab kuch milega Ghaws ke dar se tou mangle
-Duniya ki kaenaat ko, ous
+Duniya ki kaenaat ko, ous...
 
-Tou to moureed Ghaws he, darr ta hein kis liyé
-Sadka Nabee ka aale payambar se manglé
+Tou to moureed Ghaws he, 
+darr ta hein kis liyé
+Sadka Nabee ka aale 
+payambar se mangle
 
-Ye aastaané Ghaws he, darya-e-karam ka
-Ek jam tou bhi apne moukaddar se manglé
+Ye aastaané Ghaws he, 
+darya-e-karam ka
+Ek jam tou bhi apne 
+moukaddar se mangle
 
-Bharta hare k daamané oummeed Ghaws sé
-Jholee passaré Ghaws ke langar se manglé
+Bharta hare ke daamane 
+oummeed Ghaws se
+Jholee passaare Ghaws ke 
+langar se mangle
 
-Hafiz teri madad ko jab, Peerané Peer hein
-Jo kuch bhi mang’na he, to jee bhar ke manglé
+Hafiz teri madad ko jab, 
+Peerane Peer hein
+Jo kuch bhi mangnaa hai, 
+to jee bhar ke mangle
 
 
 
@@ -4922,7 +4939,6 @@ Category: Ghaws, Pir Geylani,
 
 Ghaws-ul-wara ke dar ki azmat bari hein
  
-
 Ghaws-ul-wara ke dar ki azmat bari hein
 Rehmat wahan hath bandhé khari hein
 
@@ -6308,6 +6324,7 @@ Agar Habeebe Khuda na hote
 
 History:
 by Mawlana Akram
+
 
 
 
