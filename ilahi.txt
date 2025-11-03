@@ -11507,25 +11507,50 @@ Ya Malaz-al-kha'ifil-wajili
 Nazratan ya akram-ar-Rusuli
 Wa bi ghawsin hulla li 'uqadi
 
+Ya İmam ar-Rusli ya Sanadi
+Anta ba'dallahi mu'tamadi
+Fa bi dunyaya wa akhirati
+Ya Rasul Allahi khudh bi yadi
+
 Wa salatullahi lam tazali
 Laka tuhdā ma da'aka wali
 Ma'a taslimin min al-azali
 Yantahi hatta ila-l-abadi
+
+Ya İmam ar-Rusli ya Sanadi
+Anta ba'dallahi mu'tamadi
+Fa bi dunyaya wa akhirati
+Ya Rasul Allahi khudh bi yadi
 
 Anta sirr ul-kawni sayyiduhu
 Ruhuhu mawlahu awhaduhu
 'Abdukum muddat lakum yaduhu
 Madadan ya sahib al-madadi
 
+Ya İmam ar-Rusli ya Sanadi
+Anta ba'dallahi mu'tamadi
+Fa bi dunyaya wa akhirati
+Ya Rasul Allahi khudh bi yadi
+
 Ma ra'at 'aynun wa laysa tara
 Misla Taha fil wara bashara
 Khayru man fawqas sara isara
 Tahirul ansabi wal shiyami
 
+Ya İmam ar-Rusli ya Sanadi
+Anta ba'dallahi mu'tamadi
+Fa bi dunyaya wa akhirati
+Ya Rasul Allahi khudh bi yadi
+
 Lam yakhib man kunta maw iduhu
 Ya manir Rahmanu fad dalahu
 Ma 'alal Jani wa anta lahu
 İsmatun min a'zamil isami
+
+Ya İmam ar-Rusli ya Sanadi
+Anta ba'dallahi mu'tamadi
+Fa bi dunyaya wa akhirati
+Ya Rasul Allahi khudh bi yadi
 
 Alternative:
 
@@ -15777,6 +15802,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
