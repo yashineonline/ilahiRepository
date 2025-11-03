@@ -8832,15 +8832,30 @@ Takbili yeminil anwar
 Fehuvel jigfiril Akbar
 Zulkaretu bil esra-i  
 
+Neslül Mustafa Rifai
+Al Gavsus tevilul baği
+Muhyiddini sadril hazra
+Şeyhul kavmi bil ecma-i
+
 Taji awliya yil azmat
 Feyyazul eyyahu Ahmed
 Femda yesligu yezheb
 Bijda sirri hil fena-i
 
+Neslül Mustafa Rifai
+Al Gavsus tevilul baği
+Muhyiddini sadril hazra
+Şeyhul kavmi bil ecma-i
+
 Ekremi bisselatil üzma
 Ya Mevla ya tahel esma
 Vellazi ileyhi yesma
 Lin ali vemin etbai
+
+Neslül Mustafa Rifai
+Al Gavsus tevilul baği
+Muhyiddini sadril hazra
+Şeyhul kavmi bil ecma-i
 
 T:
 
@@ -9122,30 +9137,28 @@ T:
 
 The chosen Messenger’s descendant is Rifai Sayyid Ahmad
 From the loins of Ali al Murtaza is Rifai Sayyid Ahmad
-
 All knowing is God, Almighty is God
 Father of the two worlds, for the sake of God
 
 With Muhammad, Ali, Zahra, with Husayn and Hasan likewise
 The one who made their noble name remembered is Rifai Sayyid Ahmad
-
 All knowing is God, Almighty is God
 Father of the two worlds, for the sake of God
 
 The two Imams look after those like them, seeking union at once
 The true origin of the path of the tariqa is Rifai Sayyid Ahmad
-
 All knowing is God, Almighty is God
 Father of the two worlds, for the sake of God
 
 That is the gate of sharia, come by way of tariqa and gnosis
 Our guide in reality, come, is Rifai Sayyid Ahmad
-
 All knowing is God, Almighty is God
 Father of the two worlds, for the sake of God
 
 Watch over the gate of satisfaction, make the journey of the guide into reality at once
 The one who will take you by the hand is Rifai Sayyid Ahmad
+All knowing is God, Almighty is God
+Father of the two worlds, for the sake of God
 
 
 Y:
@@ -11705,6 +11718,71 @@ Anta sirr al-kawn sayyiduhu
 Ruhuhu mawlahu ahaduhu
 'Abdukum madat lakum yaduhu
 Madadan ya sahib al-madadi
+
+T:
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+O son of Abdullah, O my hope
+O refuge of the fearful and the trembling
+A single look, O noblest of messengers
+And with a rescue loosen my knots
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+May the prayers of God never cease
+To be offered to you as long as a friend calls upon you
+Together with greetings from pre eternity
+That continue on until eternity
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+You are the secret of the universe and its master
+Its spirit, its lord, its unique one
+Your servant whose hand is stretched out to you
+Granting of grace, O master of grace
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+No eye has seen and no eye will see
+Anyone like Taha among creation
+The best of those who traveled above the heavens
+Pure in lineage and in character
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+He is not disappointed whose appointment is with you
+O you whom the All Merciful has favored
+For the sinner, when he belongs to you
+You are a protection by the greatest of names
+
+O leader of the messengers, O my support
+You, after God, are the one I rely on
+In my life of this world and in the hereafter
+O Messenger of God, take my hand
+
+Alternative:
+
+You are the secret of the universe and its master
+Its spirit, its lord, its only one
+Your servant whose hand is stretched to you
+Granting of grace, O master of grace
+
 
 
 Y:
@@ -15949,6 +16027,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
