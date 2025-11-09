@@ -8827,30 +8827,30 @@ Al Gavsus tevilul baği
 Muhyiddini sadril hazra
 Şeyhul kavmi bil ecma-i
 
-Tale sane wal mezhar
-Takbili yeminil anwar
-Fehuvel jigfiril Akbar
-Zulkaretu bil esra-i  
+Tale şane hu vel mezhar
+Takbili yeminil enver
+Fehuvel Jaferi-ül Ekber
+Zul karetu bil esra-i  
 
 Neslül Mustafa Rifai
 Al Gavsus tevilul baği
 Muhyiddini sadril hazra
 Şeyhul kavmi bil ecma-i
 
-Taji awliya yil azmat
+Tacül evliya yil emced (azmat)
 Feyyazul eyyahu Ahmed
-Femda yesligu yezheb
-Bijda sirri hil fena-i
+Femda yesliğu yezheb
+Bicda sirri hil fena-i
 
 Neslül Mustafa Rifai
 Al Gavsus tevilul baği
 Muhyiddini sadril hazra
 Şeyhul kavmi bil ecma-i
 
-Ekremi bisselatil üzma
+Ekremi bis selatil üzma
 Ya Mevla ya tahel esma
-Vellazi ileyhi yesma
-Lin ali vemin etbai
+Vel lezi ileyhi yesma (yusra)
+Lin ali ve min etba-i
 
 Neslül Mustafa Rifai
 Al Gavsus tevilul baği
@@ -16027,6 +16027,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
