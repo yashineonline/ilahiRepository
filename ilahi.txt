@@ -545,6 +545,8 @@ Okunur her an aşk meydaninda
 Hazreti ali şuphesiz veli
 Allah arslani aşk meydaninda
 
+$ya-i-mam-al-rusli
+
 Y:
 
 ALA GÖZLÜ NAZLI PİRİM
@@ -11719,6 +11721,8 @@ Ruhuhu mawlahu ahaduhu
 'Abdukum madat lakum yaduhu
 Madadan ya sahib al-madadi
 
+$ahmedi-m-ahmed
+
 T:
 
 O leader of the messengers, O my support
@@ -16027,6 +16031,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
