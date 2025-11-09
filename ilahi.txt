@@ -10048,8 +10048,11 @@ Peymânesi benim daim Huu Mevlâm Huu!
 
 Aşkınla bizzat sen oldum Huu Mevlâm Huu
 
-Bîgânesi benim daim Huu Mevlâm Huyu!
+Bîgânesi benim daim Huu Mevlâm Huu!
 
+Same tune as: 
+
+$geli-n-ey-asiklar-geli-n?file=ilahi.txt
 
 Y:
 
@@ -16094,6 +16097,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
