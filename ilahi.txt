@@ -30,7 +30,7 @@ Dervish Orders: Rifai, Ansari, Qadiri, Bektashi, Nakshbandi, Mevlevi
 
 Y:
 
-Category: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri, Shaykh Taner
+Category: basic, Order:3, Full Zikr,evliya,awliya,Geylani,Qadiri, Shaykh Taner and Shaykha Muzeyyen,
 
 L: https://youtu.be/U6lASmSKMkE?si=7LJoyYuEngZr15D5
 
@@ -2801,7 +2801,7 @@ and Leyla and Majnun, etc."
 
 Y:
 
-Category: basic, Order:9, Fakirullah, Qadiri, Shaykh Taner
+Category: basic, Order:9, Fakirullah, Qadiri, Shaykh Taner and Shaykha Muzeyyen,
 
 L: https://youtu.be/aBay8dAoVKw
 
@@ -3062,7 +3062,7 @@ Ve salli ala mürşidina şahı velayet.
 
 Y:
 
-Category: Ruhi, inter, Shaykh Taner, 
+Category: Ruhi, inter, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://youtu.be/I12stA1sQQQ?si=WHTLQswQgL80Jpxz
 
@@ -3258,7 +3258,7 @@ Shaykh Hadi also saved Ataturk's life during the war time.
 
 Y:
 
-Category: inter, Aşık Yunus, anbiya, Shaykh Taner | enbiya, prophets
+Category: inter, Aşık Yunus, anbiya, Shaykh Taner and Shaykha Muzeyyen, | enbiya, prophets
 
 L: https://drive.google.com/file/d/1xlYiplWUQIm2T-zOTHAYelTYTahwFBdj/view?usp=sharing
 
@@ -3321,7 +3321,7 @@ I call on You, exalted Master
 
 Y:
 
-Category:inter, Şemseddin Sivasli, Shaykh Taner, Shaykh Muhyiddin
+Category:inter, Şemseddin Sivasli, Shaykh Taner and Shaykha Muzeyyen, Shaykh Muhyiddin
 
 L: https://drive.google.com/file/d/1lA0cmy-p-D3nHDE6vP0E9QWulgMPRPkc/view?usp=sharing
 
@@ -4160,7 +4160,7 @@ Sen çevir lutfen ilâhî vuslatındır dileğim
 
 Y:
 
-Category:inter,awliya,Rifai, Shaykh Taner |evliya,
+Category:inter,awliya,Rifai, Shaykh Taner and Shaykha Muzeyyen, |evliya,
 
 L: https://drive.google.com/file/d/1UKvWy1u2eBFFfwiVSLnLrrRd6nNupI8T/view?usp=sharing
 
@@ -5075,7 +5075,7 @@ Ko yanayım kül olayım taşkın akan sel olayım
 
 Y:
 
-Category: basic, Order:11, Bektashi, Hacı Bektaş, Shaykh Taner, 
+Category: basic, Order:11, Bektashi, Hacı Bektaş, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://youtu.be/AxeuubuoVzE?si=nk9DAAPU4fSYzgR1
 
@@ -5696,7 +5696,7 @@ Gül yüzünü göre göre ölelim ya Resulallah
 
 Y:
 
-Category: basic, Order:5, Shaykh Taner
+Category: basic, Order:5, Shaykh Taner and Shaykha Muzeyyen,
 
 L: https://youtu.be/pUU_Q1klx2U?si=GJtnAJ8P-BF2hcZ8
 
@@ -5883,7 +5883,7 @@ Ya Nebiallah, Ya Şefiallah
 
 Y:
 
-Category:inter, Üftade, Shaykh Taner, Shaykh Muhyiddin, 
+Category:inter, Üftade, Shaykh Taner and Shaykha Muzeyyen, Shaykh Muhyiddin, 
 
 L: https://drive.google.com/file/d/1eyn-eTRIFYvMrIBjOdgryNE9auVfGK42/view?usp=sharing
 
@@ -6059,7 +6059,7 @@ Tevhid becomes his joy.
 
 Y:
 
-Category:inter, yunus emre, Shaykh Taner, 
+Category:inter, yunus emre, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://drive.google.com/file/d/1eXM6ct1WB7FDMZhnJb3SxchZy8d9pMy3/view?usp=sharing
 
@@ -6121,7 +6121,7 @@ In the sands of Yemen, Veysel Karani
 
 Y:
 
-Category:inter, yunus emre, Shaykh Taner, 
+Category:inter, yunus emre, Shaykh Taner and Shaykha Muzeyyen, 
 
 SuggestedZikr: Hayy (fast), Hayy Hayy Hayy Allah, 
 
@@ -6677,7 +6677,7 @@ It is still sung in dergahs worldwide.
 
 Y:
 
-Category: basic, Order:13, Mevlid, Shaykh Taner, muhammed, muhyiddin, ensari, ansari, mevlana, 
+Category: basic, Order:13, Mevlid, Shaykh Taner and Shaykha Muzeyyen, muhammed, muhyiddin, ensari, ansari, mevlana, 
 nakshbandi, mevlevi, Hacı Bektaş, hashimi, Muhyi,
 
 L: https://youtu.be/v85HlRRlhu4
@@ -6971,7 +6971,7 @@ In this ilahi, yü-züm means my face.
 
 Y:
 
-Category: basic, Order:6, awliya, Rifai, Ali, Muhyi, Geylani, Qadiri, Shaykh Taner, 
+Category: basic, Order:6, awliya, Rifai, Ali, Muhyi, Geylani, Qadiri, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://youtu.be/ovJUEHO6LwI?si=hMl7rYAPiZxbkiH2
 
@@ -7633,7 +7633,7 @@ from a thesis with a lot of ilahis, see in other ilahi books: Marmara...
 
 Y:
 
-Category: inter, Ali,Bektashi, ehli beyt, Shaykh Taner, 
+Category: inter, Ali,Bektashi, ehli beyt, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://drive.google.com/file/d/1TkFv4qirIJQ4FCBtv-AIrI3qDqImh0O9/view?usp=sharing
 
@@ -7950,7 +7950,7 @@ The poem uses mystical language common in Sufi poetry, where the act of constant
 
 Y:
 
-Category: Yunus Emre, basic, Order:8, Muhammad, Mevlid, Bektashi, Shaykh Taner, 
+Category: Yunus Emre, basic, Order:8, Muhammad, Mevlid, Bektashi, Shaykh Taner and Shaykha Muzeyyen, 
 
 L: https://youtu.be/-tWLIFwKdb8?si=QtCduzOGYy9yTXUV
 
@@ -8407,7 +8407,7 @@ https://www.nurayoktay.com/KitapDetay/Ankarali-Asik-Niyazi-Demirorsun-Askindaki-
 
 Y:
 
-Category: inter, yunus emre, anbiya, Shaykh Taner |prophets, enbiya, 
+Category: inter, yunus emre, anbiya, Shaykh Taner and Shaykha Muzeyyen, |prophets, enbiya, 
 
 L: https://drive.google.com/file/d/16t_paokxEWWGjU739ZVy899ZKTzFxMXk/view?usp=sharing
 
@@ -8855,7 +8855,7 @@ Amin. Love you! Hu!
 
 Y:
 
-Category:inter, awliya,Rifai, Shaykh Taner, Shaykh Muhyiddin |evliya,
+Category:inter, awliya,Rifai, Shaykh Taner and Shaykha Muzeyyen, Shaykh Muhyiddin |evliya,
 
 SuggestedZikr: Allah, 
 
@@ -9960,6 +9960,8 @@ SuggestedZikr: Hu, la ila ha illallah, Allah, Hayy, Hayy Hayy Hayy Allah, Allah 
 
 L: https://youtu.be/YkREmirC8C4?si=bu5zKXE7buSdxStE
 
+L: https://www.youtube.com/shorts/nqAox1HkK8I
+
 SENİ BEN SEVERİM               
 
 Seni ben severim candan içeru               
@@ -10853,7 +10855,7 @@ Hak La ilahe illallah Allah La ilahe illallah.
 
 Y:
 
-Category:inter, Kul Yusuf, Shaykh Taner, Shaykh Muhyiddin
+Category:inter, Kul Yusuf, Shaykh Taner and Shaykha Muzeyyen, Shaykh Muhyiddin
 
 L: https://drive.google.com/file/d/1Nc355h3TrLr2NR5-5xPUxDqi8Xem62e8/view?usp=sharing
 
@@ -11060,7 +11062,7 @@ $derdi-n-ne-be-hey-asik
 
 Y:
 
-Category:inter, awliya,Rifai, Shaykh Taner, Shaykh Muhyiddin | evliya,
+Category:inter, awliya,Rifai, Shaykh Taner and Shaykha Muzeyyen, Shaykh Muhyiddin | evliya,
 
 L: https://drive.google.com/file/d/1-JbVdVyW5X-TSwsOX6t4nDUImMXYf3LF/view?usp=sharing
 
@@ -16161,6 +16163,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
