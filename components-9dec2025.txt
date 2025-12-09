@@ -1,0 +1,11516 @@
+these are all my components,until my full zikrpayer.vue , tell me if you do buntil  is not it, theyou ill full app by chat like the  then you can start think and process and tell me how to improvestart think and process and tell me how to improvestart think and process and tell me how to improve what i asked you before. 
+
+
+
+
+
+<!-- AudioPlayer.vue -->
+
+<template>
+
+  <div class="audio-player-container">
+
+    <div class="player-wrapper" v-if="playerType === 'youtube'">
+
+      <YouTube 
+
+        :src="audioSrc" 
+
+        @ready="onYoutubeReady" 
+
+        ref="youtubePlayer"
+
+        width="100%"
+
+        height="100%"
+
+        class="youtube-player" 
+
+      />
+
+    </div>
+
+    <div class="player-wrapper" v-else-if="playerType === 'googledrive'">
+
+      <iframe
+
+        :src="getGoogleDriveEmbedUrl(audioSrc)"
+
+        frameborder="0"
+
+        allowfullscreen
+
+        class="google-drive-player"
+
+      ></iframe>
+
+    </div>
+
+    <div class="player-wrapper" v-else-if="playerType === 'soundcloud'">
+
+      <iframe
+
+        width="100%"
+
+        height="166"
+
+        scrolling="no"
+
+        frameborder="no"
+
+        :src="getSoundCloudEmbedUrl(audioSrc)"
+
+      ></iframe>
+
+    </div>
+
+    <div v-else class="audio-controls">
+
+      <audio ref="audioElement" :src="getAudioSrc" preload="auto" controls></audio>
+
+    </div>
+
+    <div v-if="playerType !== 'googledrive'" class="controls mt-2 flex justify-center space-x-2">
+
+      <button @click="togglePlay" class="btn btn-primary btn-sm play-button" :aria-label="isPlaying ? 'Pause' : 'Play'" :title="isPlaying ? 'Pause' : 'Play'">
+
+        <font-awesome-icon :icon="isPlaying ? 'pause' : 'play'" class="play-icon" />
+
+      </button>
+
+      <button @click="seekBackward" class="btn btn-primary btn-sm seek-button" aria-label="Rewind 5 seconds">
+
+        <font-awesome-icon icon="rotate-left" class="rotate-icon" />
+
+        <span class="seek-number">5</span>
+
+      </button>
+
+      <button @click="seekForward" class="btn btn-primary btn-sm seek-button" aria-label="Forward 5 seconds">
+
+        <font-awesome-icon icon="rotate-right" class="rotate-icon" />
+
+        <span class="seek-number">5</span>
+
+      </button>
+
+      <button @click="decreaseSpeed" class="btn btn-primary btn-sm speed-button" aria-label="Decrease playback speed" title="Slower">
+
+        <font-awesome-icon :icon="['fas', 'plane-arrival']" class="speed-icon" />
+
+      </button>
+
+      <button @click="increaseSpeed" class="btn btn-primary btn-sm speed-button" aria-label="Increase playback speed" title="Faster">
+
+        <font-awesome-icon :icon="['fas', 'plane-departure']" class="speed-icon" />
+
+      </button>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, onMounted, watch, computed, onBeforeUnmount } from 'vue';
+
+import YouTube from 'vue3-youtube';
+
+import { Howl } from 'howler';
+
+import { parseYouTubeUrl } from '@/utils/youtubeUtils';
+
+
+
+
+
+
+
+export type PlayerType = 'youtube' | 'audio' | 'googledrive' | 'soundcloud'
+
+
+
+const props = defineProps<{
+
+  audioSrc: string;
+
+  playerType: 'youtube' | 'audio' | 'googledrive' | 'soundcloud';
+
+  startTime?: number;
+
+  endTime?: number;
+
+}>();
+
+
+
+const emit = defineEmits(['player-ready']);
+
+
+
+const youtubePlayer = ref<InstanceType<typeof YouTube> | null>(null);
+
+const howl = ref<Howl | null>(null);
+
+const audioElement = ref<HTMLAudioElement | null>(null);
+
+const driveIframe = ref<HTMLIFrameElement | null>(null);
+
+
+
+const startTime = ref(0);
+
+const endTime = ref(0);
+
+const isPlaying = ref(false);
+
+const isLoaded = ref(false);
+
+const playbackRate = ref(1);
+
+
+
+const getAudioSrc = computed(() => {
+
+  if (props.playerType === 'googledrive') {
+
+    const directUrl = getGoogleDriveDirectUrl(props.audioSrc);
+
+    // console.log('Google Drive direct URL:', directUrl);
+
+    return directUrl;
+
+  }
+
+  // console.log('Audio source:', props.audioSrc);
+
+  return props.audioSrc;
+
+});
+
+
+
+function initHowl() {
+
+  if (howl.value) {
+
+    howl.value.unload();
+
+  }
+
+  // console.log('Initializing Howl with source:', getAudioSrc.value);
+
+  howl.value = new Howl({
+
+    src: [getAudioSrc.value],
+
+    html5: true,
+
+    format: ['mp3', 'ogg', 'wav'],
+
+    xhr: {
+
+      method: 'GET',
+
+      headers: {
+
+        'Origin': window.location.origin
+
+      },
+
+      withCredentials: false
+
+    },
+
+    onload: () => {
+
+      // console.log('Howl loaded successfully');
+
+      isLoaded.value = true;
+
+      emit('player-ready', wrapHowlInstance(howl.value!));
+
+    },
+
+    onloaderror: (id, error) => {
+
+      console.error('Howl error loading audio:', error);
+
+      console.error('Error details:', howl.value?.state());
+
+      isLoaded.value = false;
+
+      // Try to load the audio using an audio element as a fallback
+
+      tryFallbackAudio();
+
+    },
+
+  });
+
+}
+
+
+
+function tryFallbackAudio() {
+
+  const audio = new Audio(getAudioSrc.value);
+
+  audio.oncanplaythrough = () => {
+
+    // console.log('Audio loaded successfully using fallback method');
+
+    isLoaded.value = true;
+
+    emit('player-ready', wrapAudioElement(audio));
+
+  };
+
+  audio.onerror = (error) => {
+
+    console.error('Fallback audio loading error:', error);
+
+    isLoaded.value = false;
+
+  };
+
+}
+
+
+
+function wrapAudioElement(audio: HTMLAudioElement) {
+
+  return {
+
+    pauseVideo: () => audio.pause(),
+
+    playVideo: () => audio.play(),
+
+    getCurrentTime: () => audio.currentTime,
+
+    seekTo: (time: number) => { audio.currentTime = time; },
+
+    getPlaybackRate: () => audio.playbackRate,
+
+    setPlaybackRate: (rate: number) => { audio.playbackRate = rate; }
+
+  };
+
+}
+
+
+
+function wrapYoutubePlayer(player: any) {
+
+  return {
+
+    pauseVideo: () => player.pauseVideo(),
+
+    playVideo: () => player.playVideo(),
+
+    getCurrentTime: () => player.getCurrentTime(),
+
+    seekTo: (time: number) => player.seekTo(time, true),
+
+    getPlaybackRate: () => player.getPlaybackRate(),
+
+    setPlaybackRate: (rate: number) => player.setPlaybackRate(rate)
+
+  };
+
+}
+
+
+
+// watch(() => props.audioSrc, () => {
+
+//   console.log('Audio source changed:', props.audioSrc);
+
+//   if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+//     const { videoId, startTime: start, endTime: end } = getYoutubeVideoId(props.audioSrc);
+
+//     console.log('YouTube video ID:', videoId);
+
+//     youtubePlayer.value.loadVideoById({ videoId, startSeconds: start });
+
+//     startTime.value = start;
+
+//     endTime.value = end;
+
+//   } else {
+
+//     isLoaded.value = false;
+
+//     // Don't initialize Howl here, wait for user interaction
+
+//   }
+
+// });
+
+
+
+function onYoutubeReady(event: any) {
+
+  // console.log('YouTube player ready');
+
+  const player = event.target;
+
+// Immediately stop any playback
+
+player.stopVideo();
+
+
+
+  const { videoId, startTime: start, endTime: end } = parseYouTubeUrl(props.audioSrc);
+
+  startTime.value = start;
+
+  endTime.value = end;
+
+
+
+  // Use cueVideoById instead of loadVideoById
+
+  player.cueVideoById({
+
+    videoId: videoId,
+
+    startSeconds: start,
+
+    endSeconds: end || undefined
+
+  });
+
+
+
+  isLoaded.value = true;
+
+  emit('player-ready', { 
+
+    player: wrapYoutubePlayer(player),
+
+    type: 'youtube' 
+
+  });
+
+}
+
+watch(() => props.audioSrc, () => {
+
+  console.log('Audio source changed:', props.audioSrc);
+
+  if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    const { videoId, startTime: start, endTime: end } = parseYouTubeUrl(props.audioSrc);
+
+    console.log('YouTube video ID:', videoId);
+
+    youtubePlayer.value.cueVideoById({ 
+
+      videoId, 
+
+      startSeconds: start,
+
+      endSeconds: end || undefined
+
+     });
+
+    startTime.value = start;
+
+    endTime.value = end;
+
+  } else {
+
+    isLoaded.value = false;
+
+  }
+
+});
+
+//   if (endTime > 0) {
+
+//     console.log('Setting up end time check for:', endTime);
+
+//     const checkTime = setInterval(() => {
+
+//       const currentTime = event.target.getCurrentTime();
+
+//       if (currentTime >= endTime) {
+
+//         console.log('Reached end time, pausing video');
+
+//         event.target.pauseVideo();
+
+//         clearInterval(checkTime);
+
+//       }
+
+//     }, 1000); // Check every second
+
+//   }
+
+// }
+
+
+
+function wrapHowlInstance(howl: Howl) {
+
+  return {
+
+    pauseVideo: () => howl.pause(),
+
+    playVideo: () => howl.play(),
+
+    getCurrentTime: () => howl.seek() as number,
+
+    seekTo: (time: number) => howl.seek(time),
+
+    getPlaybackRate: () => howl.rate(),
+
+    setPlaybackRate: (rate: number) => howl.rate(rate)
+
+  };
+
+}
+
+
+
+// function getYoutubeVideoId(url: string): { videoId: string, startTime: number, endTime: number } {
+
+//   // console.log('Processing URL:', url);
+
+//   const videoIdMatch = url.match(/(?:youtu\.be\/|youtube\.com(?:\/embed\/|\/v\/|\/watch\?v=|\/watch\?.+&v=))([^\/&\?]{11})/);
+
+//   const videoId = videoIdMatch ? videoIdMatch[1] : '';
+
+  
+
+//   const startTimeMatch = url.match(/[?&]t=(\d+)/);
+
+//   const startTime = startTimeMatch ? parseInt(startTimeMatch[1], 10) : 0;
+
+
+
+//   const endTimeMatch = url.match(/[?&]end=(\d+)/);
+
+//   const endTime = endTimeMatch ? parseInt(endTimeMatch[1], 10) : 0;
+
+
+
+//   // console.log('Extracted video ID:', videoId);
+
+//   // console.log('Extracted start time:', startTime);
+
+//   // console.log('Extracted end time:', endTime);
+
+
+
+//   return { videoId, startTime, endTime };
+
+// }
+
+
+
+function isGoogleDriveLink(url: string): boolean {
+
+  return url.includes('drive.google.com');
+
+}
+
+
+
+function getGoogleDriveDirectUrl(url: string): string {
+
+  // console.log('Processing Google Drive URL:', url);
+
+  const fileId = url.match(/[-\w]{25,}/);
+
+  if (fileId) {
+
+    const directUrl = `https://docs.google.com/uc?export=download&id=${fileId[0]}`;
+
+    // console.log('Generated direct URL:', directUrl);
+
+    return directUrl;
+
+  }
+
+  console.error('Failed to extract file ID from Google Drive URL');
+
+  return url;
+
+}
+
+
+
+function togglePlay() {
+
+  if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    if (isPlaying.value) {
+
+      youtubePlayer.value.pauseVideo();
+
+    } else {
+
+      youtubePlayer.value.playVideo();
+
+    }
+
+    isPlaying.value = !isPlaying.value;
+
+  } else {
+
+    if (!howl.value && !isLoaded.value) {
+
+      initHowl();
+
+    }
+
+    if (isLoaded.value) return;
+
+      const player = howl.value ? wrapHowlInstance(howl.value)          : (audioElement.value ? wrapAudioElement(audioElement.value) : null);
+
+
+
+      if (!player) return;
+
+
+
+      if (isPlaying.value) {
+
+        player.pauseVideo();
+
+      } else {
+
+        player.playVideo();
+
+      }
+
+      isPlaying.value = !isPlaying.value;
+
+    }
+
+  }
+
+
+
+
+
+function getGoogleDriveEmbedUrl(url: string): string {
+
+  const fileId = url.match(/[-\w]{25,}/);
+
+  if (fileId) {
+
+    return `https://drive.google.com/file/d/${fileId[0]}/preview?enablejsapi=1`;
+
+  }
+
+  return '';
+
+}
+
+
+
+function onIframeLoad(event: Event) {
+
+  const iframe = event.target as HTMLIFrameElement;
+
+  isLoaded.value = true;
+
+  emit('player-ready', { player: null, type: 'googledrive' });
+
+}
+
+
+
+
+
+const playSegment = () => {
+
+  if (youtubePlayer.value && props.playerType === 'youtube') {
+
+    const { videoId, startTime, endTime } = parseYouTubeUrl(props.audioSrc);
+
+    youtubePlayer.value.cueVideoById({
+
+      videoId: videoId,
+
+      startSeconds: startTime,
+
+      endSeconds: endTime || undefined,
+
+    });
+
+  }
+
+};
+
+
+
+// watch(() => props.audioSrc, playSegment);
+
+
+
+onMounted(playSegment);
+
+
+
+const seekBackward = () => {
+
+  if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    const currentTime = youtubePlayer.value.getCurrentTime()
+
+    youtubePlayer.value.seekTo(currentTime - 5, true)
+
+  } else if (props.playerType === 'audio') {
+
+    if (howl.value) {
+
+    const currentTime = howl.value.seek() as number
+
+    howl.value.seek(currentTime - 5)
+
+  } else if (audioElement.value) {
+
+      audioElement.value.currentTime = Math.max(0, audioElement.value.currentTime - 5);
+
+    }
+
+}
+
+};
+
+
+
+const seekForward = () => {
+
+  if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    const currentTime = youtubePlayer.value.getCurrentTime()
+
+    youtubePlayer.value.seekTo(currentTime + 5, true)
+
+  } else if (props.playerType === 'audio' ){
+
+  if (howl.value) {
+
+    const currentTime = howl.value.seek() as number
+
+    howl.value.seek(currentTime + 5);
+
+  }
+
+  else if (audioElement.value) {
+
+      audioElement.value.currentTime = audioElement.value.currentTime + 5;
+
+    }
+
+  }
+
+};
+
+
+
+const decreaseSpeed = () => {
+
+  playbackRate.value = Math.max(0.25, playbackRate.value - 0.25)
+
+  setPlaybackRate()
+
+}
+
+
+
+const increaseSpeed = () => {
+
+  playbackRate.value = Math.min(2, playbackRate.value + 0.25)
+
+  setPlaybackRate()
+
+}
+
+
+
+const setPlaybackRate = () => {
+
+  if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    youtubePlayer.value.setPlaybackRate(playbackRate.value)
+
+  } else if (props.playerType === 'audio') {
+
+    if (howl.value) {
+
+      howl.value.rate(playbackRate.value);
+
+    } else if (audioElement.value) {
+
+      audioElement.value.playbackRate = playbackRate.value;
+
+    }
+
+  }
+
+};
+
+
+
+const getSoundCloudEmbedUrl = (url: string) => {
+
+  const trackUrl = encodeURIComponent(url);
+
+  return `https://w.soundcloud.com/player/?url=${trackUrl}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`;
+
+};
+
+
+
+const currentTime = ref(0);
+
+const duration = ref(0);
+
+const progressInterval = ref<NodeJS.Timeout | null>(null);
+
+const intersectionObserver = ref<IntersectionObserver | null>(null);
+
+
+
+onBeforeUnmount(() => {
+
+   // Fix YouTube player cleanup
+
+   if (props.playerType === 'youtube' && youtubePlayer.value) {
+
+    try {
+
+      if (youtubePlayer.value.$el) {
+
+        // Try to pause the video first
+
+        const player = youtubePlayer.value.player;
+
+        if (player && typeof player.pauseVideo === 'function') {
+
+          player.pauseVideo();
+
+        }
+
+
+
+      }
+
+    } catch (error) {
+
+      console.error('Error cleaning up YouTube player:', error);
+
+    }
+
+  }
+
+
+
+  // Clean up Howler.js
+
+  if (howl.value) {
+
+    try{
+
+    howl.value.off('play');
+
+    howl.value.off('pause');
+
+    howl.value.off('end');
+
+    howl.value.off('load');
+
+    howl.value.stop();
+
+    howl.value.unload();
+
+  } catch (error) {
+
+      console.error('Error cleaning up Howl player:', error);
+
+    }
+
+  }
+
+
+
+  youtubePlayer.value = null;
+
+  // Clean up YouTube player
+
+  // if (youtubePlayer.value) {
+
+  //   youtubePlayer.value.destroy();
+
+  // }
+
+
+
+  // Clean up Google Drive iframe
+
+  // const iframe = document.getElementById('google-drive-iframe');
+
+  // if (iframe) {
+
+  //   iframe.remove();
+
+  // }
+
+
+
+  // Clean up timers
+
+  if (progressInterval.value) {
+
+    clearInterval(progressInterval.value);
+
+  }
+
+
+
+  // Clean up observers
+
+  if (intersectionObserver.value) {
+
+    intersectionObserver.value.disconnect();
+
+  }
+
+
+
+  // Reset reactive state
+
+  currentTime.value = 0;
+
+  duration.value = 0;
+
+  isPlaying.value = false;
+
+});
+
+
+
+</script>
+
+
+
+<style scoped>
+
+.audio-player-container {
+
+  width: 100%;
+
+  max-width: 100%;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+}
+
+
+
+.player-wrapper {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  aspect-ratio: 16/9;
+
+  overflow: hidden;
+
+}
+
+
+
+.youtube-player,
+
+.google-drive-player {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+.audio-controls {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  padding: 1rem;
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .audio-player-container {
+
+    max-width: 600px;
+
+  }
+
+
+
+  .player-wrapper {
+
+    padding-bottom: 0;
+
+    height: 337.5px; 
+
+  }
+
+
+
+  .youtube-player,
+
+  .google-drive-player {
+
+    position: relative;
+
+    height: 100%;
+
+  }
+
+}
+
+
+
+.seek-button, .speed-button {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 40px; /* Adjust size as needed */
+
+  height: 40px; /* Adjust size as needed */
+
+  border-radius: 50%; /* Makes the button circular */
+
+  padding: 0; /* Remove default padding */
+
+  background-color: #2563eb; /* Match your button's primary color */
+
+  border: none; /* Remove default border */
+
+  cursor: pointer;
+
+}
+
+
+
+.rotate-icon, .speed-icon {
+
+  font-size: 1.5rem; /* Adjust size as needed */
+
+  color: white; /* Icon color */
+
+  position: absolute; /* Position the icon */
+
+  top: 50%; /* Center vertically */
+
+  left: 50%; /* Center horizontally */
+
+  transform: translate(-50%, -50%); /* Perfect centering */
+
+}
+
+
+
+.seek-number {
+
+  position: absolute;
+
+  font-size: 0.8rem; /* Adjust size as needed */
+
+  font-weight: bold;
+
+  color: white; /* Number color */
+
+  top: 50%; /* Center vertically */
+
+  left: 50%; /* Center horizontally */
+
+  transform: translate(-50%, -50%); /* Perfect centering */
+
+}
+
+
+
+.seek-button:active, .speed-button:active {
+
+  transform: scale(0.95); /* Slightly shrink on click */
+
+}
+
+
+
+.play-button {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 40px; /* Adjust size as needed */
+
+  height: 40px; /* Adjust size as needed */
+
+  border-radius: 50%; /* Makes the button circular */
+
+  padding: 0; /* Remove default padding */
+
+  background-color: #2563eb; /* Match your button's primary color */
+
+  border: none; /* Remove default border */
+
+  cursor: pointer;
+
+}
+
+
+
+.play-button:active {
+
+  transform: scale(0.95); /* Slightly shrink on click */
+
+}
+
+
+
+.play-icon {
+
+  font-size: 1.5rem; /* Adjust size as needed */
+
+  color: white; /* Icon color */
+
+}
+
+</style>
+
+
+
+<!-- CategorySelector.vue -->
+
+<template>
+
+    <div class="w-full max-w-4xl mx-auto p-4">
+
+        <div class="flex flex-col items-center">
+
+        <!-- <div class="dropdown dropdown-hover">
+
+        <label tabindex="0" class="btn btn-primary m-1">
+
+          <font-awesome-icon :icon="['fas', 'filter']" class="mr-2" />
+
+          Filter by Category
+
+        </label>
+
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-64"> -->
+
+
+
+                  <!-- Basic ilahis checkbox - prominently displayed -->
+
+                  <div class="flex items-center mb-4 w-full justify-center">
+
+                    <input
+
+          type="checkbox"
+
+          id="basicCategory"
+
+          v-model="selectedCategories"
+
+          :value="CATEGORIES.BASIC"
+
+          class="checkbox checkbox-primary mr-2 custom-checkbox"
+
+        />
+
+        <label for="basicCategory" class="text-lg font-semibold text-primary">Basic ilahis For Zikr</label>
+
+      </div>
+
+
+
+ <!-- <li class="p-2">
+
+          <label class="flex items-center cursor-pointer">
+
+            <input
+
+              type="checkbox"
+
+              v-model="selectedCategories"
+
+              value="Basic"
+
+              class="checkbox checkbox-primary mr-2"
+
+            />
+
+            <span class="text-base">Basic ilahis For Zikr</span>
+
+          </label>
+
+        </li> -->
+
+
+
+ <!-- Popular Categories -->
+
+ <div class="flex items-center gap-4 mb-4">
+
+        <button 
+
+          v-for="shortcut in ['sbt', 'sbm']" 
+
+          :key="shortcut"
+
+          @click="toggleCategory(categoryShortcuts[shortcut][1])"
+
+          class="btn btn-outline btn-sm"
+
+          :class="{ 'btn-primary': selectedCategories.includes(categoryShortcuts[shortcut][1]) }"
+
+        >
+
+          {{ categoryShortcuts[shortcut].join(' ') }}
+
+        </button>
+
+      </div>
+
+
+
+       <!-- Dropdown for other categories -->
+
+       <div class="dropdown dropdown-hover">
+
+        <label tabindex="0" class="btn m-1">
+
+          <font-awesome-icon :icon="['fas', 'filter']" class="mr-2" />
+
+          More Categories
+
+        </label>
+
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow rounded-box w-52 max-h-60 overflow-y-auto custom-dropdown">
+
+          <li v-for="category in mainCategories" :key="category" class="text-left">
+
+            <template v-if="Object.keys(subcategories).includes(category)">
+
+              <details class="dropdown">
+
+                <summary class="text-base-content">{{ category }}</summary>
+
+                <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+
+                  <li v-for="subCategory in sortedSubcategories[category]" :key="subCategory" class="text-left">
+
+                    <label class="text-base-content">
+
+                      <input
+
+                        type="checkbox"
+
+                        :value="subCategory"
+
+                        v-model="selectedCategories"
+
+                        class="checkbox custom-checkbox"
+
+                      />
+
+                      {{ subCategory }}
+
+                    </label>
+
+                  </li>
+
+                </ul>
+
+              </details>
+
+            </template>
+
+            <label v-else class="text-base-content">
+
+              <input
+
+                type="checkbox"
+
+                :value="category"
+
+                v-model="selectedCategories"
+
+                class="checkbox custom-checkbox"
+
+              />
+
+              {{ category }}
+
+            </label>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+       <!-- Selected categories display
+
+       <div v-if="selectedCategories.length > 0" class="mt-4">
+
+        <div class="flex flex-wrap gap-2">
+
+          <div 
+
+            v-for="category in selectedCategories" 
+
+            :key="category"
+
+            class="badge badge-primary badge-lg"
+
+          >
+
+            {{ category }}
+
+            <button 
+
+              @click="removeCategory(category)"
+
+              class="ml-2"
+
+              :aria-label="`Remove ${category} filter`"
+
+            >
+
+              <font-awesome-icon :icon="['fas', 'times']" />
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div> -->
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, watch, computed } from 'vue';
+
+import { useSongStore } from '../stores/songStore';
+
+import { getSubcategories, getSortedSubcategories, getMainCategories, categoryShortcuts, CATEGORIES } from '../utils/categoryUtils';
+
+
+
+// Replace the useCategoryState hook with direct implementation
+
+const selectedCategories = ref<string[]>([]);
+
+
+
+// Function to toggle a category on/off
+
+const toggleCategory = (category: string) => {
+
+  const index = selectedCategories.value.indexOf(category);
+
+  if (index === -1) {
+
+    selectedCategories.value.push(category);
+
+  } else {
+
+    selectedCategories.value.splice(index, 1);
+
+  }
+
+};
+
+
+
+// Function to remove a category
+
+const removeCategory = (category: string) => {
+
+  const index = selectedCategories.value.indexOf(category);
+
+  if (index !== -1) {
+
+    selectedCategories.value.splice(index, 1);
+
+  }
+
+};
+
+
+
+// const selectedCategories = ref([]);
+
+const currentLetter = ref('');
+
+
+
+// Emitting changes to parent
+
+const emit = defineEmits(['update:categories', 'update:letter']);
+
+
+
+watch(selectedCategories, (newCategories) => {
+
+  emit('update:categories', newCategories);
+
+}, { deep: true });
+
+
+
+
+
+watch(currentLetter, (newLetter) => {
+
+  emit('update:letter', newLetter);
+
+});
+
+// Store
+
+const songStore = useSongStore();
+
+
+
+// const selectedCategories = ref<string[]>([]);
+
+
+
+// // Watch for changes and filter songs
+
+// watch(selectedCategories, (newCategories) => {
+
+//   songStore.filterByCategories(newCategories);
+
+// }, { immediate: true });
+
+
+
+
+
+
+
+// Computed properties
+
+const subcategories = computed(() => getSubcategories());
+
+const sortedSubcategories = computed(() => getSortedSubcategories(subcategories.value));
+
+// const mainCategories = computed(() => getMainCategories(songStore.categories));
+
+const mainCategories = computed(() => {
+
+  const categoryArray = Array.isArray(songStore.categories) 
+
+    ? songStore.categories 
+
+    : Object.values(songStore.categories).flat();  // Flatten the array if needed
+
+  
+
+  // Ensure we have an array of strings
+
+  const stringArray = categoryArray.map(cat => String(cat));
+
+  return getMainCategories(categoryArray);
+
+});
+
+
+
+// Expose selectedCategories to parent components
+
+defineExpose({ selectedCategories });
+
+</script>
+
+
+
+  <style>
+
+.custom-checkbox {
+
+  appearance: none;
+
+  -webkit-appearance: none;
+
+  width: 1.5em;
+
+  height: 1.5em;
+
+  border: 2px solid currentColor;
+
+  border-radius: 0.25em;
+
+  display: inline-grid;
+
+  place-content: center;
+
+}
+
+
+
+.custom-checkbox::before {
+
+  content: "";
+
+  width: 0.85em;
+
+  height: 0.85em;
+
+  transform: scale(0);
+
+  transition: 120ms transform ease-in-out;
+
+  box-shadow: inset 1em 1em currentColor;
+
+  transform-origin: center;
+
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+
+}
+
+
+
+.custom-checkbox:checked::before {
+
+  transform: scale(1);
+
+}
+
+
+
+:root[data-theme="dark"] .custom-checkbox {
+
+  border-color: hsl(var(--bc));
+
+}
+
+
+
+:root[data-theme="dark"] .custom-checkbox::before {
+
+  background-color: hsl(var(--bc));
+
+}
+
+
+
+.custom-dropdown {
+
+  background-color: white;
+
+  color: black;
+
+  border: 1px solid #e2e8f0;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown {
+
+  background-color: #2d3748;
+
+  color: #e2e8f0;
+
+  border: 1px solid #4a5568;
+
+}
+
+
+
+.custom-dropdown li > * {
+
+  color: inherit;
+
+}
+
+
+
+.custom-dropdown li > *:hover {
+
+  background-color: #f7fafc;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown li > *:hover {
+
+  background-color: #4a5568;
+
+}
+
+
+
+.custom-dropdown .dropdown .dropdown-content {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown .dropdown .dropdown-content {
+
+  background-color: #2d3748;
+
+  color: #e2e8f0;
+
+}
+
+
+
+.custom-dropdown .dropdown .dropdown-content li > * {
+
+  color: inherit;
+
+}
+
+
+
+.custom-dropdown .dropdown .dropdown-content li > *:hover {
+
+  background-color: #f7fafc;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown .dropdown .dropdown-content li > *:hover {
+
+  background-color: #4a5568;
+
+}
+
+  </style>
+
+
+
+<!-- GlobalToast.vue -->
+
+<template>
+
+  <transition name="slide-down">
+
+    <div
+
+        v-if="visible"
+
+        class="fixed top-4 left-1/2 transform -translate-x-1/2 bg-base-100 text-base-content px-6 py-3 rounded-lg shadow-lg cursor-pointer z-50 max-w-md w-full"
+
+        @click="handleClick"
+
+           role="alert"
+
+      aria-live="assertive"
+
+      >
+
+        {{ message }}
+
+      </div>
+
+    </transition>
+
+  </template>
+
+  
+
+  <script setup>
+
+  import { ref } from 'vue';
+
+  
+
+  const visible = ref(false);
+
+  const message = ref('');
+
+  let onClickHandler = null;
+
+  
+
+  function show(msg, onClick) {
+
+    message.value = msg;
+
+    onClickHandler = onClick;
+
+    visible.value = true;
+
+  }
+
+  
+
+  function hide() {
+
+    visible.value = false;
+
+    onClickHandler = null;
+
+  }
+
+  
+
+  function handleClick() {
+
+    if (onClickHandler) onClickHandler();
+
+    hide();
+
+  }
+
+  
+
+  // Expose globally so SW code can trigger it
+
+  window.showGlobalToast = show;
+
+  </script>
+
+  
+
+  <style>
+
+.slide-down-enter-active {
+
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+.slide-down-leave-active {
+
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+}
+
+.slide-down-enter-from {
+
+  transform: translateY(-100%);
+
+  opacity: 0;
+
+}
+
+.slide-down-enter-to {
+
+  transform: translateY(0);
+
+  opacity: 1;
+
+}
+
+.slide-down-leave-from {
+
+  transform: translateY(0);
+
+  opacity: 1;
+
+}
+
+.slide-down-leave-to {
+
+  transform: translateY(-100%);
+
+  opacity: 0;
+
+}
+
+  </style>
+
+  
+
+<!-- IlahiClasses.vue -->
+
+<template>
+
+      <div v-if="showPopup" class="modal modal-open fixed inset-0 flex items-center justify-center z-50" @click="closePopup">
+
+        <div class="modal-overlay absolute inset-0 bg-black/50"></div>
+
+        <div class="modal-box relative bg-base-100 text-base-content p-6 rounded-lg shadow-2xl max-w-md mx-auto z-50" @click.stop>
+
+          <button @click="closePopup" class="btn btn-sm btn-circle absolute right-2 top-2">✕</button>
+
+          <h2 class="text-2xl font-bold mb-4">Join the ilahi Community</h2>
+
+          <p class="mb-4">Connect with us via WhatsApp to join ilahi classes on Zoom 
+
+            and to hear first hand about the updates in the app. 
+
+            Practice singing within a community 
+
+          and get feedback on your singing regularly!</p>
+
+          <button @click="openWhatsApp" class="btn btn-primary btn-block">
+
+            Open WhatsApp
+
+          </button>
+
+        </div>
+
+      </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { ref } from 'vue'
+
+  
+
+  const showPopup = ref(false)
+
+  
+
+   const openPopup = () => {
+
+  showPopup.value = true
+
+}
+
+  
+
+  const closePopup = () => {
+
+    showPopup.value = false
+
+  }
+
+  
+
+  const openWhatsApp = () => {
+
+    window.open('https://chat.whatsapp.com/F7vWb3S3qIG2sht3hTPsjp', '_blank')
+
+    closePopup()
+
+  }
+
+
+
+defineExpose({ openPopup })
+
+  </script>
+
+  
+
+  <!-- <style scoped> -->
+
+
+
+ <!-- .modal {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+} 
+
+
+
+.modal-box {
+
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+
+  padding: 1.5rem;
+
+  border-radius: 0.5rem;
+
+  max-width: 32rem;
+
+  width: 90%;
+
+  position: relative;
+
+  z-index: 60;
+
+}
+
+
+
+.btn-circle {
+
+  border-radius: 9999px;
+
+}
+
+
+
+.modal-overlay {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 50; */
+
+ }  
+
+
+
+</style>
+
+-->
+
+
+
+<!-- Installation.vue -->
+
+<template>
+
+  <div>
+
+    <div v-if="!isAppInstalled" 
+
+    class="cursor-pointer w-full h-full" 
+
+    @click="showInstallInstructions"
+
+    style="touch-action: manipulation;"
+
+    >
+
+</div>
+
+  
+
+<div v-if="showInstructions" class="fixed inset-0 bg-base-300 bg-opacity-50 flex items-center justify-center z-[200]" @click="closeInstructions">
+
+
+
+    <div class="p-6 rounded-lg shadow-xl max-w-sm w-full m-4 relative bg-base-100 text-base-content" @click.stop>
+
+      <button @click="closeInstructions" class="btn btn-sm btn-circle absolute top-2 right-2" aria-label="Close">✕</button>
+
+      <h2 class="text-2xl font-bold mb-4">{{ getCurrentInstructions.title }}</h2>
+
+      <div v-if="isIOS || isAndroid">
+
+        <p class="mb-4">To install this app on your device:</p>
+
+        <ol class="list-decimal list-inside mb-4">
+
+          <li v-for="step in getCurrentInstructions.steps" :key="step">{{ step }}</li>
+
+        </ol>
+
+      </div>
+
+      <div v-else>
+
+        <p class="mb-4">{{ installInstructions.default.description }}</p>
+
+        <button @click="promptInstall" class="btn btn-primary font-bold py-2 px-4 rounded">
+
+          Install App
+
+        </button>
+
+      </div>
+
+      <button @click="closeInstructions" class="btn btn-outline w-full mt-4">Close</button>
+
+    </div>
+
+  </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, computed, onMounted, onUnmounted } from 'vue';
+
+
+
+const deferredPrompt = ref<any>(null);
+
+const showInstructions = ref(false);
+
+const isIOS = ref(false);
+
+const isAndroid = ref(false);
+
+const isAppInstalled = ref(false);
+
+const emit = defineEmits(['app-installed'])
+
+
+
+
+
+
+
+const installInstructions = {
+
+  ios: {
+
+    title: "Install on iOS",
+
+    steps: [
+
+      "Tap the Share button in Safari",
+
+      "Scroll down and tap \"Add to Home Screen\"",
+
+      "Tap \"Add\" in the top right corner"
+
+    ]
+
+  },
+
+  android: {
+
+    title: "Install on Android",
+
+    steps: [
+
+      "Open the link",
+
+      "If using Google Chrome,",
+
+      "Tap on the 3 dots at the top right corner",
+
+      "Scroll down and tap on \"Add to Home screen\"",
+
+      "Choose \"Install\"",
+
+      " ",
+
+      "If using Samsung Internet Browswer,",
+
+      "Tap on More (horizontal 3-bar icon) for the menu.", 
+
+      "Tap on + (Add page to)",
+
+      "Choose Home screen",
+
+    ]
+
+  },
+
+  default: {
+
+    title: "Install App",
+
+    description: "Relevant if you are on a phone or tablet. Ignore if you are on a computer."
+
+  }
+
+};
+
+
+
+const promptInstall = () => {
+
+  if (deferredPrompt.value) {
+
+    deferredPrompt.value.prompt();
+
+    deferredPrompt.value.userChoice.then((choiceResult: { outcome: string }) => {
+
+      if (choiceResult.outcome === 'accepted') {
+
+        isAppInstalled.value = true
+
+      } 
+
+      deferredPrompt.value = null;
+
+    });
+
+  }
+
+};
+
+
+
+const handleBeforeInstallPrompt = (e: Event) => {
+
+  e.preventDefault();
+
+  deferredPrompt.value = e;
+
+};
+
+
+
+const showInstallInstructions = (event?: Event) => {
+
+  if (event) event.stopPropagation();
+
+  showInstructions.value = true;
+
+};
+
+
+
+const closeInstructions = () => {
+
+  showInstructions.value = false;
+
+};
+
+
+
+const checkIfInstalled = () => {
+
+  if (window.matchMedia('(display-mode: standalone)').matches || (window.navigator as any).standalone === true) {
+
+    isAppInstalled.value = true;
+
+    emit('app-installed')
+
+  }
+
+};
+
+
+
+onMounted(() => {
+
+  window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+
+  checkIfInstalled();
+
+  window.addEventListener('appinstalled', () => {
+
+    isAppInstalled.value = true;
+
+  });
+
+  isIOS.value = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
+
+  isAndroid.value = /Android/.test(navigator.userAgent);
+
+});
+
+
+
+onUnmounted(() => {
+
+  window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+
+});
+
+
+
+const getCurrentInstructions = computed(() => {
+
+  if (isIOS.value) return installInstructions.ios;
+
+  if (isAndroid.value) return installInstructions.android;
+
+  return { ...installInstructions.default, steps: [] };
+
+});
+
+
+
+defineExpose({ showInstallInstructions });
+
+</script>
+
+
+
+<!-- LanguageSelection.vue -->
+
+<template>
+
+    <div v-if="showPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+
+      <div class="p-6 rounded-lg shadow-xl max-w-sm w-full">
+
+        <h2 class="text-2xl font-bold mb-4">Choose Your Language</h2>
+
+        <p class="mb-4">Select a language to replace Turkish sounds with familiar equivalents:</p>
+
+        <div class="space-y-2">
+
+          <button
+
+            v-for="language in languages"
+
+            :key="language"
+
+            @click="selectLanguage(language)"
+
+            class="btn btn-primary btn-block"
+
+            :aria-label="`Select ${language} as your language`"
+
+
+
+          >
+
+            {{ language }}
+
+          </button>
+
+        </div>
+
+        <button @click="closePopup" class="btn btn-ghost mt-4" aria-label="Close language selection popup">Close</button>
+
+      </div>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { ref } from 'vue';
+
+  import { setSelectedLanguage } from '../utils/pronunciationService';
+
+  
+
+  const emit = defineEmits(['close']);
+
+
+
+  const showPopup = ref(true);
+
+  const languages = ['English', 'French', 'German', 'Spanish'];
+
+  
+
+  const selectLanguage = (language: string) => {
+
+    // console.log('Language selected:', language);
+
+    setSelectedLanguage(language.toLowerCase());
+
+    closePopup();
+
+  };
+
+  
+
+  const closePopup = () => {
+
+    // console.log('Closing language popup');
+
+    showPopup.value = false;
+
+    emit('close');
+
+  };
+
+  </script>
+
+
+
+<!-- MenuItems.vue -->
+
+<template>
+
+    <ul 
+
+      class="menu p-2 shadow rounded-box w-52 bg-base-100 text-base-content" 
+
+      :class=" { 
+
+        'bg-gray-800/90 text-white': themeStore.theme === 'dark', 
+
+        'bg-white/90 text-gray-800': themeStore.theme === 'light'
+
+      }"
+
+  @click.stop="handleMenuClick"
+
+  >
+
+      <li><router-link to="/zikr-practice" class="btn btn-ghost btn-sm">Zikr Practice</router-link></li>
+
+      <li><router-link to="/wirds" class="btn btn-ghost btn-sm">Wird Slide</router-link></li>
+
+      <li><router-link to="/poems" class="btn btn-ghost btn-sm">Poems</router-link></li>
+
+      <li><router-link to="/books" class="btn btn-ghost btn-sm">Other ilahi Books</router-link></li>
+
+      <li><router-link to="/miscellaneous" class="btn btn-ghost btn-sm">Miscellaneous</router-link></li>
+
+      <li><button 
+
+        @click="() => { handleIlahiClassesClick(); emit('menu-item-click') }"
+
+        class="btn btn-ghost btn-sm w-full text-left">Join ilahi Community</button></li>
+
+      <li><router-link to="/history" class="btn btn-ghost btn-sm">History</router-link></li>
+
+      <li><router-link to="/book" class="btn btn-ghost btn-sm">Download ilahi Book</router-link></li>
+
+      <li><router-link to="/about" class="btn btn-ghost btn-sm">About ilahi</router-link></li>
+
+    </ul>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { useThemeStore } from '../stores/themeStore';
+
+  
+
+  const themeStore = useThemeStore();
+
+  
+
+  // Emit an event when ilahi classes is clicked
+
+  // const emit = defineEmits(['ilahiClassesClick']);
+
+  
+
+  const emit = defineEmits(['menu-item-click', 'ilahiClassesClick'])
+
+
+
+function handleMenuClick(event: MouseEvent) {
+
+  // Only emit if a menu item (li or its child) is clicked
+
+  // You may want to refine this if you have nested elements
+
+  const target = event.target as HTMLElement
+
+  // Don't emit for the "Join ilahi Community" button, since it has its own logic
+
+  if (target.closest('button')) return
+
+  emit('menu-item-click')
+
+}
+
+
+
+
+
+  const handleIlahiClassesClick = () => {
+
+    emit('ilahiClassesClick');
+
+  };
+
+  </script>
+
+
+
+<!-- NavigationBar.vue -->
+
+<template>
+
+  <nav class="navbar shadow-lg flex-col w-full bg-base-100 text-base-content" aria-label="Main navigation">
+
+<!-- Add this after your nav opening tag -->
+
+<div 
+
+  v-if="!isHomePage"
+
+  class="fixed top-16 left-0 transition-all duration-300 z-50"
+
+  :class="{
+
+  'translate-x-0 opacity-100': showFloatingNav || isDesktop,
+
+  '-translate-x-full opacity-0': !showFloatingNav && !isDesktop
+
+}"
+
+  @mouseenter="handleFloatingNavOpen"
+
+  @mouseleave="handleFloatingNavLeave"
+
+>
+
+  <div class="bg-base-200 rounded-r-lg shadow-lg px-4 py-2 flex flex-col items-start gap-4">
+
+          <button 
+
+              @click="goBack" 
+
+              class="btn btn-ghost btn-circle"
+
+              aria-label="Go back"
+
+            >
+
+              <font-awesome-icon icon="arrow-left" class="text-xl" />
+
+            </button>
+
+
+
+    <button 
+
+      @click.stop="toggleMenu" 
+
+                class="btn btn-ghost btn-circle"
+
+                aria-label="Open menu"
+
+              >
+
+                <font-awesome-icon icon="bars" class="text-xl" />
+
+    </button>
+
+    <div v-if="menuOpen" class="relative">
+
+    <MenuItems 
+
+      class="absolute top-2 left-16 z-[100]" 
+
+      @ilahi-classes-click="handleIlahiClassesClick" 
+
+      @menu-item-click="menuOpen = false"
+
+
+
+    />
+
+  </div>
+
+
+
+            <router-link 
+
+              to="/" 
+
+              class="btn btn-ghost btn-circle"
+
+              aria-label="Home"
+
+            >
+
+              <font-awesome-icon icon="home" class="text-xl" />
+
+            </router-link>
+
+          </div>
+
+</div>
+
+
+
+<div v-if="isHomePage" class="fixed top-16 left-4 z-50">
+
+  <div class="flex flex-row gap-2">
+
+    <button @click="goBack" class="btn btn-ghost btn-circle" aria-label="Go back">
+
+      <font-awesome-icon icon="arrow-left" class="text-xl" />
+
+    </button>
+
+    <button @click.stop="toggleMenu" class="btn btn-ghost btn-circle" aria-label="Open menu">
+
+      <font-awesome-icon icon="bars" class="text-xl" />
+
+    </button>
+
+  </div>
+
+  
+
+  <div v-if="menuOpen" class="relative">
+
+    <MenuItems 
+
+      class="absolute top-2 left-0 z-[100]" 
+
+      @ilahi-classes-click="handleIlahiClassesClick" 
+
+      @menu-item-click="menuOpen = false"
+
+
+
+    />
+
+  </div>
+
+</div>
+
+
+
+
+
+      
+
+      
+
+          <!-- Main content area with centered ilahi List button and right-aligned icons -->
+
+      
+
+        
+
+          <div class="w-full grid items-center" style="grid-template-columns: 1fr auto 1fr;">
+
+            <div></div> <!-- Empty left column for spacing -->
+
+            
+
+            
+
+              <div class="relative" justify-self: center>
+
+                <button 
+
+                class="btn btn-primary transform hover:scale-105 transition-transform duration-200 flex items-center gap-2 justify-center"
+
+                @mouseenter="showTooltip = true"
+
+                @mouseleave="showTooltip = false"
+
+                @click="handleSongListClick"
+
+          >
+
+            <font-awesome-icon icon="music" />
+
+            ilahi List
+
+          </button>
+
+
+
+
+
+          <div ref="tooltipRef"
+
+                v-if="showTooltip" 
+
+                class="fixed-tooltip p-4 bg-base-200 rounded-lg shadow-lg text-base-content w-64"
+
+                :class="{'bg-gray-700 text-white': themeStore.theme === 'dark'}"
+
+                style="height: auto; min-height: 80px;"
+
+              >
+
+                <span v-if="!isSongListView" class="text-lg font-medium">Tap me again to browse ilahis</span>
+
+                <span v-else class="text-lg font-medium">Scroll down to see ilahis</span>
+
+                <div class="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 rotate-45 bg-base-200"
+
+                   :class="{'bg-gray-700': themeStore.theme === 'dark'}"></div>
+
+              </div>
+
+      </div>
+
+            
+
+            <div style="display: flex; gap: 0;" class="justify-self-end" v-if="isHomePage"> 
+
+              <div class="relative" style="margin-right: -10px; padding: 1px;">
+
+                <button 
+
+                ref="youtubeBtnRef"
+
+                  class="btn btn-ghost btn-circle" 
+
+                  @mouseenter="showYoutubeTooltip = true"
+
+                  @mouseleave="showYoutubeTooltip = false"
+
+                  @touchstart.prevent="onTooltipTouch('youtube')"
+
+                  @click="handleIconClick('youtube')" 
+
+                >
+
+                  <font-awesome-icon :icon="['fab', 'youtube']" style="color: #ff3d3d;" size="lg" aria-hidden="true" />
+
+                </button>
+
+                
+
+                <div 
+
+                  v-if="showYoutubeTooltip" 
+
+                  ref="youtubeTipRef"
+
+                  class="fixed-tooltip p-4 bg-base-200 rounded-lg shadow-lg text-base-content w-64"
+
+                >
+
+                  <span class="text-lg font-medium">Tap me again to play ilahis</span>
+
+                </div>
+
+              </div>
+
+              
+
+              <div class="relative" style="margin-right: -10px; padding: 1px;">
+
+                <button 
+
+                  class="btn btn-ghost btn-circle" 
+
+                  @click="handleIlahiClassesClick"
+
+                  @mouseenter="showWhatsappTooltip = true"
+
+                  @mouseleave="showWhatsappTooltip = false"
+
+                  @touchstart.prevent="onTooltipTouch('whatsapp')"
+
+                >
+
+                  <font-awesome-icon :icon="['fab', 'whatsapp']" style="color: #25D366;" size="lg" aria-hidden="true" />
+
+                </button>
+
+                
+
+                <div 
+
+                  v-if="showWhatsappTooltip" 
+
+                  class="fixed-tooltip p-6 bg-base-200 rounded-lg shadow-lg text-base-content w-64 mt-2 tooltip-star-animation"
+
+                >
+
+                  <div class="flex flex-col items-center">
+
+                    <span class="text-xl font-bold animate-pulse-text">Tap me</span>
+
+                    <span class="text-xl font-bold animate-pulse-text">again to</span>
+
+                    <span class="text-xl font-bold animate-pulse-text">join</span>
+
+                    <span class="text-xl font-bold animate-pulse-text animation-delay-100">our</span>
+
+                    <span class="text-xl font-bold animate-pulse-text animation-delay-200">ilahi</span>
+
+                    <span class="text-xl font-bold animate-pulse-text animation-delay-300">community</span>
+
+                  </div>
+
+                  <div class="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 rotate-45 bg-base-200"
+
+                    :class="{'bg-gray-700': themeStore.theme === 'dark'}"></div>
+
+                    
+
+                  <!-- Star shapes animation -->
+
+                  <div class="stars-container">
+
+                    <div class="star star1"></div>
+
+                    <div class="star star2"></div>
+
+                    <div class="star star3"></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              
+
+              <div class="relative" style="margin-right: -10px; padding: 1px;" v-if="!isAppInstalled">
+
+                <button 
+
+                class="btn btn-ghost btn-circle" 
+
+                @mouseenter="showInstallTooltip = true"
+
+                  @mouseleave="showInstallTooltip = false"
+
+                  @click="handleInstallClick"
+
+                  @touchstart.prevent="onTooltipTouch('install')"
+
+                >
+
+                <font-awesome-icon :icon="['far', 'circle-down']" shake class="text-primary" size="lg" />
+
+        </button>
+
+                <div 
+
+                  v-if="showInstallTooltip" 
+
+                  class="fixed-tooltip p-4 bg-base-200 rounded-lg shadow-lg text-base-content w-64"
+
+                >
+
+                  <span class="text-lg font-medium">Tap me again to install the ilahi app</span>
+
+                </div>
+
+                <Installation ref="installationComponent" @app-installed="isAppInstalled = true" />
+
+              </div>
+
+            </div>
+
+      </div>
+
+   
+
+
+
+      <IlahiClasses ref="ilahiClasses" />
+
+
+
+      <!-- Large pop-up box -->
+
+      <div v-if="showPopup" class="modal modal-open fixed inset-0 flex items-center justify-center z-50" @click="closePopup">
+
+        <div class="modal-overlay absolute inset-0 bg-black/50"></div>
+
+  <div class="modal-box relative bg-base-100 text-base-content p-6 rounded-lg shadow-2xl max-w-md mx-auto z-50" @click.stop role="dialog" aria-labelledby="popupTitle">
+
+          <button @click="closePopup" class="btn btn-sm btn-circle absolute right-2 top-2" aria-label="Close">✕</button>
+
+          <h2 id="popupTitle" class="text-2xl font-bold mb-4">{{ popupContent.title }}</h2>
+
+          <p class="mb-4">{{ popupContent.description }}</p>
+
+          <button @click="handlePopupAction" class="btn btn-primary btn-block">
+
+            {{ popupContent.actionText }}
+
+          </button>
+
+        </div>
+
+      </div>
+
+    
+
+  </nav>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { useThemeStore } from '../stores/themeStore'
+
+import { useSongStore } from '../stores/songStore'
+
+import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
+
+import { useRoute, useRouter } from 'vue-router'
+
+import Installation from './Installation.vue'
+
+import IlahiClasses from './IlahiClasses.vue' // Import the IlahiClasses component
+
+import MenuItems from './MenuItems.vue'
+
+import { computePosition, offset, flip, shift, autoUpdate } from '@floating-ui/dom';
+
+
+
+declare const window: Window & typeof globalThis
+
+
+
+const windowWidth = ref(window.innerWidth);
+
+const isDesktop = computed(() => windowWidth.value >= 768);
+
+const onResize = () => (windowWidth.value = window.innerWidth);
+
+const themeStore = useThemeStore()
+
+const songStore = useSongStore()
+
+const route = useRoute()
+
+const router = useRouter()
+
+const installationComponent = ref<InstanceType<typeof Installation> | null>(null)
+
+const isAppInstalled = ref(false)
+
+
+
+
+
+const isSongListView = computed(() => route.path === '/songs')
+
+const showTooltip = ref(false)
+
+const showYoutubeTooltip = ref(false)
+
+const showInstallTooltip = ref(false)
+
+const showWhatsappTooltip = ref(false)
+
+const showFloatingNav = ref(false)
+
+const menuOpen = ref(false)
+
+const touchedButton = ref<null | string>(null)
+
+
+
+// Add computed property to check if we're on the Home page
+
+const isHomePage = computed(() => route.path === '/')
+
+
+
+const youtubeBtnRef = ref<HTMLElement|null>(null);
+
+const youtubeTipRef = ref<HTMLElement|null>(null);
+
+let ytCleanup: (()=>void)|null = null;
+
+
+
+
+
+let cleanup: (() => void) | null = null;
+
+
+
+function attachTooltip(referenceEl: HTMLElement, tooltipEl: HTMLElement) {
+
+  cleanup = autoUpdate(referenceEl, tooltipEl, async () => {
+
+    const { x, y } = await computePosition(referenceEl, tooltipEl, {
+
+      middleware: [offset(8), flip(), shift({ padding: 8 })],
+
+      placement: 'top',
+
+    });
+
+    Object.assign(tooltipEl.style, { position: 'fixed', left: `${x}px`, top: `${y}px` });
+
+  });
+
+}
+
+
+
+function detachTooltip() { cleanup?.(); cleanup = null; }
+
+
+
+
+
+const handleFloatingNavLeave = () => {
+
+  // Only hide the floating nav if the menu is closed and on mobile
+
+  if (!menuOpen.value && isDesktop.value) {
+
+    showFloatingNav.value = false
+
+  }
+
+}
+
+
+
+watch(menuOpen, (newVal) => {
+
+  if (!newVal && isDesktop.value) {
+
+    showFloatingNav.value = false
+
+  }
+
+})
+
+
+
+// Add this new function to handle the song list click
+
+const handleSongListClick = () => {
+
+  // Navigate immediately for both desktop and mobile
+
+  router.push('/songs');
+
+
+
+  // Always refresh with ilahi.txt when clicking the ilahi list button
+
+  songStore.fetchSongs(false, 'ilahi.txt');
+
+
+
+  if (isDesktop.value) { // 768px is a common breakpoint for desktop
+
+    showTooltip.value = true
+
+    setTimeout(() => {
+
+      showTooltip.value = false
+
+    }, 2000) // Close tooltip after 2 seconds
+
+    }
+
+};
+
+
+
+const buttonRef = ref<HTMLElement|null>(null);
+
+const tooltipRef = ref<HTMLElement|null>(null);
+
+
+
+watch(showTooltip, async (v) => {
+
+  await nextTick();
+
+  if (v && buttonRef.value && tooltipRef.value) {
+
+    attachTooltip(buttonRef.value, tooltipRef.value);
+
+  } else {
+
+    detachTooltip();
+
+  }
+
+});
+
+
+
+
+
+watch(showYoutubeTooltip, async (v) => {
+
+  await nextTick();
+
+  if (v && youtubeBtnRef.value && youtubeTipRef.value) {
+
+    ytCleanup = autoUpdate(youtubeBtnRef.value, youtubeTipRef.value, async () => {
+
+      const { x, y } = await computePosition(youtubeBtnRef.value!, youtubeTipRef.value!, {
+
+        placement: 'bottom',
+
+        middleware: [offset(8), flip(), shift({ padding: 8 })],
+
+      });
+
+      Object.assign(youtubeTipRef.value!.style, { position:'fixed', left: `${x}px`, top: `${y}px` });
+
+    });
+
+  } else {
+
+    ytCleanup?.(); ytCleanup = null;
+
+  }
+
+});
+
+onUnmounted(() => { ytCleanup?.(); });
+
+
+
+
+
+// Add this to close the tooltip after 2 seconds
+
+// watch(showTooltip, (newVal) => {
+
+//   if (newVal && window.innerWidth >= 768) {
+
+//     setTimeout(() => {
+
+//       showTooltip.value = false
+
+//     }, 2000)
+
+//   }
+
+// })
+
+
+
+
+
+// Toggle menu
+
+const toggleMenu = (event?: Event) => {
+
+  if (event) event.stopPropagation()
+
+  menuOpen.value = !menuOpen.value
+
+}
+
+
+
+// Handle touch events for mobile devices
+
+const handleTouchStart = (e: TouchEvent) => {
+
+  const touch = e.touches && e.touches[0];
+
+  const target = e.target as HTMLElement;
+
+  // const isInteractiveElement = target.closest('button, a, input, textarea, select, [data-no-float-nav]');
+
+// const isNotInteractive = !isInteractiveElement;
+
+
+
+  // Ignore taps on interactive elements
+
+  if (target && target.closest('button, a, input, select, textarea, [role="button"], [data-no-float-nav]')) {
+
+    return;
+
+  }
+
+  if (touch) {
+
+
+
+  // Only open when swiping/tapping from the very left edge and near top
+
+  // const edgeThreshold = 24; // px from left edge
+
+  // const topThreshold = 20; // px from top scroll
+
+  // if (touch && touch.clientX <= edgeThreshold && window.scrollY < topThreshold) {
+
+    handleFloatingNavOpen();
+
+  }
+
+}
+
+
+
+const handleScroll = () => {
+
+  if (window.scrollY > 100) {
+
+    showFloatingNav.value = false
+
+  }
+
+}
+
+
+
+// Handle tooltip touch for mobile - two-tap behavior
+
+const onTooltipTouch = (button: string) => {
+
+  // Close all tooltips first
+
+  showTooltip.value = false
+
+  showYoutubeTooltip.value = false
+
+  showInstallTooltip.value = false
+
+  showWhatsappTooltip.value = false
+
+  
+
+  // If this is second tap on same button, perform action
+
+  if (touchedButton.value === button) {   
+
+    // Perform button action
+
+    if (button === 'youtube') {
+
+      handleIconClick('youtube')
+
+    } else if (button === 'whatsapp') {
+
+      handleIlahiClassesClick()
+
+    } else if (button === 'install') {
+
+      if (installationComponent.value) {
+
+        installationComponent.value.showInstallInstructions()
+
+      }
+
+    } else if (button === 'songList') {
+
+      router.push('/songs')
+
+    }
+
+    touchedButton.value = null
+
+    return
+
+  }
+
+  
+
+  // First tap, show tooltip
+
+  touchedButton.value = button
+
+  
+
+  if (button === 'youtube') {
+
+    showYoutubeTooltip.value = true
+
+  } else if (button === 'whatsapp') {
+
+    showWhatsappTooltip.value = true
+
+  } else if (button === 'install') {
+
+    showInstallTooltip.value = true
+
+  } else if (button === 'songList') {
+
+    showTooltip.value = true
+
+  }
+
+  
+
+  // Auto-hide tooltip after timeout
+
+  setTimeout(() => {
+
+    showTooltip.value = false
+
+    showYoutubeTooltip.value = false
+
+    showInstallTooltip.value = false
+
+    showWhatsappTooltip.value = false
+
+    setTimeout(() => {
+
+      touchedButton.value = null
+
+    }, 300)
+
+  }, 2000)
+
+}
+
+
+
+// Add and remove event listeners
+
+onMounted(() => {
+
+  window.addEventListener('touchstart', handleTouchStart)
+
+  window.addEventListener('scroll', handleScroll)
+
+  
+
+// Check if app is installed
+
+isAppInstalled.value = window.matchMedia('(display-mode: standalone)').matches || 
+
+                         (window.navigator as any).standalone === true
+
+  
+
+
+
+  // Click outside to close menu
+
+  const handleClickOutside = (event: MouseEvent) => {
+
+    const target = event.target as Element
+
+    // Ignore clicks on elements that opt-out (e.g., translation toggle)
+
+    if ((target as HTMLElement).closest('[data-no-float-nav]')) return
+
+    if (menuOpen.value && !target.closest('.dropdown-open-on-click')) {
+
+      menuOpen.value = false
+
+    }
+
+  }
+
+  
+
+  window.addEventListener('click', handleClickOutside)
+
+  
+
+  // Clean up
+
+  onUnmounted(() => {
+
+    window.removeEventListener('touchstart', handleTouchStart)
+
+    window.removeEventListener('scroll', handleScroll)
+
+    window.removeEventListener('click', handleClickOutside)
+
+  })
+
+})
+
+
+
+const showPopup = ref(false)
+
+const popupContent = ref({
+
+  title: '',
+
+  description: '',
+
+  actionText: '',
+
+  action: () => {}
+
+})
+
+
+
+const goBack = () => {
+
+  window.history.back()
+
+}
+
+
+
+const ilahiClasses = ref<InstanceType<typeof IlahiClasses> | null>(null)
+
+
+
+
+
+const handleIlahiClassesClick = () => {
+
+  if (ilahiClasses.value) {
+
+    ilahiClasses.value.openPopup()
+
+  }
+
+  // Close menu after clicking
+
+  menuOpen.value = false
+
+}
+
+
+
+// Add this new function
+
+const handleInstallClick = () => {
+
+  console.log('Install button clicked');
+
+  if (installationComponent.value) {
+
+    console.log('Installation component found');
+
+    installationComponent.value.showInstallInstructions()
+
+  } else {
+
+    console.log('Installation component not found');
+
+  }
+
+}
+
+
+
+const handleIconClick = (type: 'whatsapp' | 'youtube') => {
+
+  if (type === 'whatsapp') {
+
+    popupContent.value = {
+
+      title: 'Join ilahi Community',
+
+      description: 'Connect with us via WhatsApp to join weekly ilahi classes on Zoom. Have questions about ilahis or anything in this app? Join our welcoming community where we share music, knowledge, and spiritual insights together.',
+
+      actionText: 'Open WhatsApp',
+
+      action: () => window.open('https://chat.whatsapp.com/F7vWb3S3qIG2sht3hTPsjp', '_blank')
+
+    }
+
+  } else {
+
+    popupContent.value = {
+
+      title: 'Play ilahis',
+
+      description: 'Listen to all the audio ilahis available on this app here!',
+
+      actionText: 'Open YouTube Player',
+
+      action: () => router.push({ name: 'Playlist' })
+
+    }
+
+  }
+
+  showPopup.value = true
+
+}
+
+
+
+const closePopup = () => {
+
+  showPopup.value = false
+
+}
+
+
+
+const handlePopupAction = () => {
+
+  popupContent.value.action()
+
+  closePopup()
+
+}
+
+
+
+const handleFloatingNavOpen = () => {
+
+  showFloatingNav.value = true;
+
+  // On mobile, auto-hide after 2 seconds
+
+  if (!isDesktop.value && !menuOpen.value) {
+
+    setTimeout(() => {
+
+      if (!menuOpen.value) {
+
+      showFloatingNav.value = false;
+
+      }
+
+    }, 4000);
+
+  }
+
+}
+
+
+
+// Expose the ilahiClasses ref
+
+defineExpose({ ilahiClasses })
+
+</script>
+
+
+
+<style scoped>
+
+.tap-target {
+
+  position: relative;
+
+  padding: 10px;
+
+  margin: -10px;
+
+  z-index: 10;
+
+}
+
+
+
+   @media (max-width: 768px) {
+
+    .tap-target {
+
+    padding: 15px;
+
+    margin: -15px;
+
+  }
+
+
+
+    /* Override for Installation tapping */
+
+    .relative .tap-target {
+
+    display: block;
+
+    min-width: 48px;
+
+    }
+
+    
+
+    .fixed-tooltip{
+
+  position: fixed;           /* single source of truth */
+
+  max-width: min(90vw, 20rem);
+
+  overflow-wrap: anywhere;   /* avoid overflow on long words */
+
+  z-index: 9999;
+
+}
+
+
+
+ /* Larger tap area for mobile */
+
+ .btn-circle {
+
+    min-height: 3rem;
+
+    min-width: 3rem;
+
+    padding: 0.75rem;
+
+  }
+
+
+
+
+
+   }
+
+/* .navbar {
+
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+
+} */
+
+
+
+/* Add these new styles */
+
+/* .modal-box {
+
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+
+}
+
+
+
+.modal-box h2 {
+
+  color: var(--text-color);
+
+}
+
+
+
+.modal-box p {
+
+  color: var(--text-color);
+
+}
+
+
+
+.modal-box button {
+
+  background-color: var(--primary-color);
+
+  color: var(--primary-content);
+
+} */
+
+
+
+/* Add these new styles */
+
+.tooltip-bounce {
+
+  animation: bounce 0.5s;
+
+}
+
+
+
+.tooltip-star-animation {
+
+  animation: bounce 0.5s;
+
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+
+
+.fixed-tooltip {
+
+  position: absolute;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  text-align: center;
+
+  z-index: 100;
+
+  max-width: 20rem;
+
+  width: max-content;
+
+  top: calc(100% + 0.5rem);
+
+}
+
+
+
+.stars-container {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  overflow: hidden;
+
+  pointer-events: none; /* Ensure clicks pass through */
+
+}
+
+
+
+.star {
+
+  position: absolute;
+
+  background-color: rgba(255, 255, 0, 0.5);
+
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+  animation: float 3s infinite;
+
+  pointer-events: none; /* Ensure clicks pass through */
+
+}
+
+
+
+.star1 {
+
+  width: 20px;
+
+  height: 20px;
+
+  top: 10%;
+
+  left: 10%;
+
+  animation-delay: 0s;
+
+}
+
+
+
+.star2 {
+
+  width: 15px;
+
+  height: 15px;
+
+  top: 40%;
+
+  right: 20%;
+
+  animation-delay: 0.5s;
+
+}
+
+
+
+.star3 {
+
+  width: 25px;
+
+  height: 25px;
+
+  bottom: 20%;
+
+  left: 30%;
+
+  animation-delay: 1s;
+
+}
+
+
+
+@keyframes float {
+
+  0%, 100% {
+
+    transform: translateY(0) rotate(0deg);
+
+    opacity: 1;
+
+  }
+
+  50% {
+
+    transform: translateY(-10px) rotate(20deg);
+
+    opacity: 0.8;
+
+  }
+
+}
+
+
+
+@keyframes bounce {
+
+  0%, 20%, 50%, 80%, 100% {
+
+    transform: translateY(0) translateX(-50%);
+
+  }
+
+  40% {
+
+    transform: translateY(-5px) translateX(-50%);
+
+  }
+
+  60% {
+
+    transform: translateY(-2px) translateX(-50%);
+
+  }
+
+}
+
+
+
+.animate-pulse-text {
+
+  animation: pulse-text 2s infinite;
+
+}
+
+
+
+.animation-delay-100 {
+
+  animation-delay: 0.2s;
+
+}
+
+
+
+.animation-delay-200 {
+
+  animation-delay: 0.4s;
+
+}
+
+
+
+.animation-delay-300 {
+
+  animation-delay: 0.6s;
+
+}
+
+
+
+@keyframes pulse-text {
+
+  0%, 100% {
+
+    opacity: 1;
+
+    transform: scale(1);
+
+  }
+
+  50% {
+
+    opacity: 0.8;
+
+    transform: scale(1.05);
+
+  }
+
+}
+
+
+
+/* For touch devices */
+
+@media (hover: none) {
+
+  .fixed.top-0.left-0.w-full.h-8 {
+
+    height: 24px; /* Larger touch area on mobile */
+
+  }
+
+}
+
+</style>
+
+
+
+<!-- ProgressBar.vue -->
+
+<template>
+
+    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 overflow-hidden">
+
+      <div class="bg-blue-400 h-2.5 rounded-full" :style="{ width: `${Math.min(100, progress)}%` }"></div>
+
+    </div>
+
+    <div class="text-center mt-2">{{ Math.min(100, Math.round(progress)) }}%</div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  defineProps<{
+
+    progress: number;
+
+  }>();
+
+  </script>
+
+
+
+<!-- PronunciationGuide.vue -->
+
+<template>
+
+  <div v-if="hasPronunciation">
+
+    <button 
+
+    @click="handlePronunciationButtonClick" 
+
+    class="btn btn-primary mb-4"
+
+      :aria-expanded="showPronunciation"
+
+      aria-controls="pronunciation-guide"
+
+    >
+
+      {{ showPronunciation ? 'Hide' : 'Show' }} Pronunciation Guide
+
+    </button>
+
+
+
+    <button 
+
+        @click="openLanguagePopup" 
+
+        class="btn btn-ghost"
+
+        aria-label="Change language settings"
+
+      >
+
+        <font-awesome-icon :icon="['fas', 'language']" class="text-lg" />
+
+      </button>
+
+
+
+ <!-- Language Selection Popup -->
+
+ <LanguageSelection v-if="showLanguagePopup" @close="closeLanguagePopup" />
+
+
+
+    <div 
+
+      v-if="showPronunciation && pronunciation" 
+
+      class="pronunciation-container"
+
+      id="pronunciation-guide"
+
+      role="region"
+
+      aria-label="Pronunciation guide"
+
+    >
+
+
+
+
+
+        <div class="feedback-line mb-4">
+
+        <p class="text-sm italic">
+
+          Second phase testing for pronunciation.
+
+Now you have the turkish sounds replaced 
+
+in the langauge that you can relate to:
+
+English, French, German, Spanish.
+
+Note that this is only for basic ilahis for now.
+
+        </p>
+
+      </div>
+
+
+
+    <!-- Feedback Line for German or Spanish -->
+
+    <div v-if="showFeedbackLine" class="feedback-line mb-4">
+
+        <p class="text-sm italic">
+
+          Please give feedback on how we can improve the pronunciation, especially if you speak {{ selectedLanguage }}. 
+
+          Thank you!
+
+        </p>
+
+      </div>
+
+
+
+    <div v-for="(stanza, index) in pronunciation" :key="index" class="stanza-guide">
+
+        <div v-for="(line, lineIndex) in stanza" :key="lineIndex" class="line-guide">
+
+          <p class="original">{{ line }}</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, onMounted, watch, computed } from 'vue'
+
+import { getSelectedLanguage, applyPhoneticReplacements } from '../utils/pronunciationService';
+
+import { useSongStore } from '../stores/songStore'
+
+import LanguageSelection from './LanguageSelection.vue';
+
+import { SongData } from '../utils/types.ts';
+
+
+
+
+
+const props = defineProps<{
+
+  songId: string
+
+  // lyrics: string[][]
+
+}>()
+
+
+
+const songStore = useSongStore()
+
+const showPronunciation = ref(false)
+
+const pronunciation = ref<string[][]>([]) // Update type to string[][]
+
+const hasPronunciation = ref(false)
+
+const showLanguagePopup = ref(false);
+
+// const selectedLanguage = ref(getSelectedLanguage());
+
+
+
+const selectedLanguage = ref<string | undefined>(getSelectedLanguage() || undefined);
+
+
+
+
+
+// Computed property to determine if the feedback line should be shown
+
+const showFeedbackLine = computed(() => {
+
+  return selectedLanguage.value === 'german' || selectedLanguage.value === 'spanish' || selectedLanguage.value === 'french' || selectedLanguage.value === 'english'
+
+});
+
+
+
+// Fetch and process pronunciation data
+
+const processPronunciationData = () => {
+
+  const song = songStore.songs.find((s: SongData) => s.slug === props.songId);
+
+  if (song?.pronunciation && song.pronunciation.length > 0) {
+
+    // console.log('Pronunciation data found for song:', song.title);
+
+    hasPronunciation.value = true;
+
+
+
+    // Log the raw pronunciation data
+
+    // console.log('Raw pronunciation data:', song.pronunciation);
+
+
+
+    // Apply phonetic replacements
+
+    // console.log('Selected language for replacements:', selectedLanguage.value);
+
+    pronunciation.value = song.pronunciation.map(stanza =>
+
+      stanza.map(line => applyPhoneticReplacements(line, selectedLanguage.value))
+
+    );
+
+
+
+    // Log the processed pronunciation data
+
+    // console.log('Processed pronunciation data:', pronunciation.value);
+
+  } else {
+
+    // console.log('No pronunciation data found for song:', song?.title);
+
+  }
+
+};
+
+
+
+// Watch for changes in the selected language
+
+watch(selectedLanguage, () => {
+
+  // console.log('Language changed to:', selectedLanguage.value);
+
+  processPronunciationData();
+
+});
+
+
+
+onMounted(() => {
+
+  // console.log('PronunciationGuide mounted');
+
+  processPronunciationData();
+
+});
+
+
+
+const handlePronunciationButtonClick = () => {
+
+  // console.log('Pronunciation button clicked');
+
+  if (!selectedLanguage.value) {
+
+    // console.log('No language selected, showing popup');
+
+    showLanguagePopup.value = true;
+
+  } else {
+
+    // console.log('Language already selected, toggling pronunciation guide');
+
+    togglePronunciation();
+
+  }
+
+};
+
+
+
+
+
+const openLanguagePopup = () => {
+
+  // console.log('Opening language popup');
+
+  showLanguagePopup.value = true;
+
+};
+
+
+
+const togglePronunciation = async () => {
+
+  // console.log('Toggling pronunciation guide. Current state:', showPronunciation.value);
+
+  showPronunciation.value = !showPronunciation.value;
+
+  // console.log('New state:', showPronunciation.value);
+
+};
+
+
+
+const closeLanguagePopup = () => {
+
+  // console.log('Closing language popup');
+
+  showLanguagePopup.value = false;
+
+  // After selecting a language, show the pronunciation guide
+
+  selectedLanguage.value = getSelectedLanguage() || undefined; // Convert null to undefined
+
+  togglePronunciation();
+
+};
+
+</script>
+
+
+
+<style scoped lang="postcss">
+
+.pronunciation-container {
+
+  @apply mt-4 rounded-lg shadow-sm p-6;
+
+}
+
+
+
+
+
+.stanza-guide {
+
+  @apply border-l-4 border-primary pl-4 py-2 mb-8;
+
+}
+
+
+
+.line-guide {
+
+  @apply mb-2;
+
+}
+
+
+
+.original {
+
+  @apply text-base font-medium;
+
+}
+
+
+
+.feedback-line {
+
+  @apply bg-gray-100 p-3 rounded-lg text-gray-700;
+
+}
+
+
+
+</style>
+
+
+
+<!-- QadiriWird.vue -->
+
+<template>
+
+  <div class="qadiri-wird-container p-4" :class="{ 'fullscreen': isFullscreen }">
+
+    <div class="flex justify-between items-center mb-4">
+
+      <button @click="goBack" class="btn btn-circle btn-sm">
+
+          <font-awesome-icon :icon="['fas', 'arrow-left']" />
+
+        </button>
+
+      <h1 class="text-3xl font-bold" v-if="!isFullscreen">Qadiri Wird</h1>
+
+      <div class="flex gap-2">
+
+        <button @click="toggleFullscreen" class="btn btn-circle btn-sm">
+
+          <font-awesome-icon :icon="['fas', isFullscreen ? 'compress' : 'expand']" />
+
+        </button>
+
+        <button @click="toggleSettings" class="btn btn-circle btn-sm">
+
+          <font-awesome-icon :icon="['fas', 'cog']" />
+
+        </button>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="controls mb-4 p-4 bg-base-200 text-base-content rounded-lg" v-if="showSettings">
+
+      <div class="collapse collapse-arrow">
+
+        <input type="checkbox" /> 
+
+        <div class="collapse-title text-xl font-medium">
+
+          Settings
+
+        </div>
+
+        <div class="collapse-content">
+
+          <div class="flex flex-wrap items-center gap-4 mb-2">
+
+            <div class="flex items-center">
+
+              <label for="fontSize" class="mr-2">Font Size:</label>
+
+              <input type="range" id="fontSize" min="16" max="132" v-model="fontSize" class="range range-primary w-32 custom-range" />
+
+              <span class="ml-2">{{ fontSize }}px</span>
+
+            </div>
+
+            <div class="flex items-center">
+
+              <label for="textColor" class="mr-2">Text:</label>
+
+              <input type="color" id="textColor" v-model="textColor" class="w-8 h-8" />
+
+            </div>
+
+            <div class="flex items-center">
+
+              <label for="backgroundColor" class="mr-2">Background:</label>
+
+              <input type="color" id="backgroundColor" v-model="backgroundColor" class="w-8 h-8" />
+
+            </div>
+
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2">
+
+            <label for="transitionSelect" class="mr-2">Transition:</label>
+
+            <select id="transitionSelect" v-model="selectedTransition" class="select select-primary select-sm">
+
+              <option v-for="option in transitionOptions" :key="option.value" :value="option.value">
+
+                {{ option.label }}
+
+              </option>
+
+            </select>
+
+            <div class="flex flex-wrap items-center gap-2 mt-2">
+
+              <button @click="restartWird" class="btn btn-primary btn-sm">Restart</button>
+
+              <button @click="togglePrevious" class="btn btn-secondary btn-sm">
+
+                {{ showPrevious ? 'Hide' : 'Show' }} Previous
+
+              </button>
+
+              <button @click="toggleNext" class="btn btn-secondary btn-sm">
+
+                {{ showNext ? 'Hide' : 'Show' }} Next
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div 
+
+      class="wird-display p-4 rounded-lg shadow-lg flex flex-col items-center" 
+
+      :style="{ fontSize: `${adjustedFontSize}px`, color: textColor, backgroundColor }"
+
+      ref="wirdDisplay"
+
+      @touchstart="touchStart"
+
+      @touchmove="touchMove"
+
+      @touchend="touchEnd"
+
+      tabindex="0"
+
+      @keydown="handleKeydown"
+
+    >
+
+      <div v-if="loading" class="loading loading-spinner loading-lg"></div>
+
+      <div v-else-if="error">{{ error }}</div>
+
+      <div v-else class="relative flex flex-col h-[60vh] w-full mx-auto shadow-lg rounded-lg" :style="{ backgroundColor }">
+
+        <div v-if="showPrevious" class="flex-shrink-0 w-full p-2 text-gray-400 text-center" :style="{ fontSize: `${prevNextFontSize}px` }">
+
+          <div v-html="formatPrevNext(wird[currentIndex - 1])"></div>
+
+        </div>
+
+        <transition :name="selectedTransition" mode="out-in">
+
+  <div
+
+    v-if="wird[currentIndex] !== undefined"
+
+    :key="currentIndex"
+
+    class="w-full h-full flex items-center justify-center p-4 overflow-y-auto"
+
+  >
+
+    <div class="wird-part-content" v-html="wird[currentIndex]"></div>
+
+  </div>
+
+</transition>
+
+        <div v-if="showNext" class="flex-shrink-0 w-full p-2 text-gray-400 text-center" :style="{ fontSize: `${prevNextFontSize}px` }">
+
+          <div v-html="formatPrevNext(wird[currentIndex + 1])"></div>
+
+        </div>
+
+      </div>
+
+      <div class="navigation mt-4 flex justify-between items-center w-full" :class="{ 'mobile': isMobileLayout }">
+
+        <button @click="goToPreviousPart" class="btn btn-circle" :disabled="currentIndex === 0">
+
+          <font-awesome-icon :icon="['fas', 'chevron-left']" />
+
+        </button>
+
+        <div class="flex items-center">
+
+          <input 
+
+            v-model.number="currentIndexInput" 
+
+            type="number" 
+
+            min="1" 
+
+            :max="wird.length" 
+
+            class="w-16 text-center mr-2 "
+
+            @change="handleIndexChange"
+
+          />
+
+          <span>/ {{ wird.length }}</span>
+
+        </div>
+
+        <button @click="goToNextPart" class="btn btn-circle" :disabled="currentIndex === wird.length - 1">
+
+          <font-awesome-icon :icon="['fas', 'chevron-right']" />
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, computed, onMounted, watch, watchEffect, onUnmounted } from 'vue';
+
+import { useNavigationStore } from '../stores/navigationStore';
+
+import { FontAwesomeIcon } from '@/plugins/font-awesome';
+
+
+
+const slideDirection = ref('left');
+
+
+
+const wird = ref<string[]>([]);
+
+const currentIndex = ref(0);
+
+const showPrevious = ref(true);
+
+const showNext = ref(true);
+
+const loading = ref(false);
+
+const error = ref('');
+
+const fontSize = ref(parseInt(localStorage.getItem('qadiriWirdFontSize') || '24'));
+
+const textColor = ref(localStorage.getItem('qadiriWirdTextColor') || '#229B36');
+
+const backgroundColor = ref(localStorage.getItem('qadiriWirdBackgroundColor') || '#E1D5D0');
+
+const wirdDisplay = ref<HTMLElement | null>(null);
+
+
+
+let touchStartX = 0;
+
+let touchEndX = 0;
+
+
+
+const transitionOptions = [
+
+  { value: 'slide', label: 'Slide' },
+
+  { value: 'fade', label: 'Fade' },
+
+  { value: 'zoom', label: 'Zoom' },
+
+  { value: 'flip', label: 'Flip' },
+
+  { value: 'slideFade', label: 'Slide and Fade' },
+
+  { value: 'bounce', label: 'Bounce' },
+
+  { value: 'pageTurn', label: 'Page Turn' },
+
+];
+
+
+
+const selectedTransition = ref(localStorage.getItem('qadiriWirdTransition') || 'slide');
+
+
+
+const handleIndexChange = (event: Event) => {
+
+  const target = event.target as HTMLInputElement;
+
+  const value = parseInt(target.value, 10);
+
+  currentIndexInput.value = value;
+
+};
+
+
+
+const restartWird = () => {
+
+  currentIndex.value = 0;
+
+};
+
+
+
+const togglePrevious = () => {
+
+  showPrevious.value = !showPrevious.value;
+
+};
+
+
+
+const toggleNext = () => {
+
+  showNext.value = !showNext.value;
+
+};
+
+
+
+const formatPrevNext = (text: string | undefined): string => {
+
+  if (!text) return '';
+
+  return text.replace(/<br>/g, ' ');
+
+};
+
+
+
+const splitWird = (text: string): string[] => {
+
+  return text.split(/\n\s*\n/)
+
+    .map(part => part.trim())
+
+    .filter(part => part.length > 0 && part !== 'Qadiri Wird')
+
+    .map(part => part.replace(/\n/g, '<br>'));
+
+};
+
+
+
+
+
+const currentPart = computed(() => wird.value[currentIndex.value] || '');
+
+const previousPart = computed(() => wird.value[currentIndex.value - 1] || '');
+
+const nextPart = computed(() => wird.value[currentIndex.value + 1] || '');
+
+const currentIndexInput = computed({
+
+  get: () => currentIndex.value + 1,
+
+  set: (value: number) => {
+
+    currentIndex.value = validateIndex(value - 1);
+
+  }
+
+});
+
+
+
+const prevNextFontSize = computed(() => {
+
+  if (isMobileLayout.value) {
+
+    return Math.min(adjustedFontSize.value * 0.75, 18); // Adjust for mobile
+
+  }
+
+  return adjustedFontSize.value * 0.75;
+
+});
+
+
+
+const fetchWird = async () => {
+
+  loading.value = true;
+
+  error.value = '';
+
+  try {
+
+    // First, try to fetch from GitHub
+
+    const owner = 'yashineonline';
+
+    const repo = 'ilahiRepository';
+
+    const path = 'qadiriWird.txt';
+
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+    
+
+    // console.log('Fetching Qadiri Wird from GitHub:', url);
+
+    const response = await fetch(url, {
+
+      headers: {
+
+        'Accept': 'application/vnd.github.v3.raw'
+
+      }
+
+    });
+
+
+
+    if (!response.ok) {
+
+      throw new Error(`HTTP error! status: ${response.status}`);
+
+    }
+
+
+
+    const text = await response.text();
+
+    // console.log('Fetched text:', text.substring(0, 100) + '...'); // Log first 100 characters
+
+    wird.value = splitWird(text);
+
+    // console.log('Split wird:', wird.value);
+
+  } catch (err) {
+
+    console.error('Error fetching Qadiri Wird from GitHub:', err);
+
+    
+
+    // If GitHub fetch fails, try to fetch from local file
+
+    try {
+
+      // console.log('Fetching Qadiri Wird from local file');
+
+      const response = await fetch('/qadiriWird.txt');
+
+      if (!response.ok) {
+
+        throw new Error(`HTTP error! status: ${response.status}`);
+
+      }
+
+      const text = await response.text();
+
+      // console.log('Fetched text from local file:', text.substring(0, 100) + '...'); // Log first 100 characters
+
+      wird.value = splitWird(text);
+
+      // console.log('Split wird from local file:', wird.value);
+
+    } catch (localErr) {
+
+      console.error('Error fetching local Qadiri Wird:', localErr);
+
+      error.value = 'Failed to load Qadiri Wird. Please try again later.';
+
+    }
+
+  } finally {
+
+    loading.value = false;
+
+    currentIndex.value = 0;
+
+  }
+
+};
+
+
+
+const goToNextPart = () => {
+
+  if (currentIndex.value < wird.value.length - 1) {
+
+    currentIndex.value = validateIndex(currentIndex.value + 1);
+
+    slideDirection.value = 'left';
+
+  }
+
+};
+
+const goToPreviousPart = () => {
+
+  if (currentIndex.value > 0) {
+
+    currentIndex.value = validateIndex(currentIndex.value - 1);
+
+    slideDirection.value = 'right';
+
+  }
+
+};
+
+
+
+let lastKeyPressTime = 0;
+
+const keyPressDelay = 300; // milliseconds
+
+
+
+const handleKeydown = (e: KeyboardEvent) => {
+
+  const currentTime = new Date().getTime();
+
+  if (currentTime - lastKeyPressTime > keyPressDelay) {
+
+    if (e.key === 'ArrowLeft') {
+
+      goToPreviousPart();
+
+    } else if (e.key === 'ArrowRight') {
+
+      goToNextPart();
+
+    }
+
+    lastKeyPressTime = currentTime;
+
+  }
+
+};
+
+
+
+const touchStart = (e: TouchEvent) => {
+
+  touchStartX = e.touches[0].clientX;
+
+};
+
+
+
+const touchMove = (e: TouchEvent) => {
+
+  touchEndX = e.touches[0].clientX;
+
+};
+
+
+
+const touchEnd = () => {
+
+  const swipeDistance = touchStartX - touchEndX;
+
+  if (Math.abs(swipeDistance) > 50) {
+
+    if (swipeDistance > 0) {
+
+      goToNextPart();
+
+    } else {
+
+      goToPreviousPart();
+
+    }
+
+  }
+
+};
+
+
+
+const validateIndex = (index: number): number => {
+
+  return Math.max(0, Math.min(index, wird.value.length - 1));
+
+};
+
+
+
+watch([fontSize, textColor, backgroundColor], ([newFontSize, newTextColor, newBackgroundColor]) => {
+
+  localStorage.setItem('qadiriWirdFontSize', newFontSize.toString());
+
+  localStorage.setItem('qadiriWirdTextColor', newTextColor);
+
+  localStorage.setItem('qadiriWirdBackgroundColor', newBackgroundColor);
+
+});
+
+
+
+watch(selectedTransition, (newTransition) => {
+
+  localStorage.setItem('qadiriWirdTransition', newTransition);
+
+});
+
+
+
+watchEffect(() => {
+
+  if (!localStorage.getItem('qadiriWirdFontSize')) {
+
+    localStorage.setItem('qadiriWirdFontSize', fontSize.value.toString());
+
+  }
+
+  if (!localStorage.getItem('qadiriWirdTextColor')) {
+
+    localStorage.setItem('qadiriWirdTextColor', textColor.value);
+
+  }
+
+  if (!localStorage.getItem('qadiriWirdBackgroundColor')) {
+
+    localStorage.setItem('qadiriWirdBackgroundColor', backgroundColor.value);
+
+  }
+
+});
+
+
+
+// Add a new ref for mobile layout
+
+const isMobileLayout = ref(false);
+
+
+
+// Define checkMobileLayout outside of onMounted
+
+const checkMobileLayout = () => {
+
+  isMobileLayout.value = window.innerWidth < 768; // Adjust this breakpoint as needed
+
+};
+
+
+
+// Update the onMounted hook
+
+onMounted(async () => {
+
+  // console.log('QadiriWird component mounted');
+
+  try {
+
+    await fetchWird();
+
+    // console.log('Fetched Wird:', wird.value);
+
+    // console.log('Number of parts:', wird.value.length);
+
+    // console.log('First part:', wird.value[0]);
+
+    // console.log('Last part:', wird.value[wird.value.length - 1]);
+
+  } catch (error) {
+
+    console.error('Error fetching Wird:', error);
+
+  }
+
+  document.addEventListener('keydown', handleKeydown);
+
+
+
+  // Check for mobile layout
+
+  checkMobileLayout();
+
+  window.addEventListener('resize', checkMobileLayout);
+
+});
+
+
+
+// Update onUnmounted to remove the resize event listener
+
+onUnmounted(() => {
+
+  document.removeEventListener('keydown', handleKeydown);
+
+  window.removeEventListener('resize', checkMobileLayout);
+
+});
+
+
+
+const isFullscreen = ref(false);
+
+const showSettings = ref(false);
+
+const navigationStore = useNavigationStore();
+
+
+
+const toggleFullscreen = () => {
+
+  isFullscreen.value = !isFullscreen.value;
+
+  navigationStore.setNavigationVisibility(!isFullscreen.value);
+
+};
+
+
+
+const toggleSettings = () => {
+
+  showSettings.value = !showSettings.value;
+
+};
+
+
+
+const emit = defineEmits(['go-back']);
+
+
+
+const goBack = () => {
+
+  isFullscreen.value = false;
+
+  navigationStore.setNavigationVisibility(true);
+
+  emit('go-back');
+
+};
+
+
+
+const adjustedFontSize = computed(() => {
+
+  if (isMobileLayout.value) {
+
+    return Math.min(fontSize.value, 24); // Adjust max font size for mobile
+
+  }
+
+  return fontSize.value;
+
+});
+
+</script>
+
+
+
+<style scoped>
+
+@media (min-width: 1024px) {
+
+  .wird-display {
+
+    min-height: 80vh;
+
+  }
+
+}
+
+
+
+/* Page Turn transition */
+
+.pageTurn-enter-active,
+
+.pageTurn-leave-active {
+
+  transition: all 0.6s ease;
+
+  transform-origin: left center;
+
+}
+
+.pageTurn-enter-from {
+
+  opacity: 0;
+
+  transform: rotateY(-90deg);
+
+}
+
+.pageTurn-leave-to {
+
+  opacity: 0;
+
+  transform: rotateY(90deg);
+
+}
+
+
+
+
+
+/* Flying transition */
+
+.flying-enter-active,
+
+.flying-leave-active {
+
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+
+}
+
+.flying-enter-from {
+
+  opacity: 0;
+
+  transform: translate(30px, 0) rotate(10deg);
+
+}
+
+.flying-leave-to {
+
+  opacity: 0;
+
+  transform: translate(-30px, 0) rotate(-10deg);
+
+}
+
+
+
+/* Add this to preserve existing transitions */
+
+.slide-enter-active,
+
+.slide-leave-active,
+
+.fade-enter-active,
+
+.fade-leave-active,
+
+.zoom-enter-active,
+
+.zoom-leave-active,
+
+.flip-enter-active,
+
+.flip-leave-active,
+
+.slideFade-enter-active,
+
+.slideFade-leave-active,
+
+.bounce-enter-active,
+
+.bounce-leave-active {
+
+  transition: all 0.01s ease;
+
+}
+
+
+
+/* Slide transition */
+
+.slide-enter-active,
+
+.slide-leave-active {
+
+  transition: all 0.3s ease-out;
+
+}
+
+.slide-enter-from.left,
+
+.slide-leave-to.right {
+
+  transform: translateX(100%);
+
+}
+
+.slide-leave-to.left,
+
+.slide-enter-from.right {
+
+  transform: translateX(-100%);
+
+}
+
+
+
+/* Fade transition */
+
+.fade-enter-active,
+
+.fade-leave-active {
+
+  transition: opacity 0.5s ease;
+
+}
+
+.fade-enter-from,
+
+.fade-leave-to {
+
+  opacity: 0;
+
+}
+
+
+
+/* Zoom transition */
+
+.zoom-enter-active,
+
+.zoom-leave-active {
+
+  transition: all 0.5s ease;
+
+}
+
+.zoom-enter-from,
+
+.zoom-leave-to {
+
+  opacity: 0;
+
+  transform: scale(0.9);
+
+}
+
+
+
+/* Flip transition */
+
+.flip-enter-active,
+
+.flip-leave-active {
+
+  transition: all 0.5s ease;
+
+}
+
+.flip-enter-from {
+
+  opacity: 0;
+
+  transform: rotateY(-90deg);
+
+}
+
+.flip-leave-to {
+
+  opacity: 0;
+
+  transform: rotateY(90deg);
+
+}
+
+
+
+/* Slide and fade transition */
+
+.slideFade-enter-active,
+
+.slideFade-leave-active {
+
+  transition: all 0.5s ease;
+
+}
+
+.slideFade-enter-from {
+
+  opacity: 0;
+
+  transform: translateX(50px);
+
+}
+
+.slideFade-leave-to {
+
+  opacity: 0;
+
+  transform: translateX(-50px);
+
+}
+
+
+
+/* Bounce transition */
+
+@keyframes bounce-in {
+
+  0% { transform: scale(0); }
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(1); }
+
+}
+
+@keyframes bounce-out {
+
+  0% { transform: scale(1); }
+
+  50% { transform: scale(1.05); }
+
+  100% { transform: scale(0); }
+
+}
+
+.bounce-enter-active {
+
+  animation: bounce-in 0.5s;
+
+}
+
+.bounce-leave-active {
+
+  animation: bounce-out 0.5s;
+
+}
+
+
+
+.wird-display {
+
+  min-height: 60vh;
+
+  overflow: hidden;
+
+  position: relative;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+.wird-part-content {
+
+  max-height: 100%;
+
+  overflow-y: auto;
+
+  padding: 1rem;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .wird-display {
+
+    flex-direction: column;
+
+  }
+
+
+
+  .wird-part-content {
+
+    padding: 0.5rem;
+
+  }
+
+}
+
+
+
+.navigation {
+
+  position: sticky;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  background-color: rgba(255, 255, 255, 0.9);
+
+  padding: 0.5rem;
+
+  z-index: 10;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .navigation {
+
+    position: fixed;
+
+  }
+
+}
+
+
+
+.custom-range {
+
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  background: #ddd;
+
+  outline: none;
+
+  opacity: 0.7;
+
+  transition: opacity 0.2s;
+
+}
+
+
+
+.custom-range:hover {
+
+  opacity: 1;
+
+}
+
+
+
+.custom-range::-webkit-slider-thumb {
+
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  width: 20px;
+
+  height: 20px;
+
+  background: #4CAF50;
+
+  cursor: pointer;
+
+  border-radius: 100%;
+
+}
+
+
+
+.custom-range::-moz-range-thumb {
+
+  width: 20px;
+
+  height: 20px;
+
+  background: #4CAF50;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+}
+
+
+
+/* Add styles for mobile layout */
+
+@media (max-width: 639px) {
+
+  .wird-display {
+
+    min-height: calc(100vh - 16rem); /* Adjust based on your layout */
+
+  }
+
+
+
+  .navigation {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 0.5rem;
+
+    z-index: 10;
+
+  }
+
+}
+
+</style>
+
+
+
+<!-- Quotes.vue -->
+
+<template>
+
+  <div class="card bg-base-200 shadow-xl m-4">
+
+    <div class="card-body">
+
+      <blockquote class="text-lg italic text-center text-base-content">
+
+        "{{ dailyQuote.text }}"
+
+      </blockquote>
+
+      <p class="text-right font-semibold mt-2 text-base-content">— {{ dailyQuote.author }}</p>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, onMounted } from 'vue';
+
+import { fetchAllQuotes } from '@/utils/quoteFetcher';
+
+import { Quote, AuthorQuotes } from '@/utils/types';
+
+
+
+// import { QUOTES, AUTHOR } from '@/utils/contentConfig';
+
+
+
+const authors = ref<AuthorQuotes[]>([]);
+
+const dailyQuote = ref({ text: '', author: '' });
+
+const loading = ref(true);
+
+const error = ref('');
+
+
+
+const getRandomQuote = () => {
+
+  const allQuotes = authors.value.flatMap(author => author.quotes.map(quote => ({ text: quote.text, author: author.name })));
+
+  const randomIndex = Math.floor(Math.random() * allQuotes.length);
+
+  return allQuotes[randomIndex];
+
+};
+
+
+
+const updateQuote = () => {
+
+  const today = new Date().toDateString();
+
+  const storedDate = localStorage.getItem('quoteDate');
+
+  const storedQuote = localStorage.getItem('dailyQuote');
+
+
+
+  if (storedDate !== today || !storedQuote) {
+
+    const newQuote = getRandomQuote();
+
+    dailyQuote.value = newQuote;
+
+    localStorage.setItem('quoteDate', today);
+
+    localStorage.setItem('dailyQuote', JSON.stringify(newQuote));
+
+  } else {
+
+    dailyQuote.value = JSON.parse(storedQuote);
+
+  }
+
+};
+
+
+
+onMounted(async () => {
+
+  try {
+
+    authors.value = await fetchAllQuotes();
+
+    updateQuote();
+
+  } catch (err) {
+
+    console.error('Error fetching quotes:', err);
+
+    error.value = 'Failed to load quotes. Please try again later.';
+
+  } finally {
+
+    loading.value = false;
+
+  }
+
+});
+
+
+
+</script>
+
+
+
+<!-- src/components/RandomIlahi.vue -->
+
+<template>
+
+    <div v-if="loading" class="text-center">
+
+      <p class="text-neutral-content">Loading ilahi of the day...</p>
+
+    </div>
+
+    <div v-else-if="error" class="text-center">
+
+      <p class="text-error">Failed to load ilahi. Showing default ilahi.</p>
+
+      <button 
+
+        @click="navigateToIlahi" 
+
+        class="btn btn-link text-primary hover:text-primary-focus focus:ring-2 focus:ring-primary focus:ring-offset-2"
+
+        aria-label="Navigate to default ilahi"
+
+      >
+
+        {{ randomIlahi.title }}
+
+      </button>
+
+    </div>
+
+    <div v-else class="random-ilahi text-center">
+
+
+
+      <h2 class="text-xl font-semibold mb-2">ilahi of the Day</h2>
+
+      <button
+
+        @click="navigateToIlahi"
+
+        class="btn btn-link text-primary hover:text-primary-focus text-lg focus:ring-2 focus:ring-primary focus:ring-offset-2"
+
+        :aria-label="`Navigate to ${randomIlahi.title}`"
+
+      >
+
+        {{ randomIlahi.title }}
+
+      </button>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { ref, onMounted, watch } from 'vue';
+
+  import { useRouter } from 'vue-router';
+
+  import { useSongStore } from '../stores/songStore';
+
+  
+
+  const DEFAULT_ILAHI = {
+
+  title: 'Asma ul Husna - Kadiri Esma',
+
+  slug: 'asma-ul-husna-kadiri-esma'
+
+};
+
+  const songStore = useSongStore();
+
+  const router = useRouter();
+
+  const randomIlahi = ref(DEFAULT_ILAHI);
+
+const loading = ref(true);
+
+const error = ref(false);
+
+  
+
+  const getRandomIlahi = () => {
+
+    try {
+
+    const songs = songStore.songs; 
+
+    if (!songs || songs.length === 0) {
+
+      throw new Error('No songs available');
+
+    }
+
+      const today = new Date().toDateString();
+
+      const storedDate = localStorage.getItem('randomIlahiDate');
+
+      const storedIlahi = localStorage.getItem('randomIlahi');
+
+  
+
+      if (storedDate === today && storedIlahi) {
+
+        randomIlahi.value = JSON.parse(storedIlahi);
+
+      } else {
+
+        const randomIndex = Math.floor(Math.random() * songs.length);
+
+        randomIlahi.value = songs[randomIndex];
+
+        localStorage.setItem('randomIlahiDate', today);
+
+        localStorage.setItem('randomIlahi', JSON.stringify(randomIlahi.value));
+
+      }
+
+    } 
+
+    catch (e) {
+
+    console.error('Error getting random ilahi:', e);
+
+    error.value = true;
+
+    randomIlahi.value = DEFAULT_ILAHI;
+
+  } finally {
+
+    loading.value = false;
+
+  }
+
+  };
+
+  
+
+const navigateToIlahi = () => {
+
+  try {
+
+    if (randomIlahi.value) {
+
+      router.push({ name: 'SongDisplay', params: { slug: randomIlahi.value.slug } });
+
+    }
+
+  } catch (error) {
+
+    console.error('Navigation error:', error);
+
+    // Fallback to home or song list
+
+    router.push({ name: 'Home' });
+
+  }
+
+};
+
+
+
+
+
+  
+
+  // Watch for songs to be loaded
+
+watch(() => songStore.songs, (newSongs) => {
+
+  if (newSongs && newSongs.length > 0) {
+
+    getRandomIlahi();
+
+  }
+
+}, { immediate: true });
+
+
+
+onMounted(() => {
+
+  // If songs are already loaded, get random ilahi immediately
+
+  if (songStore.songs && songStore.songs.length > 0) {
+
+    getRandomIlahi();
+
+  }
+
+});
+
+  </script>
+
+  
+
+  <style scoped>
+
+  .random-ilahi {
+
+    cursor: pointer;
+
+    text-align: center;
+
+  }
+
+  </style>
+
+
+
+<!-- RifaiWird.vue -->
+
+<template>
+
+    <div class="rifai-wird-container p-4" :class="{ 'fullscreen': isFullscreen }">
+
+      <div class="flex justify-between items-center mb-4">
+
+        <button @click="goBack" class="btn btn-circle btn-sm">
+
+            <font-awesome-icon :icon="['fas', 'arrow-left']" />
+
+          </button>
+
+        <h1 class="text-3xl font-bold" v-if="!isFullscreen">Rifai Wird</h1>
+
+        <div class="flex gap-2">
+
+          <button @click="toggleFullscreen" class="btn btn-circle btn-sm">
+
+            <font-awesome-icon :icon="['fas', isFullscreen ? 'compress' : 'expand']" />
+
+          </button>
+
+          <button @click="toggleSettings" class="btn btn-circle btn-sm">
+
+            <font-awesome-icon :icon="['fas', 'cog']" />
+
+          </button>
+
+        </div>
+
+      </div>
+
+  
+
+      <div class="controls mb-4 p-4 bg-base-200 text-base-content rounded-lg" v-if="showSettings">
+
+        <div class="collapse collapse-arrow">
+
+          <input type="checkbox" /> 
+
+          <div class="collapse-title text-xl font-medium">
+
+            Settings
+
+          </div>
+
+          <div class="collapse-content">
+
+            <div class="flex flex-wrap items-center gap-4 mb-2">
+
+              <div class="flex items-center">
+
+                <label for="fontSize" class="mr-2">Font Size:</label>
+
+                <input type="range" id="fontSize" min="16" max="132" v-model="fontSize" class="range range-primary w-32 custom-range" />
+
+                <span class="ml-2">{{ fontSize }}px</span>
+
+              </div>
+
+              <div class="flex items-center">
+
+                <label for="textColor" class="mr-2">Text:</label>
+
+                <input type="color" id="textColor" v-model="textColor" class="w-8 h-8" />
+
+              </div>
+
+              <div class="flex items-center">
+
+                <label for="backgroundColor" class="mr-2">Background:</label>
+
+                <input type="color" id="backgroundColor" v-model="backgroundColor" class="w-8 h-8" />
+
+              </div>
+
+            </div>
+
+            <div class="flex flex-wrap items-center gap-2">
+
+              <label for="transitionSelect" class="mr-2">Transition:</label>
+
+              <select id="transitionSelect" v-model="selectedTransition" class="select select-primary select-sm">
+
+                <option v-for="option in transitionOptions" :key="option.value" :value="option.value">
+
+                  {{ option.label }}
+
+                </option>
+
+              </select>
+
+              <div class="flex flex-wrap items-center gap-2 mt-2">
+
+                <button @click="restartWird" class="btn btn-primary btn-sm">Restart</button>
+
+                <button @click="togglePrevious" class="btn btn-secondary btn-sm">
+
+                  {{ showPrevious ? 'Hide' : 'Show' }} Previous
+
+                </button>
+
+                <button @click="toggleNext" class="btn btn-secondary btn-sm">
+
+                  {{ showNext ? 'Hide' : 'Show' }} Next
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+  
+
+      <div 
+
+        class="wird-display p-4 rounded-lg shadow-lg flex flex-col items-center" 
+
+        :style="{ fontSize: `${adjustedFontSize}px`, color: textColor, backgroundColor }"
+
+        ref="wirdDisplay"
+
+        @touchstart="touchStart"
+
+        @touchmove="touchMove"
+
+        @touchend="touchEnd"
+
+        tabindex="0"
+
+        @keydown="handleKeydown"
+
+      >
+
+        <div v-if="loading" class="loading loading-spinner loading-lg"></div>
+
+        <div v-else-if="error">{{ error }}</div>
+
+        <div v-else class="relative flex flex-col h-[60vh] w-full mx-auto shadow-lg rounded-lg" :style="{ backgroundColor }">
+
+          <div v-if="showPrevious" class="flex-shrink-0 w-full p-2 text-gray-400 text-center" :style="{ fontSize: `${prevNextFontSize}px` }">
+
+            <div v-html="formatPrevNext(wird[currentIndex - 1])"></div>
+
+          </div>
+
+          <transition :name="selectedTransition" mode="out-in">
+
+  <div
+
+    v-if="wird[currentIndex] !== undefined"
+
+    :key="currentIndex"
+
+    class="w-full h-full flex items-center justify-center p-4 overflow-y-auto"
+
+  >
+
+    <div class="wird-part-content" v-html="wird[currentIndex]"></div>
+
+  </div>
+
+</transition>
+
+                    <div v-if="showNext" class="flex-shrink-0 w-full p-2 text-gray-400 text-center" :style="{ fontSize: `${prevNextFontSize}px` }">
+
+            <div v-html="formatPrevNext(wird[currentIndex + 1])"></div>
+
+          </div>
+
+        </div>
+
+        <div class="navigation mt-4 flex justify-between items-center w-full" :class="{ 'mobile': isMobileLayout }">
+
+          <button @click="goToPreviousPart" class="btn btn-circle" :disabled="currentIndex === 0">
+
+            <font-awesome-icon :icon="['fas', 'chevron-left']" />
+
+          </button>
+
+          <div class="flex items-center">
+
+            <input 
+
+              v-model.number="currentIndexInput" 
+
+              type="number" 
+
+              min="1" 
+
+              :max="wird.length" 
+
+              class="w-16 text-center mr-2"
+
+              @change="handleIndexChange"
+
+            />
+
+            <span>/ {{ wird.length }}</span>
+
+          </div>
+
+          <button @click="goToNextPart" class="btn btn-circle" :disabled="currentIndex === wird.length - 1">
+
+            <font-awesome-icon :icon="['fas', 'chevron-right']" />
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { ref, computed, onMounted, watch, watchEffect, onUnmounted } from 'vue';
+
+  import { useNavigationStore } from '../stores/navigationStore';
+
+  import { FontAwesomeIcon } from '@/plugins/font-awesome';
+
+  
+
+  const slideDirection = ref('left');
+
+  
+
+  const wird = ref<string[]>([]);
+
+  const currentIndex = ref(0);
+
+  const showPrevious = ref(true);
+
+  const showNext = ref(true);
+
+  const loading = ref(false);
+
+  const error = ref('');
+
+  const fontSize = ref(parseInt(localStorage.getItem('rifaiWirdFontSize') || '24'));
+
+  const textColor = ref(localStorage.getItem('rifaiWirdTextColor') || '#000000');
+
+  const backgroundColor = ref(localStorage.getItem('rifaiWirdBackgroundColor') || '#E1D5D0');
+
+  const wirdDisplay = ref<HTMLElement | null>(null);
+
+  
+
+  let touchStartX = 0;
+
+  let touchEndX = 0;
+
+  
+
+  const transitionOptions = [
+
+    { value: 'slide', label: 'Slide' },
+
+    { value: 'fade', label: 'Fade' },
+
+    { value: 'zoom', label: 'Zoom' },
+
+    { value: 'flip', label: 'Flip' },
+
+    { value: 'slideFade', label: 'Slide and Fade' },
+
+    { value: 'bounce', label: 'Bounce' },
+
+    { value: 'pageTurn', label: 'Page Turn' },
+
+  ];
+
+  
+
+  const selectedTransition = ref(localStorage.getItem('rifaiWirdTransition') || 'slide');
+
+  
+
+  const handleIndexChange = (event: Event) => {
+
+    const target = event.target as HTMLInputElement;
+
+    const value = parseInt(target.value, 10);
+
+    currentIndexInput.value = value;
+
+  };
+
+  
+
+  const restartWird = () => {
+
+    currentIndex.value = 0;
+
+  };
+
+  
+
+  const togglePrevious = () => {
+
+    showPrevious.value = !showPrevious.value;
+
+  };
+
+  
+
+  const toggleNext = () => {
+
+    showNext.value = !showNext.value;
+
+  };
+
+  
+
+  const formatPrevNext = (text: string | undefined): string => {
+
+    if (!text) return '';
+
+    return text.replace(/<br>/g, ' ');
+
+  };
+
+  
+
+  const splitWird = (text: string): string[] => {
+
+    return text.split(/\n\s*\n/)
+
+      .map(part => part.trim())
+
+      .filter(part => part.length > 0 && part !== 'Rifai Wird')
+
+      .map(part => part.replace(/\n/g, '<br>'));
+
+  };
+
+  
+
+  
+
+  const currentPart = computed(() => wird.value[currentIndex.value] || '');
+
+  const previousPart = computed(() => wird.value[currentIndex.value - 1] || '');
+
+  const nextPart = computed(() => wird.value[currentIndex.value + 1] || '');
+
+  const currentIndexInput = computed({
+
+    get: () => currentIndex.value + 1,
+
+    set: (value: number) => {
+
+      currentIndex.value = validateIndex(value - 1);
+
+    }
+
+  });
+
+  
+
+  const prevNextFontSize = computed(() => {
+
+    if (isMobileLayout.value) {
+
+      return Math.min(adjustedFontSize.value * 0.75, 18); // Adjust for mobile
+
+    }
+
+    return adjustedFontSize.value * 0.75;
+
+  });
+
+  
+
+  const fetchWird = async () => {
+
+    loading.value = true;
+
+    error.value = '';
+
+    try {
+
+      // First, try to fetch from GitHub
+
+      const owner = 'yashineonline';
+
+      const repo = 'ilahiRepository';
+
+      const path = 'rifaiWird.txt';
+
+      const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+      
+
+      // console.log('Fetching Rifai Wird from GitHub:', url);
+
+      const response = await fetch(url, {
+
+        headers: {
+
+          'Accept': 'application/vnd.github.v3.raw'
+
+        }
+
+      });
+
+  
+
+      if (!response.ok) {
+
+        throw new Error(`HTTP error! status: ${response.status}`);
+
+      }
+
+  
+
+      const text = await response.text();
+
+      // console.log('Fetched text:', text.substring(0, 100) + '...'); // Log first 100 characters
+
+      wird.value = splitWird(text);
+
+      // console.log('Split wird:', wird.value);
+
+    } catch (err) {
+
+      console.error('Error fetching Rifai Wird from GitHub:', err);
+
+      
+
+      // If GitHub fetch fails, try to fetch from local file
+
+      try {
+
+        // console.log('Fetching Rifai Wird from local file');
+
+        const response = await fetch('/rifaiWird.txt');
+
+        if (!response.ok) {
+
+          throw new Error(`HTTP error! status: ${response.status}`);
+
+        }
+
+        const text = await response.text();
+
+        // console.log('Fetched text from local file:', text.substring(0, 100) + '...'); // Log first 100 characters
+
+        wird.value = splitWird(text);
+
+        // console.log('Split wird from local file:', wird.value);
+
+      } catch (localErr) {
+
+        console.error('Error fetching local Rifai Wird:', localErr);
+
+        error.value = 'Failed to load Rifai Wird. Please try again later.';
+
+      }
+
+    } finally {
+
+      loading.value = false;
+
+      currentIndex.value = 0;
+
+    }
+
+  };
+
+  
+
+  const goToNextPart = () => {
+
+    if (currentIndex.value < wird.value.length - 1) {
+
+      currentIndex.value = validateIndex(currentIndex.value + 1);
+
+      slideDirection.value = 'left';
+
+    }
+
+  };
+
+  const goToPreviousPart = () => {
+
+    if (currentIndex.value > 0) {
+
+      currentIndex.value = validateIndex(currentIndex.value - 1);
+
+      slideDirection.value = 'right';
+
+    }
+
+  };
+
+  
+
+  let lastKeyPressTime = 0;
+
+  const keyPressDelay = 300; // milliseconds
+
+  
+
+  const handleKeydown = (e: KeyboardEvent) => {
+
+    const currentTime = new Date().getTime();
+
+    if (currentTime - lastKeyPressTime > keyPressDelay) {
+
+      if (e.key === 'ArrowLeft') {
+
+        goToPreviousPart();
+
+      } else if (e.key === 'ArrowRight') {
+
+        goToNextPart();
+
+      }
+
+      lastKeyPressTime = currentTime;
+
+    }
+
+  };
+
+  
+
+  const touchStart = (e: TouchEvent) => {
+
+    touchStartX = e.touches[0].clientX;
+
+  };
+
+  
+
+  const touchMove = (e: TouchEvent) => {
+
+    touchEndX = e.touches[0].clientX;
+
+  };
+
+  
+
+  const touchEnd = () => {
+
+    const swipeDistance = touchStartX - touchEndX;
+
+    if (Math.abs(swipeDistance) > 50) {
+
+      if (swipeDistance > 0) {
+
+        goToNextPart();
+
+      } else {
+
+        goToPreviousPart();
+
+      }
+
+    }
+
+  };
+
+  
+
+  const validateIndex = (index: number): number => {
+
+    return Math.max(0, Math.min(index, wird.value.length - 1));
+
+  };
+
+  
+
+  watch([fontSize, textColor, backgroundColor], ([newFontSize, newTextColor, newBackgroundColor]) => {
+
+    localStorage.setItem('rifaiWirdFontSize', newFontSize.toString());
+
+    localStorage.setItem('rifaiWirdTextColor', newTextColor);
+
+    localStorage.setItem('rifaiWirdBackgroundColor', newBackgroundColor);
+
+  });
+
+  
+
+  watch(selectedTransition, (newTransition) => {
+
+    localStorage.setItem('rifaiWirdTransition', newTransition);
+
+  });
+
+  
+
+  watchEffect(() => {
+
+    if (!localStorage.getItem('rifaiWirdFontSize')) {
+
+      localStorage.setItem('rifaiWirdFontSize', fontSize.value.toString());
+
+    }
+
+    if (!localStorage.getItem('rifaiWirdTextColor')) {
+
+      localStorage.setItem('rifaiWirdTextColor', textColor.value);
+
+    }
+
+    if (!localStorage.getItem('rifaiWirdBackgroundColor')) {
+
+      localStorage.setItem('rifaiWirdBackgroundColor', backgroundColor.value);
+
+    }
+
+  });
+
+  
+
+  // Add a new ref for mobile layout
+
+  const isMobileLayout = ref(false);
+
+  
+
+  // Define checkMobileLayout outside of onMounted
+
+  const checkMobileLayout = () => {
+
+    isMobileLayout.value = window.innerWidth < 768; // Adjust this breakpoint as needed
+
+  };
+
+  
+
+  // Update the onMounted hook
+
+  onMounted(async () => {
+
+    // console.log('RifaiWird component mounted');
+
+    try {
+
+      await fetchWird();
+
+      // console.log('Fetched Wird:', wird.value);
+
+      // console.log('Number of parts:', wird.value.length);
+
+      // console.log('First part:', wird.value[0]);
+
+      // console.log('Last part:', wird.value[wird.value.length - 1]);
+
+    } catch (error) {
+
+      console.error('Error fetching Wird:', error);
+
+    }
+
+    document.addEventListener('keydown', handleKeydown);
+
+  
+
+    // Check for mobile layout
+
+    checkMobileLayout();
+
+    window.addEventListener('resize', checkMobileLayout);
+
+  });
+
+  
+
+  // Update onUnmounted to remove the resize event listener
+
+  onUnmounted(() => {
+
+    document.removeEventListener('keydown', handleKeydown);
+
+    window.removeEventListener('resize', checkMobileLayout);
+
+  });
+
+  
+
+  const isFullscreen = ref(false);
+
+  const showSettings = ref(false);
+
+  const navigationStore = useNavigationStore();
+
+  
+
+  const toggleFullscreen = () => {
+
+    isFullscreen.value = !isFullscreen.value;
+
+    navigationStore.setNavigationVisibility(!isFullscreen.value);
+
+  };
+
+  
+
+  const toggleSettings = () => {
+
+    showSettings.value = !showSettings.value;
+
+  };
+
+  
+
+  const goBack = () => {
+
+    isFullscreen.value = false;
+
+    navigationStore.setNavigationVisibility(true);
+
+  };
+
+  
+
+  const adjustedFontSize = computed(() => {
+
+    if (isMobileLayout.value) {
+
+      return Math.min(fontSize.value, 24); // Adjust max font size for mobile
+
+    }
+
+    return fontSize.value;
+
+  });
+
+  </script>
+
+  
+
+  <style scoped>
+
+  @media (min-width: 1024px) {
+
+    .wird-display {
+
+      min-height: 80vh;
+
+    }
+
+  }
+
+  
+
+  /* Page Turn transition */
+
+  .pageTurn-enter-active,
+
+  .pageTurn-leave-active {
+
+    transition: all 0.6s ease;
+
+    transform-origin: left center;
+
+  }
+
+  .pageTurn-enter-from {
+
+    opacity: 0;
+
+    transform: rotateY(-90deg);
+
+  }
+
+  .pageTurn-leave-to {
+
+    opacity: 0;
+
+    transform: rotateY(90deg);
+
+  }
+
+  
+
+  
+
+  /* Flying transition */
+
+  .flying-enter-active,
+
+  .flying-leave-active {
+
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+
+  }
+
+  .flying-enter-from {
+
+    opacity: 0;
+
+    transform: translate(30px, 0) rotate(10deg);
+
+  }
+
+  .flying-leave-to {
+
+    opacity: 0;
+
+    transform: translate(-30px, 0) rotate(-10deg);
+
+  }
+
+  
+
+  /* Add this to preserve existing transitions */
+
+  .slide-enter-active,
+
+  .slide-leave-active,
+
+  .fade-enter-active,
+
+  .fade-leave-active,
+
+  .zoom-enter-active,
+
+  .zoom-leave-active,
+
+  .flip-enter-active,
+
+  .flip-leave-active,
+
+  .slideFade-enter-active,
+
+  .slideFade-leave-active,
+
+  .bounce-enter-active,
+
+  .bounce-leave-active {
+
+    transition: all 0.01s ease;
+
+  }
+
+  
+
+  /* Slide transition */
+
+  .slide-enter-active,
+
+  .slide-leave-active {
+
+    transition: all 0.3s ease-out;
+
+  }
+
+  .slide-enter-from.left,
+
+  .slide-leave-to.right {
+
+    transform: translateX(100%);
+
+  }
+
+  .slide-leave-to.left,
+
+  .slide-enter-from.right {
+
+    transform: translateX(-100%);
+
+  }
+
+  
+
+  /* Fade transition */
+
+  .fade-enter-active,
+
+  .fade-leave-active {
+
+    transition: opacity 0.5s ease;
+
+  }
+
+  .fade-enter-from,
+
+  .fade-leave-to {
+
+    opacity: 0;
+
+  }
+
+  
+
+  /* Zoom transition */
+
+  .zoom-enter-active,
+
+  .zoom-leave-active {
+
+    transition: all 0.5s ease;
+
+  }
+
+  .zoom-enter-from,
+
+  .zoom-leave-to {
+
+    opacity: 0;
+
+    transform: scale(0.9);
+
+  }
+
+  
+
+  /* Flip transition */
+
+  .flip-enter-active,
+
+  .flip-leave-active {
+
+    transition: all 0.5s ease;
+
+  }
+
+  .flip-enter-from {
+
+    opacity: 0;
+
+    transform: rotateY(-90deg);
+
+  }
+
+  .flip-leave-to {
+
+    opacity: 0;
+
+    transform: rotateY(90deg);
+
+  }
+
+  
+
+  /* Slide and fade transition */
+
+  .slideFade-enter-active,
+
+  .slideFade-leave-active {
+
+    transition: all 0.5s ease;
+
+  }
+
+  .slideFade-enter-from {
+
+    opacity: 0;
+
+    transform: translateX(50px);
+
+  }
+
+  .slideFade-leave-to {
+
+    opacity: 0;
+
+    transform: translateX(-50px);
+
+  }
+
+  
+
+  /* Bounce transition */
+
+  @keyframes bounce-in {
+
+    0% { transform: scale(0); }
+
+    50% { transform: scale(1.05); }
+
+    100% { transform: scale(1); }
+
+  }
+
+  @keyframes bounce-out {
+
+    0% { transform: scale(1); }
+
+    50% { transform: scale(1.05); }
+
+    100% { transform: scale(0); }
+
+  }
+
+  .bounce-enter-active {
+
+    animation: bounce-in 0.5s;
+
+  }
+
+  .bounce-leave-active {
+
+    animation: bounce-out 0.5s;
+
+  }
+
+  
+
+  .wird-display {
+
+    min-height: 60vh;
+
+    overflow: hidden;
+
+    position: relative;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  
+
+  .wird-part-content {
+
+    max-height: 100%;
+
+    overflow-y: auto;
+
+    padding: 1rem;
+
+  }
+
+  
+
+  
+
+  
+
+  @media (max-width: 768px) {
+
+    .wird-display {
+
+      flex-direction: column;
+
+    }
+
+  
+
+    .wird-part-content {
+
+      padding: 0.5rem;
+
+    }
+
+  }
+
+  
+
+  .navigation {
+
+    position: sticky;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: 0.5rem;
+
+    z-index: 10;
+
+  }
+
+  
+
+  @media (max-width: 768px) {
+
+    .navigation {
+
+      position: fixed;
+
+    }
+
+  }
+
+  
+
+  .custom-range {
+
+    -webkit-appearance: none;
+
+    appearance: none;
+
+    background: #ddd;
+
+    outline: none;
+
+    opacity: 0.7;
+
+    transition: opacity 0.2s;
+
+  }
+
+  
+
+  .custom-range:hover {
+
+    opacity: 1;
+
+  }
+
+  
+
+  .custom-range::-webkit-slider-thumb {
+
+    -webkit-appearance: none;
+
+    appearance: none;
+
+    width: 20px;
+
+    height: 20px;
+
+    background: #4CAF50;
+
+    cursor: pointer;
+
+    border-radius: 100%;
+
+  }
+
+  
+
+  .custom-range::-moz-range-thumb {
+
+    width: 20px;
+
+    height: 20px;
+
+    background: #4CAF50;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+
+  }
+
+  
+
+  /* Add styles for mobile layout */
+
+  @media (max-width: 639px) {
+
+    .wird-display {
+
+      min-height: calc(100vh - 16rem); /* Adjust based on your layout */
+
+    }
+
+  
+
+    .navigation {
+
+      position: fixed;
+
+      bottom: 0;
+
+      left: 0;
+
+      right: 0;
+
+      background-color: rgba(255, 255, 255, 0.9);
+
+      padding: 0.5rem;
+
+      z-index: 10;
+
+    }
+
+  }
+
+  </style>
+
+
+
+<!-- SearchBar.vue -->
+
+<template>
+
+  <div class="mb-4">
+
+    <form @submit.prevent="handleSearch">
+
+      <input 
+
+        v-model="searchQuery" 
+
+        type="text" 
+
+        placeholder="Search ilahis..." 
+
+        class="w-full px-3 py-2 border rounded-md bg-base-200 text-base-content"
+
+      />
+
+    </form>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, watch } from 'vue';
+
+import { useRouter } from 'vue-router';
+
+import { useSongStore } from '../stores/songStore';
+
+
+
+const router = useRouter();
+
+const songStore = useSongStore();
+
+const searchQuery = ref(localStorage.getItem('recentSearch') || '');
+
+
+
+watch(searchQuery, useDebounce((val: string) => {
+
+  songStore.setSearchQuery(val);
+
+  localStorage.setItem('recentSearch', val);
+
+}, 300));
+
+
+
+
+
+// const searchQuery = ref('');
+
+
+
+// const search = ref(localStorage.getItem('recentSearch') || '');
+
+// watch(search, useDebounce((val: string) => {
+
+//   songStore.setSearchQuery(val);
+
+//   localStorage.setItem('recentSearch', val);
+
+// }, 300));
+
+
+
+function useDebounce<T extends Function>(fn: T, ms = 300) {
+
+  let t: number | undefined;
+
+  return (...args: any[]) => {
+
+    clearTimeout(t);
+
+    t = window.setTimeout(() => fn(...args), ms);
+
+  };
+
+}
+
+
+
+const handleSearch = () => {
+
+  songStore.setSearchQuery(searchQuery.value);
+
+  if (router.currentRoute.value.name !== 'SongList') {
+
+    router.push({ name: 'SongList', query: { search: searchQuery.value } });
+
+  }
+
+};
+
+
+
+const clearSearch = () => {
+
+  searchQuery.value = '';
+
+  songStore.setSearchQuery('');
+
+};
+
+
+
+defineExpose({ clearSearch });
+
+</script>
+
+
+
+<!-- SelectedSongsManager.vue -->
+
+<template>
+
+    <div>
+
+      <p class="text-lg mb-2">Set the order for your selected ilahis.</p>
+
+  
+
+      <div class="space-y-2">
+
+        <div class="flex items-center mb-2 font-semibold">
+
+          <span class="w-24 mr-2">Order</span>
+
+          <span class="flex-grow">Title</span>
+
+          <span class="w-10"></span>
+
+        </div>
+
+  
+
+        <div
+
+          v-for="(song, index) in localSelectedSongs"
+
+          :key="song.title"
+
+          class="flex items-center"
+
+        >
+
+          <label :for="`order-${index}`" class="sr-only">Order for {{ song.title }}</label>
+
+          <input
+
+            :id="`order-${index}`"
+
+            class="input input-bordered w-24 mr-2"
+
+            type="number"
+
+            :min="1"
+
+            :max="localSelectedSongs.length"
+
+            :aria-label="`Order for ${song.title}`"
+
+             v-model.lazy.number="song.order"
+
+            @focus="isEditing = true"
+
+            @change="onOrderCommit(index)"
+
+            @blur="onOrderCommit(index)"
+
+          />
+
+          <span class="flex-grow text-base-content">{{ song.title }}</span>
+
+          <button
+
+            class="btn btn-ghost btn-xs text-error ml-2"
+
+            type="button"
+
+            @click="removeSong(index)"
+
+            aria-label="Remove {{ song.title }}"
+
+            title="Remove"
+
+          >
+
+            ×
+
+          </button>
+
+        </div>
+
+      </div>
+
+  
+
+      <div class="mt-4 flex gap-2">
+
+        <button @click="sortAlphabetically" class="btn btn-outline btn-primary">Sort A–Z</button>
+
+        <button @click="renumberSequential" class="btn btn-outline">Renumber 1..N</button>
+
+      </div>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { ref, watch } from 'vue';
+
+  import { SongData } from '../utils/types';
+
+  
+
+  const props = defineProps<{ selectedSongs: SongData[] }>();
+
+  const emit = defineEmits<{
+
+    (e: 'update:selectedSongs', value: SongData[]): void
+
+    (e: 'generate-book'): void
+
+  }>();
+
+  
+
+  const localSelectedSongs = ref(
+
+    props.selectedSongs.map((song, i) => ({ ...song, order: song.order ?? i + 1 }))
+
+  );
+
+  
+
+  const isEditing = ref(false);
+
+
+
+
+
+  watch(() => props.selectedSongs, (newSongs, oldSongs) => {
+
+    if (isEditing.value || newSongs === oldSongs) return; // don’t reset while editing
+
+    localSelectedSongs.value = newSongs.map((song, i) => ({ ...song, order: song.order ?? i + 1 }));
+
+  }, { deep: false });
+
+  
+
+  function clamp(n: number, min: number, max: number) {
+
+    return Math.max(min, Math.min(max, n));
+
+  }
+
+  
+
+  function normalizeAndEmit() {
+
+    // Sort by desired order then by original index (stable), then renumber uniquely
+
+    const withIndex = localSelectedSongs.value.map((s, i) => ({ s, i, o: Number(s.order) || i + 1 }));
+
+    withIndex.sort((a, b) => a.o - b.o || a.i - b.i);
+
+    withIndex.forEach((item, idx) => { item.s.order = idx + 1; });
+
+    localSelectedSongs.value = withIndex.map(w => w.s);
+
+    emit('update:selectedSongs', localSelectedSongs.value);
+
+  }
+
+  
+
+  function onOrderCommit(index: number) {
+
+    const n = Number(localSelectedSongs.value[index].order);
+
+    localSelectedSongs.value[index].order = clamp(isFinite(n) ? Math.round(n) : index + 1, 1, localSelectedSongs.value.length);
+
+    normalizeAndEmit();
+
+    isEditing.value = false;
+
+  }
+
+  
+
+  function removeSong(index: number) {
+
+    localSelectedSongs.value.splice(index, 1);
+
+    renumberSequential();
+
+  }
+
+  
+
+  function sortAlphabetically() {
+
+    localSelectedSongs.value.sort((a, b) => a.title.localeCompare(b.title));
+
+    renumberSequential();
+
+  }
+
+  
+
+  function renumberSequential() {
+
+    localSelectedSongs.value.forEach((s, i) => { s.order = i + 1; });
+
+    emit('update:selectedSongs', localSelectedSongs.value);
+
+  }
+
+  </script>
+
+
+
+<!-- Settings.vue -->
+
+<template>
+
+    <button @click="resetLanguage" class="btn btn-secondary">Reset Language Choice</button>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { resetLanguageChoice } from '../utils/pronunciationService';
+
+  
+
+  const resetLanguage = () => {
+
+    resetLanguageChoice();
+
+    alert('Language choice has been reset. You will be prompted to choose again.');
+
+  };
+
+  </script>
+
+
+
+<!-- ShareControls.vue -->
+
+<template>
+
+    <div class="flex flex-wrap gap-2">
+
+      <button class="btn btn-ghost btn-sm gap-2" @click="shareSong">
+
+        <font-awesome-icon :icon="['fas', 'share-alt']" />
+
+        Share
+
+      </button>
+
+      <button class="btn btn-ghost btn-sm gap-2" @click="copyLink">
+
+        <font-awesome-icon :icon="['fas', 'copy']" />
+
+        Copy Link
+
+      </button>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { buildSongUrl } from '@/utils/linkUtils'
+
+  
+
+  const props = defineProps<{
+
+    songSlug: string
+
+    songTitle: string
+
+  }>()
+
+  
+
+  async function shareSong() {
+
+    const url = buildSongUrl(props.songSlug)
+
+    try {
+
+      if (navigator.share) {
+
+        await navigator.share({ title: props.songTitle, url })
+
+      } else {
+
+        await navigator.clipboard.writeText(url)
+
+        alert('Link copied to clipboard')
+
+      }
+
+    } catch {}
+
+  }
+
+  
+
+  async function copyLink() {
+
+    const url = buildSongUrl(props.songSlug)
+
+    await navigator.clipboard.writeText(url)
+
+    alert('Link copied to clipboard')
+
+  }
+
+  </script>
+
+
+
+<!-- SongDisplay.vue -->
+
+<template>
+
+<div v-if="loading" class="space-y-2">
+
+  <div class="skeleton h-6 w-1/2"></div>
+
+  <div class="skeleton h-6 w-2/3"></div>
+
+  <div class="skeleton h-6 w-1/3"></div>
+
+</div>
+
+<div class="w-full max-w-4xl mx-auto p-2 flex flex-col items-center bg-base-100 text-base-content">
+
+    <div class="w-full flex flex-wrap gap-1 mb-2">
+
+      <PronunciationGuide
+
+        v-if="currentSong"
+
+        :song-id="currentSong.slug"
+
+        :lyrics="currentSong.lyrics"
+
+        @shown="scrollToPronunciation"
+
+      />
+
+
+
+      <button @click="slideMode = !slideMode" class="btn btn-primary btn-sm">
+
+     {{ slideMode ? 'show full ilahi' : 'Slide Mode' }}
+
+   </button>
+
+      <button v-if="showMusicPlayer" class="btn btn-primary btn-sm" @click="toggleMusicPlayer">
+
+        <font-awesome-icon :icon="['fas', hideMusicPlayer ? 'music' : 'pause']" class="mr-2" />
+
+        {{ hideMusicPlayer ? 'Show' : 'Hide' }} Music
+
+      </button>
+
+    </div>
+
+
+
+    <!-- NEW: Replace with components -->
+
+<div class="w-full flex flex-wrap items-center gap-4 mb-4">
+
+  <TranslationControls
+
+    v-if="currentSong"
+
+    :has-translation="!!(currentSong?.translation && currentSong.translation.length > 0)"
+
+    :show-translation="settings.showTranslation"
+
+    :layout="settings.translationLayout"
+
+    @toggle-translation="settings.toggleTranslationVisibility"
+
+    @toggle-layout="settings.toggleTranslationLayout"
+
+  />
+
+  
+
+  <div class="flex items-center gap-2">
+
+    <span class="text-sm">Smaller</span>
+
+    <input 
+
+      type="range" 
+
+      min="12" 
+
+      max="132" 
+
+      :value="fontSize" 
+
+      class="range range-xs range-primary custom-range" 
+
+      @input="updateFontSize"
+
+    />
+
+    <span class="normal-case">Larger</span>
+
+  </div>
+
+  
+
+  <ShareControls
+
+    v-if="currentSong"
+
+    :song-slug="currentSong.slug"
+
+    :song-title="currentSong.title"
+
+  />
+
+</div>
+
+
+
+    <!-- <div class="w-full flex flex-wrap items-center gap-2 mb-4">
+
+      <button 
+
+        v-if="currentSong?.translation && currentSong.translation.length > 0"
+
+        class="btn btn-primary btn-sm" 
+
+        data-no-float-nav
+
+        @click.stop="toggleTranslation" 
+
+        :aria-pressed="settings.showTranslation"
+
+      >
+
+        <font-awesome-icon :icon="['fas', 'language']" class="mr-2" />
+
+        {{ settings.showTranslation ? 'Hide' : 'Show' }} Translation
+
+      </button>
+
+      <button 
+
+        v-if="currentSong?.translation && currentSong.translation.length > 0 && settings.showTranslation"
+
+        class="btn btn-outline btn-sm"
+
+        @click="settings.toggleTranslationLayout"
+
+      >
+
+      <font-awesome-icon :icon="['fas', settings.translationLayout === 'below' ? 'columns' : 'bars']" />
+
+        {{ settings.translationLayout === 'below' ? 'Side-by-side' : 'Below lyrics' }}
+
+      </button>
+
+      <div class="flex items-center gap-2">
+
+        <span class="text-sm">Smaller</span>
+
+        <input 
+
+          type="range" 
+
+          min="12" 
+
+          max="132" 
+
+          :value="fontSize" 
+
+          class="range range-xs range-primary custom-range" 
+
+          @input="updateFontSize"
+
+        />
+
+        <span class="normal-case">Larger</span>
+
+      </div>
+
+
+
+
+
+
+
+      <button v-if="currentSong" class="btn btn-ghost btn-sm" @click="shareSong">
+
+        <font-awesome-icon :icon="['fas', 'share-alt']" />
+
+        Share
+
+      </button>
+
+      <button v-if="currentSong" class="btn btn-ghost btn-sm" @click="copyLink">
+
+        <font-awesome-icon :icon="['fas', 'copy']" />
+
+        Copy Link
+
+      </button>
+
+    </div> -->
+
+
+
+
+
+    <div v-if="currentSong" class="w-full">
+
+      <h1 class="text-3xl font-bold mb-4 text-center">{{ currentSong.title }}</h1>
+
+      <div v-if="currentSong.suggestedZikrs && currentSong.suggestedZikrs.length" class="flex flex-wrap gap-2 mb-4 justify-center">
+
+        <span class="text-sm text-gray-500 mr-2 font-medium">Suggested zikr:</span>
+
+        <span v-for="zikr in currentSong.suggestedZikrs" :key="zikr" class="px-2 py-0.5 rounded-full bg-green-100 text-green-800 text-xs font-semibold border border-green-200">
+
+          {{ zikr }}
+
+        </span>
+
+      </div>
+
+      <div v-if="!hideMusicPlayer && currentSong.mainLinks && currentSong.mainLinks.length > 0" class="mb-4">
+
+        <audio-player
+
+          :audio-src="currentSong.mainLinks[0]"
+
+          :player-type="getPlayerType(currentSong.mainLinks[0])"
+
+          @player-ready="onPlayerReady"
+
+        />
+
+      </div>
+
+
+
+      <div v-if="slideMode" class="fixed inset-0 z-50 bg-base-100 text-base-content flex flex-col items-center justify-center">
+
+        <div class="fixed top-4 right-4 z-50">
+
+          <ThemeToggle />
+
+        </div>
+
+        <div class="flex flex-col items-center w-full max-w-2xl mx-auto">
+
+          <div class="flex justify-between items-center w-full mb-4">
+
+            <button @click="slideMode = false" class="btn btn-circle btn-ghost" aria-label="Back">
+
+              <font-awesome-icon :icon="['fas', 'arrow-left']" />
+
+            </button>
+
+            <h1 class="text-3xl font-bold text-center flex-1">{{ currentSong?.title }}</h1>
+
+            <div style="width:40px;"></div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row justify-between items-center w-full mb-4 gap-4">
+
+            <div class="flex items-center gap-0">
+
+              <button @click="decreaseStanzaCount" :disabled="slideCount <= 1" class="btn btn-circle btn-primary text-lg">
+
+                <font-awesome-icon :icon="['fas', 'minus']" />
+
+              </button>
+
+              <span class="text-xl font-bold w-10 text-center select-none">{{ slideCount }}</span>
+
+              <button @click="increaseStanzaCount" :disabled="slideCount >= slides.length" class="btn btn-circle btn-primary text-lg">
+
+                <font-awesome-icon :icon="['fas', 'plus']" />
+
+              </button>
+
+            <span class="mx-4"></span>
+
+              <button @click="decreaseFontSize" :disabled="fontSize <= 12" class="btn btn-circle btn-secondary text-lg">
+
+                <font-awesome-icon :icon="['fas', 'minus']" />
+
+              </button>
+
+              <span class="text-xl font-bold w-10 text-center select-none">{{ fontSize }}</span>
+
+              <button @click="increaseFontSize" :disabled="fontSize >= 132" class="btn btn-circle btn-secondary text-lg">
+
+                <font-awesome-icon :icon="['fas', 'plus']" />
+
+              </button>
+
+            </div>
+
+            <button @click="toggleFullIlahi" class="btn btn-accent btn-sm text-lg">
+
+              {{ showingFull ? 'By stanza' : 'Full ilahi' }}
+
+            </button>
+
+
+
+          </div>
+
+          <transition name="slide" mode="out-in">
+
+            <div :key="currentSlideIndex + '-' + slideCount" class="w-full p-4 overflow-y-auto" :style="{ fontSize: fontSize + 'px', maxHeight: '70vh' }">
+
+              <template v-for="(stanza, idx) in slidesToShow" :key="currentSlideIndex + idx">
+
+                <div v-html="stanza"></div>
+
+                <hr v-if="idx < slidesToShow.length - 1" class="my-2 border-t border-base-300" />
+
+              </template>
+
+            </div>
+
+          </transition>
+
+          <div class="flex justify-center gap-4 mt-4">
+
+            <button @click="prevSlide" :disabled="currentSlideIndex === 0 || showingFull" class="btn btn-secondary">
+
+              Previous
+
+            </button>
+
+            <button @click="nextSlide" :disabled="currentSlideIndex + slideCount >= slides.length || showingFull" class="btn btn-secondary">
+
+              Next
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div v-else class="mb-6" v-html="renderedSong"></div>
+
+
+
+      <div v-if="!hideMusicPlayer && currentSong.mainLinks && currentSong.mainLinks.length > 1" class="mt-4">
+
+        <h2 class="text-2xl font-semibold mb-2">More Versions</h2>
+
+                  <div v-for="link in currentSong.mainLinks.slice(1)" :key="link" class="mb-2">
+
+
+
+          <audio-player
+
+            :audio-src="link"
+
+            :player-type="getPlayerType(link)"
+
+            @player-ready="onPlayerReady"
+
+          />
+
+        </div>
+
+      </div>
+
+      <div v-if="!hideMusicPlayer && currentSong.alternateTunes && currentSong.alternateTunes.length > 0" class="mt-4">
+
+        <h2 class="text-2xl font-semibold mb-2">Alternate Tunes</h2>
+
+        <div v-for="link in currentSong.alternateTunes" :key="link" class="mb-2">
+
+          <audio-player
+
+            :audio-src="link"
+
+            :player-type="getPlayerType(link)"
+
+            @player-ready="onPlayerReady"
+
+          />
+
+        </div>
+
+      </div>
+
+
+
+      <!-- <div v-if="showQRCodeFlag && qrCodeDataUrl" class="mt-4 text-center">
+
+        <h3 class="text-xl font-semibold mb-2">QR Code For This ilahi</h3>
+
+        <img :src="qrCodeDataUrl" alt="QR Code" class="mx-auto" />
+
+      </div> -->
+
+    </div>
+
+    <div v-else-if="!loading" class="text-center text-xl text-base-content" aria-live="polite">ilahi not found</div>
+
+    <div v-else class="text-center text-xl text-base-content" aria-live="polite">Loading ilahi...</div>
+
+    <div v-if="errorMessage || playerError" class="mt-4 p-4 bg-error text-error-content rounded-lg" role="alert" aria-live="assertive">
+
+      {{ errorMessage || playerError }}
+
+    </div>
+
+    <div class="w-full flex flex-wrap items-center gap-4 mb-4">
+
+      <button class="btn btn-accent" @click="generatePDF">
+
+        <font-awesome-icon :icon="['fas', 'file-pdf']" class="mr-2" size="2xl" />
+
+      </button>
+
+      
+
+      <!--    <button v-if="hasAudioLinks" class="btn btn-secondary" 
+
+      @click="showQRCode">
+
+        <font-awesome-icon :icon="['fas', 'qrcode']" class="mr-2" 
+
+        size="2xl" />
+
+      </button> -->
+
+
+
+    </div>
+
+
+
+    <div class="mt-6 text-center text-sm text-base-content">
+
+      This app is maintained by the AQRT. 
+
+      <a href="https://aqrtsufi.org" target="_blank" rel="noopener noreferrer" class="link link-primary focus:ring-2 focus:ring-offset-2 focus:ring-primary">Visit aqrtsufi.org</a>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, computed, onMounted, watch, nextTick } from 'vue'
+
+import { useRoute } from 'vue-router'
+
+import { useSongStore } from '../stores/songStore'
+
+import { useThemeStore } from '../stores/themeStore'
+
+// import { generateSingleSongPage } from '../utils/singleSongPDF'
+
+// import { generateQRCode } from '../utils/qrCodeGenerator'
+
+import { useZoom, useSlides } from '../utils/zoom'
+
+import { renderSong } from '../utils/songProcessor'
+
+import { PDFDocument as PDFLib, StandardFonts } from 'pdf-lib'
+
+import { downloadPDF } from '../utils/pdfBookUtils'
+
+import AudioPlayer from './AudioPlayer.vue'
+
+// import { slugify } from '../utils/search';
+
+import type { PlayerType } from './AudioPlayer.vue' // Assuming you've exported this type from AudioPlayer.vue
+
+import PronunciationGuide from './PronunciationGuide.vue'
+
+import ThemeToggle from './ThemeToggle.vue'
+
+import { useSettingsStore } from '@/stores/settingsStore'
+
+import { getPlayerType } from '@/utils/playerUtils'
+
+// import { isYoutubeLink, getLinkType, buildSongUrl} from '@/utils/linkUtils'
+
+import TranslationControls from './TranslationControls.vue'
+
+import ShareControls from './ShareControls.vue'
+
+import { hasAudioLinks } from '@/utils/audioUtils'
+
+import { useFontSize } from '@/utils/fontUtils';
+
+import { useSlideControls } from '@/utils/slideUtils';
+
+import { generateSongPDF } from '../utils/pdfBookUtils'
+
+
+
+
+
+
+
+// Add a type for the player
+
+type Player = {
+
+  playVideo: () => void;
+
+  pauseVideo: () => void;
+
+} | null;
+
+
+
+
+
+
+
+
+
+// Update the player ref with the correct type
+
+const player = ref<Player>(null);
+
+
+
+const playerType = ref<PlayerType | null>(null)
+
+const route = useRoute()
+
+const songStore = useSongStore()
+
+const themeStore = useThemeStore()
+
+const settings = useSettingsStore()
+
+// const qrCodeDataUrl = ref('')
+
+const errorMessage = ref('')
+
+const playerError = ref<string | null>(null)
+
+const loading = ref(true)
+
+
+
+
+
+const showMusicPlayer = computed(() => currentSong.value ? hasAudioLinks(currentSong.value) : false)
+
+
+
+// const showMusicPlayer = computed(() => currentSong.value ? hasAudioLinks(currentSong.value) && !hideMusicPlayer.value : false)
+
+// const showMusicPlayer = computed(() => {return hasAudioLinks.value &&!hideMusicPlayer.value})
+
+const hideMusicPlayer = ref(true)
+
+// const player = ref(null)
+
+const isPlaying = ref(false)
+
+// const showQRCodeFlag = ref(false)
+
+// const showNoTranslationModal = ref(false)
+
+// const { navigateToContent } = useHyperlinkNavigation();
+
+
+
+const currentSong = computed(() => {
+
+  const slugParam = route.params.slug as string;
+
+  return songStore.songs.find(song => song.slug === slugParam)
+
+  // return songStore.songs.find(song => slugify(song.title) === slugParam);
+
+})
+
+
+
+const { increaseFont, decreaseFont } = useZoom()
+
+
+
+const renderedSong = computed(() => {
+
+  if (currentSong.value) {
+
+    return renderSong(currentSong.value, { 
+
+      fontSize: fontSize.value, 
+
+      showTranslation: settings.showTranslation,
+
+      translationLayout: settings.translationLayout,
+
+      theme: themeStore.theme === 'light' ? 'light' : 'dark'
+
+    })
+
+  }
+
+  return ''
+
+})
+
+
+
+// const toggleTranslation = () => {
+
+//   if (currentSong.value?.translation && currentSong.value.translation.length > 0) {
+
+//     settings.toggleTranslationVisibility()
+
+//   } 
+
+// }
+
+
+
+const generatePDF = async () => {
+
+  if (currentSong.value) {
+
+    try {
+
+      await generateSongPDF(currentSong.value);
+
+      errorMessage.value = '';
+
+    } catch (error: any) {
+
+      errorMessage.value = error.message || 'Failed to generate PDF. Please try again later.';
+
+    }
+
+  } else {
+
+    errorMessage.value = 'Song data is not available. Please try reloading the page.';
+
+  }
+
+}
+
+
+
+
+
+// const generatePDF = async () => {
+
+//   if (currentSong.value) {
+
+//     try {
+
+//       const pdfDoc = await PDFLib.create();
+
+//       await generateSingleSongPage(pdfDoc, currentSong.value);
+
+//       const pdfBytes = await pdfDoc.save();
+
+      
+
+//       await downloadPDF(pdfBytes, `${currentSong.value.title}.pdf`);
+
+      
+
+//       errorMessage.value = '';
+
+//     } catch (error) {
+
+//       console.error('Error generating PDF:', error);
+
+//       errorMessage.value = 'Failed to generate PDF. Please try again later.';
+
+//     }
+
+//   } else {
+
+//     errorMessage.value = 'Song data is not available. Please try reloading the page.';
+
+//   }
+
+// }
+
+
+
+// const hasAudioLinks = computed(() => {
+
+  // return (currentSong.value?.mainLinks && currentSong.value.mainLinks.length > 0) ||
+
+        //  (currentSong.value?.alternateTunes && currentSong.value.alternateTunes.length > 0);
+
+// });
+
+
+
+// const currentAudioLink = computed(() => {
+
+//   if (currentSong.value?.mainLinks && currentSong.value.mainLinks.length > 0) {
+
+//     return currentSong.value.mainLinks[0];
+
+//   }
+
+//   if (currentSong.value?.alternateTunes && currentSong.value.alternateTunes.length > 0) {
+
+//     return currentSong.value.alternateTunes[0];
+
+//   }
+
+//   return '';
+
+// });
+
+
+
+//  
+
+// const loadQRCode = async () => {
+
+//   if (currentSong.value) {
+
+//     //   const songUrl = `${window.location.origin}/songs/$
+
+//     {currentSong.value.slug}`;
+
+//     const songUrl = `${window.location.origin}${import.meta.env.
+
+//     BASE_URL}player/${currentSong.value.slug}`;
+
+//     try {
+
+//       qrCodeDataUrl.value = await generateQRCode(songUrl);
+
+//     } catch (error) {
+
+//       console.error('Error generating QR code:', error);
+
+//       errorMessage.value = 'Failed to generate QR code.';
+
+//     }
+
+//   }
+
+// }
+
+
+
+// 
+
+// inside <script setup>
+
+const fileParam = computed(() => {
+
+  const q = route.query.file
+
+  return typeof q === 'string' && q.trim() ? q : 'ilahi.txt'
+
+})
+
+
+
+
+
+const toggleMusicPlayer = () => {
+
+  hideMusicPlayer.value = !hideMusicPlayer.value
+
+}
+
+
+
+const onPlayerReady = (playerData: { player: any, type: PlayerType }) => {
+
+  player.value = playerData.player;
+
+  playerType.value = playerData.type;
+
+  // You might want to handle multiple players differently
+
+  // console.log('Player ready:', playerData);
+
+}
+
+
+
+// const playPause = () => {
+
+//   if (player.value && playerType.value !== 'googledrive') {
+
+//     if (isPlaying.value) {
+
+//       player.value.pauseVideo();
+
+//     } else {
+
+//       player.value.playVideo();
+
+//     }
+
+//     isPlaying.value = !isPlaying.value;
+
+//   }
+
+// }
+
+
+
+// 
+
+// const showQRCode = async () => {
+
+//   if (currentSong.value) {
+
+//     if (!qrCodeDataUrl.value) {
+
+//       await loadQRCode();
+
+//     }
+
+//     showQRCodeFlag.value = true;
+
+//   }
+
+// }
+
+// 
+
+
+
+
+
+// const isYoutubeLink = (url: string) => {
+
+//   return url && (url.includes('youtube.com') || url.includes('youtu.be'));
+
+// }
+
+
+
+// removed local getPlayerType in favor of util import
+
+// const getLinkType = (url: string) => {
+
+//   if (isYoutubeLink(url)) return 'YouTube';
+
+//   if (url.includes('soundcloud.com')) return 'SoundCloud';
+
+//   if (url.includes('drive.google.com')) return 'Google Drive';
+
+//   return 'Listen';
+
+// }
+
+
+
+// Modify the computed property to get all YouTube links
+
+// const youtubeLinks = computed(() => {
+
+//   const links: string[] = [];
+
+  
+
+//   if (currentSong.value?.mainLinks) {
+
+//     links.push(...currentSong.value.mainLinks.filter(link => 
+
+//       link.includes('youtube.com') || link.includes('youtu.be')
+
+//     ));
+
+//   }
+
+  
+
+//   if (currentSong.value?.alternateTunes) {
+
+//     links.push(...currentSong.value.alternateTunes.filter(link => 
+
+//       link.includes('youtube.com') || link.includes('youtu.be')
+
+//     ));
+
+//   }
+
+  
+
+//   return links;
+
+// });
+
+
+
+watch([() => route.params.slug, () => route.query.file], async () => {
+
+  loading.value = true
+
+  try {
+
+    if (songStore.songs.length === 0 || songStore.currentPath !== fileParam.value) {
+
+      await songStore.fetchSongs(false, fileParam.value)
+
+    }
+
+     // Fallback (optional): if still not found and file wasn’t naat.txt, try naat.txt
+
+     if (!currentSong.value && fileParam.value !== 'naat.txt') {
+
+      await songStore.fetchSongs(true, 'naat.txt')
+
+    }
+
+  } finally {
+
+    loading.value = false
+
+  }
+
+})
+
+
+
+
+
+ 
+
+// watch(() => route.params.slug, async (newSlug) => {
+
+  // if (newSlug) {
+
+    // loading.value = true;
+
+    // try {
+
+    // await songStore.fetchSongs(true, fileParam.value)
+
+  // }
+
+    // await songStore.fetchSongs();
+
+    // 
+
+    // if (currentSong.value) {
+
+    //   loadQRCode();
+
+    // }
+
+    // 
+
+    // loading.value = false;
+
+  // }
+
+// });
+
+
+
+onMounted(async () => {
+
+  loading.value = true
+
+  try {
+
+    if (songStore.songs.length === 0 || songStore.currentPath !== fileParam.value) {
+
+      await songStore.fetchSongs(true, fileParam.value)
+
+    // if (songStore.songs.length === 0 || songStore.currentPath !== 'naat.txt') {
+
+    // if (songStore.songs.length === 0) {
+
+      // await songStore.fetchSongs(true, 'naat.txt')
+
+
+
+      // await songStore.fetchSongs(true) // await is critical
+
+      console.log('Available slugs:', songStore.songs.map(s => s.slug))
+
+      // songStore.fetchSongs(true)
+
+    }
+
+    // 
+
+    // if (currentSong.value) {
+
+    //   loadQRCode()
+
+    // }
+
+    // 
+
+    // QR removed from runtime UI
+
+    // if (hasAudioLinks.value) {
+
+    //   // console.log('Detected audio links for this song')
+
+    // } else {
+
+    //   // console.log('No audio links detected for this song')
+
+    // }
+
+  } catch (error) {
+
+    console.error('Error loading song:', error)
+
+    errorMessage.value = 'Failed to load song. Please try again later.'
+
+  } finally {
+
+    loading.value = false
+
+  }
+
+})
+
+
+
+const { fontSize, updateFontSize, increaseFontSize, decreaseFontSize } = useFontSize();
+
+
+
+
+
+// const updateFontSize = (event: Event) => {
+
+//   const newSize = parseInt((event.target as HTMLInputElement).value);
+
+//   fontSize.value = newSize;
+
+//   localStorage.setItem('fontSize', newSize.toString());
+
+// }
+
+
+
+const scrollToHistory = () => {
+
+  if (route.hash === '#history') {
+
+    nextTick(() => {
+
+      const historyElement = document.getElementById('history');
+
+      if (historyElement) {
+
+        historyElement.scrollIntoView({ behavior: 'smooth' });
+
+      }
+
+    });
+
+  }
+
+};
+
+
+
+const scrollToPronunciation = () => {
+
+  nextTick(() => {
+
+    const pronunciationElement = document.getElementById('pronunciation')
+
+    if (pronunciationElement) {
+
+      pronunciationElement.scrollIntoView({ behavior: 'smooth' })
+
+    }
+
+  })
+
+}
+
+
+
+onMounted(scrollToHistory);
+
+watch(() => route.hash, scrollToHistory);
+
+
+
+// Slide mode state
+
+const slideMode = ref(false);
+
+// const currentSlideIndex = ref(0);
+
+// const slideCount = ref(1);
+
+// const previousSlideCount = ref(1);
+
+// const showingFullIlahi = computed(() => slideCount.value === slides.
+
+// value.length);
+
+const { currentSlideIndex, previousSlideCount, slides, slidesToShow, showingFull, prev, next, toggleFull, reset } = useSlides(() => currentSong.value ? currentSong.value.lyrics : [])
+
+
+
+function prevSlide() { prev() }
+
+function nextSlide() { next() }
+
+function toggleFullIlahi() { toggleFull() }
+
+
+
+// Reset index and slideCount when toggling slide mode or changing song
+
+watch([slideMode, currentSong], () => {
+
+  // 
+
+  // currentSlideIndex.value = 0;
+
+  // slideCount.value = 1;
+
+  // previousSlideCount.value = 1;
+
+  // 
+
+  reset()
+
+});
+
+
+
+const { slideCount, increaseStanzaCount, decreaseStanzaCount } = useSlideControls(slides);
+
+
+
+// function increaseStanzaCount() {
+
+//   if (slideCount.value < slides.value.length) slideCount.value++;
+
+// }
+
+// function decreaseStanzaCount() {
+
+//   if (slideCount.value > 1) slideCount.value--;
+
+// }
+
+// function increaseFontSize() {
+
+//   if (fontSize.value < 132) fontSize.value += 2;
+
+// }
+
+// function decreaseFontSize() {
+
+//   if (fontSize.value > 12) fontSize.value -= 2;
+
+// }
+
+
+
+// function buildSongUrl() {
+
+//   if (!currentSong.value) return ''
+
+//   return `${window.location.origin}${import.meta.env.BASE_URL}player/${currentSong.value.slug}`
+
+// }
+
+
+
+// async function shareSong() {
+
+//   if (!currentSong.value) return
+
+//   const url = buildSongUrl(currentSong.value.slug)
+
+//   try {
+
+//     if (navigator.share) {
+
+//       await navigator.share({ title: currentSong.value?.title, url })
+
+//     } else {
+
+//       await navigator.clipboard.writeText(url)
+
+//       alert('Link copied to clipboard')
+
+//     }
+
+//   } catch {}
+
+// }
+
+
+
+// async function copyLink() {
+
+//   if (!currentSong.value) return
+
+//   const url = buildSongUrl(currentSong.value.slug)
+
+//   await navigator.clipboard.writeText(url)
+
+//   alert('Link copied to clipboard')
+
+// }
+
+
+
+</script>
+
+
+
+<style scoped>
+
+.card-body {
+
+  display:flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 1rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.custom-range {
+
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  background: #ddd;
+
+  outline: none;
+
+  opacity: 0.7;
+
+  transition: opacity 0.2s;
+
+}
+
+
+
+.custom-range:hover {
+
+  opacity: 1;
+
+}
+
+
+
+.custom-range::-webkit-slider-thumb {
+
+  -webkit-appearance: none;
+
+  appearance: none;
+
+  width: 20px;
+
+  height: 20px;
+
+  background: #4CAF50;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+}
+
+
+
+.custom-range::-moz-range-thumb {
+
+  width: 20px;
+
+  height: 20px;
+
+  background: #4CAF50;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+
+}
+
+</style>
+
+
+
+<!-- SongList.vue -->
+
+<template>
+
+  <div v-if="loading" class="space-y-2">
+
+  <div class="skeleton h-6 w-1/2"></div>
+
+  <div class="skeleton h-6 w-2/3"></div>
+
+  <div class="skeleton h-6 w-1/3"></div>
+
+</div>
+
+  <div class="w-full max-w-4xl mx-auto p-4">
+
+      <button @click="resetSearch" class="btn btn-secondary">Reset Search</button>
+
+      <button @click="generateRandomIlahi" class="btn btn-primary">What to Sing?</button>
+
+    <div v-if="randomIlahi" class="mt-4 text-center">
+
+      <p>Try to Sing:</p>
+
+      <router-link 
+
+      :to="{ name: 'SongDisplay', params: { slug: randomIlahi.slug }, query: { file: songStore.currentPath } }"
+
+        class="text-primary hover:underline"
+
+        >
+
+        {{ randomIlahi.title }}
+
+      </router-link>
+
+    </div>
+
+    <!-- A-Z filter -->
+
+    <div class="flex flex-wrap justify-center my-4" 
+
+    role="group" 
+
+    aria-label="Filter ilahis by first letter">
+
+  <button
+
+    v-for="letter in 'ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ'"
+
+    :key="letter"
+
+    @click="filterByLetter(letter)"
+
+    @keydown="handleKeyNavigation($event, letter)"
+
+    :class="[
+
+      'btn btn-sm m-1', 
+
+      { 'btn-primary': currentLetter === letter || 
+
+        (currentLetter && turkishToEnglish(currentLetter) === turkishToEnglish(letter)) 
+
+      }
+
+    ]"
+
+    :aria-pressed="currentLetter === letter"
+
+    :aria-label="`Filter by letter ${letter}`"
+
+    tabindex="0"
+
+  >
+
+    {{ letter }}
+
+  </button>
+
+</div>
+
+    <!-- Category filter -->
+
+    <div class="flex justify-center my-4">
+
+      <div class="flex flex-col items-center">
+
+        <label class="mb-2 font-bold text-lg">Categories</label>
+
+        <div class="flex gap-2 mb-2">
+
+          <span
+
+            v-for="shaykh in ['Shaykh Muhyiddin', 'Shaykh Taner and Shaykha Muzeyyen']"
+
+            :key="shaykh"
+
+            @click="toggleShaykhCategory(shaykh)"
+
+            class="px-2 py-0.5 rounded-full cursor-pointer border text-xs font-semibold transition-colors border-green-200"
+
+            :class="[
+
+              selectedCategories.includes(shaykh)
+
+                ? 'bg-green-600 text-white border-green-600'
+
+                : 'bg-green-100 text-green-800 hover:bg-green-200'
+
+            ]"
+
+          >
+
+            {{ shaykh }}
+
+          </span>
+
+        </div>
+
+        <div class="flex items-center mb-2">
+
+          <input
+
+            type="checkbox"
+
+            id="basicCategory"
+
+            v-model="selectedCategories"
+
+            :value="CATEGORIES.BASIC"  
+
+            class="checkbox checkbox-primary mr-2 custom-checkbox"
+
+          />
+
+          <label for="basicCategory" class="text-lg font-semibold text-primary">Basic ilahis For Zikr</label>
+
+        </div>
+
+        <div class="dropdown">
+
+          <label tabindex="0" class="btn btn-secondary m-1" @click="isDropdownOpen = !isDropdownOpen">More Categories</label>
+
+          <ul v-if="isDropdownOpen" tabindex="0" class="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 max-h-60 overflow-y-auto custom-dropdown">
+
+            <li v-for="category in mainCategories" :key="String(category)" class="text-left">
+
+              <template v-if="Object.keys(subcategories).includes(String(category))">
+
+                <details class="dropdown">
+
+                  <summary class="text-base-content">{{ category }}</summary>
+
+                  <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+
+                    <li v-for="subCategory in sortedSubcategories[String(category)]" :key="String(subCategory)" class="text-left">
+
+                      <label class="text-base-content">
+
+                        <input
+
+                          type="checkbox"
+
+                          :value="subCategory"
+
+                          v-model="selectedCategories"
+
+                          class="checkbox custom-checkbox"
+
+                        />
+
+                        {{ subCategory }}
+
+                      </label>
+
+                    </li>
+
+                  </ul>
+
+                </details>
+
+              </template>
+
+              <label v-else class="text-base-content">
+
+                <input
+
+                  type="checkbox"
+
+                  :value="category"
+
+                  v-model="selectedCategories"
+
+                  class="checkbox custom-checkbox"
+
+                />
+
+                {{ category }}
+
+              </label>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+<div class="flex justify-center my-4">
+
+  <div class="flex flex-col items-center">
+
+    <div class="dropdown dropdown-end">
+
+      <label tabindex="0" class="btn btn-secondary m-1">
+
+    <!-- <label class="mb-2 font-bold text-lg">Zikr</label> -->
+
+    <!-- <div class="flex items-center mb-2"> -->
+
+      <!-- <div class="dropdown"> -->
+
+        <!-- <label tabindex="0" class="btn btn-secondary m-1" @click="isZikrDropdownOpen = !isZikrDropdownOpen"> -->
+
+          Select Zikr 
+
+        </label>
+
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-64 max-h-96 overflow-y-auto">
+
+
+
+        <!-- <ul v-if="isZikrDropdownOpen" class="dropdown-content z-[1] menu p-2 shadow rounded-box w-52 max-h-60 overflow-y-auto custom-dropdown"> -->
+
+          <li v-for="zikrGroup in zikrGroups" :key="zikrGroup.group">
+
+            <details class="dropdown" open>
+
+              <summary class="text-base-content font-semibold">{{ zikrGroup.group }}</summary>
+
+              <ul class="p-2">
+
+              <!-- <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52"> -->
+
+                <li v-for="zikr in zikrGroup.items" :key="zikr">
+
+                  <label class="flex items-center gap-2 p-2 hover:bg-base-200 rounded">
+
+                  <!-- <label class="text-base-content"> -->
+
+                    <input
+
+                      type="checkbox"
+
+                      :value="zikr"
+
+                      v-model="selectedZikrs"
+
+                      class="checkbox checkbox-primary"
+
+                    />
+
+                    <span class="text-base-content">{{ zikr }}</span>
+
+                  </label>
+
+                </li>
+
+              </ul>
+
+            </details>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+<div class="text-center text-base-content/80 mb-4" role="status" aria-live="polite">
+
+  <span v-if="selectedZikrs.length > 0" aria-atomic="true">
+
+    {{ filteredByZikr.length }} ilahi{{ filteredByZikr.length !== 1 ? 's' : '' }} 
+
+    found for: {{ selectedZikrs.join(', ') }}
+
+  </span>
+
+  <span v-else-if="currentLetter" aria-atomic="true">
+
+    {{ sortedFilteredSongs.length }} ilahi{{ sortedFilteredSongs.length !== 1 ? 's' : '' }} 
+
+    found starting with letter "{{ currentLetter }}"
+
+  </span>
+
+  <span v-else-if="selectedCategories.length > 0" aria-atomic="true">
+
+    {{ sortedFilteredSongs.length }} ilahi{{ sortedFilteredSongs.length !== 1 ? 's' : '' }} 
+
+    found in selected categories
+
+  </span>
+
+  <span v-else aria-atomic="true">
+
+    {{ filteredSongs.length }} ilahi{{ filteredSongs.length !== 1 ? 's' : '' }} available
+
+  </span>
+
+</div>
+
+
+
+
+
+  <div
+
+    v-if="sortedFilteredSongs.length > 0"
+
+    class="grid grid-cols-1 lg:grid-cols-2 gap-4"
+
+  ></div>
+
+
+
+
+
+  
+
+    <div
+
+      v-if="paginatedSongs.length"
+
+      class="grid grid-cols-1 lg:grid-cols-2 gap-4"
+
+    >
+
+      <div
+
+        v-for="(song, index) in paginatedSongs"
+
+        :key="song.slug"
+
+
+
+        class="shadow-md rounded-lg p-4"
+
+      >
+
+        <h3 class="text-xl font-semibold mb-2">
+
+          <router-link
+
+            v-if="song.title"
+
+            :to="{
+
+              name: 'SongDisplay',
+
+              params: { slug: song.slug }, query: { file: songStore.currentPath }
+
+            }"
+
+            class="hover:link-secondary"
+
+          >
+
+            {{ song.title }}
+
+          </router-link>
+
+          <span v-else class="text-gray-500">All</span>
+
+        </h3>
+
+        <div class="text-sm text-gray-600">
+
+          <!-- {{ song.categories.join(', ') }} -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div 
+
+  v-if="sortedFilteredSongs.length === 0 && currentLetter" 
+
+  class="text-center text-xl text-gray-600" 
+
+  role="alert" 
+
+  aria-live="assertive"
+
+>
+
+  Sorry, no ilahi found starting with letter "{{ currentLetter }}".
+
+</div>
+
+<div v-if="paginatedSongs.length === 0 && selectedZikrs.length">
+
+  <p class="text-red-500">No songs found for selected zikrs</p>
+
+</div>
+
+
+
+
+
+
+
+        <!-- Pagination -->
+
+           <!-- Only show pagination if we have songs -->
+
+  <div v-if="sortedFilteredSongs.length > 0" class="mt-6 flex justify-center">
+
+       <!-- <div class="mt-6 flex justify-center"> -->
+
+      <button
+
+        @click="prevPage"
+
+        :disabled="currentPage === 1"
+
+        class="btn btn-primary mr-2"
+
+      >
+
+        &lt; Previous
+
+      </button>
+
+      <span class="mx-2 self-center">Page {{ currentPage }} of {{ totalPages }}</span>
+
+      <button
+
+        @click="nextPage"
+
+        :disabled="currentPage === totalPages"
+
+        class="btn btn-primary ml-2"
+
+      >
+
+        Next &gt;
+
+      </button>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, computed, onMounted, watch, inject } from "vue";
+
+import { storeToRefs } from "pinia";
+
+import { useSongStore, ParsedZikr } from "../stores/songStore";
+
+import { RouterLink, useRoute, useRouter } from "vue-router";
+
+import SearchBar from "./SearchBar.vue";
+
+import { getCurrentInstance } from "vue";
+
+import { slugify } from '../utils/search';
+
+import { CATEGORIES, getSubcategories, filterSongsByCategory, normalizeCategory, turkishToEnglish, getSortedSubcategories, processShortcuts, getMainCategories } from '../utils/categoryUtils';
+
+// import { ParsedZikr } from '../utils/zikrUtils';
+
+
+
+import { SongData } from "@/utils/types";
+
+import type { LocationQueryValue } from 'vue-router'
+
+import { parseZikrLine } from '../utils/zikrUtils';
+
+
+
+const props = defineProps<{ filePath?: string }>();
+
+
+
+const route = useRoute();
+
+const router = useRouter();
+
+const songStore = useSongStore();
+
+const { filteredSongs, categories, filteredByZikr, selectedZikrs } = storeToRefs(songStore);
+
+
+
+
+
+const loading = ref(true);
+
+
+
+const currentPage = ref(1);
+
+const itemsPerPage = 12;
+
+const currentLetter = ref("");
+
+const selectedCategories = ref<string[]>([]);
+
+const isZikrDropdownOpen = ref(false);
+
+
+
+// Add computed properties
+
+const zikrGroups = computed(() => {
+
+return Object.entries(songStore.suggestedZikrs).map(([group, items]) => ({
+
+    group,
+
+    items: Array.isArray(items) ? items : [items]
+
+  }))
+
+});
+
+
+
+
+
+const randomIlahi = ref<SongData | null>(null)
+
+
+
+
+
+// Add keyboard navigation for letter filters
+
+const handleKeyNavigation = (event: KeyboardEvent, letter: string) => {
+
+  if (event.key === 'Enter' || event.key === ' ') {
+
+    event.preventDefault();
+
+    filterByLetter(letter);
+
+  }
+
+};
+
+
+
+const generateRandomIlahi = () => {
+
+  if (sortedFilteredSongs.value.length > 0) {
+
+    const randomIndex = Math.floor(Math.random() * sortedFilteredSongs.value.length)
+
+    randomIlahi.value = sortedFilteredSongs.value[randomIndex]
+
+  }
+
+}
+
+
+
+const resetGlobalSearch = inject("resetGlobalSearch") as () => void;
+
+
+
+const sortedSubcategories = computed((): Record<string, string[]> => {
+
+
+
+// const sortedSubcategories = computed(() => {
+
+  const result: Record<string, string[]> = {};
+
+  
+
+  for (const category in subcategories.value) {
+
+  // Ensure we're working with string arrays
+
+  const subCats = subcategories.value[category];
+
+    if (Array.isArray(subCats)) {
+
+      result[category] = [...subCats].sort((a, b) => a.localeCompare(b));
+
+    }
+
+  
+
+  
+
+    // Sort subcategories alphabetically
+
+    // result[category] = [...subcategories.value[category]].sort((a, b) => a.localeCompare(b));
+
+  }
+
+  
+
+  return result;
+
+});
+
+
+
+  // getSortedSubcategories(subcategories.value));
+
+
+
+const subcategories = computed(() => getSubcategories());
+
+
+
+const allCategories = computed(() => {
+
+  const { processedCategories, processedShortcuts } = processShortcuts(subcategories.value);
+
+  // console.log("processedCategories:", processedCategories);
+
+  // console.log("subcategories:", subcategories);
+
+ // Change from Set to Record/object to avoid indexing issues
+
+ const categoriesMap: Record<string, boolean> = {};
+
+  
+
+  // const categories = new Set<string>(songStore.categories);
+
+
+
+  const normalizedSubcategories = new Set(
+
+    Object.values(processedCategories).flat().map(normalizeCategory)
+
+  );
+
+  // console.log("normalizedSubcategories:", normalizedSubcategories);
+
+
+
+
+
+  filteredSongs.value.forEach((song) => {
+
+    song.categories.forEach((category) => {
+
+      const normalizedCategory = normalizeCategory(category);
+
+        // console.log("normalizedCategory:", normalizedCategory);
+
+
+
+// Fix the categories access
+
+const matchedMainCategory = Object.keys(categories.value || {}).find((key) => {
+
+        const categoryArray = categories.value?.[key]
+
+        if (!categoryArray || !Array.isArray(categoryArray)) return false
+
+        
+
+        return normalizeCategory(key) === normalizedCategory || 
+
+               categoryArray.some((sub: string) => 
+
+                 normalizeCategory(sub).startsWith(normalizedCategory)
+
+               )
+
+      });
+
+      // console.log("matchedMainCategory:", matchedMainCategory);
+
+
+
+      if (matchedMainCategory) {
+
+        categoriesMap[matchedMainCategory] = true;
+
+      } else if (category.trim() !== '' && 
+
+                //  !processedShortcuts[normalizedCategory] && 
+
+                 !normalizedSubcategories.has(normalizedCategory)) {
+
+        categoriesMap[category.trim()] = true;
+
+      }
+
+
+
+    });
+
+  });
+
+  // return Array.from(categories);
+
+  return Object.keys(categoriesMap);
+
+});
+
+
+
+
+
+// First, ensure mainCategories returns string[] instead of any other type
+
+const mainCategories = computed((): string[] => {
+
+  // console.log("All categories from store:", categories);
+
+  // Ensure we're returning an array of strings
+
+  return Array.isArray(categories.value) ? categories.value : Object.keys(categories.value || {});
+
+});
+
+
+
+// Computed properties
+
+const sortedFilteredSongs = computed(() => {
+
+
+
+  let songsToDisplay = filteredSongs.value;
+
+
+
+  if (selectedZikrs.value.length > 0) {
+
+    console.log('[Component] Applying zikr filter');
+
+    songsToDisplay = filteredByZikr.value;
+
+  }
+
+
+
+
+
+
+
+  if (currentLetter.value) {
+
+    songsToDisplay = songsToDisplay.filter(
+
+      (song) =>      {
+
+        const firstLetter = song.title[0].toUpperCase();
+
+        const normalizedFirstLetter = turkishToEnglish(firstLetter);
+
+      const normalizedCurrentLetter = turkishToEnglish(currentLetter.value);      
+
+      return normalizedFirstLetter === normalizedCurrentLetter;
+
+    });
+
+  }
+
+          
+
+    if (selectedCategories.value.length > 0 && !selectedCategories.value.includes('All')) {
+
+    songsToDisplay = filterSongsByCategory(songsToDisplay, selectedCategories.value);
+
+    }
+
+
+
+    // Normal alphabetical sorting for non-Basic category
+
+  if (!(selectedCategories.value.length === 1 && selectedCategories.value[0] === CATEGORIES.BASIC)) {
+
+    return songsToDisplay.sort((a, b) => 
+
+      turkishToEnglish(a.title.toLowerCase()).localeCompare(turkishToEnglish(b.title.toLowerCase()))
+
+    );
+
+  }
+
+  return songsToDisplay; 
+
+});
+
+
+
+const totalPages = computed(() =>
+
+  Math.ceil(sortedFilteredSongs.value.length / itemsPerPage)
+
+);
+
+
+
+const slugifiedSongs = computed(() => {
+
+  return sortedFilteredSongs.value.map(song => ({
+
+    ...song,
+
+    slug: slugify(song.title)
+
+  }));
+
+});
+
+
+
+const paginatedSongs = computed(() => {
+
+  const start = (currentPage.value - 1) * itemsPerPage;
+
+  const end = start + itemsPerPage;
+
+  return sortedFilteredSongs.value.slice(start, end);
+
+});
+
+
+
+const prevPage = () => {
+
+  if (currentPage.value > 1) currentPage.value--;
+
+};
+
+
+
+const nextPage = () => {
+
+  if (currentPage.value < totalPages.value) currentPage.value++;
+
+};
+
+
+
+const filterByLetter = (letter: string) => {
+
+  // Force uppercase for consistency
+
+  const upperLetter = letter.toUpperCase();
+
+  currentLetter.value = currentLetter.value === upperLetter ? "" : upperLetter;
+
+// Update query parameters first
+
+const query: Record<string, string | string[]> = {};
+
+  if (currentLetter.value) query.letter = currentLetter.value;
+
+  if (selectedCategories.value.length > 0) query.categories = selectedCategories.value;
+
+  
+
+  // Reset page and update route
+
+  currentPage.value = 1;
+
+  router.push({ query });
+
+
+
+};
+
+
+
+const updateQueryParams = () => {
+
+  const query: Record<string, string | string[]> = {};
+
+  if (currentLetter.value) query.letter = currentLetter.value;
+
+  if (selectedCategories.value.length > 0) query.categories = selectedCategories.value;
+
+  router.push({ query }).catch(() => {
+
+    // Handle potential navigation errors
+
+    console.log('Navigation prevented');
+
+  });
+
+};
+
+
+
+// First, let's add a debug computed property
+
+const debugSongCounts = computed(() => ({
+
+  filtered: sortedFilteredSongs.value.length,
+
+  paginated: paginatedSongs.value.length,
+
+  total: filteredSongs.value.length
+
+}));
+
+
+
+
+
+
+
+// Watchers
+
+
+
+watch(selectedZikrs, (newZikrs) => {
+
+  console.log('[Component] Selected Zikrs changed:', newZikrs);
+
+  console.log('Current filtered songs:', filteredByZikr.value.map(s => s.title));
+
+}, { deep: true });
+
+
+
+// Add a watch for currentLetter specifically
+
+watch(currentLetter, (newLetter) => {
+
+  currentPage.value = 1;
+
+}, { immediate: true });
+
+
+
+
+
+watch([filteredSongs, currentLetter, selectedZikrs,selectedCategories], () => {
+
+  currentPage.value = 1;
+
+  updateQueryParams();
+
+});
+
+
+
+// watch(
+
+//   () => route.query.search,
+
+//   (newSearch) => {
+
+//     if (newSearch) {
+
+//       songStore.setSearchQuery(newSearch as string);
+
+//       currentPage.value = 1;
+
+//       currentLetter.value = "";
+
+//       selectedCategories.value = [];
+
+//     }
+
+//   }
+
+// );
+
+
+
+// Fix the route query handling
+
+watch(
+
+  () => route.query,
+
+  (newQuery) => {
+
+    if (newQuery.search) {
+
+      songStore.setSearchQuery(String(newQuery.search));
+
+      currentPage.value = 1;
+
+      currentLetter.value = "";
+
+      selectedCategories.value = [];
+
+    } else if (newQuery.letter) {
+
+      // Add this condition to handle letter parameter
+
+      currentLetter.value = String(newQuery.letter);
+
+      currentPage.value = 1;
+
+      songStore.setSearchQuery("");
+
+    } else if (newQuery.categories) {
+
+      // Handle the LocationQueryValue type safely
+
+      const categories = Array.isArray(newQuery.categories)
+
+        ? newQuery.categories.map(String)
+
+        : [String(newQuery.categories)];
+
+      selectedCategories.value = categories.filter(Boolean); // Remove any null values
+
+      currentPage.value = 1;
+
+      songStore.setSearchQuery("");
+
+    } else {
+
+      songStore.setSearchQuery("");
+
+      currentLetter.value = "";
+
+      selectedCategories.value = [];
+
+      currentPage.value = 1;
+
+    }
+
+  },
+
+  { immediate: true }
+
+);
+
+
+
+// Watch filePath and reload songs when it changes
+
+watch(() => props.filePath, async (newPath, oldPath) => {
+
+  if (newPath && newPath !== oldPath) {
+
+    await songStore.fetchSongs(false, newPath);
+
+  }
+
+}, { immediate: true });
+
+
+
+// On mount, load songs from filePath (or default)
+
+onMounted(async () => {
+
+  try{
+
+  await songStore.fetchSongs(false, props.filePath || 'ilahi.txt');
+
+  if (route.query.search) {
+
+    songStore.setSearchQuery(String(route.query.search));
+
+  }
+
+  if (route.query.categories) {
+
+    const categories = Array.isArray(route.query.categories)
+
+      ? route.query.categories.map(String)
+
+      : [String(route.query.categories)];
+
+    selectedCategories.value = categories.filter(Boolean);
+
+  }
+
+} finally {
+
+  loading.value = false;
+
+}
+
+});
+
+
+
+const resetSearch = () => {
+
+  songStore.setSearchQuery("");
+
+  currentLetter.value = "";
+
+  selectedCategories.value = [];
+
+  selectedZikrs.value = [];
+
+  router.push({ query: {} });
+
+  resetGlobalSearch();
+
+};
+
+
+
+
+
+const isDropdownOpen = ref(false);
+
+
+
+const app = getCurrentInstance()?.appContext.app;
+
+
+
+function toggleShaykhCategory(shaykh: string) {
+
+  const idx = selectedCategories.value.indexOf(shaykh);
+
+  if (idx === -1) {
+
+    selectedCategories.value.push(shaykh);
+
+  } else {
+
+    selectedCategories.value.splice(idx, 1);
+
+  }
+
+}
+
+</script>
+
+
+
+<style>
+
+.checkbox-primary {
+
+ --chkbg: hsl(120, 60%, 50%); /* Green background */
+
+ --chkfg: white; /* White tick */
+
+ border-color: hsl(120, 60%, 50%);
+
+}
+
+
+
+.checkbox-primary:checked {
+
+  background-color: hsl(120, 60%, 50%);
+
+  border-color: hsl(120, 60%, 50%);
+
+}
+
+
+
+.checkbox-primary {
+
+  background-color: hsl(120, 60%, 50%);
+
+  border-color: hsl(120, 60%, 50%);
+
+}
+
+
+
+.checkbox-primary:checked {
+
+  background-color: hsl(120, 60%, 50%);
+
+  border-color: hsl(120, 60%, 50%);
+
+}
+
+
+
+
+
+/* Center alignment for the main container */
+
+.w-full.max-w-4xl.mx-auto {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  text-align: center;
+
+}
+
+
+
+/* Prevent page jump when checking checkboxes */
+
+input[type="checkbox"] {
+
+  scroll-margin-top: 100px;
+
+}
+
+.select option:checked {
+
+  background-color: theme("colors.white");
+
+  /* color: white; */
+
+}
+
+
+
+.select option {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+
+
+.custom-checkbox {
+
+  appearance: none;
+
+  -webkit-appearance: none;
+
+  width: 1.5em;
+
+  height: 1.5em;
+
+  border: 2px solid currentColor;
+
+  border-radius: 0.25em;
+
+  display: inline-grid;
+
+  place-content: center;
+
+}
+
+
+
+.custom-checkbox::before {
+
+  content: "";
+
+  width: 0.85em;
+
+  height: 0.85em;
+
+  transform: scale(0);
+
+  transition: 120ms transform ease-in-out;
+
+  box-shadow: inset 1em 1em currentColor;
+
+  transform-origin: center;
+
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+
+}
+
+
+
+.custom-checkbox:checked::before {
+
+  transform: scale(1);
+
+}
+
+
+
+:root[data-theme="dark"] .custom-checkbox {
+
+  border-color: hsl(var(--bc));
+
+}
+
+
+
+:root[data-theme="dark"] .custom-checkbox::before {
+
+  background-color: hsl(var(--bc));
+
+}
+
+
+
+
+
+
+
+.custom-dropdown {
+
+  background-color: white;
+
+  color: black;
+
+  border: 1px solid #e2e8f0;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown {
+
+  background-color: #2d3748;
+
+  color: #e2e8f0;
+
+  border: 1px solid #4a5568;
+
+}
+
+
+
+.custom-dropdown li > * {
+
+  color: inherit;
+
+}
+
+
+
+.custom-dropdown li > *:hover {
+
+  background-color: #f7fafc;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown li > *:hover {
+
+  background-color: #4a5568;
+
+}
+
+
+
+/* Ensure text color for nested dropdowns */
+
+.custom-dropdown .dropdown .dropdown-content {
+
+  background-color: white;
+
+  color: black;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown .dropdown .dropdown-content {
+
+  background-color: #2d3748;
+
+  color: #e2e8f0;
+
+}
+
+
+
+.custom-dropdown .dropdown .dropdown-content li > * {
+
+  color: inherit;
+
+}
+
+
+
+.custom-dropdown .dropdown .dropdown-content li > *:hover {
+
+  background-color: #f7fafc;
+
+}
+
+
+
+:root[data-theme="dark"] .custom-dropdown .dropdown .dropdown-content li > *:hover {
+
+  background-color: #4a5568;
+
+}
+
+</style>
+
+
+
+<!-- ThemeToggle.vue -->
+
+<template>
+
+    <div>
+
+    <button @click="toggleTheme" 
+
+    class="p-0 mt-12  rounded-full hover:bg-opacity-20 hover:bg-gray-500 transition-colors"
+
+    >
+
+    {{ isDark ? '🌙' : '☀️' }}
+
+    </button>
+
+  </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  import { useThemeStore } from '../stores/themeStore'
+
+  import { ref, onMounted } from 'vue'
+
+
+
+  const themeStore = useThemeStore()
+
+  const isDark = ref(themeStore.theme === 'dark')
+
+
+
+
+
+  const toggleTheme = () => {
+
+    themeStore.toggleTheme()
+
+    isDark.value = !isDark.value
+
+  document.documentElement.classList.toggle('dark', isDark.value)
+
+    // document.body.className = themeStore.theme
+
+  }
+
+
+
+
+
+onMounted(() => {
+
+  document.documentElement.classList.toggle('dark', isDark.value)
+
+  // document.body.className = themeStore.theme; // Set initial theme
+
+});
+
+  </script>
+
+
+
+<!-- TranslationControls.vue -->
+
+<template>
+
+    <div class="flex flex-wrap gap-2">
+
+      <button 
+
+        v-if="hasTranslation"
+
+        class="btn btn-primary btn-sm gap-2"
+
+        data-no-float-nav
+
+        @click.stop="$emit('toggle-translation')"
+
+        :aria-pressed="showTranslation"
+
+      >
+
+        <font-awesome-icon :icon="['fas', 'language']" />
+
+        {{ showTranslation ? 'Hide' : 'Show' }} Translation
+
+      </button>
+
+      
+
+      <button 
+
+        v-if="hasTranslation && showTranslation"
+
+        class="btn btn-outline btn-sm gap-2"
+
+        @click="$emit('toggle-layout')"
+
+      >
+
+        <font-awesome-icon :icon="['fas', layout === 'below' ? 'columns' : 'bars']" />
+
+        {{ layout === 'below' ? 'Side-by-side' : 'Below lyrics' }}
+
+      </button>
+
+    </div>
+
+  </template>
+
+  
+
+  <script setup lang="ts">
+
+  defineProps<{
+
+    hasTranslation: boolean
+
+    showTranslation: boolean
+
+    layout: 'below' | 'side'
+
+  }>()
+
+  
+
+  defineEmits<{
+
+    'toggle-translation': []
+
+    'toggle-layout': []
+
+  }>()
+
+  </script>
+
+
+
+<!-- VersionDisplay.vue -->
+
+<template>
+
+<div>
+
+<!-- <footer class="mt-4 text-center"> -->
+
+    <p class="text-sm text-gray-600">Version: {{ version }}</p>
+
+    <p class="text-sm text-gray-600">Last updated on: {{ buildDate }}</p>
+
+  <!-- </footer> -->
+
+</div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import versionData from '../version.mts'; // Import version module
+
+
+
+const { version, buildDate } = versionData;
+
+</script>
+
+
+
+<!-- YouTubePlaylist.vue -->
+
+<template>
+
+  <div class="card shadow-lg w-full max-w-4xl mx-auto">
+
+    <div class="card-body">
+
+      <!-- <h1 class="text-3xl font-bold mb-4" id="playlist-title">AQRT ilahi Playlist</h1> -->
+
+      <div class="controls mb-4 flex flex-wrap justify-center gap-2" role="toolbar" aria-label="Playlist controls">
+
+        <button 
+
+          @click="togglePlay" 
+
+          class="btn btn-primary"
+
+          aria-label="Toggle play"
+
+          :aria-pressed="isPlaying"
+
+        >
+
+          {{ isPlaying ? 'Pause' : 'Play' }}
+
+        </button>
+
+        <button 
+
+          @click="toggleShuffle" 
+
+          class="btn btn-primary"
+
+          aria-label="Toggle shuffle mode"
+
+          :aria-pressed="isShuffled"
+
+        >
+
+          {{ isShuffled ? 'Sequential' : 'Shuffle' }}
+
+        </button>
+
+        <button 
+
+          @click="playNext" 
+
+          class="btn btn-primary"
+
+          aria-label="Play next video"
+
+        >
+
+          Next
+
+        </button>
+
+        <button 
+
+          @click="seekBackward" 
+
+          class="btn btn-primary"
+
+          aria-label="Rewind 5 seconds"
+
+        >
+
+          -5s
+
+        </button>
+
+        <button 
+
+          @click="seekForward" 
+
+          class="btn btn-primary"
+
+          aria-label="Forward 5 seconds"
+
+        >
+
+          +5s
+
+        </button>
+
+        <button 
+
+          @click="decreaseSpeed" 
+
+          class="btn btn-primary"
+
+          aria-label="Decrease playback speed"
+
+        >
+
+          Slower
+
+        </button>
+
+        <button 
+
+          @click="increaseSpeed" 
+
+          class="btn btn-primary"
+
+          aria-label="Increase playback speed"
+
+        >
+
+          Faster
+
+        </button>
+
+      </div>
+
+      <div 
+
+        class="youtube-player-container w-full"
+
+        role="region" 
+
+        aria-label="YouTube video player"
+
+      >
+
+        <YouTube
+
+        v-show="!!currentVideoUrl"
+
+  :key="'yt-player'"                  
+
+        :src="currentVideoUrl" 
+
+        @ready="onPlayerReady"
+
+        @error="onPlayerError"
+
+        ref="youtubePlayer"
+
+        width="100%"
+
+        height="100%"
+
+        class="youtube-player"
+
+        :title="`Playing video ${currentIndex + 1} of ${youtubeLinks.length}`"
+
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, computed, onMounted, watch, nextTick } from "vue";
+
+import YouTube from "vue3-youtube";
+
+import { useSongStore } from '../stores/songStore';
+
+import { parseYouTubeUrl } from '@/utils/youtubeUtils';
+
+
+
+const props = defineProps<{
+
+  videoUrls?: string[];
+
+  autoplay?: boolean; // default false
+
+}>();
+
+
+
+const autoplay = computed(() => props.autoplay ?? false);
+
+
+
+const songStore = useSongStore();
+
+
+
+const youtubePlayer = ref<InstanceType<typeof YouTube> | null>(null);
+
+const isPlaying = ref(false);
+
+const isShuffled = ref(false);
+
+const currentIndex = ref(0);
+
+const shuffledIndices = ref<number[]>([]);
+
+const playbackRate = ref(1);
+
+
+
+const youtubeLinks = computed(() => {
+
+  const src = (props.videoUrls?.length ? props.videoUrls : songStore.youtubeLinks) || [];
+
+  // keep only entries that yield a valid videoId
+
+  return src.filter(u => !!parseYouTubeUrl(u).videoId);
+
+});
+
+
+
+const currentVideoUrl = computed(() => {
+
+  const idx = isShuffled.value ? shuffledIndices.value[currentIndex.value] : currentIndex.value;
+
+  return youtubeLinks.value[idx] || '';
+
+});
+
+
+
+const currentVideoId = computed(() => parseYouTubeUrl(currentVideoUrl.value).videoId || '');
+
+
+
+// add this helper
+
+function cueCurrent() {
+
+  const id = parseYouTubeUrl(currentVideoUrl.value).videoId;
+
+  const p: any = youtubePlayer.value;
+
+  console.log('[YT] cueCurrent id=', id, 'player?', !!p);
+
+  if (!p || !id) return;
+
+  if (p.cueVideoById) p.cueVideoById({ videoId: id });
+
+  else { p.loadVideoById({ videoId: id }); p.pauseVideo(); }
+
+}
+
+
+
+watch(youtubeLinks, async () => {
+
+  currentIndex.value = 0;
+
+  initializeShuffleIndices();
+
+  await nextTick();
+
+  cueOrLoad();  // prepare the first video without autoplay (if autoplay=false)
+
+
+
+  // loadCurrentVideo();                         // ← important
+
+});
+
+
+
+watch(currentVideoId, () => cueOrLoad());
+
+
+
+
+
+
+
+watch(currentVideoUrl, (u) => {
+
+  if (!u || !youtubePlayer.value) return;
+
+  const { videoId } = parseYouTubeUrl(u);
+
+  if (!videoId) return;
+
+  const p:any = youtubePlayer.value;
+
+  if (p.cueVideoById) p.cueVideoById({ videoId });
+
+  else { p.loadVideoById({ videoId }); p.pauseVideo(); } // fallback
+
+  console.log('URL ->', u, parseYouTubeUrl(u));
+
+});
+
+
+
+
+
+
+
+
+
+// Initialize shuffle indices
+
+const initializeShuffleIndices = () => {
+
+  shuffledIndices.value = Array.from(
+
+    { length: youtubeLinks.value.length }, 
+
+    (_, i) => i
+
+  );
+
+  if (isShuffled.value) {
+
+    shuffleArray(shuffledIndices.value);
+
+  }
+
+};
+
+
+
+// Fisher-Yates shuffle algorithm
+
+function shuffleArray(array: number[]) {
+
+  for (let i = array.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [array[i], array[j]] = [array[j], array[i]];
+
+  }
+
+};
+
+
+
+function cueOrLoad() {
+
+  const p = getPlayer();
+
+  const id = currentVideoId.value;
+
+  if (!p || !id) return;
+
+  if (!autoplay.value && p.cueVideoById) {
+
+    p.cueVideoById({ videoId: id });   // shows first frame, no play
+
+  } else if (p.loadVideoById) {
+
+    p.loadVideoById({ videoId: id });  // may autoplay if policies allow
+
+    if (!autoplay.value && p.pauseVideo) p.pauseVideo(); // enforce no autoplay
+
+  }
+
+}
+
+
+
+function toggleShuffle() {
+
+  isShuffled.value = !isShuffled.value;
+
+  initializeShuffleIndices();
+
+  // Reset to first video when toggling shuffle mode
+
+  currentIndex.value = 0;
+
+  cueOrLoad();
+
+  // loadCurrentVideo();
+
+};
+
+
+
+function getPlayer() {
+
+  return youtubePlayer.value?.player || null; // vue3-youtube exposes .player
+
+}
+
+
+
+// === use component instance methods directly (like your old code) ===
+
+const togglePlay = () => {
+
+  const p = getPlayer();
+
+  if (!p) return;
+
+  isPlaying.value ? p.pauseVideo() : p.playVideo();
+
+  // if (!youtubePlayer.value) return;
+
+  // isPlaying.value ? youtubePlayer.value.pauseVideo() : youtubePlayer.value.playVideo();
+
+  isPlaying.value = !isPlaying.value;
+
+};
+
+
+
+function playNext(){
+
+  currentIndex.value = (currentIndex.value + 1) % Math.max(1, youtubeLinks.value.length);
+
+  cueOrLoad();
+
+  // loadCurrentVideo();
+
+}
+
+
+
+function loadCurrentVideo(){
+
+  if (!youtubePlayer.value) return;
+
+  const { videoId } = parseYouTubeUrl(currentVideoUrl.value);
+
+  if (!videoId) { playNext(); return; }
+
+  youtubePlayer.value.loadVideoById({ videoId });
+
+}
+
+
+
+function onPlayerReady(e:any){
+
+  // const { videoId } = parseYouTubeUrl(currentVideoUrl.value);
+
+  // if (!videoId) return;
+
+  const player = e.target;
+
+  player.addEventListener('onStateChange', (evt:any)=>{
+
+    isPlaying.value = evt.data === 1;   // playing
+
+    if (evt.data === 0) playNext();     // ended
+
+  });
+
+  cueOrLoad(); // prepare first video on ready
+
+  console.log('[YT] onPlayerReady');
+
+  cueCurrent();            // ensure first render shows a thumbnail
+
+
+
+
+
+  // if (player.cueVideoById) player.cueVideoById({ videoId });
+
+  // else { player.loadVideoById({ videoId }); player.pauseVideo(); }
+
+  // loadCurrentVideo();
+
+  // player.playVideo();                    // kick autoplay if user interacted
+
+}
+
+
+
+watch(currentVideoUrl, (u) => {
+
+  console.log('[YT] currentVideoUrl ->', u);
+
+  cueCurrent();
+
+});
+
+
+
+const onStateChange = (e: any) => {
+
+  // YT.PlayerState: -1 unstarted, 0 ended, 1 playing, 2 paused
+
+  isPlaying.value = e.data === 1;
+
+  if (e.data === 0) playNext();
+
+};
+
+
+
+watch(youtubeLinks, (L) => console.log('[YT] youtubeLinks len=', L.length));
+
+watch(currentVideoUrl, (u) => console.log('[YT] currentVideoUrl=', u, 'id=', parseYouTubeUrl(u).videoId));
+
+
+
+function onPlayerError(err:any){
+
+  console.error('YT error', err);
+
+  playNext();
+
+}
+
+
+
+
+
+
+
+function seekBackward(){ if (youtubePlayer.value){ const t=youtubePlayer.value.getCurrentTime(); youtubePlayer.value.seekTo(t-5,true);} }
+
+function seekForward(){  if (youtubePlayer.value){ const t=youtubePlayer.value.getCurrentTime(); youtubePlayer.value.seekTo(t+5,true);} }
+
+function setPlaybackRate(){ if (youtubePlayer.value){ youtubePlayer.value.setPlaybackRate(playbackRate.value);} }
+
+function decreaseSpeed(){ playbackRate.value = Math.max(0.25, playbackRate.value-0.25); setPlaybackRate(); }
+
+function increaseSpeed(){ playbackRate.value = Math.min(2, playbackRate.value+0.25); setPlaybackRate(); }
+
+
+
+onMounted(()=>{ 
+
+  initializeShuffleIndices();
+
+  if (youtubeLinks.value.length) cueCurrent();
+
+ });
+
+
+
+// // Announce to screen readers that the player is ready
+
+//   const announcement = document.createElement('div');
+
+//   announcement.setAttribute('role', 'status');
+
+//   announcement.setAttribute('aria-live', 'polite');
+
+//   announcement.textContent = 'YouTube playlist player is ready';
+
+//   document.body.appendChild(announcement);
+
+//   setTimeout(() => announcement.remove(), 1000);
+
+// });
+
+
+
+</script>
+
+
+
+<style scoped lang="css">
+
+.card-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 1rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.youtube-player-container {
+
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 16 / 9;
+
+  min-height: 600px;   
+
+  margin: 0 auto;
+
+  border-radius: 12px;
+
+  /* padding-bottom: 56.25%; */
+
+  overflow: hidden;
+
+  /* min-height: 280px;            ensures a visible “box” on first paint */
+
+}
+
+
+
+.youtube-player {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+/* Fallback for very old browsers */
+
+@supports not (aspect-ratio: 1){
+
+  .youtube-player-container{ height:0; padding-bottom:56.25%; }
+
+  .youtube-player{ position:absolute; top:0; left:0; width:100%; height:100%; }
+
+}
+
+
+
+/* Larger on desktop */
+
+@media (min-width: 1024px) {
+
+  .youtube-player-container {
+
+    min-height: 600px;
+
+    /* padding-bottom: 0; */
+
+    /* height: 600px; Fixed height for desktop */
+
+  }
+
+
+
+.youtube-player{ 
+
+  position:relative; 
+
+  height:100%; }
+
+}
+
+
+
+/* Add focus styles for better accessibility */
+
+button:focus {
+
+  outline: 2px solid #4CAF50;
+
+  outline-offset: 2px;
+
+}
+
+
+
+/* Make sure controls are visible on all backgrounds */
+
+.controls button {
+
+  margin: 0.25rem;
+
+  min-width: 80px;
+
+}
+
+
+
+/* Ensure text contrast */
+
+.btn-primary {
+
+  color: white;
+
+  background-color: #2563eb;
+
+}
+
+
+
+.btn-primary:hover {
+
+  background-color: #1d4ed8;
+
+}
+
+
+
+/* Maintain aspect ratio on all screen sizes */
+
+.youtube-player-container {
+
+  position: relative;
+
+  width: 100%;
+
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+
+  overflow: hidden;
+
+}
+
+
+
+.youtube-player {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/* Add high contrast mode support */
+
+@media (prefers-contrast: high) {
+
+  .btn-primary {
+
+    background-color: #000;
+
+    border: 2px solid #fff;
+
+  }
+
+  
+
+  .btn-primary:hover {
+
+    background-color: #333;
+
+  }
+
+}
+
+</style>
+
+
+
+<!-- ZikrPlayer.vue -->
+
+<template>
+
+  <div class="w-full max-w-4xl mx-auto p-4">
+
+    <div class="text-center mb-8">
+
+      <h1 class="text-4xl font-bold mb-2">AQRT Zikr Practice</h1>
+
+      <p class="text-base-content/70">Do zikr by following along with Shaykh Taner and Shaykha Muzeyyen Ansari!</p>
+
+
+
+      <!-- Add instruction message when no zikrs are loaded -->
+
+      <div v-if="songStore.zikrItems.length === 0 && !loading" class="alert alert-info shadow-lg mt-4">
+
+        <font-awesome-icon icon="info-circle" class="h-6 w-6" />
+
+        <span>Tap on the refresh button <font-awesome-icon icon="rotate" class="text-primary mx-1" /> above to load the zikr recordings.</span>
+
+      </div>
+
+
+
+      <!-- Add instruction for using the cards -->
+
+      <div v-else class="alert alert-info shadow-lg mt-4">
+
+        <span>Tap on the zikr below that you wish to listen and recite at the same time.</span>
+
+        <font-awesome-icon icon="hand-point-down" class="h-6 w-6" />
+
+      </div>
+
+    </div>
+
+
+
+    <div v-if="loading" class="min-h-[200px] flex items-center justify-center">
+
+      <div class="loading loading-spinner loading-lg text-primary"></div>
+
+    </div>
+
+
+
+    <div v-else-if="error" class="alert alert-error shadow-lg">
+
+      <font-awesome-icon icon="triangle-exclamation" class="h-6 w-6" />
+
+      <span>{{ error }}</span>
+
+    </div>
+
+
+
+    <div v-else class="space-y-6">
+
+      <div
+
+        v-for="(zikr, index) in songStore.zikrItems"
+
+        :key="index"
+
+        :data-zikr-index="index"
+
+class="card zikr-fullwidth-card bg-base-100 text-base-content shadow-xl hover:shadow-2xl transition-all cursor-pointer hover:-translate-y-1"
+
+      >
+
+        <div class="card-body">
+
+          <h2 
+
+          class="card-title text-2xl"
+
+          @click="togglePlayer(index)"
+
+          >{{ zikr.zikrTitle }}</h2>
+
+         
+
+          <transition name="fade">
+
+          <div 
+
+          v-show="expandedIndex === index" 
+
+          class="mt-6 space-y-6"
+
+          >
+
+            <!-- <div class="card bg-base-200"> -->
+
+              <!-- <div class="card-body"> -->
+
+                <div v-if="expandedIndex === index">
+
+                  <suspense>
+
+                <audio-player
+
+                :key="`player-${index}`"
+
+                :audio-src="zikr.zikrLink"
+
+                  :player-type="getPlayerType(zikr.zikrLink)"
+
+                  @player-ready="onPlayerReady"
+
+                />
+
+              </suspense>
+
+              <!-- </div> -->
+
+            <!-- </div> -->
+
+          </div>
+
+
+
+            <div 
+
+              v-if="zikr.zikrLyrics" 
+
+              class="card-body prose max-w-none"
+
+            >
+
+              <!-- <div class="card-body prose max-w-none"> -->
+
+                <!-- <h3 class="card-title text-xl mb-4">Words</h3> -->
+
+                <div 
+
+                  v-for="(stanzaLines, stanzaIndex) in zikr.zikrLyrics" 
+
+                  :key="stanzaIndex" 
+
+                  class="mb-6 last:mb-0"
+
+                >
+
+                  <div
+
+                    v-for="(line, lineIndex) in stanzaLines"
+
+                    :key="lineIndex"
+
+                    class="text-lg leading-relaxed"
+
+                    v-html="parseHyperlinks(line)"  
+
+                    >
+
+                    
+
+              </div>
+
+                </div>
+
+              <!-- </div> -->
+
+            </div>
+
+          </div>
+
+        </transition>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
+
+
+
+<script setup lang="ts">
+
+import { ref, onMounted, nextTick } from "vue";
+
+import { useSongStore } from "../stores/songStore";
+
+import AudioPlayer from "./AudioPlayer.vue";
+
+import { parseHyperlinks } from '@/utils/hyperlinkParser.ts';  // Import from 
+
+import { getPlayerType } from '@/utils/playerUtils.ts'; // Update this import
+
+import { useThemeStore } from '../stores/themeStore'
+
+
+
+const themeStore = useThemeStore()
+
+const songStore = useSongStore();
+
+const loading = ref(true);
+
+const error = ref("");
+
+const expandedIndex = ref(-1);
+
+const toggleInProgress = ref(false);
+
+
+
+
+
+
+
+const togglePlayer = async (index: number) => {
+
+  // Prevent multiple toggles at once
+
+  if (toggleInProgress.value) return;
+
+  
+
+  toggleInProgress.value = true;
+
+  // console.log(`Toggling card ${index}, current expanded: ${expandedIndex.value}`);
+
+  
+
+  try {
+
+    // If clicking the same card, close it
+
+    if (expandedIndex.value === index) {
+
+      expandedIndex.value = -1;
+
+    } else {
+
+      // First close any open player 
+
+      if (expandedIndex.value !== -1) {
+
+        expandedIndex.value = -1;
+
+        // Wait for unmount to complete
+
+        await nextTick();
+
+      }
+
+      
+
+      // Then open the new one
+
+      expandedIndex.value = index;
+
+
+
+      // Add scroll behavior after expanding
+
+      await nextTick();
+
+      const element = document.querySelector(`[data-zikr-index="${index}"]`);
+
+      element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+   
+
+    }
+
+    
+
+    // console.log(`After toggle: expanded index is now ${expandedIndex.value}`);
+
+  } catch (err) {
+
+    console.error('Error toggling player:', err);
+
+  } finally {
+
+    // Allow toggles again after a short delay
+
+    setTimeout(() => {
+
+      toggleInProgress.value = false;
+
+    }, 100);
+
+  }
+
+};
+
+
+
+// const parseHyperlinksWithIcon = (text: string) => {
+
+//   console.log('text:', text);  
+
+//   const parsedText = parseHyperlinks(text);
+
+//   console.log('parsedText:', parsedText);  
+
+//   return parsedText.replace(
+
+//     /<a\s+href="([^"]+)"/g, 
+
+//     '<a href="$1" class="inline-flex items-center gap-2"><font-awesome-icon icon="music" class="text-primary" />'
+
+//   );
+
+// };
+
+
+
+// Add this to ensure pages start at the top
+
+onMounted(async () => {
+
+  window.scrollTo(0, 0);
+
+  // ... rest of your existing onMounted code ...
+
+});
+
+
+
+const onPlayerReady = (playerData: any) => {
+
+  // console.log("Player ready:", playerData);
+
+};
+
+
+
+onMounted(async () => {
+
+  try {
+
+    loading.value = true;
+
+    if (songStore.zikrItems.length === 0) {
+
+      await songStore.fetchSongs(true);
+
+    }
+
+  } catch (err) {
+
+    window.showGlobalToast?.('Failed to load. Tap to try again.', () => {
+
+    songStore.fetchSongs(true);
+
+  });
+
+  } finally {
+
+    loading.value = false;
+
+  }
+
+});
+
+
+
+</script>
+
+
+
+<style>
+
+.music-link::before {
+
+  content: "🎵 ";
+
+  color: var(--primary-color);
+
+}
+
+/* Add transitions for a smoother experience */
+
+.fade-enter-active, .fade-leave-active {
+
+  transition: opacity 0.3s;
+
+}
+
+.fade-enter-from, .fade-leave-to {
+
+  opacity: 0;
+
+}
+
+
+
+/* Add some hover effect for the hyperlinks */
+
+:deep(a) {
+
+  transition: all 0.2s;
+
+}
+
+
+
+:deep(a:hover) {
+
+  color: var(--primary-color);
+
+  transform: scale(1.05);
+
+}
+
+
+
+.zikr-fullwidth-card {
+
+  width: 100vw;
+
+  max-width: 100vw;
+
+  margin-left: -16px;
+
+  margin-right: -16px;
+
+  border-radius: 0;
+
+}
+
+@media (min-width: 640px) {
+
+  .zikr-fullwidth-card {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    border-radius: 1rem;
+
+  }
+
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
