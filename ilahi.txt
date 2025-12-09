@@ -77,6 +77,10 @@ Züt tasrifil ekvani
 Ya Mevla ya ferda anhü
 Rıdwana ala rıdwani
 
+$hakka-asik-olanlar
+
+$bu-akli-fi-kri-le
+
 next ilahi for basic zikr: 
 
 $sirni-ala
@@ -1896,8 +1900,10 @@ Ve Saddeknâ bimâ cânâ hüve sadık Resûlullah
 Pîr sultân er Rifâî yâ Seyyid Ahmed şey'en lillah
 Kutbu'l kevneyn ebe'l alemeyn mi'n-nesli Resûlullah  
 
-Muhammed zeyne küllî zeyn ve şakka'l kameri nefseyn 
+Muhammed zeyne küllî zeyn ve şakka'l kameri nefseyn (nisfeyn)
 İmâm Hasan, İmâm Hüseyn ve Sallûya ibâdallah. 
+
+$tarik-i-hakk-ta-burhanim
 
 T:
 
@@ -2329,6 +2335,8 @@ Yunus öldü diye sela verirler
 Yunus öldü diye sela verirler
 Ölen hayvan imiş dervişler ölmez  
 Ölen hayvan imiş Yunuslar ölmez   
+
+$hakka-asik-olanlar
 
 T:
 With this mind and thinking you cannot find the Master                    
@@ -2861,33 +2869,33 @@ SuggestedZikr: Hayy, Hu, Allah
 
 CANI DİLDEN FANİ KILDIN AKİBET       
 
-Canı dilden fani kıldın akıbet         
-İkisin virane kıldın akıbet                   
+Canı dilden fani kıldın akibet         
+İkisin virane kıldın akibet                   
 
 Ey Fakirullah bu hakki bende mi?
-Vasılı canana kıldın akıbet  
+Vasılı canana kıldın akibet  
 
 $seni-ben-severi-m
 
 Above is special adjustment for Mawlid / Urs 2025
 
-Canı dilden fani kıldın akıbet         
-İkisin virane kıldın akıbet            
+Canı dilden fani kıldın akibet         
+İkisin virane kıldın akibet            
 
 Şol canın zincirin tahrik eyleyip      
-Sen beni divane kıldın akıbet            
+Sen beni divane kıldın akibet            
 
 Hamrin vahdetten içirip tablim ey
-Ruhumu peymane kıldın akıbet
+Ruhumu peymane kıldın akibet
 
 Dane iken bağı bostan eyledin     
-Daneyi yüz dane kıldın akıbet      
+Daneyi yüz dane kıldın akibet      
                    
 Daneyi aciz idim benziri hak 
-Haki pür kaşane kıldın akıbet  
+Haki pür kaşane kıldın akibet  
 
 Ey Fakirullah bu hakki bende mi?
-Vasılı canana kıldın akıbet  
+Vasılı canana kıldın akibet  
 
 basic zikr follow up ilahi:
 
@@ -5858,6 +5866,8 @@ Vasf edemem gönül seni
 Nutku beyan seninledir         
 Vasf edemem gönül seni 
 
+$kefer-ri-fai-serefa
+
 $mestu-hayranim
 
 Pronunciation:
@@ -7501,6 +7511,8 @@ Haza Rifaiyül kebir
 gavsel mughniyül ve fakir
 Zül hazle vel kudril hakir 
 Harisi kesbil zuefa
+
+$guzel-asik-cevri-mi-zi
 
 T:
 Arabic with translation from GPT
@@ -16419,6 +16431,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
