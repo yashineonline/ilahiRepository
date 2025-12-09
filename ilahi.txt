@@ -8230,6 +8230,77 @@ In this case,
 emanet could be what Allah trusted him to deliver.
 emanet could be what was given to him to keep safe. 
 
+Y:
+
+MEVLÂM VER AŞKINI BANA
+
+Mevlâm ver aşkını bana,
+Hayranın olayım senin,
+Bülbül gibi gülşeninde
+Nalanın olayım senin.
+
+Yandır beni, yandır beni,
+Aşk meyine kandır beni,
+Sarhoş edip döndür beni,
+Mestanın olayım senin.
+
+Al bende, benlik kalmasın,
+Kimseler halim bilmesin,
+Nam ü nişanım olmasın,
+Pinhanın olayım senin.
+
+Bu can kuşun sana uçur,
+Aşk meyinden bade içir,
+Bu tac u hırkadan geçir,
+Uryanın olayım senin.
+
+Vasl eyle yâri yârına
+Koma bugünü yarına
+Yak beni aşkın nârına 
+Büryanın olayım senin.
+
+Seyyid Nizamoğlu’n hocam,
+Ayırma kendinden yücem,
+Eğer gündüz eğer gecem,
+Mihmanın olayım senin.
+
+T:
+
+My Lord, grant Your love to me,
+Let me be the one in awe of You,
+Like a nightingale in Your rose garden
+Let me be the one who cries for You.
+
+Burn me, burn me,
+Let me be sated with the wine of love,
+Make me drunk and turn me,
+Let me be Your enraptured one.
+
+Take from me this self, let no ego remain,
+Let no one know my inner state,
+Let me have no name or sign,
+Let me be Your hidden one.
+
+Let this soul-bird fly to You,
+Give it to drink from the wine of love,
+Bring it beyond this crown and cloak,
+Let me be Your naked one.
+
+Unite the lover with the Beloved,
+Do not leave today for tomorrow,
+Burn me in the fire of Your love,
+Let me be Your roasted one.
+
+My teacher Seyyid Nizamoglu,
+Do not separate me from Yourself, O Exalted One,
+Whether in my day or in my night,
+Let me be Your guest.
+
+History:
+
+Seyyid Nizamoğlu SEYYİD SEYFULLAH
+? - 1601 Silivrikapı / İSTANBUL
+
 
 Y:
 
@@ -11415,6 +11486,74 @@ O my Beloved, O Muhammad
 O bridegroom of the East and the West   
 he one Allah vindicated and exalted      
 O İmam of the two directions  
+
+Y:
+
+TARÎK-İ HAKK'TA BURHÂNIM
+
+Tarîk-i Hakk'ta burhânım,
+Rifâî Seyyid Ahmed'dir.
+Gönül beytinde mihmânım
+Rifâî Seyyid Ahmed'dir
+
+Geluptur sulb-i Hayderden
+O nesl-i pâk-i gevherden
+Doğan gül gibi haberden
+Rifâî Seyyid Ahmed'dir
+
+Âna dervîş olan âdem
+Tarîkatte olur hadem
+Muhakkak kutb-u dü âlem
+Rifâî Seyyid Ahmed'dir
+
+Âna ver gönlünü ey cân
+Dilersen olmağa irfân
+Velâyet tahtına sultân
+Rifâî Seyyid Ahmed'dir
+
+Âna döndermişim vechim ki
+O'dur kâbe-i kıblem
+Tavaf seyrinde sultânım
+Rifâî Seyyid Ahmed'dir
+
+KABÛLÎ cümle efâlim
+Gerekse suî amelim
+Ezelde ahd u peymânım
+Rifâî Seyyid Ahmed'dir
+
+$bi-sultaner-rufai
+
+T:
+
+My proof on the path of Truth
+Is Rifai Sayyid Ahmed
+In the house of the heart I am a guest
+It is Rifai Sayyid Ahmed
+
+He has come from the loins of Haydar
+From that pure jewel like lineage
+Like a newly blossomed rose bringing news
+It is Rifai Sayyid Ahmed
+
+Whoever becomes a dervish to him
+Becomes a servant in the path
+Surely the pole of the two worlds
+Is Rifai Sayyid Ahmed
+
+Give your heart to him O soul
+If you wish to gain true knowledge
+The sultan on the throne of sainthood
+Is Rifai Sayyid Ahmed
+
+I have turned my face toward him
+He is the Kaaba of my qibla
+In the circling of devotion my sultan
+Is Rifai Sayyid Ahmed
+
+Kabuli says all my deeds
+Even my wrongful acts
+My covenant from before time
+Is Rifai Sayyid Ahmed
 
 
 Y:
@@ -16280,6 +16419,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
