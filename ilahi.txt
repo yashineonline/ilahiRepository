@@ -8084,8 +8084,6 @@ Az darūn-e man na-jost asrār-e man
 English:
 Every one became my friend from his own opinion; none sought out my secrets from within me.
 
-H:
-
 History:
 
 Nešidu-l-huda - Mevlana
@@ -16569,6 +16567,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
