@@ -3558,9 +3558,9 @@ Bildim ki Ol canan imiş
 
 Savm u salat u hac ile          
 Sanma biter zahid işin           
-İnsan-ı kamil olmağa           
+İnsan-ı kamil olmaya           
 Lazım olan irfan imiş (Hayy Hayy)    
-İnsan-ı kamil olmağa           
+İnsan-ı kamil olmaya           
 Lazım olan irfan imiş    
 
 Mürşid gerektir bildire         
@@ -5212,7 +5212,7 @@ GECE GÜNDÜZ HAYALİNE / HACI BEKTAŞ
 
 Movement: Whirling slowly, doing sema 
 
-Gece gündüz hayalıne döndüğum	
+Gece gündüz hayalıne döndüğüm	
 Bir gece rüyama gir Hacı Bektaş      
 		
 Günahkarım günahkarden bezerim	
@@ -7873,8 +7873,8 @@ Gülüm gülistanım seyranım Ali (Hayy Hayy)
 Dertliyim derdime dermanım Ali
 
 Ey canımın canı güzel cananım
-Kapıına gelmeye yoktur dermanıım (Hayy Hayy)
-Kapıına gelmeye yoktur dermanıım
+Kapına gelmeye yoktur dermanım (Hayy Hayy)
+Kapına gelmeye yoktur dermanım
 Başım üzre tacım din-i imanım
 Gülüm gülistanım seyranım Ali (Hayy Hayy)
 Dertliyim derdime dermanım Ali
@@ -16567,6 +16567,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
