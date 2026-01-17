@@ -14021,7 +14021,6 @@ $a5-salawats
 
 
 
-
 Y:
 
 Category: Asma ul Husna, Qadiri
@@ -14341,6 +14340,14 @@ T:
 O our Allah! Please send peace and blessings upon our Revered Master Muhammad
 the Prophet who cannot read or write,
 and to all of his families and companions.
+
+Y:
+
+Category: salawat
+
+DAROOD TAJ
+
+Allahumma salli `ala sayyidina wa mawlana Muhammadin sahibit taji wal-mi`raji wal-buraqi wal-`alam. Dafi` al-bala'i wal-waba'i wal-qahti wal-maradi wal-alam. ismuhu maktubum marfu`um mashfu`um manqushun fil lawhi wal-qalam. Sayyidil `arabi wal-`ajam. Jismuhu muqaddasum mu`attarum mutahharum munawwarun fil-bayti wal-haram. Shamsid duha badrid duja sadril `ula nuril huda kahfil wara misbahiz zulam. Jamilish shyami shafi` il-umam. Sahibil judi wal-karam. Wallahu `asimuhu. Wa jibrilu khadimuhu. Wal-buraqu markabuhu. Wal-mi`raju safaruhu wa sidratu al-muntaha maqamuhu. Wa qaba qawsayni matlubuhu. Wal-matlubu maqsuduhu wal-maqsudu mawjuduh. Sayyidil mursalin. Khatimin nabiyyeena shafi`il mudhnibin. Anisil gharibeena rahmatil lil `alamin. Rahatil `ashiqeen. Muradil mushtaqeen. Shamsil `arifeen. Sirajis salikeen Misbahil muqarrabeen. Muhibbil fuqara'ay wal-ghuraba’ay wal-masakeen. Sayyidith thaqalaynay nabiyyil haramayn. imamil qiblatayn. Waseelatina fid darayn. Sahibi qaba qawsayni mahbubi rabbil mashriqayni wal-maghribayn. Jadd al-hasani wal-husayn mawlana wa mawlath thaqalayn Abil Qasimi MUHAMMAD dibni `Abdillahi nurinm min nurillahi yaa ayyuhal mushtaquna bi nuri jamalihi sallu `alayhi wa alihi wa ashabihi wa sallimu taslima.
 
 Y:
 
@@ -16567,6 +16574,7 @@ Ya Wadud Ya Salaam
 $butun-evren-semah-doner
 
 ENDOFZIKRPRACTICE
+
 
 
 
