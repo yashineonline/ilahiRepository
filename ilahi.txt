@@ -5853,7 +5853,6 @@ $guzel-asik-cevri-mi-zi
 $vasfi-li-san-seni-nledi-r
 
 T:
-
 Open your eyes, wake from sleep,
 O heart, did I not tell you?
 The one who sleeps too much remains on the road,
@@ -12458,7 +12457,6 @@ $guzel-asik-cevri-mi-zi
 $gozun-ac-uykudan-uyan
 
 T:
-
 The description of language is with you;
 I cannot describe you, O heart.
 The speech of expression is with you;
