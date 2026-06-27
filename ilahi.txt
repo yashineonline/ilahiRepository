@@ -5780,9 +5780,9 @@ sings it in the YouTube recording.)
 
 Y:
 
-L: https://youtu.be/bBGIAr0V260?si=qIwM1Ycp5l3F-pw2
+A: https://youtu.be/bBGIAr0V260?si=qIwM1Ycp5l3F-pw2
 
-L: https://youtu.be/3bYr5SbscL8?si=TKHQxlENCoxDDFc-
+A: https://youtu.be/3bYr5SbscL8?si=TKHQxlENCoxDDFc-
 
 GÖZÜN AÇ UYKUDAN UYAN
 
@@ -5848,6 +5848,10 @@ Gönül sana demedim mi
 
 History: Ahmed Kuddûsî Kuddise Sırruh
 
+$guzel-asik-cevri-mi-zi
+
+$vasfi-li-san-seni-nledi-r
+
 T:
 
 Open your eyes, wake from sleep,
@@ -5910,8 +5914,6 @@ so that we may become servants of the Lord.
 A person advances on the path through effort,
 O heart, did I not tell you?
 
-
-$guzel-asik-cevri-mi-zi
 
 
 Y:
@@ -6110,6 +6112,10 @@ Vasf edemem gönül seni
 $kefer-ri-fai-serefa
 
 $mestu-hayranim
+
+$gozun-ac-uykudan-uyan
+
+$vasfi-li-san-seni-nledi-r
 
 Pronunciation:
 
@@ -12447,6 +12453,10 @@ Cümle cihan seninledir vasf edemem gönül seni
 
 History: ERZURUMLU İBRAHİM HAKKI 
 
+$guzel-asik-cevri-mi-zi
+
+$gozun-ac-uykudan-uyan
+
 T:
 
 The description of language is with you;
@@ -12493,8 +12503,6 @@ Hakkı is bound to your command;
 the cup is alive through you.
 The whole world is with you;
 I cannot describe you, O heart.
-
-$guzel-asik-cevri-mi-zi
 
 
 
